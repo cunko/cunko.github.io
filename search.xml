@@ -19,6 +19,63 @@
       </tags>
   </entry>
   <entry>
+    <title>next-主题配置</title>
+    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
+<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
+<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
+<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
+<p>设置圆角</p>
+<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
+<p>更换背景</p>
+<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
+<p>更改博客透明度</p>
+<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
+<p>折叠代码</p>
+<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
+<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>next教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对hexo的探索</title>
+    <url>/2022/09/04/2022-09-04-%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载 (1).png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="一-hexo常用快捷键"><a href="#一-hexo常用快捷键" class="headerlink" title="一,hexo常用快捷键"></a>一,hexo常用快捷键</h2><p>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>  新建页面<br>post 文章   draft  草稿</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
+
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#x6c;&#105;&#x75;&#x30;&#48;&#51;&#50;&#53;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#105;&#x75;&#x30;&#48;&#51;&#50;&#53;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a>“</p>
+<p> 初始化一个Git仓库</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
+
+<h2 id="常见错误解决办法："><a href="#常见错误解决办法：" class="headerlink" title="常见错误解决办法："></a>常见错误解决办法：</h2><p><a href="https://blog.csdn.net/HTL2018/article/details/106876940">https://blog.csdn.net/HTL2018/article/details/106876940</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>多元函数微分</title>
     <url>/2022/09/04/2022-09-04-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
@@ -89,34 +146,6 @@
       </categories>
       <tags>
         <tag>多元函数微分</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对hexo的探索</title>
-    <url>/2022/09/04/2022-09-04-%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载 (1).png" style="zoom:200%;" />
-
-<span id="more"></span>
-
-<h2 id="一-hexo常用快捷键"><a href="#一-hexo常用快捷键" class="headerlink" title="一,hexo常用快捷键"></a>一,hexo常用快捷键</h2><p>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<p>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
-<p>  新建页面<br>post 文章   draft  草稿</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
-
-<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#117;&#48;&#48;&#x33;&#50;&#53;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#105;&#117;&#48;&#48;&#x33;&#50;&#53;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a>“</p>
-<p> 初始化一个Git仓库</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>hexo教程</tag>
       </tags>
   </entry>
   <entry>
@@ -214,75 +243,6 @@
       </tags>
   </entry>
   <entry>
-    <title>next-主题配置</title>
-    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
-<span id="more"></span>
-
-<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
-<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
-<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
-<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
-<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
-<p>设置圆角</p>
-<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
-<p>更换背景</p>
-<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
-<p>更改博客透明度</p>
-<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
-<p>折叠代码</p>
-<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
-<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>next教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语表达</title>
-    <url>/2022/09/05/2022-09-05-%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%A1%A8%E8%BE%BE/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/T3G8WU0N2Q_YCVJ852J-1024x630.jpg"></p>
-<span id="more"></span>
-
-<p>for example,Knowledge is useful only in one case,That’s when it’s used.</p>
-<p>We will organize a counterattack</p>
-<p>I want to be a hacker</p>
-<p>The most important thing to do is to do</p>
-<p>I want to protect her, but I don’t seem to be able to</p>
-<p>I don’t know what I should do</p>
-<p>I envy them very much,But that doesn’t change anything</p>
-<p>It’s doesn’t matter</p>
-<p>I received a gift, but I didn’t accept it</p>
-<p>none of your business</p>
-<p>build relationship</p>
-<p>turn right<br>turn left</p>
-<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方<br>graceful lady<br>优雅的女士<br>Under Construction<br>在建造中</p>
-<p>自己cookie</p>
-<p>我想改变世界<br>I want to change the world</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Final Most Valuable Player</span><br><span class="line">总决赛最有价值队员</span><br><span class="line"></span><br><span class="line">Product description</span><br><span class="line">产品描述</span><br></pre></td></tr></table></figure>
-
-<p>way back home  回家的路</p>
-<p>Cypherpunk解密高手</p>
-<p>achieve success<br>获得成功</p>
-<p>places of interest  景点</p>
-<p>come up with<br>提出；想出；赶上<br>紧跟时代潮流</p>
-<p>climax<br>高潮</p>
-<p>有时候，奋斗正是我们生活中所需要的。<br>Sometimes struggles are exactly what we need in our life<br>Repeat the glory<br>重复的荣耀</p>
-<p>We need a common topic of conversation<br>我们需要一个共同的话题</p>
-<p>no access point has been discovered yet<br>还没有发现接入点</p>
-<p>If this is the initial configuration, the server should not be running.<br>如果这是初始配置，则服务器不应该在运行</p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>句子</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>名词性从句</title>
     <url>/2022/09/05/2022-09-05-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/oK3TNlXaok.jpg"></p>
@@ -367,6 +327,47 @@
       </tags>
   </entry>
   <entry>
+    <title>英语表达</title>
+    <url>/2022/09/05/2022-09-05-%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%A1%A8%E8%BE%BE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/T3G8WU0N2Q_YCVJ852J-1024x630.jpg"></p>
+<span id="more"></span>
+
+<p>for example,Knowledge is useful only in one case,That’s when it’s used.</p>
+<p>We will organize a counterattack</p>
+<p>I want to be a hacker</p>
+<p>The most important thing to do is to do</p>
+<p>I want to protect her, but I don’t seem to be able to</p>
+<p>I don’t know what I should do</p>
+<p>I envy them very much,But that doesn’t change anything</p>
+<p>It’s doesn’t matter</p>
+<p>I received a gift, but I didn’t accept it</p>
+<p>none of your business</p>
+<p>build relationship</p>
+<p>turn right<br>turn left</p>
+<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方<br>graceful lady<br>优雅的女士<br>Under Construction<br>在建造中</p>
+<p>自己cookie</p>
+<p>我想改变世界<br>I want to change the world</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Final Most Valuable Player</span><br><span class="line">总决赛最有价值队员</span><br><span class="line"></span><br><span class="line">Product description</span><br><span class="line">产品描述</span><br></pre></td></tr></table></figure>
+
+<p>way back home  回家的路</p>
+<p>Cypherpunk解密高手</p>
+<p>achieve success<br>获得成功</p>
+<p>places of interest  景点</p>
+<p>come up with<br>提出；想出；赶上<br>紧跟时代潮流</p>
+<p>climax<br>高潮</p>
+<p>有时候，奋斗正是我们生活中所需要的。<br>Sometimes struggles are exactly what we need in our life<br>Repeat the glory<br>重复的荣耀</p>
+<p>We need a common topic of conversation<br>我们需要一个共同的话题</p>
+<p>no access point has been discovered yet<br>还没有发现接入点</p>
+<p>If this is the initial configuration, the server should not be running.<br>如果这是初始配置，则服务器不应该在运行</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>句子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2008 part 1</title>
     <url>/2022/09/24/2022-09-24-2008-part-1/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10003-1-1024x576.webp"></p>
@@ -377,6 +378,28 @@
 <h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>33．similar [ˈsɪmələ(r)] adj.相似的<br>34．be similar to 与….相似<br>35．In power 当权 执政<br>36．In trouble 在困境中<br>37．In order 井然有序<br>38．In disorder&#x3D;in a mess 混乱 杂乱<br>39．In order to do 为了做<br>40．In order that+ 句子 为了<br>41．hold [həʊld]拿着; 持有; 容纳<br>42．firm [fɜːm] n.公司; adj.坚固的 坚定的;<br>43．belief [bɪˈli:f] n.信念，信仰<br>44．recognition [ˌrekəɡˈnɪʃn] n.认识，识别;<br>45．recognize [ˈrekəɡnaɪz] vt.认出; 识别;<br>46．adoption [əˈdɒpʃn] n.收养，领养; 采用<br>47．adopt [əˈdɒpt] v.领养; 采用;采纳<br>48．invention [ɪnˈvenʃn] n.发明; 创造<br>49．invent [ɪnˈvent] v.发明; 创造<br>50．shortcoming [ˈʃɔːtkʌmɪŋ] n.短处，缺点<br>51．strength [streŋθ] n.体力; 优点;.<br>52．advantage [ədˈvɑːntɪdʒ] n.有利条件; 优势; 优点，好处<br>53．strengthen [ˈstreŋθn] v.巩固; 加强<br>54．share [ʃeə(r)] v.共有， 分享; 分担;n.一份; 股份，股票<br>55．reward [rɪˈwɔːd] n&#x2F;v.报酬; 奖励，<br>56．in return 作为回报<br>57．decorate [ˈdekəreɪt] v.装饰; 装点<br>58．As 正如 we all know<br>59．profitable [ˈprɒfɪtəbl] adj.有利可图的，可赚钱的<br>60．risky. [ˈrɪski]adj.冒险的，危险的;<br>61．As is known to all, 众所周知<br>62．concern [kənˈsɜːn] n.担心; 令人担心的事; v.涉及; 使担忧; 关心<br>63．bargain [ˈbɑ：ɡən] n.便宜货; 交易 v 商谈; 讨价还价;<br>64．affair [əˈfeə(r)] n.事务，私事;</p>
 <h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>65．internal [ɪnˈtɜːnl] adj.内部的; 国内的;<br>66．Internal affair 内政<br>67．As far as I know,据我所知<br>68．ordinary [ˈɔːdnri] adj.普通的; 平庸的<br>69．ordinary people 普通人<br>70．interest [ˈɪntrəst] n.兴趣; 爱好; 利息; 利益;v.使感兴趣<br>71．specific [spəˈsɪfɪk] adj.明确的；具体的<br>72．especial [ɪˈspeʃl] adj.特别的，尤其的;<br>73．special [ˈspeʃl] adj.特殊的; 重要的;<br>74．inevitably [ɪnˈevɪtəbli]adv.不可避免地; 必然地;<br>75．cause [kɔːz] v.导致，引起;n.原因; 理由<br>76．factor [ˈfæktə(r)] n.因素<br>77．had better do sth 最好做<br>78．assign [əˈsaɪn] v.指派(任务); 分配;<br>79．assignment [əˈsaɪnmənt]n.作业，任务; 分配<br>80．slice [slaɪs] n.薄片; 部分<br>81．necessary [ˈnesəsəri] adj.必要的; 必然的<br>82．improve [ɪmˈpruːv] v.改进; 提高<br>83．security [sɪˈkjʊərəti]安全; 防卫<br>84．community[kəˈmjuːnəti] n.社区.<br>85．energy [ˈenədʒi] n.精力，力气; 能量;<br>86．quality [ˈkwɒləti] n.质量; 素质;<br>87．bank[bæŋk] n.银行 堤岸 has<br>88．exchange [ɪksˈtʃeɪndʒ] v 交换; 兑换 交流;<br>89．stop sb from doing 阻止 sb 做 sth<br>90．stop doing sth 停止做 sth(正在做)<br>91．stop to do sth 停下来去做（另外一件事情）<br>92．fluency[ˈfluːənsi] n.流利；流畅;<br>93．fluent[ˈfluːənt] adj.流畅的; 流利的<br>94．frequent [‘friːkw(ə)nt] adj.频繁的;<br>95．frequency [ˈfriːkwənsi] n.频繁性; 次数<br>96．efficient [ɪˈfɪʃnt] adj.有效率的</p>
 <h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>97．efficiency [ɪˈfɪʃnsi] n.效率<br>98．rather [ˈrɑ:ðə(r)] adv.稍微，有点；相当<br>99．be born in 出生在….<br>100．alive [əˈlaɪv] adj.活着的;<br>101．lively [ˈlaɪvli] adj.充满活力的；活泼的<br>102．unreasonable [ʌnˈri:znəbl] adj.不合理的<br>103．the developing countries 发展中国家<br>104．the developed countries 发达国家<br>105．connect [kəˈnekt] vt.连接，联结<br>106．associate [əˈsəʊʃieɪt] vt.（使）发生联系；（使）联合<br>107．is willing to do sth 乐意做 sth<br>108．peculiar [pɪˈkju:liə(r)] adj.奇怪的，古怪的<br>109．unusual [ʌnˈju:ʒuəl] adj.不常见的，不普通的<br>110．remember doing sth 记得做过<br>111．A lot of &#x3D;lots of +可复、不可数<br>112．a lot adv 很 修饰 adj adv<br>113．official [əˈfɪʃl] adj.官方的; 公务的; 公开的<br>114．office [ˈɒfɪs] n.办公室; 办公楼<br>115．employee [ɪmˈplɔɪiː] n.受雇者; 雇员;.<br>116．seriously [ˈsɪəriəsli] adv.严肃地; 认真地;严重地<br>117．prepare for 为…..做准备<br>118．final [ˈfaɪnl] adj.最后的; 末了的<br>119．The final exam. 期末考试<br>120．insist [ɪnˈsɪst] v.坚持; 坚称说<br>121．Insist on doing sth 坚持做 sth<br>122．It’s none of your business. 不关你的事。<br>123．trifle [ˈtraɪfl] n.琐事<br>124．event [ɪˈvent] n.事件; 活动; 比赛项目<br>125．incident [ˈɪnsɪdənt] n.事件，事变; 小插曲;<br>126．be worried about&#x3D;worry about 担心 焦虑</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>词汇</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2008 part 2</title>
+    <url>/2022/09/24/2022-09-24-2008-part-2/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-g7o23q.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1 precious [ˈpreʃəs] adj. 珍贵的<br>2 valuable [ˈvæljuəbl] adj. 宝贵的；有价值的<br>3 passengers[ˈpæsɪndʒə(r)] n 顾客<br>4 carry [ˈkæri] v 携带<br>5 exist [ɪgˈzɪst] v 存在<br>6 passport [ˈpɑ:spɔ:t] n 护照<br>7 certificate [səˈtɪfɪkət] n. 证书，证明<br>8 visa [ˈvi:zə] n 签证<br>9 account [əˈkaʊnt] n 账目；存款；解释;<br>10 take sth into account&#x2F;consideration 把…….考虑在内<br>让某人失望，惊奇，高兴，欣慰，遗憾<br>adj 多余的 空闲的<br>11 secretary [ˈsekrətri] n. 秘书<br>12 ahead of time. &#x3D; in advance 提前<br>13 appoint [əˈpɔɪnt] vt. 任命，委托<br>14 disappoint [ˌdɪsəˈpɔɪnt] vt. 使失望<br>15 disappointment [ˌdɪsəˈpɔɪntmənt] n.失望，扫兴；<br>16 (much) to one’s disappointment&#x2F;surprise&#x2F;delight&#x2F;relief&#x2F;regret<br>17 negative[ˈnegətɪv]adj. 消极的，否定，取消，使无效<br>18 positive [ˈpɒzətɪv] adj.积极的；正面的<br>19 growth[grəʊθ] n. 成长<br>20 have an influence&#x2F;effect on….. 对…有影响</p>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>21 affect [əˈfekt] v 影响，感染<br>22 effort [ˈefət] n. 努力<br>23 play an important role&#x2F;part in 在…中扮演重要角色<br>24 our awareness of environmental protection<br>25 issue [ˈɪʃu:] n. 问题<br>26 spare [speə(r)] v 节省 抽出 空出 节省<br>27 intend&#x2F;plan&#x2F;mean to do 计划做 sth<br>28 spare no effort to do&#x3D;try one’s best to do<br>不遗余力做&#x2F;尽某人最大努力做<br>29 apply [əˈplaɪ] for 申请<br>30 location [ləʊˈkeɪʃn] n.位置<br>31 locate [ləʊˈkeɪt] vt. 坐落于<br>32 be located in… 坐落于 位于<br>33 position [pəˈzɪʃn] n. 位置，地位，职位 立场<br>34 professor [prəˈfesə(r)] n. 教授<br>35 profession [prəˈfeʃn] n. 职业<br>36 career [kəˈrɪə(r)] n. 生涯<br>37 phenomenon [fəˈnɒmɪnən] n 现象<br>38 tend to do sth 倾向于&#x2F;往往做某事<br>39 attend [əˈtend] vi. 参加<br>40 leave for 离开去…</p>
+<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>41 account for 解释<br>42 look for 寻找<br>43 go for 适合于….<br>44 avoid doing sth 避免做某事<br>45 make progress 取得进步<br>46 used to do 过去常常做某事<br>47 be&#x2F;get used to doing 习惯于做某事<br>48 be used to do 被用来做某事<br>49 flexible [ˈfleksəbl] adj.灵活的<br>50 essential [ɪˈsenʃl] adj. 必要的<br>51 contradiction[ˌkɒntrəˈdɪkʃn] n. 矛盾<br>52 observation [ˌɒbzəˈveɪʃn] n. 观察<br>53 adaptation [ˌædæpˈteɪʃn] n.适应，顺应；改编<br>54 grade [ɡreɪd] n. 等级；年级<br>55 consider doing sth 考虑做某事<br>56 considerate [kənˈsɪdərət] adj 体贴的<br>57 associate [əˈsəʊsieɪt] v. 联系 联想<br>58 consult [kənˈsʌlt] v.咨询<br>59 negotiate [nɪˈɡəʊʃieɪt] v. 协商<br>60 discussion [dɪˈskʌʃn] n 讨论 谈论；</p>
+<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>61 appearance [əˈpɪərəns] n.出现，外表<br>62 likely [ˈlaɪkli] adj 可能的<br>63 unlike [ˌʌnˈlaɪk] prep 不像<br>64 postpone [pəˈspəʊn] &#x3D;put off 推迟<br>65 appointment [əˈpɔɪntmənt] n. 预约<br>66 connection [kəˈnekʃn] n. 联系<br>67 contract [ˈkɒntrækt] n. 合同，契约<br>68 draw up 起草<br>69 draw up a contract 起草，拟定合同<br>70 attract [əˈtrækt] v.吸引<br>71 attractive [əˈtræktɪv] adj.有吸引力的<br>72 assignment [əˈsaɪnmənt] n.任务作业分配<br>73 impression [ɪmˈpreʃn] n. 印象<br>74 expression [ɪkˈspreʃn] n. 表达<br>75 influence [ˈɪnfluəns] n&#x2F;v. 影响<br>76 difference [ˈdɪfrəns] n.不同，差异，区别<br>77 allow [əˈlaʊ] v 允许；承认<br>78 sometimes 有时<br>79 some times 几次<br>80 sometime 某时<br>81 in no time&#x3D;at once&#x3D;right now&#x3D;right away 立刻 马上<br>82 at no time 决不<br>83 goal [gəʊl] n.目标，目的；球门 得分<br>84 aim [eɪm] n 目标 v.旨在 针对<br>85 achieve [əˈtʃi:v] v.实现<br>86 local [ˈləʊkl] adj.地方的；当地的，本地的<br>87 post [pəʊst] n. 邮件；邮政 vt.张贴；宣布<br>88 post office 邮政局<br>89 spot [spɒt] n. 地点</p>
+<h2 id="2008真题部分-1"><a href="#2008真题部分-1" class="headerlink" title="2008真题部分-1"></a>2008真题部分-1</h2><p>1．compare [kəmˈpeə(r)] vt. 比较；对比<br>2．compare A with B 把 A 和 B 作比较<br>3．compare A to B 把 A 比作 B<br>4．business [ˈbɪznəs] n. 商业；买卖；生意；商务；公事<br>5．currency [ˈkʌrənsi] n. 货币；流通<br>6．foreign currency 外币<br>7．income [ˈɪnkʌm] n. 收入；收益；所得<br>8．wealth [welθ] n. 钱财；财富<br>9．capital [ˈkæpɪt(ə)l] n. 资本；资金 首都 大写字母<br>10．particular[pəˈtɪkjələ(r)] adj. 特别的；挑剔的；讲究的<br>11．be particular about sth. 对…..挑剔、讲究<br>12．in particular 特别是 尤其<br>13．specific [spəˈsɪfɪk] adj. 明确的；具体的；特有的；特定的<br>14．general [ˈdʒenrəl] n.将军 adj.全体的; 一般的; 普通的;<br>generally speaking 一般来说 通常来说<br>15．peculiar [pɪˈkju:liə(r)] adj. 怪异的；奇怪的；不寻常的<br>16．lonely [ˈləʊnli] adj. 孤独的；寂寞的；偏僻的<br>17．alone [əˈləʊn] adj. 单独的<br>18．crisis [ˈkraɪsɪs] n. 危机；危急关头<br>19．conflict [ˈkɒnflɪkt] n. &#x2F;v. 冲突；矛盾；争执<br>20．consideration [kənˌsɪdəˈreɪʃn] n. 仔细考虑；深思</p>
+<h2 id="2008真题部分-2"><a href="#2008真题部分-2" class="headerlink" title="2008真题部分-2"></a>2008真题部分-2</h2><p>21．consider &#x2F;kənˈsɪdə(r)&#x2F; vt. 考虑；认为<br>22．consider doing sth 考虑做 sth<br>23．take sth. into consideration 把……考虑在内<br>24．under consideration 考虑中<br>25．encourage [ɪnˈkʌrɪdʒ] vt. 鼓励；激励<br>26．valuable [ˈvæljuəbl] adj. 很值钱的; 宝贵的; 贵重的<br>27．value [ˈvæljuː] n. 价值&#x2F; vt. 重视<br>28．valueless [ˈvæljuːləs] adj. 无价值的；不值钱的<br>29．priceless [ˈpraɪsləs] adj.无价的；极贵重的<br>30．exist [ɪgˈzɪst] 存在；生存<br>31．account [əˈkaʊnt] n. 账户；账目&#x2F; vt. 认为是；视为 解释<br>32．take sth into account 把…..考虑在内<br>33．&#x3D;take sth into consideration<br>34．account for… &#x3D;explain 解释 说明<br>35．consult [kənˈsʌlt] vt. 咨询；请教；查阅<br>36．appointment [əˈpɔɪntmən] n. 约会；预约；任命<br>37．appoint [əˈpɔɪnt] vt. 任命，指派；约定<br>38．influence [ˈɪnfluəns] n. &#x2F; vt. 影响(潜移默化)<br>39．have an influence&#x2F;effect on sb.&#x2F;sth.<br>40．forbid [fəˈbɪd] vt. 禁止；阻止</p>
+<h2 id="2008真题部分-3"><a href="#2008真题部分-3" class="headerlink" title="2008真题部分-3"></a>2008真题部分-3</h2><p>41．prevent&#x2F;stop&#x2F;forbid sb from doing sth. 阻止….做 sth<br>42．forbid&#x2F;advise doing sth<br>43．forbid&#x2F;advise sb to do sth<br>44．be forbidden&#x2F;advised to do sth<br>45．position [pəˈzɪʃn] n. 位置；职位；立场<br>46．profession[prəˈfeʃn] n.职业<br>47．professional [prəˈfeʃənl] adj.专业的 职业的;<br>48．location [ləʊˈkeɪʃn] n.位置，场所<br>49．locate[ləʊˈkeɪt] vt.位于 确定…的位置;<br>50．intend [ɪnˈtend] vt. 打算；计划<br>51．Intend&#x2F;plan&#x2F;mean to do sth 计划 打算做 sth<br>52．tend [tend] 倾向（于），趋向（于<br>53．tend to do 倾向于 往往<br>54．flood [flʌd] n 洪水 vt.淹没<br>55．extra [ˈekstrə] adj 额外的<br>56．efficient [ɪˈfɪʃnt] adj.有效率的<br>57．effective [ɪˈfektɪv]adj.有效的；起作用的<br>58．adequate[ˈædɪkwət] adj 足够的；适当的<br>59．lofty [ˈlɒfti] adj.高尚的，巍峨的<br>60．persist [pəˈsɪst] v.坚持；固执 </p>
+<h2 id="2008真题部分-4"><a href="#2008真题部分-4" class="headerlink" title="2008真题部分-4"></a>2008真题部分-4</h2><p>61．pursue [pəˈsju:] v. 追赶 追求；纠缠<br>62．track [træk] n.小路，小道 v 跟踪<br>63．tolerate [ˈtɒləreɪt] vt.容许；承认<br>64．provide [prəˈvaɪd]vt&amp;vi.提供，供给<br>65．voyage [ˈvɔɪɪdʒ] n.旅行，航海<br>66．exclude [ɪkˈsklu:d]vt 排除，不包括；<br>67．include [ɪnˈklu:d] vt.包括；包含<br>68．put off the plan 推迟<br>69．put up 张贴 搭建<br>70．put out the fire 扑灭<br>71．put away 收起来 放好<br>72．put down 放下 记下 镇压<br>73．regard [rɪˈgɑ:d] v 认为；注视<br>74．promise [ˈprɒmɪs] v 允诺，许诺<br>75．tremendous [trəˈmendəs]adj.极大的，巨大的<br>76．overcome [ˌəʊvəˈkʌm] v 战胜 克服&#x3D;get over<br>77．obligation [ˌɒblɪˈgeɪʃn] n.义务，责任；<br>78．obstacle [ˈɒbstəkl] n.障碍（物）；障碍物<br>79．object [ˈɒbdʒɪkt] n.物体；目标；宾语；v 反对<br>80．objection [əbˈdʒekʃn] n 反对<br>81．object to doing 反对做 sth<br>82．purpose [ˈpɜ:pəs] n.意志；目的<br>83．on purpose 故意地 有意地<br>84．determination [dɪˌtɜ:mɪˈneɪʃn] n.决心；决定<br>85．lean [li:n] vt.倚；依赖；使斜靠<br>86．incline [ɪnˈklaɪn] （使）倾斜，弄斜<br>87．wild [waɪld] adj.野生的；野蛮的<br>88．mild [maɪld] adj.温柔的；温暖的<br>89．cultivate [ˈkʌltɪveɪt] v 耕作，种植<br>90．agriculture [ˈægrɪkʌltʃə(r)] n 农业<br>91．breed [bri:d] v 养育 n.属；种类；血统<br>92．tame [teɪm]v.驯服；抑制</p>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -628,25 +651,23 @@
       </tags>
   </entry>
   <entry>
-    <title>2008 part 2</title>
-    <url>/2022/09/24/2022-09-24-2008-part-2/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-g7o23q.jpg"></p>
+    <title>对Typora的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
 <span id="more"></span>
 
-<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1 precious [ˈpreʃəs] adj. 珍贵的<br>2 valuable [ˈvæljuəbl] adj. 宝贵的；有价值的<br>3 passengers[ˈpæsɪndʒə(r)] n 顾客<br>4 carry [ˈkæri] v 携带<br>5 exist [ɪgˈzɪst] v 存在<br>6 passport [ˈpɑ:spɔ:t] n 护照<br>7 certificate [səˈtɪfɪkət] n. 证书，证明<br>8 visa [ˈvi:zə] n 签证<br>9 account [əˈkaʊnt] n 账目；存款；解释;<br>10 take sth into account&#x2F;consideration 把…….考虑在内<br>让某人失望，惊奇，高兴，欣慰，遗憾<br>adj 多余的 空闲的<br>11 secretary [ˈsekrətri] n. 秘书<br>12 ahead of time. &#x3D; in advance 提前<br>13 appoint [əˈpɔɪnt] vt. 任命，委托<br>14 disappoint [ˌdɪsəˈpɔɪnt] vt. 使失望<br>15 disappointment [ˌdɪsəˈpɔɪntmənt] n.失望，扫兴；<br>16 (much) to one’s disappointment&#x2F;surprise&#x2F;delight&#x2F;relief&#x2F;regret<br>17 negative[ˈnegətɪv]adj. 消极的，否定，取消，使无效<br>18 positive [ˈpɒzətɪv] adj.积极的；正面的<br>19 growth[grəʊθ] n. 成长<br>20 have an influence&#x2F;effect on….. 对…有影响</p>
-<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>21 affect [əˈfekt] v 影响，感染<br>22 effort [ˈefət] n. 努力<br>23 play an important role&#x2F;part in 在…中扮演重要角色<br>24 our awareness of environmental protection<br>25 issue [ˈɪʃu:] n. 问题<br>26 spare [speə(r)] v 节省 抽出 空出 节省<br>27 intend&#x2F;plan&#x2F;mean to do 计划做 sth<br>28 spare no effort to do&#x3D;try one’s best to do<br>不遗余力做&#x2F;尽某人最大努力做<br>29 apply [əˈplaɪ] for 申请<br>30 location [ləʊˈkeɪʃn] n.位置<br>31 locate [ləʊˈkeɪt] vt. 坐落于<br>32 be located in… 坐落于 位于<br>33 position [pəˈzɪʃn] n. 位置，地位，职位 立场<br>34 professor [prəˈfesə(r)] n. 教授<br>35 profession [prəˈfeʃn] n. 职业<br>36 career [kəˈrɪə(r)] n. 生涯<br>37 phenomenon [fəˈnɒmɪnən] n 现象<br>38 tend to do sth 倾向于&#x2F;往往做某事<br>39 attend [əˈtend] vi. 参加<br>40 leave for 离开去…</p>
-<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>41 account for 解释<br>42 look for 寻找<br>43 go for 适合于….<br>44 avoid doing sth 避免做某事<br>45 make progress 取得进步<br>46 used to do 过去常常做某事<br>47 be&#x2F;get used to doing 习惯于做某事<br>48 be used to do 被用来做某事<br>49 flexible [ˈfleksəbl] adj.灵活的<br>50 essential [ɪˈsenʃl] adj. 必要的<br>51 contradiction[ˌkɒntrəˈdɪkʃn] n. 矛盾<br>52 observation [ˌɒbzəˈveɪʃn] n. 观察<br>53 adaptation [ˌædæpˈteɪʃn] n.适应，顺应；改编<br>54 grade [ɡreɪd] n. 等级；年级<br>55 consider doing sth 考虑做某事<br>56 considerate [kənˈsɪdərət] adj 体贴的<br>57 associate [əˈsəʊsieɪt] v. 联系 联想<br>58 consult [kənˈsʌlt] v.咨询<br>59 negotiate [nɪˈɡəʊʃieɪt] v. 协商<br>60 discussion [dɪˈskʌʃn] n 讨论 谈论；</p>
-<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>61 appearance [əˈpɪərəns] n.出现，外表<br>62 likely [ˈlaɪkli] adj 可能的<br>63 unlike [ˌʌnˈlaɪk] prep 不像<br>64 postpone [pəˈspəʊn] &#x3D;put off 推迟<br>65 appointment [əˈpɔɪntmənt] n. 预约<br>66 connection [kəˈnekʃn] n. 联系<br>67 contract [ˈkɒntrækt] n. 合同，契约<br>68 draw up 起草<br>69 draw up a contract 起草，拟定合同<br>70 attract [əˈtrækt] v.吸引<br>71 attractive [əˈtræktɪv] adj.有吸引力的<br>72 assignment [əˈsaɪnmənt] n.任务作业分配<br>73 impression [ɪmˈpreʃn] n. 印象<br>74 expression [ɪkˈspreʃn] n. 表达<br>75 influence [ˈɪnfluəns] n&#x2F;v. 影响<br>76 difference [ˈdɪfrəns] n.不同，差异，区别<br>77 allow [əˈlaʊ] v 允许；承认<br>78 sometimes 有时<br>79 some times 几次<br>80 sometime 某时<br>81 in no time&#x3D;at once&#x3D;right now&#x3D;right away 立刻 马上<br>82 at no time 决不<br>83 goal [gəʊl] n.目标，目的；球门 得分<br>84 aim [eɪm] n 目标 v.旨在 针对<br>85 achieve [əˈtʃi:v] v.实现<br>86 local [ˈləʊkl] adj.地方的；当地的，本地的<br>87 post [pəʊst] n. 邮件；邮政 vt.张贴；宣布<br>88 post office 邮政局<br>89 spot [spɒt] n. 地点</p>
-<h2 id="2008真题部分-1"><a href="#2008真题部分-1" class="headerlink" title="2008真题部分-1"></a>2008真题部分-1</h2><p>1．compare [kəmˈpeə(r)] vt. 比较；对比<br>2．compare A with B 把 A 和 B 作比较<br>3．compare A to B 把 A 比作 B<br>4．business [ˈbɪznəs] n. 商业；买卖；生意；商务；公事<br>5．currency [ˈkʌrənsi] n. 货币；流通<br>6．foreign currency 外币<br>7．income [ˈɪnkʌm] n. 收入；收益；所得<br>8．wealth [welθ] n. 钱财；财富<br>9．capital [ˈkæpɪt(ə)l] n. 资本；资金 首都 大写字母<br>10．particular[pəˈtɪkjələ(r)] adj. 特别的；挑剔的；讲究的<br>11．be particular about sth. 对…..挑剔、讲究<br>12．in particular 特别是 尤其<br>13．specific [spəˈsɪfɪk] adj. 明确的；具体的；特有的；特定的<br>14．general [ˈdʒenrəl] n.将军 adj.全体的; 一般的; 普通的;<br>generally speaking 一般来说 通常来说<br>15．peculiar [pɪˈkju:liə(r)] adj. 怪异的；奇怪的；不寻常的<br>16．lonely [ˈləʊnli] adj. 孤独的；寂寞的；偏僻的<br>17．alone [əˈləʊn] adj. 单独的<br>18．crisis [ˈkraɪsɪs] n. 危机；危急关头<br>19．conflict [ˈkɒnflɪkt] n. &#x2F;v. 冲突；矛盾；争执<br>20．consideration [kənˌsɪdəˈreɪʃn] n. 仔细考虑；深思</p>
-<h2 id="2008真题部分-2"><a href="#2008真题部分-2" class="headerlink" title="2008真题部分-2"></a>2008真题部分-2</h2><p>21．consider &#x2F;kənˈsɪdə(r)&#x2F; vt. 考虑；认为<br>22．consider doing sth 考虑做 sth<br>23．take sth. into consideration 把……考虑在内<br>24．under consideration 考虑中<br>25．encourage [ɪnˈkʌrɪdʒ] vt. 鼓励；激励<br>26．valuable [ˈvæljuəbl] adj. 很值钱的; 宝贵的; 贵重的<br>27．value [ˈvæljuː] n. 价值&#x2F; vt. 重视<br>28．valueless [ˈvæljuːləs] adj. 无价值的；不值钱的<br>29．priceless [ˈpraɪsləs] adj.无价的；极贵重的<br>30．exist [ɪgˈzɪst] 存在；生存<br>31．account [əˈkaʊnt] n. 账户；账目&#x2F; vt. 认为是；视为 解释<br>32．take sth into account 把…..考虑在内<br>33．&#x3D;take sth into consideration<br>34．account for… &#x3D;explain 解释 说明<br>35．consult [kənˈsʌlt] vt. 咨询；请教；查阅<br>36．appointment [əˈpɔɪntmən] n. 约会；预约；任命<br>37．appoint [əˈpɔɪnt] vt. 任命，指派；约定<br>38．influence [ˈɪnfluəns] n. &#x2F; vt. 影响(潜移默化)<br>39．have an influence&#x2F;effect on sb.&#x2F;sth.<br>40．forbid [fəˈbɪd] vt. 禁止；阻止</p>
-<h2 id="2008真题部分-3"><a href="#2008真题部分-3" class="headerlink" title="2008真题部分-3"></a>2008真题部分-3</h2><p>41．prevent&#x2F;stop&#x2F;forbid sb from doing sth. 阻止….做 sth<br>42．forbid&#x2F;advise doing sth<br>43．forbid&#x2F;advise sb to do sth<br>44．be forbidden&#x2F;advised to do sth<br>45．position [pəˈzɪʃn] n. 位置；职位；立场<br>46．profession[prəˈfeʃn] n.职业<br>47．professional [prəˈfeʃənl] adj.专业的 职业的;<br>48．location [ləʊˈkeɪʃn] n.位置，场所<br>49．locate[ləʊˈkeɪt] vt.位于 确定…的位置;<br>50．intend [ɪnˈtend] vt. 打算；计划<br>51．Intend&#x2F;plan&#x2F;mean to do sth 计划 打算做 sth<br>52．tend [tend] 倾向（于），趋向（于<br>53．tend to do 倾向于 往往<br>54．flood [flʌd] n 洪水 vt.淹没<br>55．extra [ˈekstrə] adj 额外的<br>56．efficient [ɪˈfɪʃnt] adj.有效率的<br>57．effective [ɪˈfektɪv]adj.有效的；起作用的<br>58．adequate[ˈædɪkwət] adj 足够的；适当的<br>59．lofty [ˈlɒfti] adj.高尚的，巍峨的<br>60．persist [pəˈsɪst] v.坚持；固执 </p>
-<h2 id="2008真题部分-4"><a href="#2008真题部分-4" class="headerlink" title="2008真题部分-4"></a>2008真题部分-4</h2><p>61．pursue [pəˈsju:] v. 追赶 追求；纠缠<br>62．track [træk] n.小路，小道 v 跟踪<br>63．tolerate [ˈtɒləreɪt] vt.容许；承认<br>64．provide [prəˈvaɪd]vt&amp;vi.提供，供给<br>65．voyage [ˈvɔɪɪdʒ] n.旅行，航海<br>66．exclude [ɪkˈsklu:d]vt 排除，不包括；<br>67．include [ɪnˈklu:d] vt.包括；包含<br>68．put off the plan 推迟<br>69．put up 张贴 搭建<br>70．put out the fire 扑灭<br>71．put away 收起来 放好<br>72．put down 放下 记下 镇压<br>73．regard [rɪˈgɑ:d] v 认为；注视<br>74．promise [ˈprɒmɪs] v 允诺，许诺<br>75．tremendous [trəˈmendəs]adj.极大的，巨大的<br>76．overcome [ˌəʊvəˈkʌm] v 战胜 克服&#x3D;get over<br>77．obligation [ˌɒblɪˈgeɪʃn] n.义务，责任；<br>78．obstacle [ˈɒbstəkl] n.障碍（物）；障碍物<br>79．object [ˈɒbdʒɪkt] n.物体；目标；宾语；v 反对<br>80．objection [əbˈdʒekʃn] n 反对<br>81．object to doing 反对做 sth<br>82．purpose [ˈpɜ:pəs] n.意志；目的<br>83．on purpose 故意地 有意地<br>84．determination [dɪˌtɜ:mɪˈneɪʃn] n.决心；决定<br>85．lean [li:n] vt.倚；依赖；使斜靠<br>86．incline [ɪnˈklaɪn] （使）倾斜，弄斜<br>87．wild [waɪld] adj.野生的；野蛮的<br>88．mild [maɪld] adj.温柔的；温暖的<br>89．cultivate [ˈkʌltɪveɪt] v 耕作，种植<br>90．agriculture [ˈægrɪkʌltʃə(r)] n 农业<br>91．breed [bri:d] v 养育 n.属；种类；血统<br>92．tame [teɪm]v.驯服；抑制</p>
+<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
+<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
+<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
+<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
+<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
 ]]></content>
       <categories>
-        <category>英语</category>
+        <category>网站探索</category>
       </categories>
       <tags>
-        <tag>词汇</tag>
+        <tag>Typora教程</tag>
       </tags>
   </entry>
   <entry>
@@ -666,26 +687,6 @@
       </categories>
       <tags>
         <tag>Git/GitHub教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对Typora的探索</title>
-    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
-<span id="more"></span>
-
-<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
-<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
-<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
-<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
-<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>Typora教程</tag>
       </tags>
   </entry>
   <entry>
@@ -792,6 +793,26 @@
       </tags>
   </entry>
   <entry>
+    <title>百度首页爬虫</title>
+    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
+
+<span id="more"></span>
+
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
+<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
+</blockquote>
+<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>状语从句</title>
     <url>/2022/09/24/2022-09-24-%E7%8A%B6%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-v9w3v3.jpg"></p>
@@ -865,26 +886,6 @@
       </categories>
       <tags>
         <tag>语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>百度首页爬虫</title>
-    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
-
-<span id="more"></span>
-
-<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
-<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
-</blockquote>
-<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>网络编程</category>
-      </categories>
-      <tags>
-        <tag>python爬虫</tag>
       </tags>
   </entry>
   <entry>
@@ -1030,7 +1031,7 @@
 <p>创建一个项目 hexo-blog 并初始化<br>hexo init hexo-blog<br>cd hexo-blog<br>npm install</p>
 <p>本地启动，预览<br>hexo g<br>hexo server</p>
 <p>部署到GitHub</p>
-<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
+<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#x6d;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
 <p>安装 npm 部署插件<br>npm install hexo-deployer-git –save</p>
 <p>进入分支<br>git init</p>
 <p>上传三连<br> hexo clean<br> hexo g<br> hexo d </p>

@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #95fffc;
+  background: #757ab5;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2761,7 +2761,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/kK76sGOw5M.jpg");
+  background: url("https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/80967a7d0bf045419bc1daab415e5f56.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
