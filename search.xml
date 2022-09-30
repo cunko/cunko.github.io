@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Pycharm的安装与使用</title>
+    <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/images.jpg" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
+<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
+<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
+]]></content>
+      <categories>
+        <category>软件使用</category>
+      </categories>
+      <tags>
+        <tag>软件教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多元函数微分</title>
+    <url>/2022/09/04/2022-09-04-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，计算多元极限的方法："><a href="#一，计算多元极限的方法：" class="headerlink" title="一，计算多元极限的方法："></a>一，计算多元极限的方法：</h2><ol>
+<li>能代入，代入即是极限值；</li>
+<li>化简之后能代入，代入也是极限值；</li>
+<li>否则，转换为一元求极限；</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c22527389d40fb7dcceb9e72248bfb9.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4c60e8d7f29aa9284dfeb944ace10a7.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="二，偏导"><a href="#二，偏导" class="headerlink" title="二，偏导"></a>二，偏导</h2><h3 id="偏导数的求法："><a href="#偏导数的求法：" class="headerlink" title="偏导数的求法："></a>偏导数的求法：</h3><ol>
+<li>对谁求偏导谁是变量，其它当作常数，求偏导数再代入；</li>
+<li>对谁求偏导数，将其它量代入，转化为一元函数求导，再代入；</li>
+<li>分段函数在分段点处，利用偏导定义求偏导；</li>
+</ol>
+<h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ce70d555ff940c40ad5b89155d74eac.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be81fe5c10aef4a0206b004f9ab4416.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c04c2984707200429ee42531fc8b29c.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8c54eadf7911d023e7f6f5fd8740377.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be81fe5c10aef4a0206b004f9ab4416.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c4af012e5e6a2ea0eb5db2d671099.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0f97dc7df3a7d1ba792ea3a85dbcbb6.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>全微分，显函数求偏导，隐函数求偏导</p>
+<h3 id="复合函数求偏导："><a href="#复合函数求偏导：" class="headerlink" title="复合函数求偏导："></a>复合函数求偏导：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4bdfd66e3b9329f0da55d07f0a75199.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1fa8b37f6d367b8de4ae13d564cdc77.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f2fa9bcf4ba8155a5b3197ef56990d2.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4021a984d9c34986cf38f0e072537e9.jpg"></td>
+</tr>
+</tbody></table>
+<h3 id="二阶混合偏导："><a href="#二阶混合偏导：" class="headerlink" title="二阶混合偏导："></a>二阶混合偏导：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb42a302b8590f361147abfdf1c506c.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7384812926fccd17daa58dd73934784.jpg"></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>多元函数微分</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对hexo的探索</title>
+    <url>/2022/09/04/2022-09-04-%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载 (1).png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="一-hexo常用快捷键"><a href="#一-hexo常用快捷键" class="headerlink" title="一,hexo常用快捷键"></a>一,hexo常用快捷键</h2><p>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>  新建页面<br>post 文章   draft  草稿</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
+
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#117;&#48;&#48;&#x33;&#50;&#53;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#105;&#117;&#48;&#48;&#x33;&#50;&#53;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a>“</p>
+<p> 初始化一个Git仓库</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TED文章-0</title>
+    <url>/2022/09/05/2022-09-05-TED%E6%96%87%E7%AB%A0-0/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/M47JARJ3M37W9ESSI-1024x576.jpg"></p>
+<span id="more"></span>
+
+<h1 id="How-to-discover-your-authentic-self-–-at-any-age"><a href="#How-to-discover-your-authentic-self-–-at-any-age" class="headerlink" title="How to discover your authentic self – at any age"></a>How to discover your authentic self – at any age</h1><p>I am a late bloomer. In fact, a friend of mine you may have heard of – Chris Rock – he once called me the most late-blooming mofo he’d ever met.</p>
+<p>我是一个晚熟的人。 事实上，我的一个朋友，你可能听说过——克里斯·洛克（Chris Rock）——他曾经称我为他见过的最晚开的mofo。</p>
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>Now, some people might consider that snide, but I revel in it. I’m 55, and I’m here in this curvy body as someone who has done the work, lived the life walked the walk in these very high heels –</p>
+<p>现在，有些人可能会认为这是嘲笑，但我陶醉于其中。 我今年55岁，我在这个曲线玲珑的身体里，作为一个做过这项工作的人，穿着这些非常高的高跟鞋生活着走过来——</p>
+<p>and therefore is qualified to testify in the church and in the court of law that it does, in fact, get greater later.</p>
+<p>因此，他有资格在教会和法庭上作证，说它实际上后来会变得更伟大。</p>
+<p>Now coming to this realization wasn’t easy. At the age of 38, I was a very successful fashion advertising executive, and I was really living what most people considered a dream life. I was jet-setting to fashion shows; I was receiving free designer clothes; I was double-kissing my way across the globe.</p>
+<p>现在意识到这一点并不容易。 在38岁的时候，我是一个非常成功的时尚广告主管，我真的过着大多数人认为是梦想的生活。 我乘坐喷气式飞机参加时装秀; 我收到了免费的名牌衣服; 我在全球范围内双吻。</p>
+<hr>
+<p>I was. And, you know, it was everything that I ever wanted it to be, and then one day I realized I was only pretending to be happy. But I couldn’t blow up my good life in my prime earning years, right? Wrong. Which leads me to lessons my mother Lolly taught me.</p>
+<p>我曾经是。 而且，你知道，这是我一直想要的一切，然后有一天我意识到我只是假装快乐。 但是我不能在我的黄金时期炸毁我的美好生活，对吧？ 错。 这让我想到了我母亲Lolly教给我的课程。</p>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>Lolly’s number one lesson: don’t settle. Don’t settle. Now I’m aware that my well-paying, glamorous career is not exactly the humdrum, “I hate my job” stereotype that most people equate with settling. But it was a settle for me, because when I actually did quit my job at the age of 38, it was with the intention that every day be a great adventure. Now sometimes it was a very scary adventure, like being broke from the age of 40 to 45. But even still, I wouldn’t trade that for the safe and settled version, because if I had, I would not be here with y’all today.</p>
+<p>Lolly的头号教训是：不要安定下来。 不要安定下来。 现在我意识到，我高薪、光鲜亮丽的职业生涯并不完全是大多数人等同于安顿下来的那种单调乏味的“我讨厌我的工作”的刻板印象。但这对我来说是一种满足感，因为当我真正在38岁时辞去工作时，我的意图是每一天都是一次伟大的冒险。 有时这是一次非常可怕的冒险，就像从40岁到45岁一样。 但即便如此，我也不会用它来换取安全和稳定的版本，因为如果我有，我今天就不会和你们在一起了</p>
+<p>Yeah. So you know how when you like, buck the system and go against the status quo, it makes people really uncomfortable? And invariably, people will ask, “Where do you get your confidence?”</p>
+<p>是的。 所以你知道当你喜欢的时候，如何逆势而上，与现状背道而驰，这让人真的很不舒服吗？ 人们总是会问，“你从哪里得到你的信心？</p>
+<p>Now some people mean it as a compliment, but very often it’s shady …</p>
+<p>现在有些人把它当作一种恭维，但很多时候它是阴暗的……</p>
+<p>and it’s a silent judgment. And to those people, I respond with a quote from this Brooklyn poet you may have heard of, Jay-Z.</p>
+<p>这是一个无声的判断。 对于这些人，我引用了你可能听说过的这位布鲁克林诗人Jay-Z的一句话。</p>
+<hr>
+<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>“She get it from her mama.” I am she, and my mama is the epitome of a grown-ass woman: someone who has always been very comfortable in her skin. In 1965, my mom was 37 years old. She already had one child, my big brother, Gerry, and she married my dad, but she kept her maiden name. And then she had my sister Stephanie and I back-to-back, but she continued to work because she refused to be beholden to my dad for money. And I bet my mom was the only woman in our neighborhood who cooked once a week. She made Sunday dinner. It was an extravaganza, but that’s all she did. She cooked one day a week.</p>
+<p>“她是从妈妈那里得到的。 我就是她，我的妈妈是一个成年屁股女人的缩影：一个皮肤一直很舒服的人。 1965年，我妈妈37岁。 她已经有了一个孩子，我的大哥哥格里，她嫁给了我爸爸，但她保留了她的婚前姓氏。 然后她让我的妹妹斯蒂芬妮和我背靠背，但她继续工作，因为她拒绝为了钱而受雇于我父亲。 我敢打赌，我妈妈是我们家附近唯一一个每周做饭一次的女人。 她做了星期天的晚餐。 这是一场盛会，但这就是她所做的一切。 她每周做饭一天。</p>
+<p>My mom is just amazing. And she also had this ability of talking to her children about real life and making sure that we understood the virtues of going your own way, which is why I believe today at the age of 94, and a recent widow, my mom is still carving out ways to find and determine and define her own version of happiness. She cooks for herself. She maintains her home exactly as she sees fit. She enjoys champagne and R-rated films.</p>
+<p>我妈妈太棒了。 她也有这种能力，可以和她的孩子谈论现实生活，并确保我们理解走自己的路的好处，这就是为什么我相信今天94岁了，最近一个寡妇，我妈妈仍然在寻找方法来寻找，确定和定义她自己的幸福版本。 她为自己做饭。 她完全按照自己认为合适的方式维护自己的家。 她喜欢香槟和R级电影。</p>
+<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>My mom has managed to maintain her glamour, her sex appeal, you know, her independence. And I really hope some of that rubs off on me.</p>
+<p>我妈妈设法保持了她的魅力，她的性吸引力，你知道，她的独立性。 我真的希望其中一些能在我身上擦掉。</p>
+<hr>
+<p>You know, recently I’ve been thinking about one of the best lessons that my mom ever taught me, which is the literal beauty in aging. Now, we all know that Black don’t crack, right? OK… Black don’t crack. So at the age of 50, my mom could have easily passed for the age of 35. And you know, that’s back during the time when people – women were really coy about their age. “Oh, a lady never tells her age.” My mom never subscribed to that. She was always proud of her age. As a matter of fact, she believes you may not tell your age, but your hands and your neck will.</p>
+<p>你知道，最近我一直在思考我妈妈教给我的最好的一课，那就是衰老的字面美。 现在，我们都知道黑色不会破裂，对吧？ 还行。。。 黑色不开裂。 所以在50岁的时候，我妈妈可以很容易地在35岁时去世。 你知道，那是在人们– 女人对自己的年龄感到非常害羞的时候。 “哦，一位女士从不告诉她的年龄。 我妈妈从来不赞同这一点。 她总是为自己的年龄感到自豪。 事實上，她認為你可能不會告訴自己的年齡，但你的手和脖子會。</p>
+<p>So make peace with aging, or prepare for an entire wardrobe of gloves and turtlenecks.</p>
+<p>因此，与衰老和平相处，或准备一整套手套和高领毛衣。</p>
+<p>Yeah, my mom has always done these wonderful things like that, but I wish she could rub off on everyone because I feel like now I’m looking at even 20-somethings who have a fear of aging. I watch them on social media, like, you know, compulsively practiclng the latest 10-second dance craze, and it feels like their angsty and asking, “Is that all there is?” And I just want to yell, “Yes, that is all there is if all you’re going to do is settle for dancing to someone else’s TikTok beat!”</p>
+<p>是的，我妈妈一直做着这样美妙的事情，但我希望她能对每个人都擦肩而过，因为我觉得现在我正在寻找甚至20多岁害怕衰老的人。 我在社交媒体上看着他们，你知道，强迫性地练习最新的10秒舞蹈热潮，感觉就像他们的愤怒和问，“这就是全部吗？” 我只想大喊，“是的，如果你要做的就是满足于跳舞，那么这就是所有的东西，就像别人的TikTok节拍一样！”</p>
+<p>Settling is very insidious. It keeps us dancing on this string, waiting for this elusive, better day to miraculously appear. Now thanks to Lolly’s tutelage, that’s not my story. In fact, I take each day as it comes but I try to make it better than the last.</p>
+<p>定居是非常阴险的。 它让我们在这根弦上跳舞，等待这个难以捉摸的，更好的一天奇迹般地出现。 现在多亏了Lolly的指导，这不是我的故事。 事实上，我每天都在努力，但我试图让它比上一天更好。</p>
+<h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>So, you know, I’m single … but I’m always ready to mingle.</p>
+<p>所以，你知道，我是单身… 但我总是准备好交往。</p>
+<hr>
+<p>I’m an entrepreneur, but I keep multiple revenue streams. I’m a solo traveler, which means I’ve done the sepia version of “Eat, Pray, Love” on six continents. Because I don’t settle. What that means is that I also don’t second-guess my decisions, and I’m also not worried about my future because I’m firmly rooted in the present. Settling is a really sinister thing. It will keep you up at night tossing and turning, trying to figure out why and trying to answer that age-old question of “Is that all there is?” Personally, I don’t have time for that, because the only time I want to be kept up all night long tossing and turning is when I’m in the company of a fine-ass man.</p>
+<p>我是一名企业家，但我拥有多种收入来源。 我是一个独自旅行的人，这意味着我已经在六大洲完成了棕褐色版本的“吃，祈祷，爱”。 因为我不满足。 这意味着我也不会对自己的决定进行二次猜测，我也不担心自己的未来，因为我牢牢扎根于现在。 安顿下来是一件非常险恶的事情。 它会让你彻夜辗转反侧，试图弄清楚为什么，并试图回答那个古老的问题“这就是全部吗？ 就我个人而言，我没有时间这样做，因为我唯一想整夜辗转反侧的时候，就是在一个帅气的男人的陪伴下。</p>
+<p>That’s it.</p>
+<p>就是这样。</p>
+<p>I wish I could tell you guys that I learned all these valuable lessons from Lolly and they were instilled in me and it was great, but alas, I am a late bloomer in all regards. So I had to learn a couple of lessons from the era of Bitchy Bevy. What kind of person has 10 assistants in five years? Bitchy Bevy, that’s who.</p>
+<p>我希望我能告诉你们，我从Lolly那里学到了所有这些宝贵的教训，它们被灌输给我，这很棒，但唉，我在各个方面都是一个晚熟的人。 因此，我必须从Bitchy Bevy时代吸取一些教训。 什么样的人在五年内有10个助手？ Bitchy Bevy，就是这样。</p>
+<p>Now I didn’t start out my career with a toxic attitude. No, initially I was really happy to be in the fashion industry. You know, but then I began to compare my trajectory to others, and I also began to feel burned out because I was burdened by these personas that I had created that were allegedly going to help me progress in my career. I made a couple of mistakes. One, I thought that being snarky was a good career move. It wasn’t. I also thought I look good in the color brown. I actually don’t.</p>
+<p>现在，我并没有以一种有毒的态度开始我的职业生涯。 不，最初我真的很高兴能进入时尚界。 你知道，但后来我开始将自己的轨迹与他人进行比较，我也开始感到精疲力竭，因为我被我创造的这些角色所累，据称这些角色将帮助我在职业生涯中取得进步。 我犯了几个错误。 第一，我认为狡猾是一个很好的职业举动。 但事实并非如此。 我也认为我穿棕色看起来不错。 我实际上没有。</p>
+<h2 id="六"><a href="#六" class="headerlink" title="六"></a>六</h2><p>And, you know, I just – in my dream montage, I wanted to get away from Bitchy Bevy. I wanted to get away from the color brown. And so in the movie version of my life, as soon as I quit my job, I’m a yoga guru. I’m extremely limber and very happy. Come to think of it though, guys, I’m actually limber and happy right now. But I would be lying – and I believe it is against international law to lie during a TED Talk –</p>
+<p>而且，你知道，我只是 - 在我的梦境蒙太奇中，我想摆脱Bitchy Bevy。 我想摆脱棕色。 因此，在我生命的电影版中，一旦我辞去工作，我就是一个瑜伽大师。 我非常柔软，非常高兴。 想想看，伙计们，我现在实际上很脆弱，很快乐。 但是我会撒谎 – 我相信在TED演讲中撒谎是违反国际法的–</p>
+<hr>
+<p>so I’m not going to do that. And as a matter of fact, my insecurities popped back up as late as last year. I was minding my business, as one does, perusing social media, and I saw people excelling in a space where I, you know, traditionally had a lot of success. So I’m looking at it and I’m like, “Well, why the hell they ain’t call me for that job?” And I have this, like, angst, and then I realize they didn’t call me for that job because you already said you didn’t want that job. You told the universe you weren’t into working like that. You don’t want a job – I really don’t.</p>
+<p>所以我不打算那样做。 事实上，我的不安全感早在去年才重新出现。 我一直在关注我的生意，就像人们一样，仔细阅读社交媒体，我看到人们在一个我传统上取得很大成功的领域表现出色。所以我看着它，我想，“好吧，为什么他们不打电话给我做那份工作？” 我有这种焦虑，然后我意识到他们没有打电话给我做那份工作，因为你已经说过你不想要那份工作。 你告诉宇宙你不喜欢那样工作。 你不想要一份工作——我真的不想要。</p>
+<p>I’m not into it. So… that’s why it happened. And what I realize is that intellectually I had grown and evolved, but emotionally … I was Tom Petty and I was living in “Petticoat Junction.”</p>
+<p>我不喜欢它。 所以。。。 这就是它发生的原因。 我意识到的是，在智力上，我已经成长和进化，但在情感上…… 我是汤姆·佩蒂（Tom Petty），住在“衬裙交界处”。</p>
+<p>I told y’all that brown doesn’t look good on me; petty looks even worse. It’s not my shade. And so what I wound up having to do was really get a grip. I had to assess a few things about myself, and I decided to do a little self-help ritual called … “Take a note, give a note.” It’s easy. When you see someone having something that you believe you deserve, you take a note. You ask yourself a few questions. Is it something that you really want? Perhaps that person is better suited than you are for that. Does the universe – is the universe conspiring for you to have that? Really kind of try and be honest with who you are and where you’re at in life. Once you do that, you take a deep breath –</p>
+<p>我告诉你们，棕色在我身上看起来不好看。 小气看起来更糟。 这不是我的阴影。 因此，我最终要做的是真正掌握一下。 我不得不评估一些关于我自己的事情，我决定做一个小小的自助仪式，叫做…… “记下，记下便条。” 这很容易。 当你看到有人拥有你认为自己应得的东西时，你会记下笔记。 你问自己几个问题。 这是你真正想要的东西吗？ 也许那个人比你更适合那个。 宇宙——宇宙是否在阴谋让你拥有它？ 真的有点尝试，诚实地告诉你是谁，你在生活中的位置。 一旦你这样做了，你就会深吸一口气——</p>
+<h2 id="七"><a href="#七" class="headerlink" title="七"></a>七</h2><p>and you say, “Their wins have nothing to do with my worthiness.” And then you’re ready to give a note. You go on social media, and you say congratulations. Or my personal favorite, you pick up the phone, like it’s the 20th century, and you say, “Congratulations, kudos, you did that, Al! You go, girl!” You do all the things. Instantly you feel like a better human being because you have actually extended grace. You’ve extended grace. You’ve extended grace to someone else. And I believe that when you remove malice from your heart, not only do you feel better, you look better. I think you lose your frown lines and your wrinkles lessen and your age spots disappear. I believe it’s better than Botox, extending grace. I do.</p>
+<p>你说，“他们的胜利与我的价值无关。 然后你准备好做一张纸条。 你上社交媒体，你说恭喜你。 或者我个人最喜欢的是，你拿起电话，就像是20世纪一样，你说，“恭喜你，荣誉，你做到了，阿尔！ 你走吧，姑娘！ 你做所有的事情。 你立刻觉得自己是一个更好的人，因为你实际上已经扩展了恩典。 你已经扩展了恩典。 你已经把恩典延伸到了别人身上。 我相信，当你消除心中的恶意时，你不仅感觉更好，而且看起来更好。 我认为你失去了皱眉纹，皱纹减轻了，老年斑消失了。 我相信它比肉毒杆菌毒素更好，延伸恩典。 我愿意。</p>
+<hr>
+<p>Yeah. No, but let me get back to the note thing. So one of my favorite notes is from Willie Shakespeare. “To thine own self be true.” Now we’ve all read self-help books, and the first line of defense is always “Be your most authentic self.” And I believe in that. I believe that nobody can be you but you, so you might as well show up and show out. But here’s the quandary that the bard never put forth. What if you don’t really know who you are because you suppressed your inner self? You’ve suppressed the core of you. You’ve suppressed the best parts of you because you took on these other identities and these personas in an effort to make your life better. Because, you know, we all buy into some things about what we’re supposed to be doing and who we’re supposed to be. So what if you squelch that? Because I know I had to excavate to dig up a Little Brown Bevy. But the way I found her was with three questions. Who am I at my core? How am I being perceived? How would I like to be perceived?</p>
+<p>是的。 不，但让我回到笔记的事情上来。 所以我最喜欢的笔记之一来自威利·莎士比亚。 “为了你自己是真实的。 现在我们都读过自助书籍，第一道防线永远是“做你最真实的自己”。 我相信这一点。 我相信除了你，没有人能成为你，所以你不妨出现并展示出来。 但这是吟游诗人从未提出的困境。 如果你因为压抑了内在的自我而真的不知道自己是谁怎么办？ 你已经压抑了你的核心。 你已经压抑了你最好的部分，因为你承担了这些其他身份和角色，努力让你的生活更美好。 因为，你知道，我们都相信一些关于我们应该做什么以及我们应该成为谁的事情。 那么，如果你压制它呢？ 因为我知道我必须挖掘才能挖出一个小布朗贝维。 但是我找到她的方式是三个问题。 谁是我的核心？ 人们如何看待我？ 我希望别人如何看待我？</p>
+<p>Who am I at my core? At my core I’m looking to authentically connect with people. I don’t like a cursory, you know, interaction, and I do not believe in networking. I like an authentic connection. I’m also curious and I’m adventurous and I’m kind and I’ve got big dreams.</p>
+<p>谁是我的核心？ 在我的核心，我希望与人建立真正的联系。 我不喜欢粗略的互动，你知道，我不相信网络。 我喜欢真实的联系。 我也很好奇，我很冒险，我很善良，我有远大的梦想。</p>
+<h2 id="八"><a href="#八" class="headerlink" title="八"></a>八</h2><p>How am I being perceived? Well, y’all know the nickname, Bitchy Bevy … so, duh. But here’s the problem. There’s a lot of power in that persona, and I actually really enjoyed it for a time, you know, because you can make a lot of money being a bitch, especially in fashion.</p>
+<p>人们如何看待我？ 好吧，你们都知道这个绰号，Bitchy Bevy… 所以，嗯。 但问题来了。 这个角色有很多力量，我实际上有一段时间真的很喜欢它，你知道，因为作为一个婊子，你可以赚很多钱，特别是在时尚界。</p>
+<p>But it’s also incredibly lonely and isolating, and I didn’t want to live that life anymore. And so I decided to change my life. And I left all of that alone. I really did, like, just change my spirit. And leaving fashion obviously helped. And when I did that, all of a sudden, I let Little Brown Bevy out to play.</p>
+<p>但它也是非常孤独和孤立的，我不想再过那种生活了。 所以我决定改变我的生活。 我把这一切都抛在了脑后。 我真的做到了，就像，只是改变了我的精神。 离开时尚显然有所帮助。 当我这样做的时候，突然之间，我让小布朗·贝维出去玩。</p>
+<p>Little Brown Bevy. I love her so much. Little Brown Bevy is a nerdy girl, and so I let my nerdy pursuits come out to play. I must have joined every museum on Museum Mile in New York City. I began to travel the world just to look at architecture I had always dreamed of. I learned how to be alone without being lonely. My spirit shifted. I became a better person. You can ask people – I became a better person.</p>
+<p>小布朗贝维。 我非常爱她。 小布朗贝维是一个书女孩，所以我让我的书追求出来玩。 我一定加入了纽约市博物馆大道上的每一个博物馆。 我开始环游世界，只是为了看看我一直梦想的建筑。 我学会了如何独处而不孤独。 我的精神发生了变化。 我变成了一个更好的人。 你可以问别人——我变成了一个更好的人。</p>
+<p>And now I get to stand here in front of you guys with no bravado, with nothing to prove, I tell you, with nothing to prove. I’m not trying to prove nothing to y’all.</p>
+<p>现在我站在你们面前，没有虚张声势，没有什么可以证明的，我告诉你们，没有什么可以证明的。 我不是想向你们证明什么。</p>
+<p>I have an open heart. And I can’t even believe that Little Brown Bevy from 150th Street and Eighth Avenue, from the hamlet of Harlem, is now an award-winning radio and TV host, an author, an actress, a creative consultant. I would do all those things for free. But here’s the thing. I ain’t cheap, and I’m definitely not free, so don’t get any ideas.</p>
+<p>我有一颗开放的心。 我甚至不敢相信，来自第150街和第八大道的小布朗·贝维，来自哈莱姆小村庄，现在是一位屡获殊荣的广播和电视主持人，一位作家，一位女演员，一位创意顾问。 我会免费做所有这些事情。 但事情就是这样。 我不便宜，我绝对不自由，所以不要有任何想法。</p>
+<hr>
+<h2 id="九"><a href="#九" class="headerlink" title="九"></a>九</h2><p>But I am here in this “Mama I made it” moment as someone who can show up as her most Bevyest self because I’ve done the work. Yeah, my most Bevyest self. So, you know, I’m going to show up – some of you’ve met me – you know I’m vibrant and boisterous, AKA loud. OK, you know that I’m going to show up, and I’ve got a pep in my high heel, red-bottom step. I do have heaving cleavage.</p>
+<p>但是，在这个“妈妈我成功了”的时刻，我在这里是一个可以作为她最可爱的自己出现的人，因为我已经完成了这项工作。 是的，我最自负的自己。 所以，你知道，我要出现 – 你们中的一些人见过我 – 你知道我充满活力，喧闹，又名吵闹。 好吧，你知道我要出现了，我的高跟鞋，红底台阶上有一个鼓舞人心的气息。 我确实有起伏的。</p>
+<p>And I’ve got a tell-it-like-it-is approach to life that’s always dosed with a ladle of love.</p>
+<p>我有一种告诉它一样的生活方法，总是充满爱的勺子。</p>
+<p>It took me 55 years to get here. So, Chris Rock, you’re right. I’m a late bloomer. And that’s OK. Because I’m right on time, Because it gets greater later.</p>
+<p>我花了55年才来到这里。 所以，克里斯·洛克，你是对的。 我是一个晚熟的人。 没关系。 因为我准时，因为它后来变得更大。</p>
+<p>Thank you.</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>文章</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>next-主题配置</title>
+    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
+<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
+<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
+<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
+<p>设置圆角</p>
+<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
+<p>更换背景</p>
+<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
+<p>更改博客透明度</p>
+<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
+<p>折叠代码</p>
+<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
+<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>next教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语表达</title>
+    <url>/2022/09/05/2022-09-05-%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%A1%A8%E8%BE%BE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/T3G8WU0N2Q_YCVJ852J-1024x630.jpg"></p>
+<span id="more"></span>
+
+<p>for example,Knowledge is useful only in one case,That’s when it’s used.</p>
+<p>We will organize a counterattack</p>
+<p>I want to be a hacker</p>
+<p>The most important thing to do is to do</p>
+<p>I want to protect her, but I don’t seem to be able to</p>
+<p>I don’t know what I should do</p>
+<p>I envy them very much,But that doesn’t change anything</p>
+<p>It’s doesn’t matter</p>
+<p>I received a gift, but I didn’t accept it</p>
+<p>none of your business</p>
+<p>build relationship</p>
+<p>turn right<br>turn left</p>
+<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方<br>graceful lady<br>优雅的女士<br>Under Construction<br>在建造中</p>
+<p>自己cookie</p>
+<p>我想改变世界<br>I want to change the world</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Final Most Valuable Player</span><br><span class="line">总决赛最有价值队员</span><br><span class="line"></span><br><span class="line">Product description</span><br><span class="line">产品描述</span><br></pre></td></tr></table></figure>
+
+<p>way back home  回家的路</p>
+<p>Cypherpunk解密高手</p>
+<p>achieve success<br>获得成功</p>
+<p>places of interest  景点</p>
+<p>come up with<br>提出；想出；赶上<br>紧跟时代潮流</p>
+<p>climax<br>高潮</p>
+<p>有时候，奋斗正是我们生活中所需要的。<br>Sometimes struggles are exactly what we need in our life<br>Repeat the glory<br>重复的荣耀</p>
+<p>We need a common topic of conversation<br>我们需要一个共同的话题</p>
+<p>no access point has been discovered yet<br>还没有发现接入点</p>
+<p>If this is the initial configuration, the server should not be running.<br>如果这是初始配置，则服务器不应该在运行</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>句子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>名词性从句</title>
+    <url>/2022/09/05/2022-09-05-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/oK3TNlXaok.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本概念"><a href="#一，基本概念" class="headerlink" title="一，基本概念"></a>一，基本概念</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/709fa3c700d45f7f62a565cba512353.jpg" alt="0"></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<h2 id="二，连接词"><a href="#二，连接词" class="headerlink" title="二，连接词"></a>二，连接词</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d623fd7d36554e573cb3833e0cc8d9a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c7d41448626479615536202ce299d64.jpg"></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>在句首表是否只能用whether</p>
+</blockquote>
+<h2 id="三，主语从句"><a href="#三，主语从句" class="headerlink" title="三，主语从句"></a>三，主语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f0baa22d3c2327278b5082dbbefe3ec.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8c16990706cd89b5a6061b3af20637.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5a5b48f1397afdef3d80de8c2c2ebe0.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="四，宾语从句"><a href="#四，宾语从句" class="headerlink" title="四，宾语从句"></a>四，宾语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f2379ca309137a1bee8016ac2494a9.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e943fafbf331cb0969774155084b34.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ec28e8ddd51ec587bfe8499edb9663d.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d9c5225f3cd5876977c438d441928d6.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="五，表语从句"><a href="#五，表语从句" class="headerlink" title="五，表语从句"></a>五，表语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92cf46328bb09b326093594db526776.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c5ef32fa520aa71546297ff76fe1940.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/300681f3bfb9696fd30498edb8c94a8.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="六，同位语从句"><a href="#六，同位语从句" class="headerlink" title="六，同位语从句"></a>六，同位语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/328fd083692cda1046aa17a25e687c0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/761d3f7318774f2f967d88e762aaca0.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a0252f29c9a37df4c1739539a7c6451.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>补充：suggestion 建议</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2008 part 1</title>
+    <url>/2022/09/24/2022-09-24-2008-part-1/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10003-1-1024x576.webp"></p>
+<span id="more"></span>
+
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1．experience [ɪkˈspɪəriəns] n 经历 经验 v 经历<br>2．shortage [ˈʃɔ:tɪdʒ] n.不足，缺点；缺少<br>3．income [ˈɪnkʌm] n.收入，进款<br>4．wealth [welθ] n.财产，财富</p>
+<p>5．wealthy [ˈwelθi] adj.富有的；充分的;<br>6．expense [ɪkˈspens] n.费用；花费的钱<br>7．in need 在危难中，在危急中<br>8．friend in need is a friend indeed. 患难见真情。<br>9．in trouble 在困境中<br>10．in detail 详细地<br>11．In particular 特别 尤其<br>12．profit[ˈprɒfɪt]n.利润; 好处;v.获益; 得益于<br>13．single [ˈsɪŋɡl] adj.单一的; 未婚的<br>14．emergency [iˈmɜːdʒənsi] n.紧急事件;<br>15．dilemma [dɪˈlemə] n.窘境，困境<br>16．In a dilemma 在困境中<br>17．disaster [dɪˈzɑ:stə(r)] n.灾难; 不幸;<br>18．trade [treɪd] n.贸易，交易;<br>19．challenge [ˈtʃælɪndʒ] n&#x2F;v 挑战<br>20．difference [ˈdɪfrəns] n.差别，差额;<br>21．different [ˈdɪfrənt] adj.不同的；各式各样的不同的<br>22．struggle [ˈstrʌɡl] v&#x2F;n.奋斗; 斗争 挣扎<br>23．under repair 在修理中<br>24．repair [rɪˈpeə(r)] v&#x2F;n.修理，修补;<br>25．construction [kənˈstrʌkʃn] n.建造; 施工; 建筑（物）<br>26．threat [θret] n.威胁; 征兆;<br>27．under threat 受到威胁<br>28．under control 在控制中<br>29．out of control 失控<br>30．star [stɑ:(r)] n.星; 明星;v.主演;<br>31．popular [ˈpɒpjələ(r)] adj.流行的，受欢迎的<br>32．familiar [fəˈmɪliə(r)] adj.熟悉的; 通晓;</p>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>33．similar [ˈsɪmələ(r)] adj.相似的<br>34．be similar to 与….相似<br>35．In power 当权 执政<br>36．In trouble 在困境中<br>37．In order 井然有序<br>38．In disorder&#x3D;in a mess 混乱 杂乱<br>39．In order to do 为了做<br>40．In order that+ 句子 为了<br>41．hold [həʊld]拿着; 持有; 容纳<br>42．firm [fɜːm] n.公司; adj.坚固的 坚定的;<br>43．belief [bɪˈli:f] n.信念，信仰<br>44．recognition [ˌrekəɡˈnɪʃn] n.认识，识别;<br>45．recognize [ˈrekəɡnaɪz] vt.认出; 识别;<br>46．adoption [əˈdɒpʃn] n.收养，领养; 采用<br>47．adopt [əˈdɒpt] v.领养; 采用;采纳<br>48．invention [ɪnˈvenʃn] n.发明; 创造<br>49．invent [ɪnˈvent] v.发明; 创造<br>50．shortcoming [ˈʃɔːtkʌmɪŋ] n.短处，缺点<br>51．strength [streŋθ] n.体力; 优点;.<br>52．advantage [ədˈvɑːntɪdʒ] n.有利条件; 优势; 优点，好处<br>53．strengthen [ˈstreŋθn] v.巩固; 加强<br>54．share [ʃeə(r)] v.共有， 分享; 分担;n.一份; 股份，股票<br>55．reward [rɪˈwɔːd] n&#x2F;v.报酬; 奖励，<br>56．in return 作为回报<br>57．decorate [ˈdekəreɪt] v.装饰; 装点<br>58．As 正如 we all know<br>59．profitable [ˈprɒfɪtəbl] adj.有利可图的，可赚钱的<br>60．risky. [ˈrɪski]adj.冒险的，危险的;<br>61．As is known to all, 众所周知<br>62．concern [kənˈsɜːn] n.担心; 令人担心的事; v.涉及; 使担忧; 关心<br>63．bargain [ˈbɑ：ɡən] n.便宜货; 交易 v 商谈; 讨价还价;<br>64．affair [əˈfeə(r)] n.事务，私事;</p>
+<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>65．internal [ɪnˈtɜːnl] adj.内部的; 国内的;<br>66．Internal affair 内政<br>67．As far as I know,据我所知<br>68．ordinary [ˈɔːdnri] adj.普通的; 平庸的<br>69．ordinary people 普通人<br>70．interest [ˈɪntrəst] n.兴趣; 爱好; 利息; 利益;v.使感兴趣<br>71．specific [spəˈsɪfɪk] adj.明确的；具体的<br>72．especial [ɪˈspeʃl] adj.特别的，尤其的;<br>73．special [ˈspeʃl] adj.特殊的; 重要的;<br>74．inevitably [ɪnˈevɪtəbli]adv.不可避免地; 必然地;<br>75．cause [kɔːz] v.导致，引起;n.原因; 理由<br>76．factor [ˈfæktə(r)] n.因素<br>77．had better do sth 最好做<br>78．assign [əˈsaɪn] v.指派(任务); 分配;<br>79．assignment [əˈsaɪnmənt]n.作业，任务; 分配<br>80．slice [slaɪs] n.薄片; 部分<br>81．necessary [ˈnesəsəri] adj.必要的; 必然的<br>82．improve [ɪmˈpruːv] v.改进; 提高<br>83．security [sɪˈkjʊərəti]安全; 防卫<br>84．community[kəˈmjuːnəti] n.社区.<br>85．energy [ˈenədʒi] n.精力，力气; 能量;<br>86．quality [ˈkwɒləti] n.质量; 素质;<br>87．bank[bæŋk] n.银行 堤岸 has<br>88．exchange [ɪksˈtʃeɪndʒ] v 交换; 兑换 交流;<br>89．stop sb from doing 阻止 sb 做 sth<br>90．stop doing sth 停止做 sth(正在做)<br>91．stop to do sth 停下来去做（另外一件事情）<br>92．fluency[ˈfluːənsi] n.流利；流畅;<br>93．fluent[ˈfluːənt] adj.流畅的; 流利的<br>94．frequent [‘friːkw(ə)nt] adj.频繁的;<br>95．frequency [ˈfriːkwənsi] n.频繁性; 次数<br>96．efficient [ɪˈfɪʃnt] adj.有效率的</p>
+<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>97．efficiency [ɪˈfɪʃnsi] n.效率<br>98．rather [ˈrɑ:ðə(r)] adv.稍微，有点；相当<br>99．be born in 出生在….<br>100．alive [əˈlaɪv] adj.活着的;<br>101．lively [ˈlaɪvli] adj.充满活力的；活泼的<br>102．unreasonable [ʌnˈri:znəbl] adj.不合理的<br>103．the developing countries 发展中国家<br>104．the developed countries 发达国家<br>105．connect [kəˈnekt] vt.连接，联结<br>106．associate [əˈsəʊʃieɪt] vt.（使）发生联系；（使）联合<br>107．is willing to do sth 乐意做 sth<br>108．peculiar [pɪˈkju:liə(r)] adj.奇怪的，古怪的<br>109．unusual [ʌnˈju:ʒuəl] adj.不常见的，不普通的<br>110．remember doing sth 记得做过<br>111．A lot of &#x3D;lots of +可复、不可数<br>112．a lot adv 很 修饰 adj adv<br>113．official [əˈfɪʃl] adj.官方的; 公务的; 公开的<br>114．office [ˈɒfɪs] n.办公室; 办公楼<br>115．employee [ɪmˈplɔɪiː] n.受雇者; 雇员;.<br>116．seriously [ˈsɪəriəsli] adv.严肃地; 认真地;严重地<br>117．prepare for 为…..做准备<br>118．final [ˈfaɪnl] adj.最后的; 末了的<br>119．The final exam. 期末考试<br>120．insist [ɪnˈsɪst] v.坚持; 坚称说<br>121．Insist on doing sth 坚持做 sth<br>122．It’s none of your business. 不关你的事。<br>123．trifle [ˈtraɪfl] n.琐事<br>124．event [ɪˈvent] n.事件; 活动; 比赛项目<br>125．incident [ˈɪnsɪdənt] n.事件，事变; 小插曲;<br>126．be worried about&#x3D;worry about 担心 焦虑</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>词汇</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不定积分</title>
+    <url>/2022/09/24/2022-09-24-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/22536_33628137216.webp"></p>
+<span id="more"></span>
+
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><blockquote>
+<p>求不定积分，本质就是求导的逆运算</p>
+</blockquote>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bc008a42056d0119a9fc7f00802b127.jpg"></p>
+<h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><ol>
+<li><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b792f9ce7d8a8a353e143b8cd993391.jpg"></li>
+</ol>
+<p>2.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/31ba77ad24474946a7c8fff319cbf06.jpg"></p>
+<p>3.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/025a359f64e6ea4a7cfaae60bd7eda1.jpg"></p>
+<h2 id="不定积分性质和基本积分公式及常见凑微分"><a href="#不定积分性质和基本积分公式及常见凑微分" class="headerlink" title="不定积分性质和基本积分公式及常见凑微分"></a>不定积分性质和基本积分公式及常见凑微分</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/954a516c63f3f8e6160a5d5cde4906e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8711e4bfc6742960b7cf3f30137863.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af1df8f60b29e1a236f5fe391aaffe0.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/50c3190a50711f3cf5034a5b05cd84f.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6ee0427fafbf0f14f2a4a07b2583eb5.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>注：1、数学中的sec即secant，正割的意思，其英式读法是[‘siːkənt]；美式读法是[‘siːkənt]。</p>
+<p>2、csc就是cosecant，余割的意思，其英式读法是[‘kəʊ’siːkənt]；美式读法是[‘koʊ’siːkənt]。 </p>
+<p>3、sin全拼是sine，正弦，其英式读法是[saɪn]；美式读法是[saɪn]。　</p>
+<p>4、cos全拼是cosine，余弦，其英式读法是[‘kəʊsaɪn]；美式读法是[‘koʊsaɪn]。</p>
+<p>5、cot全拼是cotangent，余切，其英式读法是[‘kəʊ’tændʒənt]；美式读法是[‘koʊ’tændʒənt]。</p>
+<p>6、tan全拼是tangent，正切，其英式读法是[‘tændʒənt]；美式读法是[‘tændʒənt]。</p>
+<hr>
+<h2 id="分部积分的U，v排列规则和公式"><a href="#分部积分的U，v排列规则和公式" class="headerlink" title="分部积分的U，v排列规则和公式"></a>分部积分的U，v排列规则和公式</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39d133def165327909710c609e26944.jpg"></p>
+<h2 id="三角代换公式"><a href="#三角代换公式" class="headerlink" title="三角代换公式"></a>三角代换公式</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/51a16e478fbe2c96a915c650f5e84d5.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/86f0e3ad962a6652e2d154a343cb026.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="example—第一类换元法"><a href="#example—第一类换元法" class="headerlink" title="example—第一类换元法"></a>example—第一类换元法</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32cff5b2d4861d29508c0b892e92210.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6034b162110c5ee20d5388d6a4063ca.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f3653bbf3c9bc0cfdf8354f7430560b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a5e7d8e312df927517b2af996bb82f2.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/85bd2753e328484624601d4a7d4aaa3.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7480c55dd6291316e431eb01c9f8ea6.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7257275708c3585eb152681c0ad2fbe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e60dbd90d494bb1563b8a2b4f6fe000.jpg"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d284eb36e5906bc643b7cd7bf910620.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/190cdca8bd6fa40cadd600bbc2f36b6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c11d177d9bc13e7f37ad4c2ec6a627.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f58012e7f36cf76c9426ca9ae0e92e.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/47e4b5cf91bbeaa26895ca5d86c8a18.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5b2cc1bc8ca5b8a4b67a73d2d7f454.jpg"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="example—第二类换元法"><a href="#example—第二类换元法" class="headerlink" title="example—第二类换元法"></a>example—第二类换元法</h2><blockquote>
+<p>第二类换元去根号，不见平方直接套，见到平方用三角</p>
+</blockquote>
+<h3 id="凑法："><a href="#凑法：" class="headerlink" title="凑法："></a>凑法：</h3><ol>
+<li>无理函数化为有理函数</li>
+<li>倒代换(倒着的三角形更容易被打破)</li>
+<li>三角代换</li>
+</ol>
+<h3 id="适用情况"><a href="#适用情况" class="headerlink" title="适用情况"></a>适用情况</h3><ul>
+<li>根号下x的一次方，一般用1</li>
+<li>x的二次方，一般用3</li>
+</ul>
+<blockquote>
+<p>一般先令式子的一部分为t,再由t求出x的等价式</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/866594b5c4e312ad05f76abcece15f8.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d883bcfd69c360c57fa1406079c336d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7dfefe8272194c7728e1180fe5df4fd.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0c25f374b8e87851eb8f75ecd1b9b71.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/48bcf68d6ffcd7f67252998070a8f44.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2021906e41b00fcf1953a721e6a61cc.jpg"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/87bbf58271fbb3cecdc98b52acbd0e3.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/78605b6f1f1b3087b18fef0b849308d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be40194fa6f0d3a9946ec0434764cfb.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f2e691984fc89947908ad4a503453b.jpg"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="example—分部积分法"><a href="#example—分部积分法" class="headerlink" title="example—分部积分法"></a>example—分部积分法</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db1dcf5927e1e937f50543a455434c0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/317c115ae82658250e90e249f2506f2.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f4985cfba19bf842011af2bfb9f8617.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9ba4793ae15a497c552d83bc396c30b.jpg"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>积分</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>定积分</title>
+    <url>/2022/09/24/2022-09-24-%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
+<span id="more"></span>
+
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cd26595da525277af03391a8aa1c23.jpg" style="zoom: 50%;" />
+
+<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><blockquote>
+<p>不定积分的f(x)代表的是全体原函数</p>
+</blockquote>
+<blockquote>
+<p>定积分的f(x)代表的是一个数</p>
+</blockquote>
+<blockquote>
+<p>变限积分的f(x)代表的是一个原函数</p>
+</blockquote>
+<h2 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba154dbd8cad83066b529699266c83b.jpg" style="zoom: 50%;" />
+
+
+
+<h2 id="变限积分"><a href="#变限积分" class="headerlink" title="变限积分"></a>变限积分</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c3d65742c6815ad77a364da3d10a07f.jpg" style="zoom: 33%;" /></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182420.jpg" style="zoom:150%;" />
+
+<h2 id="定积分的性质："><a href="#定积分的性质：" class="headerlink" title="定积分的性质："></a>定积分的性质：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182717.jpg" style="zoom:80%;" />
+
+<h3 id="性质6的应用："><a href="#性质6的应用：" class="headerlink" title="性质6的应用："></a>性质6的应用：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a6bb69159ec47a8cd237062c4c7b781.jpg" style="zoom: 67%;" />
+
+<h2 id="积分中值定理："><a href="#积分中值定理：" class="headerlink" title="积分中值定理："></a>积分中值定理：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f364ec782e26725ed2c28bbf78a350f.jpg" style="zoom:33%;" />
+
+<h2 id="偶倍奇零"><a href="#偶倍奇零" class="headerlink" title="偶倍奇零"></a>偶倍奇零</h2><blockquote>
+<p>当被积函数有奇偶性时，直接用结论。没有奇偶性时，套公式。</p>
+</blockquote>
+<h3 id="结论："><a href="#结论：" class="headerlink" title="结论："></a>结论：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5799ec26ad6df8a10fa827152d9498.jpg" style="zoom:33%;" />
+
+
+<h3 id="公式（适用于对称区间的定积分）："><a href="#公式（适用于对称区间的定积分）：" class="headerlink" title="公式（适用于对称区间的定积分）："></a>公式（适用于对称区间的定积分）：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5274285386467cc265773aafccdc3fd.jpg" style="zoom:50%;" />
+
+
+
+<h2 id="广义积分"><a href="#广义积分" class="headerlink" title="广义积分"></a>广义积分</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bf7c49e015f0eef61edaa11d3d0d96b.jpg" style="zoom:33%;" />
+
+<hr>
+<p>1.p:分母与分子的最高次方之差；<br>2.积分上下限不一定是0到a，a到b适用规则也一样；<br>3.第一象限内，单增函数的无穷广义积分一定发散，单减函数的无穷广义积分未必收敛；<br>4.震荡函数的无穷广义积分一定发散；<br>5.否则，进行计算：能代则代，不能代单侧取极限；</p>
+<h2 id="可积的条件"><a href="#可积的条件" class="headerlink" title="可积的条件"></a>可积的条件</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f9c1792a64cfee1c5436f8c64c452fc.jpg" style="zoom: 33%;" />
+
+<h3 id="牛顿-莱布尼茨公式"><a href="#牛顿-莱布尼茨公式" class="headerlink" title="牛顿-莱布尼茨公式"></a>牛顿-莱布尼茨公式</h3><blockquote>
+<p>通常也被称为微积分基本定理，揭示了定积分与被积函数的原函数或者不定积分之间的联系。</p>
+</blockquote>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 184402.jpg" style="zoom:80%;" />
+
+<h2 id="特殊积分："><a href="#特殊积分：" class="headerlink" title="特殊积分："></a>特殊积分：</h2><h3 id="分段函数的定积分："><a href="#分段函数的定积分：" class="headerlink" title="分段函数的定积分："></a>分段函数的定积分：</h3><p>1.被积函数为f(x): 分段点插入，找到对应函数再积分。<br>2.被积函数为f[∅(x)]: 动前不动后</p>
+<p>case:</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f9c9cc2d8b53efc80841c167f17041.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c705bfb3243c2ff19f464f43a5be6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a85137bfc197f091495e34a19bb8033.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="华里士公式"><a href="#华里士公式" class="headerlink" title="华里士公式"></a>华里士公式</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/v2-28fdb926e4ba3113da4b1ef7fbf8adbf_1440w.jpg"></p>
+<h2 id="定积分的应用："><a href="#定积分的应用：" class="headerlink" title="定积分的应用："></a>定积分的应用：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f56d04fc971e8075baaecf2d82ad09f.jpg" style="zoom: 33%;" />
+
+
+
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/228ce586a8964ea655ae1bd68162777.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7db638a82674a5728418a0b5294c1d1.jpg"></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>积分</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2008 part 2</title>
+    <url>/2022/09/24/2022-09-24-2008-part-2/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-g7o23q.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1 precious [ˈpreʃəs] adj. 珍贵的<br>2 valuable [ˈvæljuəbl] adj. 宝贵的；有价值的<br>3 passengers[ˈpæsɪndʒə(r)] n 顾客<br>4 carry [ˈkæri] v 携带<br>5 exist [ɪgˈzɪst] v 存在<br>6 passport [ˈpɑ:spɔ:t] n 护照<br>7 certificate [səˈtɪfɪkət] n. 证书，证明<br>8 visa [ˈvi:zə] n 签证<br>9 account [əˈkaʊnt] n 账目；存款；解释;<br>10 take sth into account&#x2F;consideration 把…….考虑在内<br>让某人失望，惊奇，高兴，欣慰，遗憾<br>adj 多余的 空闲的<br>11 secretary [ˈsekrətri] n. 秘书<br>12 ahead of time. &#x3D; in advance 提前<br>13 appoint [əˈpɔɪnt] vt. 任命，委托<br>14 disappoint [ˌdɪsəˈpɔɪnt] vt. 使失望<br>15 disappointment [ˌdɪsəˈpɔɪntmənt] n.失望，扫兴；<br>16 (much) to one’s disappointment&#x2F;surprise&#x2F;delight&#x2F;relief&#x2F;regret<br>17 negative[ˈnegətɪv]adj. 消极的，否定，取消，使无效<br>18 positive [ˈpɒzətɪv] adj.积极的；正面的<br>19 growth[grəʊθ] n. 成长<br>20 have an influence&#x2F;effect on….. 对…有影响</p>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>21 affect [əˈfekt] v 影响，感染<br>22 effort [ˈefət] n. 努力<br>23 play an important role&#x2F;part in 在…中扮演重要角色<br>24 our awareness of environmental protection<br>25 issue [ˈɪʃu:] n. 问题<br>26 spare [speə(r)] v 节省 抽出 空出 节省<br>27 intend&#x2F;plan&#x2F;mean to do 计划做 sth<br>28 spare no effort to do&#x3D;try one’s best to do<br>不遗余力做&#x2F;尽某人最大努力做<br>29 apply [əˈplaɪ] for 申请<br>30 location [ləʊˈkeɪʃn] n.位置<br>31 locate [ləʊˈkeɪt] vt. 坐落于<br>32 be located in… 坐落于 位于<br>33 position [pəˈzɪʃn] n. 位置，地位，职位 立场<br>34 professor [prəˈfesə(r)] n. 教授<br>35 profession [prəˈfeʃn] n. 职业<br>36 career [kəˈrɪə(r)] n. 生涯<br>37 phenomenon [fəˈnɒmɪnən] n 现象<br>38 tend to do sth 倾向于&#x2F;往往做某事<br>39 attend [əˈtend] vi. 参加<br>40 leave for 离开去…</p>
+<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>41 account for 解释<br>42 look for 寻找<br>43 go for 适合于….<br>44 avoid doing sth 避免做某事<br>45 make progress 取得进步<br>46 used to do 过去常常做某事<br>47 be&#x2F;get used to doing 习惯于做某事<br>48 be used to do 被用来做某事<br>49 flexible [ˈfleksəbl] adj.灵活的<br>50 essential [ɪˈsenʃl] adj. 必要的<br>51 contradiction[ˌkɒntrəˈdɪkʃn] n. 矛盾<br>52 observation [ˌɒbzəˈveɪʃn] n. 观察<br>53 adaptation [ˌædæpˈteɪʃn] n.适应，顺应；改编<br>54 grade [ɡreɪd] n. 等级；年级<br>55 consider doing sth 考虑做某事<br>56 considerate [kənˈsɪdərət] adj 体贴的<br>57 associate [əˈsəʊsieɪt] v. 联系 联想<br>58 consult [kənˈsʌlt] v.咨询<br>59 negotiate [nɪˈɡəʊʃieɪt] v. 协商<br>60 discussion [dɪˈskʌʃn] n 讨论 谈论；</p>
+<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>61 appearance [əˈpɪərəns] n.出现，外表<br>62 likely [ˈlaɪkli] adj 可能的<br>63 unlike [ˌʌnˈlaɪk] prep 不像<br>64 postpone [pəˈspəʊn] &#x3D;put off 推迟<br>65 appointment [əˈpɔɪntmənt] n. 预约<br>66 connection [kəˈnekʃn] n. 联系<br>67 contract [ˈkɒntrækt] n. 合同，契约<br>68 draw up 起草<br>69 draw up a contract 起草，拟定合同<br>70 attract [əˈtrækt] v.吸引<br>71 attractive [əˈtræktɪv] adj.有吸引力的<br>72 assignment [əˈsaɪnmənt] n.任务作业分配<br>73 impression [ɪmˈpreʃn] n. 印象<br>74 expression [ɪkˈspreʃn] n. 表达<br>75 influence [ˈɪnfluəns] n&#x2F;v. 影响<br>76 difference [ˈdɪfrəns] n.不同，差异，区别<br>77 allow [əˈlaʊ] v 允许；承认<br>78 sometimes 有时<br>79 some times 几次<br>80 sometime 某时<br>81 in no time&#x3D;at once&#x3D;right now&#x3D;right away 立刻 马上<br>82 at no time 决不<br>83 goal [gəʊl] n.目标，目的；球门 得分<br>84 aim [eɪm] n 目标 v.旨在 针对<br>85 achieve [əˈtʃi:v] v.实现<br>86 local [ˈləʊkl] adj.地方的；当地的，本地的<br>87 post [pəʊst] n. 邮件；邮政 vt.张贴；宣布<br>88 post office 邮政局<br>89 spot [spɒt] n. 地点</p>
+<h2 id="2008真题部分-1"><a href="#2008真题部分-1" class="headerlink" title="2008真题部分-1"></a>2008真题部分-1</h2><p>1．compare [kəmˈpeə(r)] vt. 比较；对比<br>2．compare A with B 把 A 和 B 作比较<br>3．compare A to B 把 A 比作 B<br>4．business [ˈbɪznəs] n. 商业；买卖；生意；商务；公事<br>5．currency [ˈkʌrənsi] n. 货币；流通<br>6．foreign currency 外币<br>7．income [ˈɪnkʌm] n. 收入；收益；所得<br>8．wealth [welθ] n. 钱财；财富<br>9．capital [ˈkæpɪt(ə)l] n. 资本；资金 首都 大写字母<br>10．particular[pəˈtɪkjələ(r)] adj. 特别的；挑剔的；讲究的<br>11．be particular about sth. 对…..挑剔、讲究<br>12．in particular 特别是 尤其<br>13．specific [spəˈsɪfɪk] adj. 明确的；具体的；特有的；特定的<br>14．general [ˈdʒenrəl] n.将军 adj.全体的; 一般的; 普通的;<br>generally speaking 一般来说 通常来说<br>15．peculiar [pɪˈkju:liə(r)] adj. 怪异的；奇怪的；不寻常的<br>16．lonely [ˈləʊnli] adj. 孤独的；寂寞的；偏僻的<br>17．alone [əˈləʊn] adj. 单独的<br>18．crisis [ˈkraɪsɪs] n. 危机；危急关头<br>19．conflict [ˈkɒnflɪkt] n. &#x2F;v. 冲突；矛盾；争执<br>20．consideration [kənˌsɪdəˈreɪʃn] n. 仔细考虑；深思</p>
+<h2 id="2008真题部分-2"><a href="#2008真题部分-2" class="headerlink" title="2008真题部分-2"></a>2008真题部分-2</h2><p>21．consider &#x2F;kənˈsɪdə(r)&#x2F; vt. 考虑；认为<br>22．consider doing sth 考虑做 sth<br>23．take sth. into consideration 把……考虑在内<br>24．under consideration 考虑中<br>25．encourage [ɪnˈkʌrɪdʒ] vt. 鼓励；激励<br>26．valuable [ˈvæljuəbl] adj. 很值钱的; 宝贵的; 贵重的<br>27．value [ˈvæljuː] n. 价值&#x2F; vt. 重视<br>28．valueless [ˈvæljuːləs] adj. 无价值的；不值钱的<br>29．priceless [ˈpraɪsləs] adj.无价的；极贵重的<br>30．exist [ɪgˈzɪst] 存在；生存<br>31．account [əˈkaʊnt] n. 账户；账目&#x2F; vt. 认为是；视为 解释<br>32．take sth into account 把…..考虑在内<br>33．&#x3D;take sth into consideration<br>34．account for… &#x3D;explain 解释 说明<br>35．consult [kənˈsʌlt] vt. 咨询；请教；查阅<br>36．appointment [əˈpɔɪntmən] n. 约会；预约；任命<br>37．appoint [əˈpɔɪnt] vt. 任命，指派；约定<br>38．influence [ˈɪnfluəns] n. &#x2F; vt. 影响(潜移默化)<br>39．have an influence&#x2F;effect on sb.&#x2F;sth.<br>40．forbid [fəˈbɪd] vt. 禁止；阻止</p>
+<h2 id="2008真题部分-3"><a href="#2008真题部分-3" class="headerlink" title="2008真题部分-3"></a>2008真题部分-3</h2><p>41．prevent&#x2F;stop&#x2F;forbid sb from doing sth. 阻止….做 sth<br>42．forbid&#x2F;advise doing sth<br>43．forbid&#x2F;advise sb to do sth<br>44．be forbidden&#x2F;advised to do sth<br>45．position [pəˈzɪʃn] n. 位置；职位；立场<br>46．profession[prəˈfeʃn] n.职业<br>47．professional [prəˈfeʃənl] adj.专业的 职业的;<br>48．location [ləʊˈkeɪʃn] n.位置，场所<br>49．locate[ləʊˈkeɪt] vt.位于 确定…的位置;<br>50．intend [ɪnˈtend] vt. 打算；计划<br>51．Intend&#x2F;plan&#x2F;mean to do sth 计划 打算做 sth<br>52．tend [tend] 倾向（于），趋向（于<br>53．tend to do 倾向于 往往<br>54．flood [flʌd] n 洪水 vt.淹没<br>55．extra [ˈekstrə] adj 额外的<br>56．efficient [ɪˈfɪʃnt] adj.有效率的<br>57．effective [ɪˈfektɪv]adj.有效的；起作用的<br>58．adequate[ˈædɪkwət] adj 足够的；适当的<br>59．lofty [ˈlɒfti] adj.高尚的，巍峨的<br>60．persist [pəˈsɪst] v.坚持；固执 </p>
+<h2 id="2008真题部分-4"><a href="#2008真题部分-4" class="headerlink" title="2008真题部分-4"></a>2008真题部分-4</h2><p>61．pursue [pəˈsju:] v. 追赶 追求；纠缠<br>62．track [træk] n.小路，小道 v 跟踪<br>63．tolerate [ˈtɒləreɪt] vt.容许；承认<br>64．provide [prəˈvaɪd]vt&amp;vi.提供，供给<br>65．voyage [ˈvɔɪɪdʒ] n.旅行，航海<br>66．exclude [ɪkˈsklu:d]vt 排除，不包括；<br>67．include [ɪnˈklu:d] vt.包括；包含<br>68．put off the plan 推迟<br>69．put up 张贴 搭建<br>70．put out the fire 扑灭<br>71．put away 收起来 放好<br>72．put down 放下 记下 镇压<br>73．regard [rɪˈgɑ:d] v 认为；注视<br>74．promise [ˈprɒmɪs] v 允诺，许诺<br>75．tremendous [trəˈmendəs]adj.极大的，巨大的<br>76．overcome [ˌəʊvəˈkʌm] v 战胜 克服&#x3D;get over<br>77．obligation [ˌɒblɪˈgeɪʃn] n.义务，责任；<br>78．obstacle [ˈɒbstəkl] n.障碍（物）；障碍物<br>79．object [ˈɒbdʒɪkt] n.物体；目标；宾语；v 反对<br>80．objection [əbˈdʒekʃn] n 反对<br>81．object to doing 反对做 sth<br>82．purpose [ˈpɜ:pəs] n.意志；目的<br>83．on purpose 故意地 有意地<br>84．determination [dɪˌtɜ:mɪˈneɪʃn] n.决心；决定<br>85．lean [li:n] vt.倚；依赖；使斜靠<br>86．incline [ɪnˈklaɪn] （使）倾斜，弄斜<br>87．wild [waɪld] adj.野生的；野蛮的<br>88．mild [maɪld] adj.温柔的；温暖的<br>89．cultivate [ˈkʌltɪveɪt] v 耕作，种植<br>90．agriculture [ˈægrɪkʌltʃə(r)] n 农业<br>91．breed [bri:d] v 养育 n.属；种类；血统<br>92．tame [teɪm]v.驯服；抑制</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>词汇</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对Git与GitHub的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Git%E4%B8%8EGitHub%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="Git第一版书籍地址"><a href="#Git第一版书籍地址" class="headerlink" title="Git第一版书籍地址"></a>Git第一版书籍地址</h2><p><a href="http://iissnan.com/progit/">http://iissnan.com/progit/</a></p>
+<p><a href="https://segmentfault.com/a/1190000023734704">参考教程</a></p>
+<h2 id="Git-Pro-书籍"><a href="#Git-Pro-书籍" class="headerlink" title="Git Pro 书籍"></a>Git Pro 书籍</h2><p><a href="https://codechina_dev.gitcode.host/progit2/">https://codechina_dev.gitcode.host/progit2/</a></p>
+<h2 id="GitHub搜索技巧"><a href="#GitHub搜索技巧" class="headerlink" title="GitHub搜索技巧"></a>GitHub搜索技巧</h2><p><a href="https://codeantenna.com/a/kgBjkAvYJz">https://codeantenna.com/a/kgBjkAvYJz</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>Git/GitHub教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对Typora的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
+<span id="more"></span>
+
+<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
+<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
+<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
+<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
+<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>Typora教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爬虫基础</title>
+    <url>/2022/09/24/2022-09-24-%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 193239.jpg" style="zoom:80%;" />
+
+
+<span id="more"></span>
+
+<h2 id="python本质："><a href="#python本质：" class="headerlink" title="python本质："></a>python本质：</h2><blockquote>
+<p>一个自动化的程序</p>
+</blockquote>
+<h2 id="分类："><a href="#分类：" class="headerlink" title="分类："></a>分类：</h2><blockquote>
+<p>爬虫一般是通用爬取和聚焦爬取，而新手都是从通用爬取开始，就相当于对整个页面爬取。</p>
+</blockquote>
+<h2 id="工作过程："><a href="#工作过程：" class="headerlink" title="工作过程："></a>工作过程：</h2><ul>
+<li>抓取</li>
+<li>分析</li>
+<li>存储</li>
+</ul>
+<h2 id="一、网络爬虫是什么意思"><a href="#一、网络爬虫是什么意思" class="headerlink" title="一、网络爬虫是什么意思"></a><strong>一、<a href="https://www.youhuaxing.cn/seojianzhan/17484.html">网络爬虫</a>是什么意思</strong></h2><p>网络爬虫（英文：Web Crawler或Spider）又称为网络蜘蛛、网页蜘蛛或网络机器人，是一种按照一定的规则，自动地抓取互联网信息的程序或者脚本。网络爬虫是为搜索引擎从万维网上下载网页的程序，是搜索引擎的重要组成。传统爬虫从一个或若干初始网页的URL开始，获得初始网页上的URL，在抓取网页的过程中，不断从当前页面上抽取新的URL放入队列，直到满足系统的一定停止条件。</p>
+<h2 id="二、网络爬虫的分类"><a href="#二、网络爬虫的分类" class="headerlink" title="二、网络爬虫的分类"></a><strong>二、网络爬虫的分类</strong></h2><p>网络爬虫按照系统结构和实现技术，大致可以分为以下几种类型：通用网络爬虫(General <a href="https://www.youhuaxing.cn/seojianzhan/17514.html">PUR</a>pose Web Crawler)、聚焦网络爬虫(Focused Web Crawler)、增量式网络爬虫(Incremental Web Crawler)、深层网络爬虫(Deep Web Crawler)。 实际的网络爬虫系统通常是几种爬虫技术相结合实现的。</p>
+<h4 id="1、通用网络爬虫"><a href="#1、通用网络爬虫" class="headerlink" title="1、通用网络爬虫"></a><strong>1、通用网络爬虫</strong></h4><p>通用网络爬虫又称全网爬虫(Scalable Web Crawler)，爬行对象从一些种子 URL 扩充到整个 Web，主要为门户站点搜索引擎和大型 Web 服务提供商采集数据。 由于商业原因，它们的技术细节很少公布出来。 这类网络爬虫的爬行范围和数量巨大，对于爬行速度和存储空间要求较高，对于爬行页面的顺序要求相对较低，同时由于待刷新的页面太多，通常采用并行工作方式，但需要较长时间才能刷新一次页面。 虽然存在一定缺陷，通用网络爬虫适用于为搜索引擎搜索广泛的主题，有较强的应用价值。</p>
+<p>通用网络爬虫的结构大致可以分为页面爬行模块、页面分析模块、链接过滤模块、页面数据库、URL 队列、初始 URL 集合几个部分。为提高工作效率，通用网络爬虫会采取一定的爬行策略。 常用的爬行策略有：深度优先策略、广度优先策略。</p>
+<p><strong>(1)、深度优先策略：</strong>其基本方法是按照深度由低到高的顺序，依次访问下一级网页链接，直到不能再深入为止。 爬虫在完成一个爬行分支后返回到上一链接节点进一步搜索其它链接。 当所有链接遍历完后，爬行任务结束。 这种策略比较适合垂直搜索或站内搜索，但爬行页面内容层次较深的站点时会造成资源的巨大浪费。</p>
+<p><strong>(2)、广度优先策略：</strong>此策略按照网页内容目录层次深浅来爬行页面，处于较浅目录层次的页面首先被爬行。 当同一层次中的页面爬行完毕后，爬虫再深入下一层继续爬行。 这种策略能够有效控制页面的爬行深度，避免遇到一个无穷深层分支时无法结束爬行的问题，实现方便，无需存储大量中间节点，不足之处在于需较长时间才能爬行到目录层次较深的页面。</p>
+<h4 id="2、聚焦网络爬虫"><a href="#2、聚焦网络爬虫" class="headerlink" title="2、聚焦网络爬虫"></a><strong>2、聚焦网络爬虫</strong></h4><p>聚焦网络爬虫(Focused Crawler)，又称主题网络爬虫(Topical Crawler)，是指选择性地爬行那些与预先定义好的主题相关页面的网络爬虫。 和通用网络爬虫相比，聚焦爬虫只需要爬行与主题相关的页面，极大地节省了硬件和网络资源，保存的页面也由于数量少而更新快，还可以很好地满足一些特定人群对特定领域信息的需求。</p>
+<p>聚焦网络爬虫和通用网络爬虫相比，增加了链接评价模块以及内容评价模块。聚焦爬虫爬行策略实现的关键是评价页面内容和链接的重要性，不同的方法计算出的重要性不同，由此导致链接的访问顺序也不同。</p>
+<h4 id="3、增量式网络爬虫"><a href="#3、增量式网络爬虫" class="headerlink" title="3、增量式网络爬虫"></a><strong>3、增量式网络爬虫</strong></h4><p>增量式网络爬虫(Incremental Web Crawler)是指对已下载网页采取增量式更新和只爬行新产生的或者已经发生变化网页的爬虫，它能够在一定程度上保证所爬行的页面是尽可能新的页面。 和周期性爬行和刷新页面的网络爬虫相比，增量式爬虫只会在需要的时候爬行新产生或发生更新的页面，并不重新下载没有发生变化的页面，可有效减少数据下载量，及时更新已爬行的网页，减小时间和空间上的耗费，但是增加了爬行算法的复杂度和实现难度。增量式网络爬虫的体系结构[包含爬行模块、排序模块、更新模块、本地页面集、待爬行 URL 集以及本地页面URL 集]。</p>
+<p>增量式爬虫有两个目标：保持本地页面集中存储的页面为最新页面和提高本地页面集中页面的质量。 为实现第一个目标，增量式爬虫需要通过重新访问网页来更新本地页面集中页面内容，常用的方法有：</p>
+<p>(1)、统一更新法：爬虫以相同的频率访问所有网页，不考虑网页的改变频率；</p>
+<p>(2)、个体更新法：爬虫根据个体网页的改变频率来重新访问各页面；</p>
+<p>(3)、基于分类的更新法：爬虫根据网页改变频率将其分为更新较快网页子集和更新较慢网页子集两类，然后以不同的频率访问这两类网页。</p>
+<h4 id="4、Deep-Web-爬虫"><a href="#4、Deep-Web-爬虫" class="headerlink" title="4、Deep Web 爬虫"></a><strong>4、Deep Web 爬虫</strong></h4><p>Web 页面按存在方式可以分为表层网页(Surface Web)和深层网页(Deep Web，也称 Invisible Web Pages 或 Hidden Web)。 表层网页是指传统搜索引擎可以索引的页面，以超链接可以到达的<a href="https://www.youhuaxing.cn/seojianzhan/17509.html">静态网页</a>为主构成的 Web 页面。Deep Web 是那些大部分内容不能通过静态链接获取的、隐藏在搜索表单后的，只有用户提交一些关键词才能获得的 Web 页面。例如那些用户注册后内容才可见的网页就属于 Deep Web。 2000 年 Bright Planet 指出：Deep Web 中可访问信息容量是 Surface Web 的几百倍，是互联网上最大、发展最快的新型信息资源。</p>
+<p>Deep Web 爬虫体系结构包含六个基本功能模块 (爬行控制器、解析器、表单分析器、表单处理器、响应分析器、LVS 控制器)和两个爬虫内部数据结构(URL 列表、LVS 表)。 其中 LVS(Label Value Set)表示标签&#x2F;数值集合，用来表示填充表单的数据源。</p>
+<h2 id="三、网络爬虫的组成"><a href="#三、网络爬虫的组成" class="headerlink" title="三、网络爬虫的组成"></a><strong>三、网络爬虫的组成</strong></h2><p>在网络爬虫的系统框架中，主过程由控制器，解析器，资源库三部分组成。控制器的主要工作是负责给多线程中的各个爬虫线程分配工作任务。解析器的主要工作是下载网页，进行页面的处理，主要是将一些JS脚本标签、<a href="https://www.youhuaxing.cn/seojianzhan/17781.html">CSS</a>代码内容、空格字符、<a href="https://www.youhuaxing.cn/seojianzhan/17775.html">Html</a>标签等内容处理掉，爬虫的基本工作是由解析器完成。资源库是用来存放下载到的网页资源，一般都采用大型的数据库存储，并对其建立索引。</p>
+<p><strong>1、控制器</strong></p>
+<p>控制器是网络爬虫的中央控制器，它主要是负责根据系统传过来的URL链接，分配一线程，然后启动线程调用爬虫爬取网页的过程。</p>
+<p><strong>2、解析器</strong></p>
+<p>解析器是负责网络爬虫的主要部分，其负责的工作主要有：下载网页的功能，对网页的文本进行处理，如过滤功能，抽取特殊HTML标签的功能，分析数据功能。</p>
+<p><strong>3、资源库</strong></p>
+<p>主要是用来存储网页中下载下来的数据记录的容器，并提供生成索引的目标源。中大型的数据库产品有：Oracle、Sql Server等。</p>
+<h2 id="四、网络爬虫的基本步骤"><a href="#四、网络爬虫的基本步骤" class="headerlink" title="四、网络爬虫的基本步骤"></a><strong>四、网络爬虫的基本步骤</strong></h2><p>1、首先选取一部分种子URL；</p>
+<p>2、将这些URL放入待抓取URL队列；</p>
+<p>3、从待抓取URL队列中取出待抓取的URL,解析DNS，得到主机的IP，并将URL对应的网页下载下来，存储到已下载网页库中，此外，将这些URL放入已抓取URL队列；</p>
+<p>4、分析已抓取到的网页内容中的其他URL,并将URL放入待抓取URL队列，从而进入下一个循环。</p>
+<h2 id="五、网络爬虫的应用场景"><a href="#五、网络爬虫的应用场景" class="headerlink" title="五、网络爬虫的应用场景"></a><strong>五、网络爬虫的应用场景</strong></h2><p><strong>1、搜索引擎抓取网页信息。</strong></p>
+<p>大家常用的搜索引擎的首要工作流程就是利用网络爬虫去爬取各个网站的页面。以<a href="https://www.youhuaxing.cn/seojianzhan/17312.html">百度蜘蛛</a>为例，一旦有网站的页面更新了，百度蜘蛛就会出动，然后把爬取的页面信息搬回百度，再进行多次的筛选和整理。最终在大家搜索相关信息的时候，通过排名呈现给大家。可以说，没有网络爬虫，我们使用搜索引擎查询资料的时候，就不会那么便捷、全面和高效。</p>
+<p><strong>2、爬取需要数据进行统计。</strong></p>
+<p>冷数据启动时丰富数据的主要工具，新业务开始时，由于刚起步，所以没有多少数据，此时就需要爬取其他平台的数据来填充我们的业务数据。比如说，如果我们想做一个类似大众点评这样的平台，一开始没有商户等信息，就需要去爬取大众，美团等商家的信息来填充数据，比如天眼查，企查查，西瓜数据等等。</p>
+<p><strong>3、出行类软件通过爬虫抢票。</strong></p>
+<p>如果问网络爬虫技术应用最多的领域是什么？那一定是出行行业。相信每逢春运或是节假日，大家都用过一些抢票的软件，就为了获得一张机票或者是一张火车票，而这种出行类软件正是运用网络爬虫技术来达到抢票的目的。像抢票软件这样的网络爬虫，会不停地爬取交通出行的售票网站，一旦有票就会点击拍下来，放到自己的网站售卖。如果一定时间内没有人购买，就又会自动退票。然后又通过网站爬虫把票拍下来，到时间又继续退票，如此反复循环。</p>
+<p><strong>4、聚合平台整合信息进行比较。</strong></p>
+<p>如今，出现了很多比价平台、聚合电商还有返利平台等等给，这类聚合平台的本质都是提供横向数据比较，聚合服。比如说电商中经常需要有一种比价系统，从各大电商平台，如拼多多，淘宝，京东等抓取同一个商品的价格信息，以给用户提供最实惠的商品价格，这样就需要利用网络爬虫从各大电商平台爬取信息。</p>
+<h2 id="六、搜索引擎蜘蛛介绍"><a href="#六、搜索引擎蜘蛛介绍" class="headerlink" title="六、搜索引擎蜘蛛介绍"></a><strong>六、搜索引擎蜘蛛介绍</strong></h2><p><strong>1、BaiduSpider（百度蜘蛛）</strong></p>
+<p>常见的百度蜘蛛有：Baiduspider 和 Baiduspider-image（抓取图片）。国内网站大多数流量都来自百度，所以推荐放行。</p>
+<p>百度还有其它几个蜘蛛：</p>
+<p>Baiduspider-video（抓取视频）</p>
+<p>Baiduspider-news（抓取新闻）</p>
+<p>Baiduspider-mobile（抓取wap）</p>
+<p>百度蜘蛛介绍：<a href="http://www.baidu.com/search/spider.html">http://www.baidu.com/search/spider.html</a></p>
+<p><strong>2、Googlebot（谷歌蜘蛛）</strong></p>
+<p>常见的谷歌蜘蛛有：Googlebot，还一个 Googlebot-Mobile ，不是很常见，看名字是应该是抓取 wap 页面的。世界第一大搜索引擎，推荐放行。</p>
+<p>谷歌蜘蛛链接：<a href="http://www.google.com/bot.html">http://www.google.com/bot.html</a></p>
+<p><strong>3、360Spider（360蜘蛛）</strong></p>
+<p>一个十分”勤奋抓爬”的蜘蛛。</p>
+<p>360蜘蛛IP：<a href="https://www.so.com/help/spider_ip.html">https://www.so.com/help/spider_ip.html</a></p>
+<p><strong>4、Sogou web spider（搜狗蜘蛛）</strong></p>
+<p>搜狗公司还有其它几个蜘蛛：Sogou News Spider、Sogou inst spider、Sogou spider2、Sogou blog、Sogou Orion spider、Sogou web spider。</p>
+<p>搜狗蜘蛛爬虫：<a href="http://www.sogou.com/docs/help/webmasters.htm">http://www.sogou.com/docs/help/webmasters.htm</a></p>
+<p><strong>5、Bingbot（必应蜘蛛）</strong></p>
+<p>必应是微软的搜索引擎，微软的IE浏览器和Edge浏览器会默认使用该搜索引擎，而且占有率也还可以，不建议屏蔽。</p>
+<p>必应蜘蛛爬虫：<a href="http://www.bing.com/bingbot.htm">http://www.bing.com/bingbot.htm</a></p>
+<p><strong>6、Sosospider（SOSO蜘蛛）</strong></p>
+<p>腾讯soso，目前搜狗公司管理。</p>
+<p>soso蜘蛛爬虫：<a href="http://help.soso.com/webspider.htm">http://help.soso.com/webspider.htm</a></p>
+<p><strong>7、Yahoo! Slurp China（雅虎中国）或 Yahoo! Slurp（雅虎英文）</strong></p>
+<p>雅虎蜘蛛爬虫：</p>
+<p>雅虎中国：<a href="http://misc.yahoo.com.cn/help.html">http://misc.yahoo.com.cn/help.html</a></p>
+<p>雅虎英文：<a href="http://help.yahoo.com/help/us/ysearch/slurp">http://help.yahoo.com/help/us/ysearch/slurp</a></p>
+<p><strong>8、MSNBot，MSNot-media（MSN蜘蛛）</strong></p>
+<p>MSNBOT应该是 bing 搜索的蜘蛛，MSN和bing是一家的，可以只保留 Bingbot。</p>
+<p>MSN蜘蛛爬虫：<a href="http://search.msn.com/msnbot.htm">http://search.msn.com/msnbot.htm</a></p>
+<p><strong>9、YisouSpider（一搜蜘蛛&#x2F;神马搜索）</strong></p>
+<p>神马搜索是UC和阿里2013年已经成立合资公司推出的移动搜索引擎。</p>
+<p>该蜘蛛抓取频率还是很高的，很多人并不看好，不过如果屏蔽的话，会损失 UC浏览器 的流量来源。自己斟酌吧！</p>
+<p><strong>10、还有一些蜘蛛，不会给网站带来什么流量，站长看是否屏蔽。</strong></p>
+<p><strong>YoudaoBot（有道蜘蛛）：</strong>网易有道的蜘蛛，并不会带来流量。</p>
+<p><strong>JikeSpider（即刻蜘蛛）：</strong>“即刻搜索”是由人民搜索网络股份公司于2011年6月20日推出的通用搜索引擎平台。</p>
+<p>即刻蜘蛛：<a href="http://shoulu.jike.com/spider.html">http://shoulu.jike.com/spider.html</a></p>
+<p><strong>ToutiaoSpider（头条号）：</strong>今日头条的头条号蜘蛛，不能带来流量，屏蔽好啦。</p>
+<p>来源：http &#x2F;&#x2F;web toutiao com&#x2F;media_cooperation</p>
+<p><em>除了上述的爬虫，其他的就直接毫不犹豫的禁掉。</em></p>
+<h4 id="最后总结"><a href="#最后总结" class="headerlink" title="最后总结"></a><strong>最后总结</strong></h4><p>优化猩<a href="https://www.youhuaxing.cn/">SEO</a>：在信息大爆炸的时代，网络爬虫可以代替手工做很多事情，比如可以用于做搜索引擎，也可以爬取网站上面的图片等，网络爬虫可以更高效率地利用好互联网中的有效信息。</p>
+<p>想了解更多SEO百科的内容，请访问：<a href="https://www.youhuaxing.cn/seobaike/">SEO百科</a></p>
+<p>本文来源：<a href="https://www.youhuaxing.cn/seojianzhan/17484.html">https://www.youhuaxing.cn/seojianzhan/17484.html</a></p>
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>状语从句</title>
+    <url>/2022/09/24/2022-09-24-%E7%8A%B6%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-v9w3v3.jpg"></p>
+<span id="more"></span>
+
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/231d2c258f20bd22febdf9c16ff71f8.jpg"></p>
+<hr>
+<h2 id="时间状语从句"><a href="#时间状语从句" class="headerlink" title="时间状语从句"></a>时间状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6e740660fa8111ed072b73cf5c704cb.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/585e500b2f52d304c41d8a10d497b97.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a019a2c50e0232570a53521db25e127.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/46d29353f02579c4f079561b13038a9.jpg"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="地点状语从句"><a href="#地点状语从句" class="headerlink" title="地点状语从句"></a>地点状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dfa3012593798ed94e039b7b902b66.jpg"></p>
+<blockquote>
+<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方</p>
+</blockquote>
+<hr>
+<h2 id="条件状语从句"><a href="#条件状语从句" class="headerlink" title="条件状语从句"></a>条件状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c99e3302901b20013ef87ecfe15fe64.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0eea7ce9edf429b16af8116c326a584.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="原因状语从句"><a href="#原因状语从句" class="headerlink" title="原因状语从句"></a>原因状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2f49a730c3afcb08f5e94d0b9422570.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5ce66ebba1cdb2620ac361e31d2037.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="目的状语从句"><a href="#目的状语从句" class="headerlink" title="目的状语从句"></a>目的状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5f0a2db7761e8280871d566c022d1e4.jpg"></p>
+<hr>
+<h2 id="结果状语从句"><a href="#结果状语从句" class="headerlink" title="结果状语从句"></a>结果状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3dfd1e55f3016ffa22e9142ae3c0ae8.jpg"></p>
+<hr>
+<h2 id="让步状语从句"><a href="#让步状语从句" class="headerlink" title="让步状语从句"></a>让步状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c76486b63b8f31d788322f0e408ec38.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/88964d71eea37198a84bb3975a3da84.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="方式状语从句"><a href="#方式状语从句" class="headerlink" title="方式状语从句"></a>方式状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/656190d842c933bf45667ace1c69058.jpg"></p>
+<hr>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0077a2d2899161ce9c72e522785060c.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b02ee1448c6148c90d71cd40926da85.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百度首页爬虫</title>
+    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
+
+<span id="more"></span>
+
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
+<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
+</blockquote>
+<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>酷我音乐爬虫</title>
+    <url>/2022/09/24/2022-09-24-%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194049.jpg" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> pprint</span><br><span class="line"><span class="comment"># 生成表格的模块</span></span><br><span class="line"><span class="keyword">import</span> prettytable <span class="keyword">as</span> pt</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(<span class="string">&#x27;kuwo&#x27;</span>):</span><br><span class="line">    os.mkdir(<span class="string">&#x27;kuwo&#x27;</span>)</span><br><span class="line">key=<span class="built_in">input</span>(<span class="string">&quot;请输入你想查找的歌手or歌曲:&quot;</span>)</span><br><span class="line"></span><br><span class="line">url=<span class="string">f&quot;https://www.kuwo.cn/api/www/search/searchMusicBykeyWord?key=<span class="subst">&#123;key&#125;</span>&amp;pn=1&amp;rn=30&quot;</span></span><br><span class="line"><span class="comment"># 伪装请求头</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line">headers=&#123;</span><br><span class="line">    <span class="string">&#x27;Accept&#x27;</span>:<span class="string">&#x27;application/json, text/plain, */*&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Accept-Encoding&#x27;</span>:<span class="string">&#x27;gzip, deflate&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Accept-Language&#x27;</span>:<span class="string">&#x27;zh-CN,zh;q=0.9&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Connection&#x27;</span>:<span class="string">&#x27;keep-alive&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Cookie&#x27;</span>:<span class="string">&#x27;Hm_lvt_cdb524f42f0ce19b169a8071123a4797=1663154581; _ga=GA1.2.567394232.1663154581; _gid=GA1.2.2123499681.1663154581; _gat=1; Hm_lpvt_cdb524f42f0ce19b169a8071123a4797=1663156972; kw_token=XATF666NGJP&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;csrf&#x27;</span>:<span class="string">&#x27;XATF666NGJP&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;www.kuwo.cn&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Referer&#x27;</span>:<span class="string">&#x27;http://www.kuwo.cn/search/list?key=%E5%91%A8%E6%9D%B0%E4%BC%A6&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;User-Agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36&#x27;</span>,</span><br><span class="line">&#125;</span><br><span class="line">response=requests.get(url=url,headers=headers)</span><br><span class="line"><span class="comment"># .JSON打印字典数值</span></span><br><span class="line"><span class="comment"># pprint.pprint(response.json())</span></span><br><span class="line"><span class="comment"># 获取到的歌曲数据源</span></span><br><span class="line">json=response.json()</span><br><span class="line"><span class="comment"># 提取到对应的内容</span></span><br><span class="line">json_data=json[<span class="string">&#x27;data&#x27;</span>][<span class="string">&#x27;list&#x27;</span>]</span><br><span class="line"><span class="comment"># pprint.pprint(json_data)</span></span><br><span class="line">count=<span class="number">0</span></span><br><span class="line">table=pt.PrettyTable()</span><br><span class="line"><span class="comment"># 设置表头</span></span><br><span class="line">table.field_names=[<span class="string">&#x27;专辑&#x27;</span>,<span class="string">&#x27;歌手&#x27;</span>,<span class="string">&#x27;歌曲&#x27;</span>,<span class="string">&#x27;rid&#x27;</span>]</span><br><span class="line"><span class="comment"># 创建一个列表，用来存放歌曲rid</span></span><br><span class="line">info_list=[]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="built_in">list</span> <span class="keyword">in</span> json_data:</span><br><span class="line">    <span class="comment"># 专辑</span></span><br><span class="line">    album=<span class="built_in">list</span>[<span class="string">&#x27;album&#x27;</span>]</span><br><span class="line">    <span class="comment"># 歌手</span></span><br><span class="line">    artist=<span class="built_in">list</span>[<span class="string">&#x27;artist&#x27;</span>]</span><br><span class="line">    <span class="comment"># 歌曲</span></span><br><span class="line">    name=<span class="built_in">list</span>[<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line">    <span class="comment"># rid</span></span><br><span class="line">    rid=<span class="built_in">list</span>[<span class="string">&#x27;rid&#x27;</span>]</span><br><span class="line">    <span class="comment"># print(album,artist,name,rid)</span></span><br><span class="line">    table.add_row([album,artist,name,count])</span><br><span class="line">    info_list.append([album,artist,name,rid])</span><br><span class="line">    count+=<span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(table)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置死循环</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    index=<span class="built_in">eval</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入你想要下载的歌曲rid:&quot;</span>))</span><br><span class="line">    <span class="keyword">if</span> index == -<span class="number">1</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="comment"># 下载的歌曲信息</span></span><br><span class="line">    download_info=info_list[index]</span><br><span class="line">    <span class="comment"># print(download_info[3])</span></span><br><span class="line">    rid=download_info[<span class="number">3</span>]</span><br><span class="line">    <span class="comment"># song_url=f&quot;https://www.kuwo.cn/api/v1/www/music/playUrl?mid=&#123;rid&#125;&amp;type=convert_url3&amp;br=320kmp3&quot;</span></span><br><span class="line">    song_url=<span class="string">f&quot;https://www.kuwo.cn/api/v1/www/music/playUrl?mid=<span class="subst">&#123;rid&#125;</span>&amp;type=convert_url&amp;httpsStatus=1&quot;</span></span><br><span class="line">    <span class="comment"># https://www.kuwo.cn/api/v1/www/music/playUrl?mid=&#123;rid&#125;&amp;type=convert_url&amp;httpsStatus=1</span></span><br><span class="line">    <span class="comment"># print(song_url)</span></span><br><span class="line">    <span class="comment"># 找到他的mp3链接  用字典取值的方法 拿到付费歌曲的MP3链接</span></span><br><span class="line">    song_info=requests.get(url=song_url).json()[<span class="string">&#x27;data&#x27;</span>][<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    <span class="comment"># print(song_info)</span></span><br><span class="line">    <span class="comment"># 转换二进制格式便于保存数据</span></span><br><span class="line">    music=requests.get(url=song_info).content</span><br><span class="line">    title=re.sub(<span class="string">r&#x27;[\\/:*?&quot;&lt;&gt;|]&#x27;</span>,<span class="string">&#x27;&#x27;</span>,download_info[<span class="number">2</span>])</span><br><span class="line">    <span class="comment">#歌曲保存</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&quot;kuwo/<span class="subst">&#123;title&#125;</span>-<span class="subst">&#123;download_info[<span class="number">1</span>]&#125;</span>.mp3&quot;</span>,<span class="string">&#x27;wb&#x27;</span>)<span class="keyword">as</span> f:</span><br><span class="line">        f.write(music)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;title&#125;</span>,下载成功&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>cookie的获取需要在自己电脑浏览器打开酷我首页，进入该网页源码获取</p>
+</blockquote>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-14 200226.jpg" style="zoom:150%;" />
+
+<blockquote>
+<p>cookie获取完成后，还要更改里面kw_token为下面’csrf包含的 XATF666NGJP</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/09/02/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo-theme-matery博客如何添加看板娘</title>
+    <url>/2022/08/28/hexo-theme-matery%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/888fcc74d217660a6be539a72613881.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一-Live2D是什么？"><a href="#一-Live2D是什么？" class="headerlink" title="一,Live2D是什么？"></a>一,Live2D是什么？</h2><blockquote>
+<p>2D的素材实现一定程度的3D效果</p>
+</blockquote>
+<h2 id="二-前期准备"><a href="#二-前期准备" class="headerlink" title="二,前期准备"></a>二,前期准备</h2><blockquote>
+<p>检查博客主目录下的package.json是否有”hexo-helper-live2d”: “^3.0.3”,依赖，<br>有的话可以先卸载：npm uninstall hexo-helper-live2d<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20200129105033341.png" alt="这是图片"></p>
+</blockquote>
+<h2 id="三-安装依赖"><a href="#三-安装依赖" class="headerlink" title="三,安装依赖"></a>三,安装依赖</h2><blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+
+<p>成功了之后可以看到当前目录的node_modules&#x2F;下有个live2d-widget目录，这是动画的主配置：<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2020012910571945.png" alt="这是图片"></p>
+</blockquote>
+<h2 id="四-下载model文件"><a href="#四-下载model文件" class="headerlink" title="四,下载model文件"></a>四,下载model文件</h2><blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure>
+
+<p>model名字可在live2d-widget-models中找到，也可点击live2d看板娘模型预览来选择你喜欢的模型进行安装。<br>安装完成可以在node_modules&#x2F;下看到live2d-widget-model-shizuku文件夹<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20200129110058553.png" alt="This is an picture"></p>
+</blockquote>
+<h2 id="五-添加live2d看板娘到hexo"><a href="#五-添加live2d看板娘到hexo" class="headerlink" title="五,添加live2d看板娘到hexo"></a>五,添加live2d看板娘到hexo</h2><blockquote>
+<p>配置Hexo的主_config.yml或者使用的主题的_config.yml<br>添加以下代码到配置文件中：</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">## Live2D看板娘</span></span><br><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    <span class="comment">#模板目录，在node_modules里</span></span><br><span class="line">    use: live2d-widget-model-shizuku  </span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: <span class="number">300</span> </span><br><span class="line">    height: <span class="number">600</span></span><br><span class="line">  mobile:</span><br><span class="line">    <span class="comment"># 在手机端显示</span></span><br><span class="line">    show: false   </span><br><span class="line">  rect:</span><br><span class="line">    opacity:<span class="number">0.7</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="六-查看效果"><a href="#六-查看效果" class="headerlink" title="六,查看效果"></a>六,查看效果</h2><blockquote>
+<p>在git bash上<code>hexo g </code>,<code>hexo s</code>,用浏览器在本地打开即可看到效果。</p>
+</blockquote>
+<h2 id="七，参考链接"><a href="#七，参考链接" class="headerlink" title="七，参考链接"></a>七，参考链接</h2><p><a href="https://blog.csdn.net/qq_36239569/article/details/104104894?app_version=5.7.2&csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22104104894%22,%22source%22:%22qq_53322614%22%7D&utm_source=app">(52条消息) Hexo添加Live2D看板娘最新教程_飞萤乱入帘的博客-CSDN博客_hexo live2d</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于GitHub和hexo建站</title>
+    <url>/2022/08/28/%E5%9F%BA%E4%BA%8EGitHub%E5%92%8Chexo%E5%BB%BA%E7%AB%99/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/096d8b2213993d4ff71ab05fa2bc4b1.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一-思路："><a href="#一-思路：" class="headerlink" title="一,思路："></a>一,思路：</h2><blockquote>
+<p>先在电脑本地建一个网站文件夹搭建好网站，再利用github的服务器托管自己的网站，让自己的网站出现在互联网里，</p>
+</blockquote>
+<blockquote>
+<p>至于编辑和管理网站内容，则是先在本地网站文件夹完成，再通过git远程同步到github的个人存储库里，github就会自动同步到网页了。</p>
+</blockquote>
+<h2 id="二-环境准备"><a href="#二-环境准备" class="headerlink" title="二,环境准备"></a>二,环境准备</h2><blockquote>
+<p>注册GitHub账号，下载git，下载node.js,<br>注意：node.js下载完成后，要把它的安装路径加到电脑的系统变量或用户变量里的path里。（注意不是新建，而是添加）</p>
+<ul>
+<li>你要加用户变量也行，只要你电脑不是多用户。</li>
+<li>path的作用就是不管你的指令台在什么路径打开，你都可以调用path路径里的程序</li>
+<li>如果你没设置过的话，你下的东西可能在C:\Users\用户名\AppData\Roaming\npm   （appdate是隐藏文件，你直接复制到地址栏回车）</li>
+<li>你能直接用npm的指令说明nodejs已经在path里面了.</li>
+<li>都完成后，你在git bash里输入hexo,就可以看到下面界面了。<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/228675681f0066c607e1340db56bf1d.jpg" alt="这是界面"></li>
+</ul>
+</blockquote>
+<blockquote>
+<p>git安装教程：<a href="https://blog.csdn.net/mukes/article/details/115693833">https://blog.csdn.net/mukes/article/details/115693833</a></p>
+</blockquote>
+<h2 id="三-开始搭建"><a href="#三-开始搭建" class="headerlink" title="三,开始搭建"></a>三,开始搭建</h2><blockquote>
+<p>教程链接：<a href="https://cloud.tencent.com/developer/article/1834165#:~:text=">https://cloud.tencent.com/developer/article/1834165#:~:text=</a><br>教程链接：<a href="https://blog.csdn.net/yaorongke/article/details/119089190">https://blog.csdn.net/yaorongke/article/details/119089190</a><br>教程链接：<a href="https://blog.csdn.net/differencer/article/details/123322443?app_version=5.7.2&amp;csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22123322443%22,%22source%22:%22qq_53322614%22%7D&amp;utm_source=app">https://blog.csdn.net/differencer/article/details/123322443?app_version=5.7.2&amp;csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22123322443%22%2C%22source%22%3A%22qq_53322614%22%7D&amp;utm_source=app</a><br>hexo官方文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
+</blockquote>
+<h3 id="关于GitHub-Pages"><a href="#关于GitHub-Pages" class="headerlink" title="关于GitHub Pages"></a>关于GitHub Pages</h3><blockquote>
+<p>GitHub Pages是GitHub提供的一个网页寄存服务，于2008年推出。可以用于存放静态网页，包括博客、项目文档甚至整本书。Jekyll软体可以用于将文档转换成静态网页，<br>该软件提供了将网页上传到GitHub Pages的功能。一般GitHub Pages的网站使用github.io的子域名，但是用户也可以使用第三方域名。<br>github pages官方文档：<a href="https://docs.github.com/cn/pages/quickstart">https://docs.github.com/cn/pages/quickstart</a></p>
+</blockquote>
+<h3 id="git过程中的错误解决"><a href="#git过程中的错误解决" class="headerlink" title="git过程中的错误解决"></a>git过程中的错误解决</h3><blockquote>
+<p><a href="https://hexo.io/docs/troubleshooting.html#Git-Deployment-Problems">https://hexo.io/docs/troubleshooting.html#Git-Deployment-Problems</a></p>
+<p><a href="https://blog.csdn.net/weixin_41256398/article/details/117994899">https://blog.csdn.net/weixin_41256398/article/details/117994899</a></p>
+<p><a href="https://blog.csdn.net/weixin_48927364/article/details/123405585">https://blog.csdn.net/weixin_48927364/article/details/123405585</a></p>
+<p><a href="https://blog.csdn.net/qq_21808961/article/details/84476504">https://blog.csdn.net/qq_21808961/article/details/84476504</a></p>
+<p><a href="https://www.codegrepper.com/search.php?q=remote%20error:%20%20%20%20is%20not%20a%20valid%20repository%20name">https://www.codegrepper.com/search.php?q=remote%20error:%20%20%20%20is%20not%20a%20valid%20repository%20name</a></p>
+</blockquote>
+<h3 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h3><blockquote>
+<p>注意用hexo网站后台后，以后编写文章都要有markdown语法了。<br>官方文档：<a href="https://docs.github.com/cn/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">https://docs.github.com/cn/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax</a><br>网络文档：<a href="https://www.cnblogs.com/tocy/p/github-flavored-markdown.html#:~:text=GitHub%E6%94%AF%E6%8C%81,%E6%B3%95%EF%BC%8C%E7%AE%80%E7%A7%B0GFM%E3%80%82">https://www.cnblogs.com/tocy/p/github-flavored-markdown.html#:~:text=GitHub支持,法，简称GFM%E3%80%82</a></p>
+</blockquote>
+<h3 id="git常用命令："><a href="#git常用命令：" class="headerlink" title="git常用命令："></a>git常用命令：</h3><blockquote>
+<p>本地部署三连<br>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
+</blockquote>
+<blockquote>
+<p>上传三连<br>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
+</blockquote>
+<blockquote>
+<p>hexo new page “页面名”  新建页面<br>post 文章   draft  草稿</p>
+</blockquote>
+<h3 id="部署概述"><a href="#部署概述" class="headerlink" title="部署概述"></a>部署概述</h3><blockquote>
+<p>建仓库<br>cunko&#x2F;cunko.github.io</p>
+<p>在本地搭建hexo框架<br>Hexo 是一个基于NodeJS的静态博客网站生成器</p>
+<p>安装 Hexo<br>npm install -g hexo-cli</p>
+<p>创建一个项目 hexo-blog 并初始化<br>hexo init hexo-blog<br>cd hexo-blog<br>npm install</p>
+<p>本地启动，预览<br>hexo g<br>hexo server</p>
+<p>部署到GitHub</p>
+<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
+<p>安装 npm 部署插件<br>npm install hexo-deployer-git –save</p>
+<p>进入分支<br>git init</p>
+<p>上传三连<br> hexo clean<br> hexo g<br> hexo d </p>
+<p>确认一切正常，开始配置主题</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>textbook-zero</title>
+    <url>/2022/09/24/title%20textbook-zero/</url>
+    <content><![CDATA[<p>花费</p>
+<p>spend </p>
+<p>人+spend    时间&#x2F;钱<br>eg:we spent eight hours on English.</p>
+<p>人+spend    时间&#x2F;钱  （in) doing  sth<br>eg:we spent eight hours (in) studying English</p>
+<p>pay</p>
+<p>sb  pay (钱) for sth  为….付钱<br>eg:  we  paid 16.8 thousand  for the tuition</p>
+<p>take </p>
+<p>It takes&#x2F;took sb 时间 to do sth<br>eg: It took us one year to prepare for zhuanshenben exam.</p>
+<blockquote>
+<p><strong>cost</strong></p>
+</blockquote>
+<p>cost (sb)  钱&#x2F;时间&#x2F;精力<br>I bought a dress ,It cost (me) 200 yuan.</p>
+<blockquote>
+<p><strong>adapt</strong>  v.使适应，改编</p>
+</blockquote>
+<blockquote>
+<p><strong>rate</strong>  n.速度，速率</p>
+</blockquote>
+<blockquote>
+<p><strong>persuade</strong>  v.说服</p>
+</blockquote>
+<blockquote>
+<p><strong>receipt</strong>  n. 收据</p>
+</blockquote>
+<blockquote>
+<p><strong>effect</strong> 影响</p>
+</blockquote>
+<blockquote>
+<p><strong>range</strong> v.变动</p>
+</blockquote>
+<blockquote>
+<p><em><strong>change</strong></em>  n.变化</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">put  up  with 容忍</span><br><span class="line">come  up  with 想出</span><br><span class="line">keep up with = catch up with 跟上</span><br><span class="line">go on with 继续干</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>词汇</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思考-0</title>
+    <url>/2022/09/05/%E6%80%9D%E8%80%83-0/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
+<span id="more"></span>
+
+<blockquote>
+<p>告诉我知识，我会忘，教导我知识，我只会记得，让我深入其中，我才能真正学习<br>热情与好奇，是实现一切可能的基石.</p>
+</blockquote>
+<blockquote>
+<p>你不能强迫一个人爱上你，但你可以制造机会</p>
+</blockquote>
+<blockquote>
+<p>规则存在的意义就是快速的帮你做出选择<br>比如，游戏就是有一套规则，然后我们用规则去答题</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>今日不肯埋头，明日何以抬头</p>
+</blockquote>
+<blockquote>
+<p>学到知识了，就要想想做点不一样的事，即没学前办不到的事情</p>
+</blockquote>
+<blockquote>
+<p>问题是学习的目的，学习要问出来</p>
+</blockquote>
+<blockquote>
+<p>先有想法再把它做出来</p>
+</blockquote>
+<blockquote>
+<p>找到你心中真正的热爱，并追求它，把每一天当做最后一天去度过</p>
+</blockquote>
+<blockquote>
+<p>每个人都应该学习如何为计算机写程序，因为它能教你如何思考</p>
+</blockquote>
+<blockquote>
+<p>要有问题，就讲出来，不然就是你的问题</p>
+</blockquote>
+<blockquote>
+<p>念念不忘,必有回响,有一口气,点一盏灯。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>虚拟语气</title>
+    <url>/2022/09/24/%E8%99%9A%E6%8B%9F%E8%AF%AD%E6%B0%94/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/R-C (2).jpg" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8eddbbddfc53927d8c205dd198033cd.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be17426d52bd68166894f170602ebf6.jpg"></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>表示不可能发生的，要关注句子的动词，一般用过去时 </p>
+</blockquote>
+<h2 id="一，用过去式表虚拟："><a href="#一，用过去式表虚拟：" class="headerlink" title="一，用过去式表虚拟："></a>一，用过去式表虚拟：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a83b5a1b386dee2a98edb236075d8ad.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/364e369e927a34330dbe96470c53c60.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f210f0e890c8a965a7147deb306a53b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/43b9ef63163e645fd37f032dd2e597c.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f8e4fe695383d44060c390bf784bb06.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb7f8fce30376a81d8e1ecddd68a068.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e4af977ae1fcac677049a5182d42cd8.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="含蓄虚拟语气"><a href="#含蓄虚拟语气" class="headerlink" title="含蓄虚拟语气"></a>含蓄虚拟语气</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7cde192cbc60aca801518b462aa6888.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f82a2feda7c40ffd9b4db5c47a09cb.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="固定搭配"><a href="#固定搭配" class="headerlink" title="固定搭配"></a>固定搭配</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2cd11f9b97b8acef64e0bdce191144f.jpg" style="zoom: 33%;" /></th>
+</tr>
+</thead>
+</table>
+<h3 id="特殊句型-1"><a href="#特殊句型-1" class="headerlink" title="特殊句型-1"></a>特殊句型-1</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4b439b3123c6aa6416a9a98cbd5a801.jpg" style="zoom:33%;" />
+
+
+
+<h3 id="特殊句型-2"><a href="#特殊句型-2" class="headerlink" title="特殊句型-2"></a>特殊句型-2</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8b12d97b0c8a35ee98d8e7ae1615254.jpg" style="zoom:33%;" />
+
+<h2 id="二，用should-do-表虚拟："><a href="#二，用should-do-表虚拟：" class="headerlink" title="二，用should do 表虚拟："></a>二，用should do 表虚拟：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f7daecfcb9110d18e5b4d62baa12e5d.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/70a9df59c0a6a2d77c7c3e7609043e6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dac1f3db6f8428837dffebbbea52d2c.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9729e498e401fa42df273128d0e4de6.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e30c59d73270f0b90f4c27e7fdd7929.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8cfc18df355a2cc630996e3f1f60d0e.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="三，用”情态动词-have-done-“表对过去的虚拟："><a href="#三，用”情态动词-have-done-“表对过去的虚拟：" class="headerlink" title="三，用”情态动词+have done “表对过去的虚拟："></a>三，用”情态动词+have done “表对过去的虚拟：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e6be1a582998f69cb30e06365c61f75.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/83ded547facc8de48ac451bcc1a3102.jpg"></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>may&#x2F;minght 表可能性大小，may表可能性很小，minght表的可能性更小。（minght是may 的过去式}</p>
+<p>should与ought to</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+</search>
