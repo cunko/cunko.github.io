@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://example.com/2022/09/04/2022-09-04-%E6%9C%BA%E6%99%BA/</loc>
+    
+    <lastmod>2022-10-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2022-10-02</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>http://example.com/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</loc>
-    
-    <lastmod>2022-10-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/09/04/2022-09-04-%E6%9C%BA%E6%99%BA/</loc>
     
     <lastmod>2022-10-02</lastmod>
     
@@ -288,7 +288,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/next%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://example.com/tags/hexo%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -302,7 +302,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/hexo%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://example.com/tags/next%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -316,7 +316,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E8%AF%AD%E6%B3%95/</loc>
+    <loc>http://example.com/tags/%E5%8F%A5%E5%AD%90/</loc>
     <lastmod>2022-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -330,14 +330,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%8F%A5%E5%AD%90/</loc>
+    <loc>http://example.com/tags/%E8%AF%8D%E6%B1%87/</loc>
     <lastmod>2022-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E8%AF%8D%E6%B1%87/</loc>
+    <loc>http://example.com/tags/%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2022-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
