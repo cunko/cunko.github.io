@@ -3,8 +3,7 @@
   <entry>
     <title>Pycharm的安装与使用</title>
     <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/images.jpg" style="zoom:200%;" />
-
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a03ea1a5f8cd4de49682ff301645bd6c.png"></p>
 <span id="more"></span>
 
 <h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
@@ -16,6 +15,38 @@
       </categories>
       <tags>
         <tag>软件教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>next-主题配置</title>
+    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
+<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
+<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
+<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
+<p>设置圆角</p>
+<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
+<p>更换背景</p>
+<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
+<blockquote>
+<p>注意真正的位置！</p>
+</blockquote>
+<p>![](<a href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE">https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图</a> 2022-09-30 192414.jpg)</p>
+<p>更改博客透明度</p>
+<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
+<p>折叠代码</p>
+<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
+<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>next教程</tag>
       </tags>
   </entry>
   <entry>
@@ -92,35 +123,36 @@
       </tags>
   </entry>
   <entry>
-    <title>next-主题配置</title>
-    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+    <title>意境</title>
+    <url>/2022/09/04/2022-09-04-%E6%84%8F%E5%A2%83/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3156058b882311ebb6edd017c2d2eca2.png"></p>
 <span id="more"></span>
 
-<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
-<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
-<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
-<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
-<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
-<p>设置圆角</p>
-<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
-<p>更换背景</p>
-<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
-<blockquote>
-<p>注意真正的位置！</p>
-</blockquote>
-<p>![](<a href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE">https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图</a> 2022-09-30 192414.jpg)</p>
-<p>更改博客透明度</p>
-<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
-<p>折叠代码</p>
-<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
-<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
+<h2 id="case—0"><a href="#case—0" class="headerlink" title="case—0:"></a>case—0:</h2><ul>
+<li><p>天有不测风云  人有旦夕祸福  天不得时日月无光  地不得时草木不长  故成大事者  非运不可自通也   因人有三衰六旺  故有起起落落因人有顽强意志  顾能对抗百年  终有一天你会明白  得到未必得到  失去也未必失去 所以我们的眼睛 不能只看 我们能看到的地方。</p>
+</li>
+<li><p>各花各有各花香，各山各水各有灵，人各有道，道不同不相为谋 ，我们还年轻，单纯爱情，一味金钱，过度片面，我们要知道，我们的意义是什么</p>
+</li>
+<li><p>红豆有毒却表相思，后来才知，相思入骨便无药可医，明知相思苦，偏要苦相思，若问相思为何苦，只因相思已入骨<br>未曾清贫难成人 不经世事永天真 人情似纸张张薄 世事如棋局局新成功不是永恒的 失败也只是暂时的，百无一用为有忧日后注定成凡人，而成大事者 以静观其变以静为动 己为良师心为良友 即使命由天定但运由己握</p>
+</li>
+</ul>
+<h2 id="case—1"><a href="#case—1" class="headerlink" title="case—1:"></a>case—1:</h2><ul>
+<li>如果有一件事让你感到开心，那你尽管去做，别管别人说什么，人活着，不要被别人的目光左右了自己的人生</li>
+<li>一开始根据功能去设计程序，会很困难，是很正常的，只需要理解那些经典案例，可以理解为做菜</li>
+<li>听名字就很有压迫感</li>
+<li>如果我们不冒一些风险，我们就会留下遗憾</li>
+<li>把做题当成看小说，主人公是X，结局是Y</li>
+<li>美女的事你别管</li>
+<li>我给我弟听，他说不好听，这是他第一次住院</li>
+<li>目标才是最小单元, 我们所学的不论学科，不论专业，等到我们实践的时候考虑的总是目标，大目标总是由小目标组成，你所学习的小目标们能否合成现在所需的大目标才是问题的关键</li>
+<li>全款买下一根烤肠</li>
+</ul>
 ]]></content>
       <categories>
-        <category>网站探索</category>
+        <category>心动时刻</category>
       </categories>
       <tags>
-        <tag>next教程</tag>
+        <tag>思维火花</tag>
       </tags>
   </entry>
   <entry>
@@ -139,7 +171,7 @@
 <p>  新建页面<br>post 文章   draft  草稿</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
 
-<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#117;&#x30;&#x30;&#51;&#x32;&#x35;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#105;&#117;&#x30;&#x30;&#51;&#x32;&#x35;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a>“</p>
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#x75;&#48;&#48;&#x33;&#x32;&#53;&#49;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#108;&#105;&#x75;&#48;&#48;&#x33;&#x32;&#53;&#49;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a>“</p>
 <p> 初始化一个Git仓库</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
 
@@ -150,90 +182,6 @@
       </categories>
       <tags>
         <tag>hexo教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>名词性从句</title>
-    <url>/2022/09/05/2022-09-05-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/oK3TNlXaok.jpg"></p>
-<span id="more"></span>
-
-<h2 id="一，基本概念"><a href="#一，基本概念" class="headerlink" title="一，基本概念"></a>一，基本概念</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/709fa3c700d45f7f62a565cba512353.jpg" alt="0"></th>
-<th></th>
-</tr>
-</thead>
-</table>
-<h2 id="二，连接词"><a href="#二，连接词" class="headerlink" title="二，连接词"></a>二，连接词</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d623fd7d36554e573cb3833e0cc8d9a.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c7d41448626479615536202ce299d64.jpg"></th>
-</tr>
-</thead>
-</table>
-<blockquote>
-<p>在句首表是否只能用whether</p>
-</blockquote>
-<h2 id="三，主语从句"><a href="#三，主语从句" class="headerlink" title="三，主语从句"></a>三，主语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f0baa22d3c2327278b5082dbbefe3ec.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8c16990706cd89b5a6061b3af20637.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5a5b48f1397afdef3d80de8c2c2ebe0.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="四，宾语从句"><a href="#四，宾语从句" class="headerlink" title="四，宾语从句"></a>四，宾语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f2379ca309137a1bee8016ac2494a9.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e943fafbf331cb0969774155084b34.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ec28e8ddd51ec587bfe8499edb9663d.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d9c5225f3cd5876977c438d441928d6.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="五，表语从句"><a href="#五，表语从句" class="headerlink" title="五，表语从句"></a>五，表语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92cf46328bb09b326093594db526776.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c5ef32fa520aa71546297ff76fe1940.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/300681f3bfb9696fd30498edb8c94a8.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="六，同位语从句"><a href="#六，同位语从句" class="headerlink" title="六，同位语从句"></a>六，同位语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/328fd083692cda1046aa17a25e687c0.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/761d3f7318774f2f967d88e762aaca0.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a0252f29c9a37df4c1739539a7c6451.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>补充：suggestion 建议</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>语法</tag>
       </tags>
   </entry>
   <entry>
@@ -331,25 +279,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2008 part 1</title>
-    <url>/2022/09/24/2022-09-24-2008-part-1/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10003-1-1024x576.webp"></p>
-<span id="more"></span>
-
-<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1．experience [ɪkˈspɪəriəns] n 经历 经验 v 经历<br>2．shortage [ˈʃɔ:tɪdʒ] n.不足，缺点；缺少<br>3．income [ˈɪnkʌm] n.收入，进款<br>4．wealth [welθ] n.财产，财富</p>
-<p>5．wealthy [ˈwelθi] adj.富有的；充分的;<br>6．expense [ɪkˈspens] n.费用；花费的钱<br>7．in need 在危难中，在危急中<br>8．friend in need is a friend indeed. 患难见真情。<br>9．in trouble 在困境中<br>10．in detail 详细地<br>11．In particular 特别 尤其<br>12．profit[ˈprɒfɪt]n.利润; 好处;v.获益; 得益于<br>13．single [ˈsɪŋɡl] adj.单一的; 未婚的<br>14．emergency [iˈmɜːdʒənsi] n.紧急事件;<br>15．dilemma [dɪˈlemə] n.窘境，困境<br>16．In a dilemma 在困境中<br>17．disaster [dɪˈzɑ:stə(r)] n.灾难; 不幸;<br>18．trade [treɪd] n.贸易，交易;<br>19．challenge [ˈtʃælɪndʒ] n&#x2F;v 挑战<br>20．difference [ˈdɪfrəns] n.差别，差额;<br>21．different [ˈdɪfrənt] adj.不同的；各式各样的不同的<br>22．struggle [ˈstrʌɡl] v&#x2F;n.奋斗; 斗争 挣扎<br>23．under repair 在修理中<br>24．repair [rɪˈpeə(r)] v&#x2F;n.修理，修补;<br>25．construction [kənˈstrʌkʃn] n.建造; 施工; 建筑（物）<br>26．threat [θret] n.威胁; 征兆;<br>27．under threat 受到威胁<br>28．under control 在控制中<br>29．out of control 失控<br>30．star [stɑ:(r)] n.星; 明星;v.主演;<br>31．popular [ˈpɒpjələ(r)] adj.流行的，受欢迎的<br>32．familiar [fəˈmɪliə(r)] adj.熟悉的; 通晓;</p>
-<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>33．similar [ˈsɪmələ(r)] adj.相似的<br>34．be similar to 与….相似<br>35．In power 当权 执政<br>36．In trouble 在困境中<br>37．In order 井然有序<br>38．In disorder&#x3D;in a mess 混乱 杂乱<br>39．In order to do 为了做<br>40．In order that+ 句子 为了<br>41．hold [həʊld]拿着; 持有; 容纳<br>42．firm [fɜːm] n.公司; adj.坚固的 坚定的;<br>43．belief [bɪˈli:f] n.信念，信仰<br>44．recognition [ˌrekəɡˈnɪʃn] n.认识，识别;<br>45．recognize [ˈrekəɡnaɪz] vt.认出; 识别;<br>46．adoption [əˈdɒpʃn] n.收养，领养; 采用<br>47．adopt [əˈdɒpt] v.领养; 采用;采纳<br>48．invention [ɪnˈvenʃn] n.发明; 创造<br>49．invent [ɪnˈvent] v.发明; 创造<br>50．shortcoming [ˈʃɔːtkʌmɪŋ] n.短处，缺点<br>51．strength [streŋθ] n.体力; 优点;.<br>52．advantage [ədˈvɑːntɪdʒ] n.有利条件; 优势; 优点，好处<br>53．strengthen [ˈstreŋθn] v.巩固; 加强<br>54．share [ʃeə(r)] v.共有， 分享; 分担;n.一份; 股份，股票<br>55．reward [rɪˈwɔːd] n&#x2F;v.报酬; 奖励，<br>56．in return 作为回报<br>57．decorate [ˈdekəreɪt] v.装饰; 装点<br>58．As 正如 we all know<br>59．profitable [ˈprɒfɪtəbl] adj.有利可图的，可赚钱的<br>60．risky. [ˈrɪski]adj.冒险的，危险的;<br>61．As is known to all, 众所周知<br>62．concern [kənˈsɜːn] n.担心; 令人担心的事; v.涉及; 使担忧; 关心<br>63．bargain [ˈbɑ：ɡən] n.便宜货; 交易 v 商谈; 讨价还价;<br>64．affair [əˈfeə(r)] n.事务，私事;</p>
-<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>65．internal [ɪnˈtɜːnl] adj.内部的; 国内的;<br>66．Internal affair 内政<br>67．As far as I know,据我所知<br>68．ordinary [ˈɔːdnri] adj.普通的; 平庸的<br>69．ordinary people 普通人<br>70．interest [ˈɪntrəst] n.兴趣; 爱好; 利息; 利益;v.使感兴趣<br>71．specific [spəˈsɪfɪk] adj.明确的；具体的<br>72．especial [ɪˈspeʃl] adj.特别的，尤其的;<br>73．special [ˈspeʃl] adj.特殊的; 重要的;<br>74．inevitably [ɪnˈevɪtəbli]adv.不可避免地; 必然地;<br>75．cause [kɔːz] v.导致，引起;n.原因; 理由<br>76．factor [ˈfæktə(r)] n.因素<br>77．had better do sth 最好做<br>78．assign [əˈsaɪn] v.指派(任务); 分配;<br>79．assignment [əˈsaɪnmənt]n.作业，任务; 分配<br>80．slice [slaɪs] n.薄片; 部分<br>81．necessary [ˈnesəsəri] adj.必要的; 必然的<br>82．improve [ɪmˈpruːv] v.改进; 提高<br>83．security [sɪˈkjʊərəti]安全; 防卫<br>84．community[kəˈmjuːnəti] n.社区.<br>85．energy [ˈenədʒi] n.精力，力气; 能量;<br>86．quality [ˈkwɒləti] n.质量; 素质;<br>87．bank[bæŋk] n.银行 堤岸 has<br>88．exchange [ɪksˈtʃeɪndʒ] v 交换; 兑换 交流;<br>89．stop sb from doing 阻止 sb 做 sth<br>90．stop doing sth 停止做 sth(正在做)<br>91．stop to do sth 停下来去做（另外一件事情）<br>92．fluency[ˈfluːənsi] n.流利；流畅;<br>93．fluent[ˈfluːənt] adj.流畅的; 流利的<br>94．frequent [‘friːkw(ə)nt] adj.频繁的;<br>95．frequency [ˈfriːkwənsi] n.频繁性; 次数<br>96．efficient [ɪˈfɪʃnt] adj.有效率的</p>
-<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>97．efficiency [ɪˈfɪʃnsi] n.效率<br>98．rather [ˈrɑ:ðə(r)] adv.稍微，有点；相当<br>99．be born in 出生在….<br>100．alive [əˈlaɪv] adj.活着的;<br>101．lively [ˈlaɪvli] adj.充满活力的；活泼的<br>102．unreasonable [ʌnˈri:znəbl] adj.不合理的<br>103．the developing countries 发展中国家<br>104．the developed countries 发达国家<br>105．connect [kəˈnekt] vt.连接，联结<br>106．associate [əˈsəʊʃieɪt] vt.（使）发生联系；（使）联合<br>107．is willing to do sth 乐意做 sth<br>108．peculiar [pɪˈkju:liə(r)] adj.奇怪的，古怪的<br>109．unusual [ʌnˈju:ʒuəl] adj.不常见的，不普通的<br>110．remember doing sth 记得做过<br>111．A lot of &#x3D;lots of +可复、不可数<br>112．a lot adv 很 修饰 adj adv<br>113．official [əˈfɪʃl] adj.官方的; 公务的; 公开的<br>114．office [ˈɒfɪs] n.办公室; 办公楼<br>115．employee [ɪmˈplɔɪiː] n.受雇者; 雇员;.<br>116．seriously [ˈsɪəriəsli] adv.严肃地; 认真地;严重地<br>117．prepare for 为…..做准备<br>118．final [ˈfaɪnl] adj.最后的; 末了的<br>119．The final exam. 期末考试<br>120．insist [ɪnˈsɪst] v.坚持; 坚称说<br>121．Insist on doing sth 坚持做 sth<br>122．It’s none of your business. 不关你的事。<br>123．trifle [ˈtraɪfl] n.琐事<br>124．event [ɪˈvent] n.事件; 活动; 比赛项目<br>125．incident [ˈɪnsɪdənt] n.事件，事变; 小插曲;<br>126．be worried about&#x3D;worry about 担心 焦虑</p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>词汇</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>英语表达</title>
     <url>/2022/09/05/2022-09-05-%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%A1%A8%E8%BE%BE/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/T3G8WU0N2Q_YCVJ852J-1024x630.jpg"></p>
@@ -391,6 +320,109 @@
       </tags>
   </entry>
   <entry>
+    <title>名词性从句</title>
+    <url>/2022/09/05/2022-09-05-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/oK3TNlXaok.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本概念"><a href="#一，基本概念" class="headerlink" title="一，基本概念"></a>一，基本概念</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/709fa3c700d45f7f62a565cba512353.jpg" alt="0"></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<h2 id="二，连接词"><a href="#二，连接词" class="headerlink" title="二，连接词"></a>二，连接词</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d623fd7d36554e573cb3833e0cc8d9a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c7d41448626479615536202ce299d64.jpg"></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>在句首表是否只能用whether</p>
+</blockquote>
+<h2 id="三，主语从句"><a href="#三，主语从句" class="headerlink" title="三，主语从句"></a>三，主语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f0baa22d3c2327278b5082dbbefe3ec.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8c16990706cd89b5a6061b3af20637.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5a5b48f1397afdef3d80de8c2c2ebe0.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="四，宾语从句"><a href="#四，宾语从句" class="headerlink" title="四，宾语从句"></a>四，宾语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f2379ca309137a1bee8016ac2494a9.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e943fafbf331cb0969774155084b34.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ec28e8ddd51ec587bfe8499edb9663d.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d9c5225f3cd5876977c438d441928d6.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="五，表语从句"><a href="#五，表语从句" class="headerlink" title="五，表语从句"></a>五，表语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92cf46328bb09b326093594db526776.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c5ef32fa520aa71546297ff76fe1940.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/300681f3bfb9696fd30498edb8c94a8.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="六，同位语从句"><a href="#六，同位语从句" class="headerlink" title="六，同位语从句"></a>六，同位语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/328fd083692cda1046aa17a25e687c0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/761d3f7318774f2f967d88e762aaca0.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a0252f29c9a37df4c1739539a7c6451.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>补充：suggestion 建议</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2008 part 1</title>
+    <url>/2022/09/24/2022-09-24-2008-part-1/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10003-1-1024x576.webp"></p>
+<span id="more"></span>
+
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1．experience [ɪkˈspɪəriəns] n 经历 经验 v 经历<br>2．shortage [ˈʃɔ:tɪdʒ] n.不足，缺点；缺少<br>3．income [ˈɪnkʌm] n.收入，进款<br>4．wealth [welθ] n.财产，财富</p>
+<p>5．wealthy [ˈwelθi] adj.富有的；充分的;<br>6．expense [ɪkˈspens] n.费用；花费的钱<br>7．in need 在危难中，在危急中<br>8．friend in need is a friend indeed. 患难见真情。<br>9．in trouble 在困境中<br>10．in detail 详细地<br>11．In particular 特别 尤其<br>12．profit[ˈprɒfɪt]n.利润; 好处;v.获益; 得益于<br>13．single [ˈsɪŋɡl] adj.单一的; 未婚的<br>14．emergency [iˈmɜːdʒənsi] n.紧急事件;<br>15．dilemma [dɪˈlemə] n.窘境，困境<br>16．In a dilemma 在困境中<br>17．disaster [dɪˈzɑ:stə(r)] n.灾难; 不幸;<br>18．trade [treɪd] n.贸易，交易;<br>19．challenge [ˈtʃælɪndʒ] n&#x2F;v 挑战<br>20．difference [ˈdɪfrəns] n.差别，差额;<br>21．different [ˈdɪfrənt] adj.不同的；各式各样的不同的<br>22．struggle [ˈstrʌɡl] v&#x2F;n.奋斗; 斗争 挣扎<br>23．under repair 在修理中<br>24．repair [rɪˈpeə(r)] v&#x2F;n.修理，修补;<br>25．construction [kənˈstrʌkʃn] n.建造; 施工; 建筑（物）<br>26．threat [θret] n.威胁; 征兆;<br>27．under threat 受到威胁<br>28．under control 在控制中<br>29．out of control 失控<br>30．star [stɑ:(r)] n.星; 明星;v.主演;<br>31．popular [ˈpɒpjələ(r)] adj.流行的，受欢迎的<br>32．familiar [fəˈmɪliə(r)] adj.熟悉的; 通晓;</p>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>33．similar [ˈsɪmələ(r)] adj.相似的<br>34．be similar to 与….相似<br>35．In power 当权 执政<br>36．In trouble 在困境中<br>37．In order 井然有序<br>38．In disorder&#x3D;in a mess 混乱 杂乱<br>39．In order to do 为了做<br>40．In order that+ 句子 为了<br>41．hold [həʊld]拿着; 持有; 容纳<br>42．firm [fɜːm] n.公司; adj.坚固的 坚定的;<br>43．belief [bɪˈli:f] n.信念，信仰<br>44．recognition [ˌrekəɡˈnɪʃn] n.认识，识别;<br>45．recognize [ˈrekəɡnaɪz] vt.认出; 识别;<br>46．adoption [əˈdɒpʃn] n.收养，领养; 采用<br>47．adopt [əˈdɒpt] v.领养; 采用;采纳<br>48．invention [ɪnˈvenʃn] n.发明; 创造<br>49．invent [ɪnˈvent] v.发明; 创造<br>50．shortcoming [ˈʃɔːtkʌmɪŋ] n.短处，缺点<br>51．strength [streŋθ] n.体力; 优点;.<br>52．advantage [ədˈvɑːntɪdʒ] n.有利条件; 优势; 优点，好处<br>53．strengthen [ˈstreŋθn] v.巩固; 加强<br>54．share [ʃeə(r)] v.共有， 分享; 分担;n.一份; 股份，股票<br>55．reward [rɪˈwɔːd] n&#x2F;v.报酬; 奖励，<br>56．in return 作为回报<br>57．decorate [ˈdekəreɪt] v.装饰; 装点<br>58．As 正如 we all know<br>59．profitable [ˈprɒfɪtəbl] adj.有利可图的，可赚钱的<br>60．risky. [ˈrɪski]adj.冒险的，危险的;<br>61．As is known to all, 众所周知<br>62．concern [kənˈsɜːn] n.担心; 令人担心的事; v.涉及; 使担忧; 关心<br>63．bargain [ˈbɑ：ɡən] n.便宜货; 交易 v 商谈; 讨价还价;<br>64．affair [əˈfeə(r)] n.事务，私事;</p>
+<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>65．internal [ɪnˈtɜːnl] adj.内部的; 国内的;<br>66．Internal affair 内政<br>67．As far as I know,据我所知<br>68．ordinary [ˈɔːdnri] adj.普通的; 平庸的<br>69．ordinary people 普通人<br>70．interest [ˈɪntrəst] n.兴趣; 爱好; 利息; 利益;v.使感兴趣<br>71．specific [spəˈsɪfɪk] adj.明确的；具体的<br>72．especial [ɪˈspeʃl] adj.特别的，尤其的;<br>73．special [ˈspeʃl] adj.特殊的; 重要的;<br>74．inevitably [ɪnˈevɪtəbli]adv.不可避免地; 必然地;<br>75．cause [kɔːz] v.导致，引起;n.原因; 理由<br>76．factor [ˈfæktə(r)] n.因素<br>77．had better do sth 最好做<br>78．assign [əˈsaɪn] v.指派(任务); 分配;<br>79．assignment [əˈsaɪnmənt]n.作业，任务; 分配<br>80．slice [slaɪs] n.薄片; 部分<br>81．necessary [ˈnesəsəri] adj.必要的; 必然的<br>82．improve [ɪmˈpruːv] v.改进; 提高<br>83．security [sɪˈkjʊərəti]安全; 防卫<br>84．community[kəˈmjuːnəti] n.社区.<br>85．energy [ˈenədʒi] n.精力，力气; 能量;<br>86．quality [ˈkwɒləti] n.质量; 素质;<br>87．bank[bæŋk] n.银行 堤岸 has<br>88．exchange [ɪksˈtʃeɪndʒ] v 交换; 兑换 交流;<br>89．stop sb from doing 阻止 sb 做 sth<br>90．stop doing sth 停止做 sth(正在做)<br>91．stop to do sth 停下来去做（另外一件事情）<br>92．fluency[ˈfluːənsi] n.流利；流畅;<br>93．fluent[ˈfluːənt] adj.流畅的; 流利的<br>94．frequent [‘friːkw(ə)nt] adj.频繁的;<br>95．frequency [ˈfriːkwənsi] n.频繁性; 次数<br>96．efficient [ɪˈfɪʃnt] adj.有效率的</p>
+<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>97．efficiency [ɪˈfɪʃnsi] n.效率<br>98．rather [ˈrɑ:ðə(r)] adv.稍微，有点；相当<br>99．be born in 出生在….<br>100．alive [əˈlaɪv] adj.活着的;<br>101．lively [ˈlaɪvli] adj.充满活力的；活泼的<br>102．unreasonable [ʌnˈri:znəbl] adj.不合理的<br>103．the developing countries 发展中国家<br>104．the developed countries 发达国家<br>105．connect [kəˈnekt] vt.连接，联结<br>106．associate [əˈsəʊʃieɪt] vt.（使）发生联系；（使）联合<br>107．is willing to do sth 乐意做 sth<br>108．peculiar [pɪˈkju:liə(r)] adj.奇怪的，古怪的<br>109．unusual [ʌnˈju:ʒuəl] adj.不常见的，不普通的<br>110．remember doing sth 记得做过<br>111．A lot of &#x3D;lots of +可复、不可数<br>112．a lot adv 很 修饰 adj adv<br>113．official [əˈfɪʃl] adj.官方的; 公务的; 公开的<br>114．office [ˈɒfɪs] n.办公室; 办公楼<br>115．employee [ɪmˈplɔɪiː] n.受雇者; 雇员;.<br>116．seriously [ˈsɪəriəsli] adv.严肃地; 认真地;严重地<br>117．prepare for 为…..做准备<br>118．final [ˈfaɪnl] adj.最后的; 末了的<br>119．The final exam. 期末考试<br>120．insist [ɪnˈsɪst] v.坚持; 坚称说<br>121．Insist on doing sth 坚持做 sth<br>122．It’s none of your business. 不关你的事。<br>123．trifle [ˈtraɪfl] n.琐事<br>124．event [ɪˈvent] n.事件; 活动; 比赛项目<br>125．incident [ˈɪnsɪdənt] n.事件，事变; 小插曲;<br>126．be worried about&#x3D;worry about 担心 焦虑</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>词汇</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2008 part 2</title>
     <url>/2022/09/24/2022-09-24-2008-part-2/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-g7o23q.jpg"></p>
@@ -410,99 +442,6 @@
       </categories>
       <tags>
         <tag>词汇</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>定积分</title>
-    <url>/2022/09/24/2022-09-24-%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
-<span id="more"></span>
-
-<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cd26595da525277af03391a8aa1c23.jpg" style="zoom: 50%;" />
-
-<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><blockquote>
-<p>不定积分的f(x)代表的是全体原函数</p>
-</blockquote>
-<blockquote>
-<p>定积分的f(x)代表的是一个数</p>
-</blockquote>
-<blockquote>
-<p>变限积分的f(x)代表的是一个原函数</p>
-</blockquote>
-<h2 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba154dbd8cad83066b529699266c83b.jpg" style="zoom: 50%;" />
-
-
-
-<h2 id="变限积分"><a href="#变限积分" class="headerlink" title="变限积分"></a>变限积分</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c3d65742c6815ad77a364da3d10a07f.jpg" style="zoom: 33%;" /></th>
-<th></th>
-</tr>
-</thead>
-</table>
-<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182420.jpg" style="zoom:150%;" />
-
-<h2 id="定积分的性质："><a href="#定积分的性质：" class="headerlink" title="定积分的性质："></a>定积分的性质：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182717.jpg" style="zoom:80%;" />
-
-<h3 id="性质6的应用："><a href="#性质6的应用：" class="headerlink" title="性质6的应用："></a>性质6的应用：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a6bb69159ec47a8cd237062c4c7b781.jpg" style="zoom: 67%;" />
-
-<h2 id="积分中值定理："><a href="#积分中值定理：" class="headerlink" title="积分中值定理："></a>积分中值定理：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f364ec782e26725ed2c28bbf78a350f.jpg" style="zoom:33%;" />
-
-<h2 id="偶倍奇零"><a href="#偶倍奇零" class="headerlink" title="偶倍奇零"></a>偶倍奇零</h2><blockquote>
-<p>当被积函数有奇偶性时，直接用结论。没有奇偶性时，套公式。</p>
-</blockquote>
-<h3 id="结论："><a href="#结论：" class="headerlink" title="结论："></a>结论：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5799ec26ad6df8a10fa827152d9498.jpg" style="zoom:33%;" />
-
-
-<h3 id="公式（适用于对称区间的定积分）："><a href="#公式（适用于对称区间的定积分）：" class="headerlink" title="公式（适用于对称区间的定积分）："></a>公式（适用于对称区间的定积分）：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5274285386467cc265773aafccdc3fd.jpg" style="zoom:50%;" />
-
-
-
-<h2 id="广义积分"><a href="#广义积分" class="headerlink" title="广义积分"></a>广义积分</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bf7c49e015f0eef61edaa11d3d0d96b.jpg" style="zoom:33%;" />
-
-<hr>
-<p>1.p:分母与分子的最高次方之差；<br>2.积分上下限不一定是0到a，a到b适用规则也一样；<br>3.第一象限内，单增函数的无穷广义积分一定发散，单减函数的无穷广义积分未必收敛；<br>4.震荡函数的无穷广义积分一定发散；<br>5.否则，进行计算：能代则代，不能代单侧取极限；</p>
-<h2 id="可积的条件"><a href="#可积的条件" class="headerlink" title="可积的条件"></a>可积的条件</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f9c1792a64cfee1c5436f8c64c452fc.jpg" style="zoom: 33%;" />
-
-<h3 id="牛顿-莱布尼茨公式"><a href="#牛顿-莱布尼茨公式" class="headerlink" title="牛顿-莱布尼茨公式"></a>牛顿-莱布尼茨公式</h3><blockquote>
-<p>通常也被称为微积分基本定理，揭示了定积分与被积函数的原函数或者不定积分之间的联系。</p>
-</blockquote>
-<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 184402.jpg" style="zoom:80%;" />
-
-<h2 id="特殊积分："><a href="#特殊积分：" class="headerlink" title="特殊积分："></a>特殊积分：</h2><h3 id="分段函数的定积分："><a href="#分段函数的定积分：" class="headerlink" title="分段函数的定积分："></a>分段函数的定积分：</h3><p>1.被积函数为f(x): 分段点插入，找到对应函数再积分。<br>2.被积函数为f[∅(x)]: 动前不动后</p>
-<p>case:</p>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f9c9cc2d8b53efc80841c167f17041.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c705bfb3243c2ff19f464f43a5be6.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a85137bfc197f091495e34a19bb8033.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="华里士公式"><a href="#华里士公式" class="headerlink" title="华里士公式"></a>华里士公式</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/v2-28fdb926e4ba3113da4b1ef7fbf8adbf_1440w.jpg"></p>
-<h2 id="定积分的应用："><a href="#定积分的应用：" class="headerlink" title="定积分的应用："></a>定积分的应用：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f56d04fc971e8075baaecf2d82ad09f.jpg" style="zoom: 33%;" />
-
-
-
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/228ce586a8964ea655ae1bd68162777.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7db638a82674a5728418a0b5294c1d1.jpg"></th>
-</tr>
-</thead>
-</table>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>积分</tag>
       </tags>
   </entry>
   <entry>
@@ -655,6 +594,119 @@
       </tags>
   </entry>
   <entry>
+    <title>定积分</title>
+    <url>/2022/09/24/2022-09-24-%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
+<span id="more"></span>
+
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cd26595da525277af03391a8aa1c23.jpg" style="zoom: 50%;" />
+
+<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><blockquote>
+<p>不定积分的f(x)代表的是全体原函数</p>
+</blockquote>
+<blockquote>
+<p>定积分的f(x)代表的是一个数</p>
+</blockquote>
+<blockquote>
+<p>变限积分的f(x)代表的是一个原函数</p>
+</blockquote>
+<h2 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba154dbd8cad83066b529699266c83b.jpg" style="zoom: 50%;" />
+
+
+
+<h2 id="变限积分"><a href="#变限积分" class="headerlink" title="变限积分"></a>变限积分</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c3d65742c6815ad77a364da3d10a07f.jpg" style="zoom: 33%;" /></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182420.jpg" style="zoom:150%;" />
+
+<h2 id="定积分的性质："><a href="#定积分的性质：" class="headerlink" title="定积分的性质："></a>定积分的性质：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182717.jpg" style="zoom:80%;" />
+
+<h3 id="性质6的应用："><a href="#性质6的应用：" class="headerlink" title="性质6的应用："></a>性质6的应用：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a6bb69159ec47a8cd237062c4c7b781.jpg" style="zoom: 67%;" />
+
+<h2 id="积分中值定理："><a href="#积分中值定理：" class="headerlink" title="积分中值定理："></a>积分中值定理：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f364ec782e26725ed2c28bbf78a350f.jpg" style="zoom:33%;" />
+
+<h2 id="偶倍奇零"><a href="#偶倍奇零" class="headerlink" title="偶倍奇零"></a>偶倍奇零</h2><blockquote>
+<p>当被积函数有奇偶性时，直接用结论。没有奇偶性时，套公式。</p>
+</blockquote>
+<h3 id="结论："><a href="#结论：" class="headerlink" title="结论："></a>结论：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5799ec26ad6df8a10fa827152d9498.jpg" style="zoom:33%;" />
+
+
+<h3 id="公式（适用于对称区间的定积分）："><a href="#公式（适用于对称区间的定积分）：" class="headerlink" title="公式（适用于对称区间的定积分）："></a>公式（适用于对称区间的定积分）：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5274285386467cc265773aafccdc3fd.jpg" style="zoom:50%;" />
+
+
+
+<h2 id="广义积分"><a href="#广义积分" class="headerlink" title="广义积分"></a>广义积分</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bf7c49e015f0eef61edaa11d3d0d96b.jpg" style="zoom:33%;" />
+
+<hr>
+<p>1.p:分母与分子的最高次方之差；<br>2.积分上下限不一定是0到a，a到b适用规则也一样；<br>3.第一象限内，单增函数的无穷广义积分一定发散，单减函数的无穷广义积分未必收敛；<br>4.震荡函数的无穷广义积分一定发散；<br>5.否则，进行计算：能代则代，不能代单侧取极限；</p>
+<h2 id="可积的条件"><a href="#可积的条件" class="headerlink" title="可积的条件"></a>可积的条件</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f9c1792a64cfee1c5436f8c64c452fc.jpg" style="zoom: 33%;" />
+
+<h3 id="牛顿-莱布尼茨公式"><a href="#牛顿-莱布尼茨公式" class="headerlink" title="牛顿-莱布尼茨公式"></a>牛顿-莱布尼茨公式</h3><blockquote>
+<p>通常也被称为微积分基本定理，揭示了定积分与被积函数的原函数或者不定积分之间的联系。</p>
+</blockquote>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 184402.jpg" style="zoom:80%;" />
+
+<h2 id="特殊积分："><a href="#特殊积分：" class="headerlink" title="特殊积分："></a>特殊积分：</h2><h3 id="分段函数的定积分："><a href="#分段函数的定积分：" class="headerlink" title="分段函数的定积分："></a>分段函数的定积分：</h3><p>1.被积函数为f(x): 分段点插入，找到对应函数再积分。<br>2.被积函数为f[∅(x)]: 动前不动后</p>
+<p>case:</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f9c9cc2d8b53efc80841c167f17041.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c705bfb3243c2ff19f464f43a5be6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a85137bfc197f091495e34a19bb8033.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="华里士公式"><a href="#华里士公式" class="headerlink" title="华里士公式"></a>华里士公式</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/v2-28fdb926e4ba3113da4b1ef7fbf8adbf_1440w.jpg"></p>
+<h2 id="定积分的应用："><a href="#定积分的应用：" class="headerlink" title="定积分的应用："></a>定积分的应用：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f56d04fc971e8075baaecf2d82ad09f.jpg" style="zoom: 33%;" />
+
+
+
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/228ce586a8964ea655ae1bd68162777.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7db638a82674a5728418a0b5294c1d1.jpg"></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>积分</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对Typora的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
+<span id="more"></span>
+
+<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
+<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
+<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
+<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
+<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>Typora教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>对Git与GitHub的探索</title>
     <url>/2022/09/24/2022-09-24-%E5%AF%B9Git%E4%B8%8EGitHub%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
     <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
@@ -774,26 +826,6 @@
       </categories>
       <tags>
         <tag>python爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对Typora的探索</title>
-    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
-<span id="more"></span>
-
-<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
-<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
-<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
-<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
-<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>Typora教程</tag>
       </tags>
   </entry>
   <entry>
@@ -1024,6 +1056,54 @@
       </tags>
   </entry>
   <entry>
+    <title>思考-0</title>
+    <url>/2022/09/05/%E6%80%9D%E8%80%83-0/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
+<span id="more"></span>
+
+<blockquote>
+<p>告诉我知识，我会忘，教导我知识，我只会记得，让我深入其中，我才能真正学习<br>热情与好奇，是实现一切可能的基石.</p>
+</blockquote>
+<blockquote>
+<p>你不能强迫一个人爱上你，但你可以制造机会</p>
+</blockquote>
+<blockquote>
+<p>规则存在的意义就是快速的帮你做出选择<br>比如，游戏就是有一套规则，然后我们用规则去答题</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>今日不肯埋头，明日何以抬头</p>
+</blockquote>
+<blockquote>
+<p>学到知识了，就要想想做点不一样的事，即没学前办不到的事情</p>
+</blockquote>
+<blockquote>
+<p>问题是学习的目的，学习要问出来</p>
+</blockquote>
+<blockquote>
+<p>先有想法再把它做出来</p>
+</blockquote>
+<blockquote>
+<p>找到你心中真正的热爱，并追求它，把每一天当做最后一天去度过</p>
+</blockquote>
+<blockquote>
+<p>每个人都应该学习如何为计算机写程序，因为它能教你如何思考</p>
+</blockquote>
+<blockquote>
+<p>要有问题，就讲出来，不然就是你的问题</p>
+</blockquote>
+<blockquote>
+<p>念念不忘,必有回响,有一口气,点一盏灯。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>基于GitHub和hexo建站</title>
     <url>/2022/08/28/%E5%9F%BA%E4%BA%8EGitHub%E5%92%8Chexo%E5%BB%BA%E7%AB%99/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/096d8b2213993d4ff71ab05fa2bc4b1.jpg"></p>
@@ -1080,7 +1160,7 @@
 <p>创建一个项目 hexo-blog 并初始化<br>hexo init hexo-blog<br>cd hexo-blog<br>npm install</p>
 <p>本地启动，预览<br>hexo g<br>hexo server</p>
 <p>部署到GitHub</p>
-<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#109;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
+<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#111;&#x6d;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
 <p>安装 npm 部署插件<br>npm install hexo-deployer-git –save</p>
 <p>进入分支<br>git init</p>
 <p>上传三连<br> hexo clean<br> hexo g<br> hexo d </p>
@@ -1092,54 +1172,6 @@
       </categories>
       <tags>
         <tag>hexo教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思考-0</title>
-    <url>/2022/09/05/%E6%80%9D%E8%80%83-0/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
-<span id="more"></span>
-
-<blockquote>
-<p>告诉我知识，我会忘，教导我知识，我只会记得，让我深入其中，我才能真正学习<br>热情与好奇，是实现一切可能的基石.</p>
-</blockquote>
-<blockquote>
-<p>你不能强迫一个人爱上你，但你可以制造机会</p>
-</blockquote>
-<blockquote>
-<p>规则存在的意义就是快速的帮你做出选择<br>比如，游戏就是有一套规则，然后我们用规则去答题</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>今日不肯埋头，明日何以抬头</p>
-</blockquote>
-<blockquote>
-<p>学到知识了，就要想想做点不一样的事，即没学前办不到的事情</p>
-</blockquote>
-<blockquote>
-<p>问题是学习的目的，学习要问出来</p>
-</blockquote>
-<blockquote>
-<p>先有想法再把它做出来</p>
-</blockquote>
-<blockquote>
-<p>找到你心中真正的热爱，并追求它，把每一天当做最后一天去度过</p>
-</blockquote>
-<blockquote>
-<p>每个人都应该学习如何为计算机写程序，因为它能教你如何思考</p>
-</blockquote>
-<blockquote>
-<p>要有问题，就讲出来，不然就是你的问题</p>
-</blockquote>
-<blockquote>
-<p>念念不忘,必有回响,有一口气,点一盏灯。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
