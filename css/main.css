@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7d3098;
+  background: #5df0f0;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2778,4 +2778,10 @@ body {
 }
 .popup {
   opacity: 0.9;
+}
+blockquote.question {
+  color: #555;
+  border-left: 4px solid #1098ad;
+  background-color: #e3f2fd;
+  margin-bottom: 20px;
 }
