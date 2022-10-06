@@ -135,23 +135,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Pycharm的安装与使用</title>
-    <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a03ea1a5f8cd4de49682ff301645bd6c.png"></p>
-<span id="more"></span>
-
-<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
-<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
-<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
-]]></content>
-      <categories>
-        <category>软件使用</category>
-      </categories>
-      <tags>
-        <tag>软件教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>next-主题配置</title>
     <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
@@ -192,6 +175,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Pycharm的安装与使用</title>
+    <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a03ea1a5f8cd4de49682ff301645bd6c.png"></p>
+<span id="more"></span>
+
+<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
+<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
+<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
+]]></content>
+      <categories>
+        <category>软件使用</category>
+      </categories>
+      <tags>
+        <tag>软件教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>对hexo的探索</title>
     <url>/2022/09/04/2022-09-04-%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
     <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载 (1).png" style="zoom:200%;" />
@@ -207,7 +207,7 @@
 <p>  新建页面<br>post 文章   draft  草稿</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
 
-<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#x6c;&#x69;&#117;&#x30;&#x30;&#x33;&#50;&#x35;&#x31;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x6c;&#x69;&#117;&#x30;&#x30;&#x33;&#50;&#x35;&#x31;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a>“</p>
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#x75;&#x30;&#48;&#51;&#x32;&#53;&#49;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#108;&#105;&#x75;&#x30;&#48;&#51;&#x32;&#53;&#49;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a>“</p>
 <p> 初始化一个Git仓库</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
 
@@ -284,7 +284,38 @@
 <th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7384812926fccd17daa58dd73934784.jpg"></th>
 </tr>
 </thead>
-</table>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e7f09e773bd37eb9fc42f54a310a2e5.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="多元函数的极值和条件极值"><a href="#多元函数的极值和条件极值" class="headerlink" title="多元函数的极值和条件极值"></a>多元函数的极值和条件极值</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf2d493ce10176615b5d26261123770.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e6fcabfb92a0653c1c2958d577ad0d2.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ba1ce85ae683ae7d9021f24e7d3f2b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/419a73da07f17cbe24124bddfbb63b4.jpg"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>求条件极值时，当有约束条件且约束条件简单，可以直接转换成一元最值问题。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8a83a2a3abe288d493501ba7e44345e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b73c5105da3a5216c24ef287a2f8ace.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0b6523710aab23f46821532fcb7e187.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
 ]]></content>
       <categories>
         <category>数学</category>
@@ -554,350 +585,6 @@
       </categories>
       <tags>
         <tag>句子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2009 part</title>
-    <url>/2022/09/24/2022-09-24-2009-part/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10003-1-1024x576.webp"></p>
-<span id="more"></span>
-
-<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1．is known to 为…所知 2．go abroad 去国外 3．the three-child policy 三胎政策 4．square &#x2F;skweə(r)&#x2F;正方形 广场 5．square dance 广场舞 6．resident [ˈrezɪdənt] 居民 7．infect [ɪnˈfekt] v.传染; 使感染 影响 8．refund [ˈri:fʌnd] n 资金偿还 v. 退还 9．script [skrɪpt] n 脚本，手迹; 剧本 10．recipe [ˈresəpi] n 食谱 秘诀 11．take medicine 吃药 12．drug[drʌɡ] n.药; 毒品 13．response [rɪˈspɒns] n.答复; 反应; 14．reflection [rɪˈflekʃn] n.倒影; 反射 反映 15．sign [saɪn] n.符号；指示牌;vt&amp;vi.签名 16．sign up for 报名参加 注册 17．speech contest [ˈkɒntest] n.比赛，竞赛 18．differ [ˈdɪfə(r)] v 有区别; 有分歧 19．different 不同的 20．difference 区别 差异 不同 21．vary [ˈveəri] v.不同; 变化 22．various[ˈveəriəs] adj.各种各样的; 千差万别的; 23．recognize [ˈrekəgnaɪz] v 认出; 识别 24．existence [ɪgˈzɪstəns] n.存在; 生活 25．bachelor [ˈbætʃələ(r)] n.单身汉; 学士 26．bring up 养育 抚养 27．supervision [ˌsju:pə’vɪʒn] n. 监督; 管理 28．make achievements 取得成就 29．medical [ˈmedɪkl] adj.医学的 30．medicine [ˈmedsn] n.医学；药物 </p>
-<table>
-<thead>
-<tr>
-<th>1．is known to</th>
-<th>11．take medicine</th>
-<th>21．vary [ˈveəri]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>2．go abroad</td>
-<td>12．drug[drʌɡ]</td>
-<td>22．various[ˈveəriəs]</td>
-</tr>
-<tr>
-<td>3.  the three-child policy</td>
-<td>13．response [rɪˈspɒns]</td>
-<td>23．recognize [ˈrekəgnaɪz]</td>
-</tr>
-<tr>
-<td>4．square &#x2F;skweə(r)</td>
-<td>14．reflection [rɪˈflekʃn]</td>
-<td>24．existence [ɪgˈzɪstəns]</td>
-</tr>
-<tr>
-<td>5．square dance</td>
-<td>15．sign [saɪn]</td>
-<td>25．bachelor [ˈbætʃələ(r)]</td>
-</tr>
-<tr>
-<td>6．resident [ˈrezɪdənt]</td>
-<td>16．sign up for</td>
-<td>26．bring up</td>
-</tr>
-<tr>
-<td>7．infect [ɪnˈfekt]</td>
-<td>17．speech contest</td>
-<td>27．supervision [ˌsju:pə’vɪʒn]</td>
-</tr>
-<tr>
-<td>8．refund [ˈri:fʌnd]</td>
-<td>18．differ [ˈdɪfə(r)]</td>
-<td>28．make achievements</td>
-</tr>
-<tr>
-<td>9．script [skrɪpt]</td>
-<td>19．different</td>
-<td>29．medical [ˈmedɪkl]</td>
-</tr>
-<tr>
-<td>10．recipe [ˈresəpi]</td>
-<td>20．difference</td>
-<td>30．medicine [ˈmedsn]</td>
-</tr>
-</tbody></table>
-<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>31．case [keɪs] n.情况; 事例; 案件 32．stage [steɪdʒ] n 阶段; 舞台 33．pocket [ˈpɒkɪt] n.衣袋; 小容器; 34．note [nəʊt] n. 笔记；钞票; vt.注意；记录 35．take notes 做笔记 36．charge &#x2F;tʃɑːdʒ&#x2F; v 指控 充电 要价 收费 37．be charged with 被控告 38．be accused of 被指责 39．challenge [ˈtʃæləndʒ] v 挑战 40．flash charge 闪充 快充 41．change [tʃeɪndʒ] v. 改变 变化 n 零钱 42．persist [pəˈsɪst] v.坚持；固执 43．persist in (doing) sth 坚持(做)sth 44．the latest news&#x2F;fashions 45．prefer to do&#x2F;doing 宁愿做 更喜欢做 46．prefer to do rather than do 宁愿做…..而不是 47．equivalent [ɪˈkwɪvələnt] adj.相等的，相当的 48．amount [əˈmaʊnt] n 数量；总额 49．exchange [ɪksˈtʃeɪndʒ] n.交换；交易 50．bargain [ˈbɑ:gən] vi. 讨价还价 51．practice [ˈpræktɪs] n.练习；实践；v 练习 52．practice doing 练习做 sth 53．Practice makes perfect！ 熟能生巧！ 54．department [dɪˈpɑ:tmənt] n.部门，部；系 55．Foreign department 56．pack [pæk] vi. （把…）打包包装 57．iceberg [ˈaɪsbɜ:g] n.冰山；一小部分；冷若冰霜的人; 58．pole [pəʊl] n 极点 地极 59．melt [melt] v 熔化，溶解 融化 60．trend [trend] n. 走向；趋向；时尚 </p>
-<table>
-<thead>
-<tr>
-<th>31．case [keɪs]</th>
-<th>41．change [tʃeɪndʒ]</th>
-<th>51．practice [ˈpræktɪs]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>32．stage [steɪdʒ]</td>
-<td>42．persist [pəˈsɪst]</td>
-<td>52．practice doing sth</td>
-</tr>
-<tr>
-<td>33．pocket [ˈpɒkɪt]</td>
-<td>43．persist in (doing) sth</td>
-<td>53．Practice makes perfect！</td>
-</tr>
-<tr>
-<td>34．note [nəʊt]</td>
-<td>44．the latest news&#x2F;fashions</td>
-<td>54．department [dɪˈpɑ:tmənt]</td>
-</tr>
-<tr>
-<td>35．take notes</td>
-<td>45．prefer to do&#x2F;doing</td>
-<td>55．Foreign department</td>
-</tr>
-<tr>
-<td>36．charge &#x2F;tʃɑːdʒ&#x2F;</td>
-<td>46．prefer to do rather than do</td>
-<td>56．pack [pæk]</td>
-</tr>
-<tr>
-<td>37．be charged with</td>
-<td>47．equivalent [ɪˈkwɪvələnt]</td>
-<td>57．iceberg [ˈaɪsbɜ:g]</td>
-</tr>
-<tr>
-<td>38．be accused of</td>
-<td>48．amount [əˈmaʊnt]</td>
-<td>58．pole [pəʊl]</td>
-</tr>
-<tr>
-<td>39．challenge [ˈtʃæləndʒ]</td>
-<td>49．exchange</td>
-<td>59．melt [melt]</td>
-</tr>
-<tr>
-<td>40．flash charge</td>
-<td>50．bargain [ˈbɑ:gən]</td>
-<td>60．trend [trend]</td>
-</tr>
-</tbody></table>
-<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>61．witness [ˈwɪtnəs]n.目击者 v 见证 见证; 62．naive [naɪˈi:v] adj.幼稚的；天真的<br>63．mature [məˈtʃʊə(r)] adj 成熟的 64．management&#x2F;ˈmænɪdʒmənt&#x2F;n. 经营，管理 65．destination &#x2F;ˌdestɪˈneɪʃn&#x2F; n. 目的地，终点，目标 66．delight &#x2F;dɪˈlaɪt&#x2F; n. 高兴；令人高兴的人或物 67．To one’s delight&#x2F;disappointment&#x2F;surprise<br>让某人高兴&#x2F;失望&#x2F;吃惊的是 68．discard &#x2F;dɪˈskɑːd&#x2F; v. 扔掉，弃置 抛弃 69．Take the essence and discard the dregs. 取其精华，去其糟粕。<br>70．dreg &#x2F;dreɡ&#x2F; n. 渣滓；沉淀物 71．select &#x2F;sɪˈlekt&#x2F; v. 选择，挑选 72．essence &#x2F;ˈes(ə)ns&#x2F; n 精华 要素 本质 73．affection &#x2F;əˈfekʃn&#x2F; n. 喜爱，关爱；爱恋，爱慕之情</p>
-<table>
-<thead>
-<tr>
-<th>61．witness [ˈwɪtnəs]</th>
-<th>71．select &#x2F;sɪˈlekt&#x2F;</th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>62．naive [naɪˈi:v]</td>
-<td>72．essence &#x2F;ˈes(ə)ns&#x2F;</td>
-<td></td>
-</tr>
-<tr>
-<td>63．mature [məˈtʃʊə(r)]</td>
-<td>73．affection &#x2F;əˈfekʃn&#x2F;</td>
-<td></td>
-</tr>
-<tr>
-<td>64．management&#x2F;ˈmænɪdʒmənt&#x2F;</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>65．destination &#x2F;ˌdestɪˈneɪʃn&#x2F;</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>66．delight &#x2F;dɪˈlaɪt&#x2F;</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>67．To one’s delight&#x2F;disappointment&#x2F;surprise</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>68．discard &#x2F;dɪˈskɑːd&#x2F;</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>69．Take the essence and discard the dregs.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>70．dreg &#x2F;dreɡ&#x2F;</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>1．extreme [ɪkˈstri:m] adj.极端的，过激的；极限的<br>2．extreme sports 极限运动<br>3．skydiving [ˈskaɪdaɪvɪŋ] n 跳伞<br>4．risk doing 冒险做 sth<br>5．imagine doing 想像做 sth<br>6．mind doing sth 介意做<br>7．allow&#x2F;permit&#x2F;forbid&#x2F;advise doing sth<br>8．允许&#x2F;允许&#x2F;禁止&#x2F;建议做 sth<br>9．allow&#x2F;&#x2F;permit&#x2F;forbid&#x2F;advise sb to do sth<br>10．dare [deə(r)] v 敢 敢于<br>11．dare to do<br>12．effort [ˈefət] n. 努力，尝试<br>13．require [rɪˈkwaɪə(r)] v 要求<br>14．request [rɪˈkwest] v 请求；请求得到<br>15．inquire [ɪn’kwaɪə(r)] vt&amp;vi.打听，询问；查究;<br>16．educational [ˌedʒuˈkeɪʃənl] adj.有教育意义的<br>17．suffer from 遭受 忍受<br>18．recover from 从….中恢复过来<br>19．escape [ɪˈskeɪp] v 逃脱；逃避<br>20．escape doing sth 逃避做 sth<br>21．You mustn’t swim in the river. 你禁止在河里游泳。<br>22．herb [hɜ:b] n. 草，草本植物<br>23．release [rɪˈli:s] vt.释放；放开；发布<br>24．a kind of… 一种…<br>25．all kinds of… 各种各样<br>26．kind of+adj …. 有几分 有一点<br>27．Boys have all kinds of excuses[ɪkˈskju:s] n.借口.<br>28．advanced [ədˈvɑ:nst] adj 高深的 先进的<br>29．resource [rɪˈsɔ:s] n.资源；物力<br>30．waste [weɪst] v 浪费</p>
-<table>
-<thead>
-<tr>
-<th>1．extreme [ɪkˈstri:m]</th>
-<th>12．effort [ˈefət]</th>
-<th>22．herb [hɜ:b]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>2．extreme sports</td>
-<td>13．require [rɪˈkwaɪə(r)]</td>
-<td>23．release [rɪˈli:s]</td>
-</tr>
-<tr>
-<td>3．skydiving</td>
-<td>14．request [rɪˈkwest]</td>
-<td>24．a kind of…</td>
-</tr>
-<tr>
-<td>4．risk doing sth</td>
-<td>15．inquire [ɪn’kwaɪə(r)]</td>
-<td>25．all kinds of…</td>
-</tr>
-<tr>
-<td>5．imagine doing sth</td>
-<td>16．educational [ˌedʒuˈkeɪʃənl]</td>
-<td>26．kind of+adj ….</td>
-</tr>
-<tr>
-<td>6．mind doing sth</td>
-<td>17．suffer from</td>
-<td>27．Boys have all kinds of excuses[ɪkˈskju:s]</td>
-</tr>
-<tr>
-<td>7．allow&#x2F;permit&#x2F;forbid&#x2F;advise doing sth</td>
-<td>18．recover from</td>
-<td>28．advanced [ədˈvɑ:nst]</td>
-</tr>
-<tr>
-<td>9．allow&#x2F;&#x2F;permit&#x2F;forbid&#x2F;advise sb to do sth</td>
-<td>19．escape [ɪˈskeɪp]</td>
-<td>29．resource [rɪˈsɔ:s]</td>
-</tr>
-<tr>
-<td>10．dare [deə(r)]</td>
-<td>20．escape doing sth</td>
-<td>30．waste [weɪst]</td>
-</tr>
-<tr>
-<td>11．dare to do</td>
-<td>You mustn’t swim in the river</td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>31．weight [weɪt] n. 重量，体重<br>32．put on weight 增肥<br>33．lose weight 减肥<br>34．height [haɪt] n.高度，海拔 身高<br>35．be afraid of heights 恐高<br>36．harmful [ˈhɑ:mfl] adj.对…有害的；<br>37．be harmful to 对…..有害<br>38．wound [waʊnd] n.创伤；伤口<br>39．injury [ˈɪndʒəri] n.伤害，损害 (交通事故)<br>40．keep doing 坚持做 sth<br>41．temperature[ˈtemprətʃə(r)]n 温度 气候 ,<br>42．heat [hi:t] n.热，热度<br>43．stroke [strəʊk] n.一击 中风.<br>44．heat stroke 中暑<br>45．lose his temper 发脾气<br>46．control your temper 控制你的脾气<br>47．struggle [ˈstrʌgl] v 搏斗；奋斗 挣扎<br>48．tragedy [ˈtrædʒədi] n.悲剧，惨剧 as<br>49．likely [ˈlaɪkli] adj 可能的<br>50．be likely to do 可能做 sth 51．line [laɪn] n.线条；排；行列. 52．in turn 依次 反过来 轮流 53．by turns 轮流 54．in return 作为回报 55．schedule [ˈʃedju:l] n.时刻表，进度表 56．timetable 时刻表 57．Stand in a line 排队 58．take measures &#x3D;take steps 采取措施 59．take action 采取行动 60．contract [ˈkɒntrækt] n.合同；契约</p>
-<table>
-<thead>
-<tr>
-<th>31．weight [weɪt]</th>
-<th>41．temperature[ˈtemprətʃə(r)]</th>
-<th>51．line [laɪn]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>32．put on weight</td>
-<td>42．heat [hi:t]</td>
-<td>52．in turn</td>
-</tr>
-<tr>
-<td>33．lose weight</td>
-<td>43．stroke [strəʊk]</td>
-<td>53．by turns</td>
-</tr>
-<tr>
-<td>34．height [haɪt]</td>
-<td>44．heat stroke</td>
-<td>54．in return</td>
-</tr>
-<tr>
-<td>35．be afraid of heights</td>
-<td>45．lose his temper</td>
-<td>55．schedule [ˈʃedju:l]</td>
-</tr>
-<tr>
-<td>36．harmful [ˈhɑ:mfl]</td>
-<td>46．control your temper</td>
-<td>56．timetable</td>
-</tr>
-<tr>
-<td>37．be harmful to</td>
-<td>47．struggle [ˈstrʌgl]</td>
-<td>57．Stand in a line</td>
-</tr>
-<tr>
-<td>38．wound [waʊnd]</td>
-<td>48．tragedy [ˈtrædʒədi]</td>
-<td>58．take measures &#x3D;take steps</td>
-</tr>
-<tr>
-<td>39．injury [ˈɪndʒəri]</td>
-<td>49．likely [ˈlaɪkli]</td>
-<td>59．take action</td>
-</tr>
-<tr>
-<td>40．keep doing</td>
-<td>50．be likely to do</td>
-<td>60．contract [ˈkɒntrækt]</td>
-</tr>
-</tbody></table>
-<h2 id="六"><a href="#六" class="headerlink" title="六"></a>六</h2><p> 61．client [ˈklaɪənt] n.顾客；当事人. 62．Require sb to do sth 要求 sb 做 sth 63．Sb be required to do sb 被要求做 64．sign [saɪn] n.符号 迹象;vt&amp;vi.签名 65．Sign a contract 签订合同 66．draw up a contract 起草合同 67．attractive [əˈtræktɪv] adj 有魅力的 有吸引力的 68．Be of great value&#x3D;valuable 69．be of great+抽象名词&#x3D;对应的形容词 70．effective [ɪˈfektɪv] adj.有效的; 起作用的; 71．drug [drʌɡ] n.药; 毒品;<br>72．cancer [ˈkænsə(r)] n.癌; 癌症 73．secure [sɪˈkjʊə(r)] adj.安全的; 坚固的 74．ensure [ɪnˈʃʊə(r)] v 确保; 担保; 75．insure [ɪnˈʃʊə(r)] v.投保; 承保 76．refer to 指的是 涉及 77．unidentified [ˌʌnaɪˈdentɪfaɪd] adj.不能辨认的; 来路[身分]不明的 78．organization [ˌɔː ɡənaɪˈzeɪʃn] n 组织 79．organ [ˈɔː ɡən] n.机构; 器官 80．voice [vɔɪs] n.嗓音，说话声，歌声; 81．sound [saʊnd] n.声音; v.听起来 82．significant [sɪɡˈnɪfɪkənt] adj.重要的; 显著的; 意味深长的 83．legal [ˈliːɡl] adj.法律的; 合法的 84．develop [dɪˈveləp] v.成长，发展; 开发 85．improve [ɪmˈpruː v] v.改进; 提高; 86．by+doing 通过做 87．technology [tekˈnɒlədʒi] n.科技 88．With the development of science and technology, 随着科学与技术的发展 89．quantity [ˈkwɒntəti] n.数量，数额; 90．quality [ˈkwɒləti] n.质量; 特性; 91．volume [ˈvɒljuː m] n.体积; 音量; 一卷 92．content [ˈkɒntent] n.内容; 目录 adj. 满意的</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>词汇</tag>
       </tags>
   </entry>
   <entry>
@@ -1470,6 +1157,350 @@
       </tags>
   </entry>
   <entry>
+    <title>2009 part</title>
+    <url>/2022/09/24/2022-09-24-2009-part/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10003-1-1024x576.webp"></p>
+<span id="more"></span>
+
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>1．is known to 为…所知 2．go abroad 去国外 3．the three-child policy 三胎政策 4．square &#x2F;skweə(r)&#x2F;正方形 广场 5．square dance 广场舞 6．resident [ˈrezɪdənt] 居民 7．infect [ɪnˈfekt] v.传染; 使感染 影响 8．refund [ˈri:fʌnd] n 资金偿还 v. 退还 9．script [skrɪpt] n 脚本，手迹; 剧本 10．recipe [ˈresəpi] n 食谱 秘诀 11．take medicine 吃药 12．drug[drʌɡ] n.药; 毒品 13．response [rɪˈspɒns] n.答复; 反应; 14．reflection [rɪˈflekʃn] n.倒影; 反射 反映 15．sign [saɪn] n.符号；指示牌;vt&amp;vi.签名 16．sign up for 报名参加 注册 17．speech contest [ˈkɒntest] n.比赛，竞赛 18．differ [ˈdɪfə(r)] v 有区别; 有分歧 19．different 不同的 20．difference 区别 差异 不同 21．vary [ˈveəri] v.不同; 变化 22．various[ˈveəriəs] adj.各种各样的; 千差万别的; 23．recognize [ˈrekəgnaɪz] v 认出; 识别 24．existence [ɪgˈzɪstəns] n.存在; 生活 25．bachelor [ˈbætʃələ(r)] n.单身汉; 学士 26．bring up 养育 抚养 27．supervision [ˌsju:pə’vɪʒn] n. 监督; 管理 28．make achievements 取得成就 29．medical [ˈmedɪkl] adj.医学的 30．medicine [ˈmedsn] n.医学；药物 </p>
+<table>
+<thead>
+<tr>
+<th>1．is known to</th>
+<th>11．take medicine</th>
+<th>21．vary [ˈveəri]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2．go abroad</td>
+<td>12．drug[drʌɡ]</td>
+<td>22．various[ˈveəriəs]</td>
+</tr>
+<tr>
+<td>3.  the three-child policy</td>
+<td>13．response [rɪˈspɒns]</td>
+<td>23．recognize [ˈrekəgnaɪz]</td>
+</tr>
+<tr>
+<td>4．square &#x2F;skweə(r)</td>
+<td>14．reflection [rɪˈflekʃn]</td>
+<td>24．existence [ɪgˈzɪstəns]</td>
+</tr>
+<tr>
+<td>5．square dance</td>
+<td>15．sign [saɪn]</td>
+<td>25．bachelor [ˈbætʃələ(r)]</td>
+</tr>
+<tr>
+<td>6．resident [ˈrezɪdənt]</td>
+<td>16．sign up for</td>
+<td>26．bring up</td>
+</tr>
+<tr>
+<td>7．infect [ɪnˈfekt]</td>
+<td>17．speech contest</td>
+<td>27．supervision [ˌsju:pə’vɪʒn]</td>
+</tr>
+<tr>
+<td>8．refund [ˈri:fʌnd]</td>
+<td>18．differ [ˈdɪfə(r)]</td>
+<td>28．make achievements</td>
+</tr>
+<tr>
+<td>9．script [skrɪpt]</td>
+<td>19．different</td>
+<td>29．medical [ˈmedɪkl]</td>
+</tr>
+<tr>
+<td>10．recipe [ˈresəpi]</td>
+<td>20．difference</td>
+<td>30．medicine [ˈmedsn]</td>
+</tr>
+</tbody></table>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>31．case [keɪs] n.情况; 事例; 案件 32．stage [steɪdʒ] n 阶段; 舞台 33．pocket [ˈpɒkɪt] n.衣袋; 小容器; 34．note [nəʊt] n. 笔记；钞票; vt.注意；记录 35．take notes 做笔记 36．charge &#x2F;tʃɑːdʒ&#x2F; v 指控 充电 要价 收费 37．be charged with 被控告 38．be accused of 被指责 39．challenge [ˈtʃæləndʒ] v 挑战 40．flash charge 闪充 快充 41．change [tʃeɪndʒ] v. 改变 变化 n 零钱 42．persist [pəˈsɪst] v.坚持；固执 43．persist in (doing) sth 坚持(做)sth 44．the latest news&#x2F;fashions 45．prefer to do&#x2F;doing 宁愿做 更喜欢做 46．prefer to do rather than do 宁愿做…..而不是 47．equivalent [ɪˈkwɪvələnt] adj.相等的，相当的 48．amount [əˈmaʊnt] n 数量；总额 49．exchange [ɪksˈtʃeɪndʒ] n.交换；交易 50．bargain [ˈbɑ:gən] vi. 讨价还价 51．practice [ˈpræktɪs] n.练习；实践；v 练习 52．practice doing 练习做 sth 53．Practice makes perfect！ 熟能生巧！ 54．department [dɪˈpɑ:tmənt] n.部门，部；系 55．Foreign department 56．pack [pæk] vi. （把…）打包包装 57．iceberg [ˈaɪsbɜ:g] n.冰山；一小部分；冷若冰霜的人; 58．pole [pəʊl] n 极点 地极 59．melt [melt] v 熔化，溶解 融化 60．trend [trend] n. 走向；趋向；时尚 </p>
+<table>
+<thead>
+<tr>
+<th>31．case [keɪs]</th>
+<th>41．change [tʃeɪndʒ]</th>
+<th>51．practice [ˈpræktɪs]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>32．stage [steɪdʒ]</td>
+<td>42．persist [pəˈsɪst]</td>
+<td>52．practice doing sth</td>
+</tr>
+<tr>
+<td>33．pocket [ˈpɒkɪt]</td>
+<td>43．persist in (doing) sth</td>
+<td>53．Practice makes perfect！</td>
+</tr>
+<tr>
+<td>34．note [nəʊt]</td>
+<td>44．the latest news&#x2F;fashions</td>
+<td>54．department [dɪˈpɑ:tmənt]</td>
+</tr>
+<tr>
+<td>35．take notes</td>
+<td>45．prefer to do&#x2F;doing</td>
+<td>55．Foreign department</td>
+</tr>
+<tr>
+<td>36．charge &#x2F;tʃɑːdʒ&#x2F;</td>
+<td>46．prefer to do rather than do</td>
+<td>56．pack [pæk]</td>
+</tr>
+<tr>
+<td>37．be charged with</td>
+<td>47．equivalent [ɪˈkwɪvələnt]</td>
+<td>57．iceberg [ˈaɪsbɜ:g]</td>
+</tr>
+<tr>
+<td>38．be accused of</td>
+<td>48．amount [əˈmaʊnt]</td>
+<td>58．pole [pəʊl]</td>
+</tr>
+<tr>
+<td>39．challenge [ˈtʃæləndʒ]</td>
+<td>49．exchange</td>
+<td>59．melt [melt]</td>
+</tr>
+<tr>
+<td>40．flash charge</td>
+<td>50．bargain [ˈbɑ:gən]</td>
+<td>60．trend [trend]</td>
+</tr>
+</tbody></table>
+<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>61．witness [ˈwɪtnəs]n.目击者 v 见证 见证; 62．naive [naɪˈi:v] adj.幼稚的；天真的<br>63．mature [məˈtʃʊə(r)] adj 成熟的 64．management&#x2F;ˈmænɪdʒmənt&#x2F;n. 经营，管理 65．destination &#x2F;ˌdestɪˈneɪʃn&#x2F; n. 目的地，终点，目标 66．delight &#x2F;dɪˈlaɪt&#x2F; n. 高兴；令人高兴的人或物 67．To one’s delight&#x2F;disappointment&#x2F;surprise<br>让某人高兴&#x2F;失望&#x2F;吃惊的是 68．discard &#x2F;dɪˈskɑːd&#x2F; v. 扔掉，弃置 抛弃 69．Take the essence and discard the dregs. 取其精华，去其糟粕。<br>70．dreg &#x2F;dreɡ&#x2F; n. 渣滓；沉淀物 71．select &#x2F;sɪˈlekt&#x2F; v. 选择，挑选 72．essence &#x2F;ˈes(ə)ns&#x2F; n 精华 要素 本质 73．affection &#x2F;əˈfekʃn&#x2F; n. 喜爱，关爱；爱恋，爱慕之情</p>
+<table>
+<thead>
+<tr>
+<th>61．witness [ˈwɪtnəs]</th>
+<th>71．select &#x2F;sɪˈlekt&#x2F;</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>62．naive [naɪˈi:v]</td>
+<td>72．essence &#x2F;ˈes(ə)ns&#x2F;</td>
+<td></td>
+</tr>
+<tr>
+<td>63．mature [məˈtʃʊə(r)]</td>
+<td>73．affection &#x2F;əˈfekʃn&#x2F;</td>
+<td></td>
+</tr>
+<tr>
+<td>64．management&#x2F;ˈmænɪdʒmənt&#x2F;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>65．destination &#x2F;ˌdestɪˈneɪʃn&#x2F;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>66．delight &#x2F;dɪˈlaɪt&#x2F;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>67．To one’s delight&#x2F;disappointment&#x2F;surprise</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>68．discard &#x2F;dɪˈskɑːd&#x2F;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>69．Take the essence and discard the dregs.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>70．dreg &#x2F;dreɡ&#x2F;</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>1．extreme [ɪkˈstri:m] adj.极端的，过激的；极限的<br>2．extreme sports 极限运动<br>3．skydiving [ˈskaɪdaɪvɪŋ] n 跳伞<br>4．risk doing 冒险做 sth<br>5．imagine doing 想像做 sth<br>6．mind doing sth 介意做<br>7．allow&#x2F;permit&#x2F;forbid&#x2F;advise doing sth<br>8．允许&#x2F;允许&#x2F;禁止&#x2F;建议做 sth<br>9．allow&#x2F;&#x2F;permit&#x2F;forbid&#x2F;advise sb to do sth<br>10．dare [deə(r)] v 敢 敢于<br>11．dare to do<br>12．effort [ˈefət] n. 努力，尝试<br>13．require [rɪˈkwaɪə(r)] v 要求<br>14．request [rɪˈkwest] v 请求；请求得到<br>15．inquire [ɪn’kwaɪə(r)] vt&amp;vi.打听，询问；查究;<br>16．educational [ˌedʒuˈkeɪʃənl] adj.有教育意义的<br>17．suffer from 遭受 忍受<br>18．recover from 从….中恢复过来<br>19．escape [ɪˈskeɪp] v 逃脱；逃避<br>20．escape doing sth 逃避做 sth<br>21．You mustn’t swim in the river. 你禁止在河里游泳。<br>22．herb [hɜ:b] n. 草，草本植物<br>23．release [rɪˈli:s] vt.释放；放开；发布<br>24．a kind of… 一种…<br>25．all kinds of… 各种各样<br>26．kind of+adj …. 有几分 有一点<br>27．Boys have all kinds of excuses[ɪkˈskju:s] n.借口.<br>28．advanced [ədˈvɑ:nst] adj 高深的 先进的<br>29．resource [rɪˈsɔ:s] n.资源；物力<br>30．waste [weɪst] v 浪费</p>
+<table>
+<thead>
+<tr>
+<th>1．extreme [ɪkˈstri:m]</th>
+<th>12．effort [ˈefət]</th>
+<th>22．herb [hɜ:b]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2．extreme sports</td>
+<td>13．require [rɪˈkwaɪə(r)]</td>
+<td>23．release [rɪˈli:s]</td>
+</tr>
+<tr>
+<td>3．skydiving</td>
+<td>14．request [rɪˈkwest]</td>
+<td>24．a kind of…</td>
+</tr>
+<tr>
+<td>4．risk doing sth</td>
+<td>15．inquire [ɪn’kwaɪə(r)]</td>
+<td>25．all kinds of…</td>
+</tr>
+<tr>
+<td>5．imagine doing sth</td>
+<td>16．educational [ˌedʒuˈkeɪʃənl]</td>
+<td>26．kind of+adj ….</td>
+</tr>
+<tr>
+<td>6．mind doing sth</td>
+<td>17．suffer from</td>
+<td>27．Boys have all kinds of excuses[ɪkˈskju:s]</td>
+</tr>
+<tr>
+<td>7．allow&#x2F;permit&#x2F;forbid&#x2F;advise doing sth</td>
+<td>18．recover from</td>
+<td>28．advanced [ədˈvɑ:nst]</td>
+</tr>
+<tr>
+<td>9．allow&#x2F;&#x2F;permit&#x2F;forbid&#x2F;advise sb to do sth</td>
+<td>19．escape [ɪˈskeɪp]</td>
+<td>29．resource [rɪˈsɔ:s]</td>
+</tr>
+<tr>
+<td>10．dare [deə(r)]</td>
+<td>20．escape doing sth</td>
+<td>30．waste [weɪst]</td>
+</tr>
+<tr>
+<td>11．dare to do</td>
+<td>You mustn’t swim in the river</td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>31．weight [weɪt] n. 重量，体重<br>32．put on weight 增肥<br>33．lose weight 减肥<br>34．height [haɪt] n.高度，海拔 身高<br>35．be afraid of heights 恐高<br>36．harmful [ˈhɑ:mfl] adj.对…有害的；<br>37．be harmful to 对…..有害<br>38．wound [waʊnd] n.创伤；伤口<br>39．injury [ˈɪndʒəri] n.伤害，损害 (交通事故)<br>40．keep doing 坚持做 sth<br>41．temperature[ˈtemprətʃə(r)]n 温度 气候 ,<br>42．heat [hi:t] n.热，热度<br>43．stroke [strəʊk] n.一击 中风.<br>44．heat stroke 中暑<br>45．lose his temper 发脾气<br>46．control your temper 控制你的脾气<br>47．struggle [ˈstrʌgl] v 搏斗；奋斗 挣扎<br>48．tragedy [ˈtrædʒədi] n.悲剧，惨剧 as<br>49．likely [ˈlaɪkli] adj 可能的<br>50．be likely to do 可能做 sth 51．line [laɪn] n.线条；排；行列. 52．in turn 依次 反过来 轮流 53．by turns 轮流 54．in return 作为回报 55．schedule [ˈʃedju:l] n.时刻表，进度表 56．timetable 时刻表 57．Stand in a line 排队 58．take measures &#x3D;take steps 采取措施 59．take action 采取行动 60．contract [ˈkɒntrækt] n.合同；契约</p>
+<table>
+<thead>
+<tr>
+<th>31．weight [weɪt]</th>
+<th>41．temperature[ˈtemprətʃə(r)]</th>
+<th>51．line [laɪn]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>32．put on weight</td>
+<td>42．heat [hi:t]</td>
+<td>52．in turn</td>
+</tr>
+<tr>
+<td>33．lose weight</td>
+<td>43．stroke [strəʊk]</td>
+<td>53．by turns</td>
+</tr>
+<tr>
+<td>34．height [haɪt]</td>
+<td>44．heat stroke</td>
+<td>54．in return</td>
+</tr>
+<tr>
+<td>35．be afraid of heights</td>
+<td>45．lose his temper</td>
+<td>55．schedule [ˈʃedju:l]</td>
+</tr>
+<tr>
+<td>36．harmful [ˈhɑ:mfl]</td>
+<td>46．control your temper</td>
+<td>56．timetable</td>
+</tr>
+<tr>
+<td>37．be harmful to</td>
+<td>47．struggle [ˈstrʌgl]</td>
+<td>57．Stand in a line</td>
+</tr>
+<tr>
+<td>38．wound [waʊnd]</td>
+<td>48．tragedy [ˈtrædʒədi]</td>
+<td>58．take measures &#x3D;take steps</td>
+</tr>
+<tr>
+<td>39．injury [ˈɪndʒəri]</td>
+<td>49．likely [ˈlaɪkli]</td>
+<td>59．take action</td>
+</tr>
+<tr>
+<td>40．keep doing</td>
+<td>50．be likely to do</td>
+<td>60．contract [ˈkɒntrækt]</td>
+</tr>
+</tbody></table>
+<h2 id="六"><a href="#六" class="headerlink" title="六"></a>六</h2><p> 61．client [ˈklaɪənt] n.顾客；当事人. 62．Require sb to do sth 要求 sb 做 sth 63．Sb be required to do sb 被要求做 64．sign [saɪn] n.符号 迹象;vt&amp;vi.签名 65．Sign a contract 签订合同 66．draw up a contract 起草合同 67．attractive [əˈtræktɪv] adj 有魅力的 有吸引力的 68．Be of great value&#x3D;valuable 69．be of great+抽象名词&#x3D;对应的形容词 70．effective [ɪˈfektɪv] adj.有效的; 起作用的; 71．drug [drʌɡ] n.药; 毒品;<br>72．cancer [ˈkænsə(r)] n.癌; 癌症 73．secure [sɪˈkjʊə(r)] adj.安全的; 坚固的 74．ensure [ɪnˈʃʊə(r)] v 确保; 担保; 75．insure [ɪnˈʃʊə(r)] v.投保; 承保 76．refer to 指的是 涉及 77．unidentified [ˌʌnaɪˈdentɪfaɪd] adj.不能辨认的; 来路[身分]不明的 78．organization [ˌɔː ɡənaɪˈzeɪʃn] n 组织 79．organ [ˈɔː ɡən] n.机构; 器官 80．voice [vɔɪs] n.嗓音，说话声，歌声; 81．sound [saʊnd] n.声音; v.听起来 82．significant [sɪɡˈnɪfɪkənt] adj.重要的; 显著的; 意味深长的 83．legal [ˈliːɡl] adj.法律的; 合法的 84．develop [dɪˈveləp] v.成长，发展; 开发 85．improve [ɪmˈpruː v] v.改进; 提高; 86．by+doing 通过做 87．technology [tekˈnɒlədʒi] n.科技 88．With the development of science and technology, 随着科学与技术的发展 89．quantity [ˈkwɒntəti] n.数量，数额; 90．quality [ˈkwɒləti] n.质量; 特性; 91．volume [ˈvɒljuː m] n.体积; 音量; 一卷 92．content [ˈkɒntent] n.内容; 目录 adj. 满意的</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>词汇</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>不定积分</title>
     <url>/2022/09/24/2022-09-24-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/22536_33628137216.webp"></p>
@@ -1612,10 +1643,10 @@
 </tbody></table>
 ]]></content>
       <categories>
-        <category>数学</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>积分</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -1705,10 +1736,10 @@
 </table>
 ]]></content>
       <categories>
-        <category>数学</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>积分</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -1731,6 +1762,26 @@
       </categories>
       <tags>
         <tag>墙</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对Typora的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
+<span id="more"></span>
+
+<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
+<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
+<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
+<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
+<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>Typora教程</tag>
       </tags>
   </entry>
   <entry>
@@ -1856,26 +1907,6 @@
       </tags>
   </entry>
   <entry>
-    <title>对Typora的探索</title>
-    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
-<span id="more"></span>
-
-<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
-<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
-<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
-<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
-<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>Typora教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>状语从句</title>
     <url>/2022/09/24/2022-09-24-%E7%8A%B6%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-v9w3v3.jpg"></p>
@@ -1952,6 +1983,26 @@
       </tags>
   </entry>
   <entry>
+    <title>百度首页爬虫</title>
+    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
+
+<span id="more"></span>
+
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
+<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
+</blockquote>
+<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>酷我音乐爬虫</title>
     <url>/2022/09/24/2022-09-24-%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%88%AC%E8%99%AB/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/182e4b35411f30a3b7a160d13409f2d.jpg"></p>
@@ -1976,44 +2027,34 @@
       </tags>
   </entry>
   <entry>
-    <title>百度首页爬虫</title>
-    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
-
+    <title>向量</title>
+    <url>/2022/10/06/2022-10-06-%E5%90%91%E9%87%8F/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
 <span id="more"></span>
 
-<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
-<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
-</blockquote>
-<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
-
+<h2 id="概念与公式："><a href="#概念与公式：" class="headerlink" title="概念与公式："></a>概念与公式：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c8dbc5469da84f2f23b25c401318068.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71fc08b67820c614e49f231668ab8c7.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a71e8c2d32ac299f28e6aae5694feb6.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f8ac98c85a42bd3ad1c528c5dfd152.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5651750857f499705dc7d3443d478fe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cec38ea9e889ab640660cd5c35fa81.jpg"></td>
+</tr>
+</tbody></table>
 ]]></content>
       <categories>
-        <category>网络编程</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>python爬虫</tag>
+        <tag>数学</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/09/02/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>hexo-theme-matery博客如何添加看板娘</title>
@@ -2245,7 +2286,7 @@
 <p>创建一个项目 hexo-blog 并初始化<br>hexo init hexo-blog<br>cd hexo-blog<br>npm install</p>
 <p>本地启动，预览<br>hexo g<br>hexo server</p>
 <p>部署到GitHub</p>
-<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#99;&#111;&#x6d;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#99;&#111;&#x6d;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
+<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#116;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#109;">&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#116;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#109;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
 <p>安装 npm 部署插件<br>npm install hexo-deployer-git –save</p>
 <p>进入分支<br>git init</p>
 <p>上传三连<br> hexo clean<br> hexo g<br> hexo d </p>
