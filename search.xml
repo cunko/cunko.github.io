@@ -1,6 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Pycharm的安装与使用</title>
+    <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a03ea1a5f8cd4de49682ff301645bd6c.png"></p>
+<span id="more"></span>
+
+<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
+<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
+<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
+]]></content>
+      <categories>
+        <category>软件使用</category>
+      </categories>
+      <tags>
+        <tag>软件教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>next-主题配置</title>
+    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
+<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
+<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
+<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
+<p>设置圆角</p>
+<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
+<p>更换背景</p>
+<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
+<p><a href="https://blog.csdn.net/weixin_45877759/article/details/107005112">https://blog.csdn.net/weixin_45877759/article/details/107005112</a></p>
+<blockquote>
+<p>注意真正的位置！</p>
+</blockquote>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-30 192414.jpg" style="zoom:80%;" />
+
+<p>更改博客透明度</p>
+<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
+<p>开启动画</p>
+<p><a href="https://tding.top/archives/dfac1e9c.html">https://tding.top/archives/dfac1e9c.html</a></p>
+<p>折叠代码</p>
+<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
+<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
+<p>给文章设置密码</p>
+<p><a href="https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/">https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</a></p>
+<p>点击鼠标出现爱心</p>
+<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88</a></p>
+<p>配置友链</p>
+<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2</a></p>
+<p>可以下现成的styles.styl文件，且很干净的博客</p>
+<p><a href="https://blog.shipengx.com/">https://blog.shipengx.com</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>next教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多元函数微分</title>
+    <url>/2022/09/04/2022-09-04-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，计算多元极限的方法："><a href="#一，计算多元极限的方法：" class="headerlink" title="一，计算多元极限的方法："></a>一，计算多元极限的方法：</h2><ol>
+<li>能代入，代入即是极限值；</li>
+<li>化简之后能代入，代入也是极限值；</li>
+<li>否则，转换为一元求极限；</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c22527389d40fb7dcceb9e72248bfb9.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4c60e8d7f29aa9284dfeb944ace10a7.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="二，偏导"><a href="#二，偏导" class="headerlink" title="二，偏导"></a>二，偏导</h2><h3 id="偏导数的求法："><a href="#偏导数的求法：" class="headerlink" title="偏导数的求法："></a>偏导数的求法：</h3><ol>
+<li>对谁求偏导谁是变量，其它当作常数，求偏导数再代入；</li>
+<li>对谁求偏导数，将其它量代入，转化为一元函数求导，再代入；</li>
+<li>分段函数在分段点处，利用偏导定义求偏导；</li>
+</ol>
+<h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ce70d555ff940c40ad5b89155d74eac.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be81fe5c10aef4a0206b004f9ab4416.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c04c2984707200429ee42531fc8b29c.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8c54eadf7911d023e7f6f5fd8740377.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be81fe5c10aef4a0206b004f9ab4416.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c4af012e5e6a2ea0eb5db2d671099.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0f97dc7df3a7d1ba792ea3a85dbcbb6.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>全微分，显函数求偏导，隐函数求偏导</p>
+<h3 id="复合函数求偏导："><a href="#复合函数求偏导：" class="headerlink" title="复合函数求偏导："></a>复合函数求偏导：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4bdfd66e3b9329f0da55d07f0a75199.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1fa8b37f6d367b8de4ae13d564cdc77.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f2fa9bcf4ba8155a5b3197ef56990d2.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4021a984d9c34986cf38f0e072537e9.jpg"></td>
+</tr>
+</tbody></table>
+<h3 id="二阶混合偏导："><a href="#二阶混合偏导：" class="headerlink" title="二阶混合偏导："></a>二阶混合偏导：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb42a302b8590f361147abfdf1c506c.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7384812926fccd17daa58dd73934784.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e7f09e773bd37eb9fc42f54a310a2e5.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="多元函数的极值和条件极值"><a href="#多元函数的极值和条件极值" class="headerlink" title="多元函数的极值和条件极值"></a>多元函数的极值和条件极值</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf2d493ce10176615b5d26261123770.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e6fcabfb92a0653c1c2958d577ad0d2.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ba1ce85ae683ae7d9021f24e7d3f2b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/419a73da07f17cbe24124bddfbb63b4.jpg"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>求条件极值时，当有约束条件且约束条件简单，可以直接转换成一元最值问题。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8a83a2a3abe288d493501ba7e44345e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b73c5105da3a5216c24ef287a2f8ace.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0b6523710aab23f46821532fcb7e187.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>专升本</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对hexo的探索</title>
+    <url>/2022/09/04/2022-09-04-%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载 (1).png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="一-hexo常用快捷键"><a href="#一-hexo常用快捷键" class="headerlink" title="一,hexo常用快捷键"></a>一,hexo常用快捷键</h2><p>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>  新建页面<br>post 文章   draft  草稿</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
+
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#117;&#x30;&#x30;&#x33;&#x32;&#x35;&#x31;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#108;&#105;&#117;&#x30;&#x30;&#x33;&#x32;&#x35;&#x31;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a>“</p>
+<p> 初始化一个Git仓库</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
+
+<h2 id="常见错误解决办法："><a href="#常见错误解决办法：" class="headerlink" title="常见错误解决办法："></a>常见错误解决办法：</h2><p><a href="https://blog.csdn.net/HTL2018/article/details/106876940">https://blog.csdn.net/HTL2018/article/details/106876940</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>非谓语动词</title>
     <url>/2022/10/04/2022-010-4-%E9%9D%9E%E8%B0%93%E8%AF%AD%E5%8A%A8%E8%AF%8D/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/girl_rabbit_happiness_206996_1280x720.jpg"></p>
@@ -167,173 +361,32 @@
 </tbody></table>
 ]]></content>
       <categories>
-        <category>英语</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>语法</tag>
+        <tag>英语语法</tag>
       </tags>
   </entry>
   <entry>
-    <title>Pycharm的安装与使用</title>
-    <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a03ea1a5f8cd4de49682ff301645bd6c.png"></p>
-<span id="more"></span>
-
-<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
-<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
-<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
-]]></content>
+    <title>机智</title>
+    <url>/2022/09/04/2022-09-04-%E6%9C%BA%E6%99%BA/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="397efb9c5de0f2c323471c5a97e1173d394b8e0c00700159e5ae743c5a2997f6">10d79030e8222445804370796b90fca19733efee505f15f3b755ee91975945a98581ebc719ed188fa7a874923f6f695bbe729e1d91cf14138da609405529bf5ebe2fd0dad7d4dbf0079c47dbe9ab8d754856734882ae5a922462a0b031d4d448c7f23301f40e4e0025cc72725ff63da4b600aac38c25d8579a5807fc686769c1f70b19c3cc42dfeaf6177d583862b4401fe6473bc228625569cc739b565d730c20c73db2cace83a998bcbdeee2e874c559f2ea5c445ed9e5e58828be4148567e090b1ed39525d40b5ab5b3e9763ac1e55effe61a6d20303e5818b8fb184b489245cc8f92185d0664c04d5260760842a1dc3700da9a602997e734b6ac5ab88edc48413de97e5a480d92b9f3a861797b26d2c3483d0692dc9228a323ac4e658246b823f3742c7290a1550cf3f1cfeaa81c454ffa6d97cbb849efd70239e55db9515a1b0ce09b7d0ebbc237d6c25619166c98a4607cf1dea0d148f35953541bd139b6c5f0a085d01a7d421a64c2236ec38b2060f9953e79e3a00bdd75cb0bfcc3aee36e38057b074e430a5ced3e688996282c13290c155b8763f20375cbcdd9bbab</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>软件使用</category>
+        <category>心动时刻</category>
       </categories>
       <tags>
-        <tag>软件教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>多元函数微分</title>
-    <url>/2022/09/04/2022-09-04-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
-<span id="more"></span>
-
-<h2 id="一，计算多元极限的方法："><a href="#一，计算多元极限的方法：" class="headerlink" title="一，计算多元极限的方法："></a>一，计算多元极限的方法：</h2><ol>
-<li>能代入，代入即是极限值；</li>
-<li>化简之后能代入，代入也是极限值；</li>
-<li>否则，转换为一元求极限；</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c22527389d40fb7dcceb9e72248bfb9.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4c60e8d7f29aa9284dfeb944ace10a7.jpg"></th>
-</tr>
-</thead>
-</table>
-<h2 id="二，偏导"><a href="#二，偏导" class="headerlink" title="二，偏导"></a>二，偏导</h2><h3 id="偏导数的求法："><a href="#偏导数的求法：" class="headerlink" title="偏导数的求法："></a>偏导数的求法：</h3><ol>
-<li>对谁求偏导谁是变量，其它当作常数，求偏导数再代入；</li>
-<li>对谁求偏导数，将其它量代入，转化为一元函数求导，再代入；</li>
-<li>分段函数在分段点处，利用偏导定义求偏导；</li>
-</ol>
-<h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ce70d555ff940c40ad5b89155d74eac.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be81fe5c10aef4a0206b004f9ab4416.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c04c2984707200429ee42531fc8b29c.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8c54eadf7911d023e7f6f5fd8740377.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be81fe5c10aef4a0206b004f9ab4416.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c4af012e5e6a2ea0eb5db2d671099.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0f97dc7df3a7d1ba792ea3a85dbcbb6.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>全微分，显函数求偏导，隐函数求偏导</p>
-<h3 id="复合函数求偏导："><a href="#复合函数求偏导：" class="headerlink" title="复合函数求偏导："></a>复合函数求偏导：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4bdfd66e3b9329f0da55d07f0a75199.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1fa8b37f6d367b8de4ae13d564cdc77.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f2fa9bcf4ba8155a5b3197ef56990d2.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4021a984d9c34986cf38f0e072537e9.jpg"></td>
-</tr>
-</tbody></table>
-<h3 id="二阶混合偏导："><a href="#二阶混合偏导：" class="headerlink" title="二阶混合偏导："></a>二阶混合偏导：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb42a302b8590f361147abfdf1c506c.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7384812926fccd17daa58dd73934784.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e7f09e773bd37eb9fc42f54a310a2e5.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="多元函数的极值和条件极值"><a href="#多元函数的极值和条件极值" class="headerlink" title="多元函数的极值和条件极值"></a>多元函数的极值和条件极值</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf2d493ce10176615b5d26261123770.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e6fcabfb92a0653c1c2958d577ad0d2.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ba1ce85ae683ae7d9021f24e7d3f2b.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/419a73da07f17cbe24124bddfbb63b4.jpg"></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>求条件极值时，当有约束条件且约束条件简单，可以直接转换成一元最值问题。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8a83a2a3abe288d493501ba7e44345e.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b73c5105da3a5216c24ef287a2f8ace.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0b6523710aab23f46821532fcb7e187.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>多元函数微分</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>next-主题配置</title>
-    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
-<span id="more"></span>
-
-<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
-<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
-<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
-<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
-<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
-<p>设置圆角</p>
-<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
-<p>更换背景</p>
-<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
-<p><a href="https://blog.csdn.net/weixin_45877759/article/details/107005112">https://blog.csdn.net/weixin_45877759/article/details/107005112</a></p>
-<blockquote>
-<p>注意真正的位置！</p>
-</blockquote>
-<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-30 192414.jpg" style="zoom:80%;" />
-
-<p>更改博客透明度</p>
-<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
-<p>开启动画</p>
-<p><a href="https://tding.top/archives/dfac1e9c.html">https://tding.top/archives/dfac1e9c.html</a></p>
-<p>折叠代码</p>
-<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
-<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
-<p>给文章设置密码</p>
-<p><a href="https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/">https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</a></p>
-<p>点击鼠标出现爱心</p>
-<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88</a></p>
-<p>配置友链</p>
-<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>next教程</tag>
+        <tag>思维火花</tag>
       </tags>
   </entry>
   <entry>
@@ -356,35 +409,6 @@
       </categories>
       <tags>
         <tag>思维火花</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对hexo的探索</title>
-    <url>/2022/09/04/2022-09-04-%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载 (1).png" style="zoom:200%;" />
-
-<span id="more"></span>
-
-<h2 id="一-hexo常用快捷键"><a href="#一-hexo常用快捷键" class="headerlink" title="一,hexo常用快捷键"></a>一,hexo常用快捷键</h2><p>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<p>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
-<p>  新建页面<br>post 文章   draft  草稿</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
-
-<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#x6c;&#x69;&#117;&#x30;&#48;&#x33;&#50;&#53;&#49;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x6c;&#x69;&#117;&#x30;&#48;&#x33;&#50;&#53;&#49;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a>“</p>
-<p> 初始化一个Git仓库</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
-
-<h2 id="常见错误解决办法："><a href="#常见错误解决办法：" class="headerlink" title="常见错误解决办法："></a>常见错误解决办法：</h2><p><a href="https://blog.csdn.net/HTL2018/article/details/106876940">https://blog.csdn.net/HTL2018/article/details/106876940</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>hexo教程</tag>
       </tags>
   </entry>
   <entry>
@@ -475,32 +499,10 @@
 <p>Thank you.</p>
 ]]></content>
       <categories>
-        <category>英语</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>文章</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>机智</title>
-    <url>/2022/09/04/2022-09-04-%E6%9C%BA%E6%99%BA/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="397efb9c5de0f2c323471c5a97e1173d394b8e0c00700159e5ae743c5a2997f6">10d79030e8222445804370796b90fca19733efee505f15f3b755ee91975945a98581ebc719ed188fa7a874923f6f695bbe729e1d91cf14138da609405529bf5ebe2fd0dad7d4dbf0079c47dbe9ab8d754856734882ae5a922462a0b031d4d448c7f23301f40e4e0025cc72725ff63da4b600aac38c25d8579a5807fc686769c1f70b19c3cc42dfeaf6177d583862b4401fe6473bc228625569cc739b565d730c20c73db2cace83a998bcbdeee2e874c559f2ea5c445ed9e5e58828be4148567e090b1ed39525d40b5ab5b3e9763ac1e55effe61a6d20303e5818b8fb184b489245cc8f92185d0664c04d5260760842a1dc3700da9a602997e734b6ac5ab88edc48413de97e5a480d92b9f3a861797b26d2c3483d0692dc9228a323ac4e658246b823f3742c7290a1550cf3f1cfeaa81c454ffa6d97cbb849efd70239e55db9515a1b0ce09b7d0ebbc237d6c25619166c98a4607cf1dea0d148f35953541bd139b6c5f0a085d01a7d421a64c2236ec38b2060f9953e79e3a00bdd75cb0bfcc3aee36e38057b074e430a5ced3e688996282c13290c155b8763f20375cbcdd9bbab</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>心动时刻</category>
-      </categories>
-      <tags>
-        <tag>思维火花</tag>
+        <tag>英语文章</tag>
       </tags>
   </entry>
   <entry>
@@ -520,6 +522,92 @@
       </categories>
       <tags>
         <tag>手机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语表达</title>
+    <url>/2022/09/05/2022-09-05-%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%A1%A8%E8%BE%BE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/T3G8WU0N2Q_YCVJ852J-1024x630.jpg"></p>
+<span id="more"></span>
+
+<p>for example,Knowledge is useful only in one case,That’s when it’s used.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><code>We will organize a counterattack</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td><code>The most important thing to do is to do</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>We will organize a counterattack</p>
+<p>I want to be a hacker</p>
+<p><code>for example</code></p>
+<p><code>I want to be a hacker</code></p>
+<p><code>It&#39;s doesn&#39;t matter</code></p>
+<p><code>Knowledge is useful only in one case,That&#39;s when it&#39;s used.</code></p>
+<p>The most important thing to do is to do</p>
+<p>I want to protect her, but I don’t seem to be able to</p>
+<p>I don’t know what I should do</p>
+<p>I envy them very much,But that doesn’t change anything</p>
+<p>It’s doesn’t matter</p>
+<p>I received a gift, but I didn’t accept it</p>
+<p>none of your business</p>
+<p>build relationship</p>
+<p>turn right<br>turn left</p>
+<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方<br>graceful lady<br>优雅的女士<br>Under Construction<br>在建造中</p>
+<p>自己cookie</p>
+<p>我想改变世界<br>I want to change the world</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Final Most Valuable Player</span><br><span class="line">总决赛最有价值队员</span><br><span class="line"></span><br><span class="line">Product description</span><br><span class="line">产品描述</span><br></pre></td></tr></table></figure>
+
+<p>way back home  回家的路</p>
+<p>Cypherpunk解密高手</p>
+<p>achieve success<br>获得成功</p>
+<p>places of interest  景点</p>
+<table>
+<thead>
+<tr>
+<th><code>achieve success</code></th>
+<th><code>way back home </code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>climax</code></td>
+<td><code>Repeat the glory</code></td>
+</tr>
+<tr>
+<td><code>Sometimes struggles are exactly what we need in our life</code></td>
+<td><code>We need a common topic of conversation</code></td>
+</tr>
+<tr>
+<td><code>no access point has been discovered yet</code></td>
+<td><code>I want to change the world</code></td>
+</tr>
+</tbody></table>
+<p>come up with<br>提出；想出；赶上<br>紧跟时代潮流</p>
+<p>climax<br>高潮</p>
+<p>有时候，奋斗正是我们生活中所需要的。<br>Sometimes struggles are exactly what we need in our life<br>Repeat the glory<br>重复的荣耀</p>
+<p>We need a common topic of conversation<br>我们需要一个共同的话题</p>
+<p>no access point has been discovered yet<br>还没有发现接入点</p>
+<p>If this is the initial configuration, the server should not be running.<br>如果这是初始配置，则服务器不应该在运行</p>
+<p>stay hungry stay foolish</p>
+]]></content>
+      <categories>
+        <category>专升本</category>
+      </categories>
+      <tags>
+        <tag>英语句子</tag>
       </tags>
   </entry>
   <entry>
@@ -600,51 +688,10 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>英语</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语表达</title>
-    <url>/2022/09/05/2022-09-05-%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%A1%A8%E8%BE%BE/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/T3G8WU0N2Q_YCVJ852J-1024x630.jpg"></p>
-<span id="more"></span>
-
-<p>for example,Knowledge is useful only in one case,That’s when it’s used.</p>
-<p>We will organize a counterattack</p>
-<p>I want to be a hacker</p>
-<p>The most important thing to do is to do</p>
-<p>I want to protect her, but I don’t seem to be able to</p>
-<p>I don’t know what I should do</p>
-<p>I envy them very much,But that doesn’t change anything</p>
-<p>It’s doesn’t matter</p>
-<p>I received a gift, but I didn’t accept it</p>
-<p>none of your business</p>
-<p>build relationship</p>
-<p>turn right<br>turn left</p>
-<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方<br>graceful lady<br>优雅的女士<br>Under Construction<br>在建造中</p>
-<p>自己cookie</p>
-<p>我想改变世界<br>I want to change the world</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Final Most Valuable Player</span><br><span class="line">总决赛最有价值队员</span><br><span class="line"></span><br><span class="line">Product description</span><br><span class="line">产品描述</span><br></pre></td></tr></table></figure>
-
-<p>way back home  回家的路</p>
-<p>Cypherpunk解密高手</p>
-<p>achieve success<br>获得成功</p>
-<p>places of interest  景点</p>
-<p>come up with<br>提出；想出；赶上<br>紧跟时代潮流</p>
-<p>climax<br>高潮</p>
-<p>有时候，奋斗正是我们生活中所需要的。<br>Sometimes struggles are exactly what we need in our life<br>Repeat the glory<br>重复的荣耀</p>
-<p>We need a common topic of conversation<br>我们需要一个共同的话题</p>
-<p>no access point has been discovered yet<br>还没有发现接入点</p>
-<p>If this is the initial configuration, the server should not be running.<br>如果这是初始配置，则服务器不应该在运行</p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>句子</tag>
+        <tag>英语语法</tag>
       </tags>
   </entry>
   <entry>
@@ -1210,103 +1257,10 @@
 </tbody></table>
 ]]></content>
       <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>词汇</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>定积分</title>
-    <url>/2022/09/24/2022-09-24-%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
-<span id="more"></span>
-
-<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cd26595da525277af03391a8aa1c23.jpg" style="zoom: 50%;" />
-
-<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><blockquote>
-<p>不定积分的f(x)代表的是全体原函数</p>
-</blockquote>
-<blockquote>
-<p>定积分的f(x)代表的是一个数</p>
-</blockquote>
-<blockquote>
-<p>变限积分的f(x)代表的是一个原函数</p>
-</blockquote>
-<h2 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba154dbd8cad83066b529699266c83b.jpg" style="zoom: 50%;" />
-
-
-
-<h2 id="变限积分"><a href="#变限积分" class="headerlink" title="变限积分"></a>变限积分</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c3d65742c6815ad77a364da3d10a07f.jpg" style="zoom: 33%;" /></th>
-<th></th>
-</tr>
-</thead>
-</table>
-<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182420.jpg" style="zoom:150%;" />
-
-<h2 id="定积分的性质："><a href="#定积分的性质：" class="headerlink" title="定积分的性质："></a>定积分的性质：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182717.jpg" style="zoom:80%;" />
-
-<h3 id="性质6的应用："><a href="#性质6的应用：" class="headerlink" title="性质6的应用："></a>性质6的应用：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a6bb69159ec47a8cd237062c4c7b781.jpg" style="zoom: 67%;" />
-
-<h2 id="积分中值定理："><a href="#积分中值定理：" class="headerlink" title="积分中值定理："></a>积分中值定理：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f364ec782e26725ed2c28bbf78a350f.jpg" style="zoom:33%;" />
-
-<h2 id="偶倍奇零"><a href="#偶倍奇零" class="headerlink" title="偶倍奇零"></a>偶倍奇零</h2><blockquote>
-<p>当被积函数有奇偶性时，直接用结论。没有奇偶性时，套公式。</p>
-</blockquote>
-<h3 id="结论："><a href="#结论：" class="headerlink" title="结论："></a>结论：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5799ec26ad6df8a10fa827152d9498.jpg" style="zoom:33%;" />
-
-
-<h3 id="公式（适用于对称区间的定积分）："><a href="#公式（适用于对称区间的定积分）：" class="headerlink" title="公式（适用于对称区间的定积分）："></a>公式（适用于对称区间的定积分）：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5274285386467cc265773aafccdc3fd.jpg" style="zoom:50%;" />
-
-
-
-<h2 id="广义积分"><a href="#广义积分" class="headerlink" title="广义积分"></a>广义积分</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bf7c49e015f0eef61edaa11d3d0d96b.jpg" style="zoom:33%;" />
-
-<hr>
-<p>1.p:分母与分子的最高次方之差；<br>2.积分上下限不一定是0到a，a到b适用规则也一样；<br>3.第一象限内，单增函数的无穷广义积分一定发散，单减函数的无穷广义积分未必收敛；<br>4.震荡函数的无穷广义积分一定发散；<br>5.否则，进行计算：能代则代，不能代单侧取极限；</p>
-<h2 id="可积的条件"><a href="#可积的条件" class="headerlink" title="可积的条件"></a>可积的条件</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f9c1792a64cfee1c5436f8c64c452fc.jpg" style="zoom: 33%;" />
-
-<h3 id="牛顿-莱布尼茨公式"><a href="#牛顿-莱布尼茨公式" class="headerlink" title="牛顿-莱布尼茨公式"></a>牛顿-莱布尼茨公式</h3><blockquote>
-<p>通常也被称为微积分基本定理，揭示了定积分与被积函数的原函数或者不定积分之间的联系。</p>
-</blockquote>
-<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 184402.jpg" style="zoom:80%;" />
-
-<h2 id="特殊积分："><a href="#特殊积分：" class="headerlink" title="特殊积分："></a>特殊积分：</h2><h3 id="分段函数的定积分："><a href="#分段函数的定积分：" class="headerlink" title="分段函数的定积分："></a>分段函数的定积分：</h3><p>1.被积函数为f(x): 分段点插入，找到对应函数再积分。<br>2.被积函数为f[∅(x)]: 动前不动后</p>
-<p>case:</p>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f9c9cc2d8b53efc80841c167f17041.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c705bfb3243c2ff19f464f43a5be6.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a85137bfc197f091495e34a19bb8033.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="华里士公式"><a href="#华里士公式" class="headerlink" title="华里士公式"></a>华里士公式</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/v2-28fdb926e4ba3113da4b1ef7fbf8adbf_1440w.jpg"></p>
-<h2 id="定积分的应用："><a href="#定积分的应用：" class="headerlink" title="定积分的应用："></a>定积分的应用：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f56d04fc971e8075baaecf2d82ad09f.jpg" style="zoom: 33%;" />
-
-
-
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/228ce586a8964ea655ae1bd68162777.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7db638a82674a5728418a0b5294c1d1.jpg"></th>
-</tr>
-</thead>
-</table>
-]]></content>
-      <categories>
         <category>专升本</category>
       </categories>
       <tags>
-        <tag>数学</tag>
+        <tag>英语词汇</tag>
       </tags>
   </entry>
   <entry>
@@ -1647,365 +1601,10 @@
 </tbody></table>
 ]]></content>
       <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>词汇</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>墙</title>
-    <url>/2022/10/04/2022-09-24-%E5%A2%99/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="343c17c7e8902cc3fbd8f1838170bc2dcf18232e9becbf91debca00ff609f81b">10d79030e8222445804370796b90fca18d1354a9b9b8f4d4edd73d957d9afbdeb6d99939ae1d824a59b5bd4636e52cfedd6331be7f11e1c848eb5b5d2cb2b5a2948dc8547d3e174eb32669a77f4dbe8de2e79566d9ba1999231553eea70b2515656373515ed37fcd96cef9627cb9ae4e9575adf6b522b0c5460b1d39a3257f0a24c3ff169f29fbda0e28eb129c4ff2e0ad8244f3df7c66260b56e46ef248a31bfccc906ec191bde02cc1c1c2d48e6eb83089943c5e3eba686b600386199634111d513c5ac6edb58f68d5c82ce50b5bd4086a99dee8083a0848661a31c97ca6bf3aaa688a66cc56316f23fb37e7831a344435d81b7ab7eab0ac95457f03d6177da762b1bd5024c981923335f42acab88503d7dc21f247738fb11ba572aef4477e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>墙</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对Git与GitHub的探索</title>
-    <url>/2022/09/24/2022-09-24-%E5%AF%B9Git%E4%B8%8EGitHub%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
-
-<span id="more"></span>
-
-<h2 id="Git第一版书籍地址"><a href="#Git第一版书籍地址" class="headerlink" title="Git第一版书籍地址"></a>Git第一版书籍地址</h2><p><a href="http://iissnan.com/progit/">http://iissnan.com/progit/</a></p>
-<p><a href="https://segmentfault.com/a/1190000023734704">参考教程</a></p>
-<h2 id="Git-Pro-书籍"><a href="#Git-Pro-书籍" class="headerlink" title="Git Pro 书籍"></a>Git Pro 书籍</h2><p><a href="https://codechina_dev.gitcode.host/progit2/">https://codechina_dev.gitcode.host/progit2/</a></p>
-<h2 id="GitHub搜索技巧"><a href="#GitHub搜索技巧" class="headerlink" title="GitHub搜索技巧"></a>GitHub搜索技巧</h2><p><a href="https://codeantenna.com/a/kgBjkAvYJz">https://codeantenna.com/a/kgBjkAvYJz</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>Git/GitHub教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>爬虫基础</title>
-    <url>/2022/09/24/2022-09-24-%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 193239.jpg" style="zoom:80%;" />
-
-
-<span id="more"></span>
-
-<h2 id="python本质："><a href="#python本质：" class="headerlink" title="python本质："></a>python本质：</h2><blockquote>
-<p>一个自动化的程序</p>
-</blockquote>
-<h2 id="分类："><a href="#分类：" class="headerlink" title="分类："></a>分类：</h2><blockquote>
-<p>爬虫一般是通用爬取和聚焦爬取，而新手都是从通用爬取开始，就相当于对整个页面爬取。</p>
-</blockquote>
-<h2 id="工作过程："><a href="#工作过程：" class="headerlink" title="工作过程："></a>工作过程：</h2><ul>
-<li>抓取</li>
-<li>分析</li>
-<li>存储</li>
-</ul>
-<h2 id="一、网络爬虫是什么意思"><a href="#一、网络爬虫是什么意思" class="headerlink" title="一、网络爬虫是什么意思"></a><strong>一、<a href="https://www.youhuaxing.cn/seojianzhan/17484.html">网络爬虫</a>是什么意思</strong></h2><p>网络爬虫（英文：Web Crawler或Spider）又称为网络蜘蛛、网页蜘蛛或网络机器人，是一种按照一定的规则，自动地抓取互联网信息的程序或者脚本。网络爬虫是为搜索引擎从万维网上下载网页的程序，是搜索引擎的重要组成。传统爬虫从一个或若干初始网页的URL开始，获得初始网页上的URL，在抓取网页的过程中，不断从当前页面上抽取新的URL放入队列，直到满足系统的一定停止条件。</p>
-<h2 id="二、网络爬虫的分类"><a href="#二、网络爬虫的分类" class="headerlink" title="二、网络爬虫的分类"></a><strong>二、网络爬虫的分类</strong></h2><p>网络爬虫按照系统结构和实现技术，大致可以分为以下几种类型：通用网络爬虫(General <a href="https://www.youhuaxing.cn/seojianzhan/17514.html">PUR</a>pose Web Crawler)、聚焦网络爬虫(Focused Web Crawler)、增量式网络爬虫(Incremental Web Crawler)、深层网络爬虫(Deep Web Crawler)。 实际的网络爬虫系统通常是几种爬虫技术相结合实现的。</p>
-<h4 id="1、通用网络爬虫"><a href="#1、通用网络爬虫" class="headerlink" title="1、通用网络爬虫"></a><strong>1、通用网络爬虫</strong></h4><p>通用网络爬虫又称全网爬虫(Scalable Web Crawler)，爬行对象从一些种子 URL 扩充到整个 Web，主要为门户站点搜索引擎和大型 Web 服务提供商采集数据。 由于商业原因，它们的技术细节很少公布出来。 这类网络爬虫的爬行范围和数量巨大，对于爬行速度和存储空间要求较高，对于爬行页面的顺序要求相对较低，同时由于待刷新的页面太多，通常采用并行工作方式，但需要较长时间才能刷新一次页面。 虽然存在一定缺陷，通用网络爬虫适用于为搜索引擎搜索广泛的主题，有较强的应用价值。</p>
-<p>通用网络爬虫的结构大致可以分为页面爬行模块、页面分析模块、链接过滤模块、页面数据库、URL 队列、初始 URL 集合几个部分。为提高工作效率，通用网络爬虫会采取一定的爬行策略。 常用的爬行策略有：深度优先策略、广度优先策略。</p>
-<p><strong>(1)、深度优先策略：</strong>其基本方法是按照深度由低到高的顺序，依次访问下一级网页链接，直到不能再深入为止。 爬虫在完成一个爬行分支后返回到上一链接节点进一步搜索其它链接。 当所有链接遍历完后，爬行任务结束。 这种策略比较适合垂直搜索或站内搜索，但爬行页面内容层次较深的站点时会造成资源的巨大浪费。</p>
-<p><strong>(2)、广度优先策略：</strong>此策略按照网页内容目录层次深浅来爬行页面，处于较浅目录层次的页面首先被爬行。 当同一层次中的页面爬行完毕后，爬虫再深入下一层继续爬行。 这种策略能够有效控制页面的爬行深度，避免遇到一个无穷深层分支时无法结束爬行的问题，实现方便，无需存储大量中间节点，不足之处在于需较长时间才能爬行到目录层次较深的页面。</p>
-<h4 id="2、聚焦网络爬虫"><a href="#2、聚焦网络爬虫" class="headerlink" title="2、聚焦网络爬虫"></a><strong>2、聚焦网络爬虫</strong></h4><p>聚焦网络爬虫(Focused Crawler)，又称主题网络爬虫(Topical Crawler)，是指选择性地爬行那些与预先定义好的主题相关页面的网络爬虫。 和通用网络爬虫相比，聚焦爬虫只需要爬行与主题相关的页面，极大地节省了硬件和网络资源，保存的页面也由于数量少而更新快，还可以很好地满足一些特定人群对特定领域信息的需求。</p>
-<p>聚焦网络爬虫和通用网络爬虫相比，增加了链接评价模块以及内容评价模块。聚焦爬虫爬行策略实现的关键是评价页面内容和链接的重要性，不同的方法计算出的重要性不同，由此导致链接的访问顺序也不同。</p>
-<h4 id="3、增量式网络爬虫"><a href="#3、增量式网络爬虫" class="headerlink" title="3、增量式网络爬虫"></a><strong>3、增量式网络爬虫</strong></h4><p>增量式网络爬虫(Incremental Web Crawler)是指对已下载网页采取增量式更新和只爬行新产生的或者已经发生变化网页的爬虫，它能够在一定程度上保证所爬行的页面是尽可能新的页面。 和周期性爬行和刷新页面的网络爬虫相比，增量式爬虫只会在需要的时候爬行新产生或发生更新的页面，并不重新下载没有发生变化的页面，可有效减少数据下载量，及时更新已爬行的网页，减小时间和空间上的耗费，但是增加了爬行算法的复杂度和实现难度。增量式网络爬虫的体系结构[包含爬行模块、排序模块、更新模块、本地页面集、待爬行 URL 集以及本地页面URL 集]。</p>
-<p>增量式爬虫有两个目标：保持本地页面集中存储的页面为最新页面和提高本地页面集中页面的质量。 为实现第一个目标，增量式爬虫需要通过重新访问网页来更新本地页面集中页面内容，常用的方法有：</p>
-<p>(1)、统一更新法：爬虫以相同的频率访问所有网页，不考虑网页的改变频率；</p>
-<p>(2)、个体更新法：爬虫根据个体网页的改变频率来重新访问各页面；</p>
-<p>(3)、基于分类的更新法：爬虫根据网页改变频率将其分为更新较快网页子集和更新较慢网页子集两类，然后以不同的频率访问这两类网页。</p>
-<h4 id="4、Deep-Web-爬虫"><a href="#4、Deep-Web-爬虫" class="headerlink" title="4、Deep Web 爬虫"></a><strong>4、Deep Web 爬虫</strong></h4><p>Web 页面按存在方式可以分为表层网页(Surface Web)和深层网页(Deep Web，也称 Invisible Web Pages 或 Hidden Web)。 表层网页是指传统搜索引擎可以索引的页面，以超链接可以到达的<a href="https://www.youhuaxing.cn/seojianzhan/17509.html">静态网页</a>为主构成的 Web 页面。Deep Web 是那些大部分内容不能通过静态链接获取的、隐藏在搜索表单后的，只有用户提交一些关键词才能获得的 Web 页面。例如那些用户注册后内容才可见的网页就属于 Deep Web。 2000 年 Bright Planet 指出：Deep Web 中可访问信息容量是 Surface Web 的几百倍，是互联网上最大、发展最快的新型信息资源。</p>
-<p>Deep Web 爬虫体系结构包含六个基本功能模块 (爬行控制器、解析器、表单分析器、表单处理器、响应分析器、LVS 控制器)和两个爬虫内部数据结构(URL 列表、LVS 表)。 其中 LVS(Label Value Set)表示标签&#x2F;数值集合，用来表示填充表单的数据源。</p>
-<h2 id="三、网络爬虫的组成"><a href="#三、网络爬虫的组成" class="headerlink" title="三、网络爬虫的组成"></a><strong>三、网络爬虫的组成</strong></h2><p>在网络爬虫的系统框架中，主过程由控制器，解析器，资源库三部分组成。控制器的主要工作是负责给多线程中的各个爬虫线程分配工作任务。解析器的主要工作是下载网页，进行页面的处理，主要是将一些JS脚本标签、<a href="https://www.youhuaxing.cn/seojianzhan/17781.html">CSS</a>代码内容、空格字符、<a href="https://www.youhuaxing.cn/seojianzhan/17775.html">Html</a>标签等内容处理掉，爬虫的基本工作是由解析器完成。资源库是用来存放下载到的网页资源，一般都采用大型的数据库存储，并对其建立索引。</p>
-<p><strong>1、控制器</strong></p>
-<p>控制器是网络爬虫的中央控制器，它主要是负责根据系统传过来的URL链接，分配一线程，然后启动线程调用爬虫爬取网页的过程。</p>
-<p><strong>2、解析器</strong></p>
-<p>解析器是负责网络爬虫的主要部分，其负责的工作主要有：下载网页的功能，对网页的文本进行处理，如过滤功能，抽取特殊HTML标签的功能，分析数据功能。</p>
-<p><strong>3、资源库</strong></p>
-<p>主要是用来存储网页中下载下来的数据记录的容器，并提供生成索引的目标源。中大型的数据库产品有：Oracle、Sql Server等。</p>
-<h2 id="四、网络爬虫的基本步骤"><a href="#四、网络爬虫的基本步骤" class="headerlink" title="四、网络爬虫的基本步骤"></a><strong>四、网络爬虫的基本步骤</strong></h2><p>1、首先选取一部分种子URL；</p>
-<p>2、将这些URL放入待抓取URL队列；</p>
-<p>3、从待抓取URL队列中取出待抓取的URL,解析DNS，得到主机的IP，并将URL对应的网页下载下来，存储到已下载网页库中，此外，将这些URL放入已抓取URL队列；</p>
-<p>4、分析已抓取到的网页内容中的其他URL,并将URL放入待抓取URL队列，从而进入下一个循环。</p>
-<h2 id="五、网络爬虫的应用场景"><a href="#五、网络爬虫的应用场景" class="headerlink" title="五、网络爬虫的应用场景"></a><strong>五、网络爬虫的应用场景</strong></h2><p><strong>1、搜索引擎抓取网页信息。</strong></p>
-<p>大家常用的搜索引擎的首要工作流程就是利用网络爬虫去爬取各个网站的页面。以<a href="https://www.youhuaxing.cn/seojianzhan/17312.html">百度蜘蛛</a>为例，一旦有网站的页面更新了，百度蜘蛛就会出动，然后把爬取的页面信息搬回百度，再进行多次的筛选和整理。最终在大家搜索相关信息的时候，通过排名呈现给大家。可以说，没有网络爬虫，我们使用搜索引擎查询资料的时候，就不会那么便捷、全面和高效。</p>
-<p><strong>2、爬取需要数据进行统计。</strong></p>
-<p>冷数据启动时丰富数据的主要工具，新业务开始时，由于刚起步，所以没有多少数据，此时就需要爬取其他平台的数据来填充我们的业务数据。比如说，如果我们想做一个类似大众点评这样的平台，一开始没有商户等信息，就需要去爬取大众，美团等商家的信息来填充数据，比如天眼查，企查查，西瓜数据等等。</p>
-<p><strong>3、出行类软件通过爬虫抢票。</strong></p>
-<p>如果问网络爬虫技术应用最多的领域是什么？那一定是出行行业。相信每逢春运或是节假日，大家都用过一些抢票的软件，就为了获得一张机票或者是一张火车票，而这种出行类软件正是运用网络爬虫技术来达到抢票的目的。像抢票软件这样的网络爬虫，会不停地爬取交通出行的售票网站，一旦有票就会点击拍下来，放到自己的网站售卖。如果一定时间内没有人购买，就又会自动退票。然后又通过网站爬虫把票拍下来，到时间又继续退票，如此反复循环。</p>
-<p><strong>4、聚合平台整合信息进行比较。</strong></p>
-<p>如今，出现了很多比价平台、聚合电商还有返利平台等等给，这类聚合平台的本质都是提供横向数据比较，聚合服。比如说电商中经常需要有一种比价系统，从各大电商平台，如拼多多，淘宝，京东等抓取同一个商品的价格信息，以给用户提供最实惠的商品价格，这样就需要利用网络爬虫从各大电商平台爬取信息。</p>
-<h2 id="六、搜索引擎蜘蛛介绍"><a href="#六、搜索引擎蜘蛛介绍" class="headerlink" title="六、搜索引擎蜘蛛介绍"></a><strong>六、搜索引擎蜘蛛介绍</strong></h2><p><strong>1、BaiduSpider（百度蜘蛛）</strong></p>
-<p>常见的百度蜘蛛有：Baiduspider 和 Baiduspider-image（抓取图片）。国内网站大多数流量都来自百度，所以推荐放行。</p>
-<p>百度还有其它几个蜘蛛：</p>
-<p>Baiduspider-video（抓取视频）</p>
-<p>Baiduspider-news（抓取新闻）</p>
-<p>Baiduspider-mobile（抓取wap）</p>
-<p>百度蜘蛛介绍：<a href="http://www.baidu.com/search/spider.html">http://www.baidu.com/search/spider.html</a></p>
-<p><strong>2、Googlebot（谷歌蜘蛛）</strong></p>
-<p>常见的谷歌蜘蛛有：Googlebot，还一个 Googlebot-Mobile ，不是很常见，看名字是应该是抓取 wap 页面的。世界第一大搜索引擎，推荐放行。</p>
-<p>谷歌蜘蛛链接：<a href="http://www.google.com/bot.html">http://www.google.com/bot.html</a></p>
-<p><strong>3、360Spider（360蜘蛛）</strong></p>
-<p>一个十分”勤奋抓爬”的蜘蛛。</p>
-<p>360蜘蛛IP：<a href="https://www.so.com/help/spider_ip.html">https://www.so.com/help/spider_ip.html</a></p>
-<p><strong>4、Sogou web spider（搜狗蜘蛛）</strong></p>
-<p>搜狗公司还有其它几个蜘蛛：Sogou News Spider、Sogou inst spider、Sogou spider2、Sogou blog、Sogou Orion spider、Sogou web spider。</p>
-<p>搜狗蜘蛛爬虫：<a href="http://www.sogou.com/docs/help/webmasters.htm">http://www.sogou.com/docs/help/webmasters.htm</a></p>
-<p><strong>5、Bingbot（必应蜘蛛）</strong></p>
-<p>必应是微软的搜索引擎，微软的IE浏览器和Edge浏览器会默认使用该搜索引擎，而且占有率也还可以，不建议屏蔽。</p>
-<p>必应蜘蛛爬虫：<a href="http://www.bing.com/bingbot.htm">http://www.bing.com/bingbot.htm</a></p>
-<p><strong>6、Sosospider（SOSO蜘蛛）</strong></p>
-<p>腾讯soso，目前搜狗公司管理。</p>
-<p>soso蜘蛛爬虫：<a href="http://help.soso.com/webspider.htm">http://help.soso.com/webspider.htm</a></p>
-<p><strong>7、Yahoo! Slurp China（雅虎中国）或 Yahoo! Slurp（雅虎英文）</strong></p>
-<p>雅虎蜘蛛爬虫：</p>
-<p>雅虎中国：<a href="http://misc.yahoo.com.cn/help.html">http://misc.yahoo.com.cn/help.html</a></p>
-<p>雅虎英文：<a href="http://help.yahoo.com/help/us/ysearch/slurp">http://help.yahoo.com/help/us/ysearch/slurp</a></p>
-<p><strong>8、MSNBot，MSNot-media（MSN蜘蛛）</strong></p>
-<p>MSNBOT应该是 bing 搜索的蜘蛛，MSN和bing是一家的，可以只保留 Bingbot。</p>
-<p>MSN蜘蛛爬虫：<a href="http://search.msn.com/msnbot.htm">http://search.msn.com/msnbot.htm</a></p>
-<p><strong>9、YisouSpider（一搜蜘蛛&#x2F;神马搜索）</strong></p>
-<p>神马搜索是UC和阿里2013年已经成立合资公司推出的移动搜索引擎。</p>
-<p>该蜘蛛抓取频率还是很高的，很多人并不看好，不过如果屏蔽的话，会损失 UC浏览器 的流量来源。自己斟酌吧！</p>
-<p><strong>10、还有一些蜘蛛，不会给网站带来什么流量，站长看是否屏蔽。</strong></p>
-<p><strong>YoudaoBot（有道蜘蛛）：</strong>网易有道的蜘蛛，并不会带来流量。</p>
-<p><strong>JikeSpider（即刻蜘蛛）：</strong>“即刻搜索”是由人民搜索网络股份公司于2011年6月20日推出的通用搜索引擎平台。</p>
-<p>即刻蜘蛛：<a href="http://shoulu.jike.com/spider.html">http://shoulu.jike.com/spider.html</a></p>
-<p><strong>ToutiaoSpider（头条号）：</strong>今日头条的头条号蜘蛛，不能带来流量，屏蔽好啦。</p>
-<p>来源：http &#x2F;&#x2F;web toutiao com&#x2F;media_cooperation</p>
-<p><em>除了上述的爬虫，其他的就直接毫不犹豫的禁掉。</em></p>
-<h4 id="最后总结"><a href="#最后总结" class="headerlink" title="最后总结"></a><strong>最后总结</strong></h4><p>优化猩<a href="https://www.youhuaxing.cn/">SEO</a>：在信息大爆炸的时代，网络爬虫可以代替手工做很多事情，比如可以用于做搜索引擎，也可以爬取网站上面的图片等，网络爬虫可以更高效率地利用好互联网中的有效信息。</p>
-<p>想了解更多SEO百科的内容，请访问：<a href="https://www.youhuaxing.cn/seobaike/">SEO百科</a></p>
-<p>本文来源：<a href="https://www.youhuaxing.cn/seojianzhan/17484.html">https://www.youhuaxing.cn/seojianzhan/17484.html</a></p>
-]]></content>
-      <categories>
-        <category>网络编程</category>
-      </categories>
-      <tags>
-        <tag>python爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>状语从句</title>
-    <url>/2022/09/24/2022-09-24-%E7%8A%B6%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-v9w3v3.jpg"></p>
-<span id="more"></span>
-
-<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/231d2c258f20bd22febdf9c16ff71f8.jpg"></p>
-<hr>
-<h2 id="时间状语从句"><a href="#时间状语从句" class="headerlink" title="时间状语从句"></a>时间状语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6e740660fa8111ed072b73cf5c704cb.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/585e500b2f52d304c41d8a10d497b97.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a019a2c50e0232570a53521db25e127.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/46d29353f02579c4f079561b13038a9.jpg"></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="地点状语从句"><a href="#地点状语从句" class="headerlink" title="地点状语从句"></a>地点状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dfa3012593798ed94e039b7b902b66.jpg"></p>
-<blockquote>
-<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方</p>
-</blockquote>
-<hr>
-<h2 id="条件状语从句"><a href="#条件状语从句" class="headerlink" title="条件状语从句"></a>条件状语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c99e3302901b20013ef87ecfe15fe64.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0eea7ce9edf429b16af8116c326a584.jpg"></th>
-</tr>
-</thead>
-</table>
-<hr>
-<h2 id="原因状语从句"><a href="#原因状语从句" class="headerlink" title="原因状语从句"></a>原因状语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2f49a730c3afcb08f5e94d0b9422570.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5ce66ebba1cdb2620ac361e31d2037.jpg"></th>
-</tr>
-</thead>
-</table>
-<hr>
-<h2 id="目的状语从句"><a href="#目的状语从句" class="headerlink" title="目的状语从句"></a>目的状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5f0a2db7761e8280871d566c022d1e4.jpg"></p>
-<hr>
-<h2 id="结果状语从句"><a href="#结果状语从句" class="headerlink" title="结果状语从句"></a>结果状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3dfd1e55f3016ffa22e9142ae3c0ae8.jpg"></p>
-<hr>
-<h2 id="让步状语从句"><a href="#让步状语从句" class="headerlink" title="让步状语从句"></a>让步状语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c76486b63b8f31d788322f0e408ec38.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/88964d71eea37198a84bb3975a3da84.jpg"></th>
-</tr>
-</thead>
-</table>
-<hr>
-<h2 id="方式状语从句"><a href="#方式状语从句" class="headerlink" title="方式状语从句"></a>方式状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/656190d842c933bf45667ace1c69058.jpg"></p>
-<hr>
-<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0077a2d2899161ce9c72e522785060c.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b02ee1448c6148c90d71cd40926da85.jpg"></th>
-</tr>
-</thead>
-</table>
-<hr>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>百度首页爬虫</title>
-    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
-
-<span id="more"></span>
-
-<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
-<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
-</blockquote>
-<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>网络编程</category>
-      </categories>
-      <tags>
-        <tag>python爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对Typora的探索</title>
-    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
-<span id="more"></span>
-
-<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
-<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
-<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
-<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
-<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>Typora教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>酷我音乐爬虫</title>
-    <url>/2022/09/24/2022-09-24-%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/182e4b35411f30a3b7a160d13409f2d.jpg"></p>
-<span id="more"></span>
-
-<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> pprint</span><br><span class="line"><span class="comment"># 生成表格的模块</span></span><br><span class="line"><span class="keyword">import</span> prettytable <span class="keyword">as</span> pt</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(<span class="string">&#x27;kuwo&#x27;</span>):</span><br><span class="line">    os.mkdir(<span class="string">&#x27;kuwo&#x27;</span>)</span><br><span class="line">key=<span class="built_in">input</span>(<span class="string">&quot;请输入你想查找的歌手or歌曲:&quot;</span>)</span><br><span class="line"></span><br><span class="line">url=<span class="string">f&quot;https://www.kuwo.cn/api/www/search/searchMusicBykeyWord?key=<span class="subst">&#123;key&#125;</span>&amp;pn=1&amp;rn=30&quot;</span></span><br><span class="line"><span class="comment"># 伪装请求头</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line">headers=&#123;</span><br><span class="line">    <span class="string">&#x27;Accept&#x27;</span>:<span class="string">&#x27;application/json, text/plain, */*&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Accept-Encoding&#x27;</span>:<span class="string">&#x27;gzip, deflate&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Accept-Language&#x27;</span>:<span class="string">&#x27;zh-CN,zh;q=0.9&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Connection&#x27;</span>:<span class="string">&#x27;keep-alive&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Cookie&#x27;</span>:<span class="string">&#x27;Hm_lvt_cdb524f42f0ce19b169a8071123a4797=1663154581; _ga=GA1.2.567394232.1663154581; _gid=GA1.2.2123499681.1663154581; _gat=1; Hm_lpvt_cdb524f42f0ce19b169a8071123a4797=1663156972; kw_token=XATF666NGJP&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;csrf&#x27;</span>:<span class="string">&#x27;XATF666NGJP&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;www.kuwo.cn&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Referer&#x27;</span>:<span class="string">&#x27;http://www.kuwo.cn/search/list?key=%E5%91%A8%E6%9D%B0%E4%BC%A6&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;User-Agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36&#x27;</span>,</span><br><span class="line">&#125;</span><br><span class="line">response=requests.get(url=url,headers=headers)</span><br><span class="line"><span class="comment"># .JSON打印字典数值</span></span><br><span class="line"><span class="comment"># pprint.pprint(response.json())</span></span><br><span class="line"><span class="comment"># 获取到的歌曲数据源</span></span><br><span class="line">json=response.json()</span><br><span class="line"><span class="comment"># 提取到对应的内容</span></span><br><span class="line">json_data=json[<span class="string">&#x27;data&#x27;</span>][<span class="string">&#x27;list&#x27;</span>]</span><br><span class="line"><span class="comment"># pprint.pprint(json_data)</span></span><br><span class="line">count=<span class="number">0</span></span><br><span class="line">table=pt.PrettyTable()</span><br><span class="line"><span class="comment"># 设置表头</span></span><br><span class="line">table.field_names=[<span class="string">&#x27;专辑&#x27;</span>,<span class="string">&#x27;歌手&#x27;</span>,<span class="string">&#x27;歌曲&#x27;</span>,<span class="string">&#x27;rid&#x27;</span>]</span><br><span class="line"><span class="comment"># 创建一个列表，用来存放歌曲rid</span></span><br><span class="line">info_list=[]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="built_in">list</span> <span class="keyword">in</span> json_data:</span><br><span class="line">    <span class="comment"># 专辑</span></span><br><span class="line">    album=<span class="built_in">list</span>[<span class="string">&#x27;album&#x27;</span>]</span><br><span class="line">    <span class="comment"># 歌手</span></span><br><span class="line">    artist=<span class="built_in">list</span>[<span class="string">&#x27;artist&#x27;</span>]</span><br><span class="line">    <span class="comment"># 歌曲</span></span><br><span class="line">    name=<span class="built_in">list</span>[<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line">    <span class="comment"># rid</span></span><br><span class="line">    rid=<span class="built_in">list</span>[<span class="string">&#x27;rid&#x27;</span>]</span><br><span class="line">    <span class="comment"># print(album,artist,name,rid)</span></span><br><span class="line">    table.add_row([album,artist,name,count])</span><br><span class="line">    info_list.append([album,artist,name,rid])</span><br><span class="line">    count+=<span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(table)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置死循环</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    index=<span class="built_in">eval</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入你想要下载的歌曲rid:&quot;</span>))</span><br><span class="line">    <span class="keyword">if</span> index == -<span class="number">1</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="comment"># 下载的歌曲信息</span></span><br><span class="line">    download_info=info_list[index]</span><br><span class="line">    <span class="comment"># print(download_info[3])</span></span><br><span class="line">    rid=download_info[<span class="number">3</span>]</span><br><span class="line">    <span class="comment"># song_url=f&quot;https://www.kuwo.cn/api/v1/www/music/playUrl?mid=&#123;rid&#125;&amp;type=convert_url3&amp;br=320kmp3&quot;</span></span><br><span class="line">    song_url=<span class="string">f&quot;https://www.kuwo.cn/api/v1/www/music/playUrl?mid=<span class="subst">&#123;rid&#125;</span>&amp;type=convert_url&amp;httpsStatus=1&quot;</span></span><br><span class="line">    <span class="comment"># https://www.kuwo.cn/api/v1/www/music/playUrl?mid=&#123;rid&#125;&amp;type=convert_url&amp;httpsStatus=1</span></span><br><span class="line">    <span class="comment"># print(song_url)</span></span><br><span class="line">    <span class="comment"># 找到他的mp3链接  用字典取值的方法 拿到付费歌曲的MP3链接</span></span><br><span class="line">    song_info=requests.get(url=song_url).json()[<span class="string">&#x27;data&#x27;</span>][<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    <span class="comment"># print(song_info)</span></span><br><span class="line">    <span class="comment"># 转换二进制格式便于保存数据</span></span><br><span class="line">    music=requests.get(url=song_info).content</span><br><span class="line">    title=re.sub(<span class="string">r&#x27;[\\/:*?&quot;&lt;&gt;|]&#x27;</span>,<span class="string">&#x27;&#x27;</span>,download_info[<span class="number">2</span>])</span><br><span class="line">    <span class="comment">#歌曲保存</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&quot;kuwo/<span class="subst">&#123;title&#125;</span>-<span class="subst">&#123;download_info[<span class="number">1</span>]&#125;</span>.mp3&quot;</span>,<span class="string">&#x27;wb&#x27;</span>)<span class="keyword">as</span> f:</span><br><span class="line">        f.write(music)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;title&#125;</span>,下载成功&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>cookie的获取需要在自己电脑浏览器打开酷我首页，进入该网页源码获取</p>
-</blockquote>
-<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-14 200226.jpg" style="zoom:150%;" />
-
-<blockquote>
-<p>cookie获取完成后，还要更改里面kw_token为下面’csrf包含的 XATF666NGJP</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>网络编程</category>
-      </categories>
-      <tags>
-        <tag>python爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>向量</title>
-    <url>/2022/10/06/2022-10-06-%E5%90%91%E9%87%8F/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
-<span id="more"></span>
-
-<h2 id="概念与公式："><a href="#概念与公式：" class="headerlink" title="概念与公式："></a>概念与公式：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c8dbc5469da84f2f23b25c401318068.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71fc08b67820c614e49f231668ab8c7.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a71e8c2d32ac299f28e6aae5694feb6.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f8ac98c85a42bd3ad1c528c5dfd152.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5651750857f499705dc7d3443d478fe.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cec38ea9e889ab640660cd5c35fa81.jpg"></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
         <category>专升本</category>
       </categories>
       <tags>
-        <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-theme-matery博客如何添加看板娘</title>
-    <url>/2022/08/28/hexo-theme-matery%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/888fcc74d217660a6be539a72613881.jpg"></p>
-<span id="more"></span>
-
-<h2 id="一-Live2D是什么？"><a href="#一-Live2D是什么？" class="headerlink" title="一,Live2D是什么？"></a>一,Live2D是什么？</h2><blockquote>
-<p>2D的素材实现一定程度的3D效果</p>
-</blockquote>
-<h2 id="二-前期准备"><a href="#二-前期准备" class="headerlink" title="二,前期准备"></a>二,前期准备</h2><blockquote>
-<p>检查博客主目录下的package.json是否有”hexo-helper-live2d”: “^3.0.3”,依赖，<br>有的话可以先卸载：npm uninstall hexo-helper-live2d<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20200129105033341.png" alt="这是图片"></p>
-</blockquote>
-<h2 id="三-安装依赖"><a href="#三-安装依赖" class="headerlink" title="三,安装依赖"></a>三,安装依赖</h2><blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
-
-<p>成功了之后可以看到当前目录的node_modules&#x2F;下有个live2d-widget目录，这是动画的主配置：<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2020012910571945.png" alt="这是图片"></p>
-</blockquote>
-<h2 id="四-下载model文件"><a href="#四-下载model文件" class="headerlink" title="四,下载model文件"></a>四,下载model文件</h2><blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure>
-
-<p>model名字可在live2d-widget-models中找到，也可点击live2d看板娘模型预览来选择你喜欢的模型进行安装。<br>安装完成可以在node_modules&#x2F;下看到live2d-widget-model-shizuku文件夹<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20200129110058553.png" alt="This is an picture"></p>
-</blockquote>
-<h2 id="五-添加live2d看板娘到hexo"><a href="#五-添加live2d看板娘到hexo" class="headerlink" title="五,添加live2d看板娘到hexo"></a>五,添加live2d看板娘到hexo</h2><blockquote>
-<p>配置Hexo的主_config.yml或者使用的主题的_config.yml<br>添加以下代码到配置文件中：</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">## Live2D看板娘</span></span><br><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    <span class="comment">#模板目录，在node_modules里</span></span><br><span class="line">    use: live2d-widget-model-shizuku  </span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: <span class="number">300</span> </span><br><span class="line">    height: <span class="number">600</span></span><br><span class="line">  mobile:</span><br><span class="line">    <span class="comment"># 在手机端显示</span></span><br><span class="line">    show: false   </span><br><span class="line">  rect:</span><br><span class="line">    opacity:<span class="number">0.7</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="六-查看效果"><a href="#六-查看效果" class="headerlink" title="六,查看效果"></a>六,查看效果</h2><blockquote>
-<p>在git bash上<code>hexo g </code>,<code>hexo s</code>,用浏览器在本地打开即可看到效果。</p>
-</blockquote>
-<h2 id="七，参考链接"><a href="#七，参考链接" class="headerlink" title="七，参考链接"></a>七，参考链接</h2><p><a href="https://blog.csdn.net/qq_36239569/article/details/104104894?app_version=5.7.2&csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22104104894%22,%22source%22:%22qq_53322614%22%7D&utm_source=app">(52条消息) Hexo添加Live2D看板娘最新教程_飞萤乱入帘的博客-CSDN博客_hexo live2d</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>hexo教程</tag>
+        <tag>英语词汇</tag>
       </tags>
   </entry>
   <entry>
@@ -2158,6 +1757,678 @@
       </tags>
   </entry>
   <entry>
+    <title>定积分</title>
+    <url>/2022/09/24/2022-09-24-%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
+<span id="more"></span>
+
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cd26595da525277af03391a8aa1c23.jpg" style="zoom: 50%;" />
+
+<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><blockquote>
+<p>不定积分的f(x)代表的是全体原函数</p>
+</blockquote>
+<blockquote>
+<p>定积分的f(x)代表的是一个数</p>
+</blockquote>
+<blockquote>
+<p>变限积分的f(x)代表的是一个原函数</p>
+</blockquote>
+<h2 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba154dbd8cad83066b529699266c83b.jpg" style="zoom: 50%;" />
+
+
+
+<h2 id="变限积分"><a href="#变限积分" class="headerlink" title="变限积分"></a>变限积分</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c3d65742c6815ad77a364da3d10a07f.jpg" style="zoom: 33%;" /></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182420.jpg" style="zoom:150%;" />
+
+<h2 id="定积分的性质："><a href="#定积分的性质：" class="headerlink" title="定积分的性质："></a>定积分的性质：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 182717.jpg" style="zoom:80%;" />
+
+<h3 id="性质6的应用："><a href="#性质6的应用：" class="headerlink" title="性质6的应用："></a>性质6的应用：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a6bb69159ec47a8cd237062c4c7b781.jpg" style="zoom: 67%;" />
+
+<h2 id="积分中值定理："><a href="#积分中值定理：" class="headerlink" title="积分中值定理："></a>积分中值定理：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f364ec782e26725ed2c28bbf78a350f.jpg" style="zoom:33%;" />
+
+<h2 id="偶倍奇零"><a href="#偶倍奇零" class="headerlink" title="偶倍奇零"></a>偶倍奇零</h2><blockquote>
+<p>当被积函数有奇偶性时，直接用结论。没有奇偶性时，套公式。</p>
+</blockquote>
+<h3 id="结论："><a href="#结论：" class="headerlink" title="结论："></a>结论：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5799ec26ad6df8a10fa827152d9498.jpg" style="zoom:33%;" />
+
+
+<h3 id="公式（适用于对称区间的定积分）："><a href="#公式（适用于对称区间的定积分）：" class="headerlink" title="公式（适用于对称区间的定积分）："></a>公式（适用于对称区间的定积分）：</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5274285386467cc265773aafccdc3fd.jpg" style="zoom:50%;" />
+
+
+
+<h2 id="广义积分"><a href="#广义积分" class="headerlink" title="广义积分"></a>广义积分</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bf7c49e015f0eef61edaa11d3d0d96b.jpg" style="zoom:33%;" />
+
+<hr>
+<p>1.p:分母与分子的最高次方之差；<br>2.积分上下限不一定是0到a，a到b适用规则也一样；<br>3.第一象限内，单增函数的无穷广义积分一定发散，单减函数的无穷广义积分未必收敛；<br>4.震荡函数的无穷广义积分一定发散；<br>5.否则，进行计算：能代则代，不能代单侧取极限；</p>
+<h2 id="可积的条件"><a href="#可积的条件" class="headerlink" title="可积的条件"></a>可积的条件</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f9c1792a64cfee1c5436f8c64c452fc.jpg" style="zoom: 33%;" />
+
+<h3 id="牛顿-莱布尼茨公式"><a href="#牛顿-莱布尼茨公式" class="headerlink" title="牛顿-莱布尼茨公式"></a>牛顿-莱布尼茨公式</h3><blockquote>
+<p>通常也被称为微积分基本定理，揭示了定积分与被积函数的原函数或者不定积分之间的联系。</p>
+</blockquote>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-22 184402.jpg" style="zoom:80%;" />
+
+<h2 id="特殊积分："><a href="#特殊积分：" class="headerlink" title="特殊积分："></a>特殊积分：</h2><h3 id="分段函数的定积分："><a href="#分段函数的定积分：" class="headerlink" title="分段函数的定积分："></a>分段函数的定积分：</h3><p>1.被积函数为f(x): 分段点插入，找到对应函数再积分。<br>2.被积函数为f[∅(x)]: 动前不动后</p>
+<p>case:</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f9c9cc2d8b53efc80841c167f17041.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d1c705bfb3243c2ff19f464f43a5be6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a85137bfc197f091495e34a19bb8033.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="华里士公式"><a href="#华里士公式" class="headerlink" title="华里士公式"></a>华里士公式</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/v2-28fdb926e4ba3113da4b1ef7fbf8adbf_1440w.jpg"></p>
+<h2 id="定积分的应用："><a href="#定积分的应用：" class="headerlink" title="定积分的应用："></a>定积分的应用：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f56d04fc971e8075baaecf2d82ad09f.jpg" style="zoom: 33%;" />
+
+
+
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/228ce586a8964ea655ae1bd68162777.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7db638a82674a5728418a0b5294c1d1.jpg"></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>专升本</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>墙</title>
+    <url>/2022/10/04/2022-09-24-%E5%A2%99/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="343c17c7e8902cc3fbd8f1838170bc2dcf18232e9becbf91debca00ff609f81b">10d79030e8222445804370796b90fca18d1354a9b9b8f4d4edd73d957d9afbdeb6d99939ae1d824a59b5bd4636e52cfedd6331be7f11e1c848eb5b5d2cb2b5a2948dc8547d3e174eb32669a77f4dbe8de2e79566d9ba1999231553eea70b2515656373515ed37fcd96cef9627cb9ae4e9575adf6b522b0c5460b1d39a3257f0a24c3ff169f29fbda0e28eb129c4ff2e0ad8244f3df7c66260b56e46ef248a31bfccc906ec191bde02cc1c1c2d48e6eb83089943c5e3eba686b600386199634111d513c5ac6edb58f68d5c82ce50b5bd4086a99dee8083a0848661a31c97ca6bf3aaa688a66cc56316f23fb37e7831a344435d81b7ab7eab0ac95457f03d6177da762b1bd5024c981923335f42acab88503d7dc21f247738fb11ba572aef4477e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>墙</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对Git与GitHub的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Git%E4%B8%8EGitHub%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="Git第一版书籍地址"><a href="#Git第一版书籍地址" class="headerlink" title="Git第一版书籍地址"></a>Git第一版书籍地址</h2><p><a href="http://iissnan.com/progit/">http://iissnan.com/progit/</a></p>
+<p><a href="https://segmentfault.com/a/1190000023734704">参考教程</a></p>
+<h2 id="Git-Pro-书籍"><a href="#Git-Pro-书籍" class="headerlink" title="Git Pro 书籍"></a>Git Pro 书籍</h2><p><a href="https://codechina_dev.gitcode.host/progit2/">https://codechina_dev.gitcode.host/progit2/</a></p>
+<h2 id="GitHub搜索技巧"><a href="#GitHub搜索技巧" class="headerlink" title="GitHub搜索技巧"></a>GitHub搜索技巧</h2><p><a href="https://codeantenna.com/a/kgBjkAvYJz">https://codeantenna.com/a/kgBjkAvYJz</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>Git/GitHub教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对Typora的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
+<span id="more"></span>
+
+<h2 id="数学公式的表示"><a href="#数学公式的表示" class="headerlink" title="数学公式的表示"></a>数学公式的表示</h2><p><a href="https://blog.csdn.net/alwaysrun/article/details/115830269">https://blog.csdn.net/alwaysrun/article/details/115830269</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/261750408">https://zhuanlan.zhihu.com/p/261750408</a></p>
+<h2 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h2><h3 id="图片插入超链接"><a href="#图片插入超链接" class="headerlink" title="图片插入超链接"></a>图片插入超链接</h3><p><a href="https://bz.zzzmh.cn/#anime"><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-9mjw51.png"></a></p>
+<h3 id="文章内插入超链接"><a href="#文章内插入超链接" class="headerlink" title="文章内插入超链接"></a>文章内插入超链接</h3><p>我的<a href="http://www.ucdrs.superlib.net/">全国图书参考咨询联盟</a><br>我的 [我]: “<a href="https://cunko.github.io/index.html#articles">https://cunko.github.io/index.html#articles</a></p>
+<p>经常使用的网站有<a href="http://www.google.com/" title="Google">Google</a>、<a href="https://blog.csdn.net/" title="csdn">csdn</a>以及<a href="https://www.cnblogs.com/" title="博客园">博客园</a><br><a href="https://blog.csdn.net/" title="csdn">csdn</a>是一个不错的<a href="https://blog.csdn.net/">网站</a></p>
+<h2 id="Markdown-脚注"><a href="#Markdown-脚注" class="headerlink" title="Markdown 脚注"></a>Markdown 脚注</h2><p><a href="https://m.imooc.com/wiki/markdownlesson-markdownfootnote">https://m.imooc.com/wiki/markdownlesson-markdownfootnote</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>Typora教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>提问的智慧</title>
+    <url>/2022/09/24/2022-09-24-%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<p><a href="https://zhaochenyang20.github.io/2022/03/16/CS/others/how_to_ask_a_question/">https://zhaochenyang20.github.io/2022/03/16/CS/others/how_to_ask_a_question/</a></p>
+<p><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爬虫基础</title>
+    <url>/2022/09/24/2022-09-24-%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 193239.jpg" style="zoom:80%;" />
+
+
+<span id="more"></span>
+
+<h2 id="python本质："><a href="#python本质：" class="headerlink" title="python本质："></a>python本质：</h2><blockquote>
+<p>一个自动化的程序</p>
+</blockquote>
+<h2 id="分类："><a href="#分类：" class="headerlink" title="分类："></a>分类：</h2><blockquote>
+<p>爬虫一般是通用爬取和聚焦爬取，而新手都是从通用爬取开始，就相当于对整个页面爬取。</p>
+</blockquote>
+<h2 id="工作过程："><a href="#工作过程：" class="headerlink" title="工作过程："></a>工作过程：</h2><ul>
+<li>抓取</li>
+<li>分析</li>
+<li>存储</li>
+</ul>
+<h2 id="一、网络爬虫是什么意思"><a href="#一、网络爬虫是什么意思" class="headerlink" title="一、网络爬虫是什么意思"></a><strong>一、<a href="https://www.youhuaxing.cn/seojianzhan/17484.html">网络爬虫</a>是什么意思</strong></h2><p>网络爬虫（英文：Web Crawler或Spider）又称为网络蜘蛛、网页蜘蛛或网络机器人，是一种按照一定的规则，自动地抓取互联网信息的程序或者脚本。网络爬虫是为搜索引擎从万维网上下载网页的程序，是搜索引擎的重要组成。传统爬虫从一个或若干初始网页的URL开始，获得初始网页上的URL，在抓取网页的过程中，不断从当前页面上抽取新的URL放入队列，直到满足系统的一定停止条件。</p>
+<h2 id="二、网络爬虫的分类"><a href="#二、网络爬虫的分类" class="headerlink" title="二、网络爬虫的分类"></a><strong>二、网络爬虫的分类</strong></h2><p>网络爬虫按照系统结构和实现技术，大致可以分为以下几种类型：通用网络爬虫(General <a href="https://www.youhuaxing.cn/seojianzhan/17514.html">PUR</a>pose Web Crawler)、聚焦网络爬虫(Focused Web Crawler)、增量式网络爬虫(Incremental Web Crawler)、深层网络爬虫(Deep Web Crawler)。 实际的网络爬虫系统通常是几种爬虫技术相结合实现的。</p>
+<h4 id="1、通用网络爬虫"><a href="#1、通用网络爬虫" class="headerlink" title="1、通用网络爬虫"></a><strong>1、通用网络爬虫</strong></h4><p>通用网络爬虫又称全网爬虫(Scalable Web Crawler)，爬行对象从一些种子 URL 扩充到整个 Web，主要为门户站点搜索引擎和大型 Web 服务提供商采集数据。 由于商业原因，它们的技术细节很少公布出来。 这类网络爬虫的爬行范围和数量巨大，对于爬行速度和存储空间要求较高，对于爬行页面的顺序要求相对较低，同时由于待刷新的页面太多，通常采用并行工作方式，但需要较长时间才能刷新一次页面。 虽然存在一定缺陷，通用网络爬虫适用于为搜索引擎搜索广泛的主题，有较强的应用价值。</p>
+<p>通用网络爬虫的结构大致可以分为页面爬行模块、页面分析模块、链接过滤模块、页面数据库、URL 队列、初始 URL 集合几个部分。为提高工作效率，通用网络爬虫会采取一定的爬行策略。 常用的爬行策略有：深度优先策略、广度优先策略。</p>
+<p><strong>(1)、深度优先策略：</strong>其基本方法是按照深度由低到高的顺序，依次访问下一级网页链接，直到不能再深入为止。 爬虫在完成一个爬行分支后返回到上一链接节点进一步搜索其它链接。 当所有链接遍历完后，爬行任务结束。 这种策略比较适合垂直搜索或站内搜索，但爬行页面内容层次较深的站点时会造成资源的巨大浪费。</p>
+<p><strong>(2)、广度优先策略：</strong>此策略按照网页内容目录层次深浅来爬行页面，处于较浅目录层次的页面首先被爬行。 当同一层次中的页面爬行完毕后，爬虫再深入下一层继续爬行。 这种策略能够有效控制页面的爬行深度，避免遇到一个无穷深层分支时无法结束爬行的问题，实现方便，无需存储大量中间节点，不足之处在于需较长时间才能爬行到目录层次较深的页面。</p>
+<h4 id="2、聚焦网络爬虫"><a href="#2、聚焦网络爬虫" class="headerlink" title="2、聚焦网络爬虫"></a><strong>2、聚焦网络爬虫</strong></h4><p>聚焦网络爬虫(Focused Crawler)，又称主题网络爬虫(Topical Crawler)，是指选择性地爬行那些与预先定义好的主题相关页面的网络爬虫。 和通用网络爬虫相比，聚焦爬虫只需要爬行与主题相关的页面，极大地节省了硬件和网络资源，保存的页面也由于数量少而更新快，还可以很好地满足一些特定人群对特定领域信息的需求。</p>
+<p>聚焦网络爬虫和通用网络爬虫相比，增加了链接评价模块以及内容评价模块。聚焦爬虫爬行策略实现的关键是评价页面内容和链接的重要性，不同的方法计算出的重要性不同，由此导致链接的访问顺序也不同。</p>
+<h4 id="3、增量式网络爬虫"><a href="#3、增量式网络爬虫" class="headerlink" title="3、增量式网络爬虫"></a><strong>3、增量式网络爬虫</strong></h4><p>增量式网络爬虫(Incremental Web Crawler)是指对已下载网页采取增量式更新和只爬行新产生的或者已经发生变化网页的爬虫，它能够在一定程度上保证所爬行的页面是尽可能新的页面。 和周期性爬行和刷新页面的网络爬虫相比，增量式爬虫只会在需要的时候爬行新产生或发生更新的页面，并不重新下载没有发生变化的页面，可有效减少数据下载量，及时更新已爬行的网页，减小时间和空间上的耗费，但是增加了爬行算法的复杂度和实现难度。增量式网络爬虫的体系结构[包含爬行模块、排序模块、更新模块、本地页面集、待爬行 URL 集以及本地页面URL 集]。</p>
+<p>增量式爬虫有两个目标：保持本地页面集中存储的页面为最新页面和提高本地页面集中页面的质量。 为实现第一个目标，增量式爬虫需要通过重新访问网页来更新本地页面集中页面内容，常用的方法有：</p>
+<p>(1)、统一更新法：爬虫以相同的频率访问所有网页，不考虑网页的改变频率；</p>
+<p>(2)、个体更新法：爬虫根据个体网页的改变频率来重新访问各页面；</p>
+<p>(3)、基于分类的更新法：爬虫根据网页改变频率将其分为更新较快网页子集和更新较慢网页子集两类，然后以不同的频率访问这两类网页。</p>
+<h4 id="4、Deep-Web-爬虫"><a href="#4、Deep-Web-爬虫" class="headerlink" title="4、Deep Web 爬虫"></a><strong>4、Deep Web 爬虫</strong></h4><p>Web 页面按存在方式可以分为表层网页(Surface Web)和深层网页(Deep Web，也称 Invisible Web Pages 或 Hidden Web)。 表层网页是指传统搜索引擎可以索引的页面，以超链接可以到达的<a href="https://www.youhuaxing.cn/seojianzhan/17509.html">静态网页</a>为主构成的 Web 页面。Deep Web 是那些大部分内容不能通过静态链接获取的、隐藏在搜索表单后的，只有用户提交一些关键词才能获得的 Web 页面。例如那些用户注册后内容才可见的网页就属于 Deep Web。 2000 年 Bright Planet 指出：Deep Web 中可访问信息容量是 Surface Web 的几百倍，是互联网上最大、发展最快的新型信息资源。</p>
+<p>Deep Web 爬虫体系结构包含六个基本功能模块 (爬行控制器、解析器、表单分析器、表单处理器、响应分析器、LVS 控制器)和两个爬虫内部数据结构(URL 列表、LVS 表)。 其中 LVS(Label Value Set)表示标签&#x2F;数值集合，用来表示填充表单的数据源。</p>
+<h2 id="三、网络爬虫的组成"><a href="#三、网络爬虫的组成" class="headerlink" title="三、网络爬虫的组成"></a><strong>三、网络爬虫的组成</strong></h2><p>在网络爬虫的系统框架中，主过程由控制器，解析器，资源库三部分组成。控制器的主要工作是负责给多线程中的各个爬虫线程分配工作任务。解析器的主要工作是下载网页，进行页面的处理，主要是将一些JS脚本标签、<a href="https://www.youhuaxing.cn/seojianzhan/17781.html">CSS</a>代码内容、空格字符、<a href="https://www.youhuaxing.cn/seojianzhan/17775.html">Html</a>标签等内容处理掉，爬虫的基本工作是由解析器完成。资源库是用来存放下载到的网页资源，一般都采用大型的数据库存储，并对其建立索引。</p>
+<p><strong>1、控制器</strong></p>
+<p>控制器是网络爬虫的中央控制器，它主要是负责根据系统传过来的URL链接，分配一线程，然后启动线程调用爬虫爬取网页的过程。</p>
+<p><strong>2、解析器</strong></p>
+<p>解析器是负责网络爬虫的主要部分，其负责的工作主要有：下载网页的功能，对网页的文本进行处理，如过滤功能，抽取特殊HTML标签的功能，分析数据功能。</p>
+<p><strong>3、资源库</strong></p>
+<p>主要是用来存储网页中下载下来的数据记录的容器，并提供生成索引的目标源。中大型的数据库产品有：Oracle、Sql Server等。</p>
+<h2 id="四、网络爬虫的基本步骤"><a href="#四、网络爬虫的基本步骤" class="headerlink" title="四、网络爬虫的基本步骤"></a><strong>四、网络爬虫的基本步骤</strong></h2><p>1、首先选取一部分种子URL；</p>
+<p>2、将这些URL放入待抓取URL队列；</p>
+<p>3、从待抓取URL队列中取出待抓取的URL,解析DNS，得到主机的IP，并将URL对应的网页下载下来，存储到已下载网页库中，此外，将这些URL放入已抓取URL队列；</p>
+<p>4、分析已抓取到的网页内容中的其他URL,并将URL放入待抓取URL队列，从而进入下一个循环。</p>
+<h2 id="五、网络爬虫的应用场景"><a href="#五、网络爬虫的应用场景" class="headerlink" title="五、网络爬虫的应用场景"></a><strong>五、网络爬虫的应用场景</strong></h2><p><strong>1、搜索引擎抓取网页信息。</strong></p>
+<p>大家常用的搜索引擎的首要工作流程就是利用网络爬虫去爬取各个网站的页面。以<a href="https://www.youhuaxing.cn/seojianzhan/17312.html">百度蜘蛛</a>为例，一旦有网站的页面更新了，百度蜘蛛就会出动，然后把爬取的页面信息搬回百度，再进行多次的筛选和整理。最终在大家搜索相关信息的时候，通过排名呈现给大家。可以说，没有网络爬虫，我们使用搜索引擎查询资料的时候，就不会那么便捷、全面和高效。</p>
+<p><strong>2、爬取需要数据进行统计。</strong></p>
+<p>冷数据启动时丰富数据的主要工具，新业务开始时，由于刚起步，所以没有多少数据，此时就需要爬取其他平台的数据来填充我们的业务数据。比如说，如果我们想做一个类似大众点评这样的平台，一开始没有商户等信息，就需要去爬取大众，美团等商家的信息来填充数据，比如天眼查，企查查，西瓜数据等等。</p>
+<p><strong>3、出行类软件通过爬虫抢票。</strong></p>
+<p>如果问网络爬虫技术应用最多的领域是什么？那一定是出行行业。相信每逢春运或是节假日，大家都用过一些抢票的软件，就为了获得一张机票或者是一张火车票，而这种出行类软件正是运用网络爬虫技术来达到抢票的目的。像抢票软件这样的网络爬虫，会不停地爬取交通出行的售票网站，一旦有票就会点击拍下来，放到自己的网站售卖。如果一定时间内没有人购买，就又会自动退票。然后又通过网站爬虫把票拍下来，到时间又继续退票，如此反复循环。</p>
+<p><strong>4、聚合平台整合信息进行比较。</strong></p>
+<p>如今，出现了很多比价平台、聚合电商还有返利平台等等给，这类聚合平台的本质都是提供横向数据比较，聚合服。比如说电商中经常需要有一种比价系统，从各大电商平台，如拼多多，淘宝，京东等抓取同一个商品的价格信息，以给用户提供最实惠的商品价格，这样就需要利用网络爬虫从各大电商平台爬取信息。</p>
+<h2 id="六、搜索引擎蜘蛛介绍"><a href="#六、搜索引擎蜘蛛介绍" class="headerlink" title="六、搜索引擎蜘蛛介绍"></a><strong>六、搜索引擎蜘蛛介绍</strong></h2><p><strong>1、BaiduSpider（百度蜘蛛）</strong></p>
+<p>常见的百度蜘蛛有：Baiduspider 和 Baiduspider-image（抓取图片）。国内网站大多数流量都来自百度，所以推荐放行。</p>
+<p>百度还有其它几个蜘蛛：</p>
+<p>Baiduspider-video（抓取视频）</p>
+<p>Baiduspider-news（抓取新闻）</p>
+<p>Baiduspider-mobile（抓取wap）</p>
+<p>百度蜘蛛介绍：<a href="http://www.baidu.com/search/spider.html">http://www.baidu.com/search/spider.html</a></p>
+<p><strong>2、Googlebot（谷歌蜘蛛）</strong></p>
+<p>常见的谷歌蜘蛛有：Googlebot，还一个 Googlebot-Mobile ，不是很常见，看名字是应该是抓取 wap 页面的。世界第一大搜索引擎，推荐放行。</p>
+<p>谷歌蜘蛛链接：<a href="http://www.google.com/bot.html">http://www.google.com/bot.html</a></p>
+<p><strong>3、360Spider（360蜘蛛）</strong></p>
+<p>一个十分”勤奋抓爬”的蜘蛛。</p>
+<p>360蜘蛛IP：<a href="https://www.so.com/help/spider_ip.html">https://www.so.com/help/spider_ip.html</a></p>
+<p><strong>4、Sogou web spider（搜狗蜘蛛）</strong></p>
+<p>搜狗公司还有其它几个蜘蛛：Sogou News Spider、Sogou inst spider、Sogou spider2、Sogou blog、Sogou Orion spider、Sogou web spider。</p>
+<p>搜狗蜘蛛爬虫：<a href="http://www.sogou.com/docs/help/webmasters.htm">http://www.sogou.com/docs/help/webmasters.htm</a></p>
+<p><strong>5、Bingbot（必应蜘蛛）</strong></p>
+<p>必应是微软的搜索引擎，微软的IE浏览器和Edge浏览器会默认使用该搜索引擎，而且占有率也还可以，不建议屏蔽。</p>
+<p>必应蜘蛛爬虫：<a href="http://www.bing.com/bingbot.htm">http://www.bing.com/bingbot.htm</a></p>
+<p><strong>6、Sosospider（SOSO蜘蛛）</strong></p>
+<p>腾讯soso，目前搜狗公司管理。</p>
+<p>soso蜘蛛爬虫：<a href="http://help.soso.com/webspider.htm">http://help.soso.com/webspider.htm</a></p>
+<p><strong>7、Yahoo! Slurp China（雅虎中国）或 Yahoo! Slurp（雅虎英文）</strong></p>
+<p>雅虎蜘蛛爬虫：</p>
+<p>雅虎中国：<a href="http://misc.yahoo.com.cn/help.html">http://misc.yahoo.com.cn/help.html</a></p>
+<p>雅虎英文：<a href="http://help.yahoo.com/help/us/ysearch/slurp">http://help.yahoo.com/help/us/ysearch/slurp</a></p>
+<p><strong>8、MSNBot，MSNot-media（MSN蜘蛛）</strong></p>
+<p>MSNBOT应该是 bing 搜索的蜘蛛，MSN和bing是一家的，可以只保留 Bingbot。</p>
+<p>MSN蜘蛛爬虫：<a href="http://search.msn.com/msnbot.htm">http://search.msn.com/msnbot.htm</a></p>
+<p><strong>9、YisouSpider（一搜蜘蛛&#x2F;神马搜索）</strong></p>
+<p>神马搜索是UC和阿里2013年已经成立合资公司推出的移动搜索引擎。</p>
+<p>该蜘蛛抓取频率还是很高的，很多人并不看好，不过如果屏蔽的话，会损失 UC浏览器 的流量来源。自己斟酌吧！</p>
+<p><strong>10、还有一些蜘蛛，不会给网站带来什么流量，站长看是否屏蔽。</strong></p>
+<p><strong>YoudaoBot（有道蜘蛛）：</strong>网易有道的蜘蛛，并不会带来流量。</p>
+<p><strong>JikeSpider（即刻蜘蛛）：</strong>“即刻搜索”是由人民搜索网络股份公司于2011年6月20日推出的通用搜索引擎平台。</p>
+<p>即刻蜘蛛：<a href="http://shoulu.jike.com/spider.html">http://shoulu.jike.com/spider.html</a></p>
+<p><strong>ToutiaoSpider（头条号）：</strong>今日头条的头条号蜘蛛，不能带来流量，屏蔽好啦。</p>
+<p>来源：http &#x2F;&#x2F;web toutiao com&#x2F;media_cooperation</p>
+<p><em>除了上述的爬虫，其他的就直接毫不犹豫的禁掉。</em></p>
+<h4 id="最后总结"><a href="#最后总结" class="headerlink" title="最后总结"></a><strong>最后总结</strong></h4><p>优化猩<a href="https://www.youhuaxing.cn/">SEO</a>：在信息大爆炸的时代，网络爬虫可以代替手工做很多事情，比如可以用于做搜索引擎，也可以爬取网站上面的图片等，网络爬虫可以更高效率地利用好互联网中的有效信息。</p>
+<p>想了解更多SEO百科的内容，请访问：<a href="https://www.youhuaxing.cn/seobaike/">SEO百科</a></p>
+<p>本文来源：<a href="https://www.youhuaxing.cn/seojianzhan/17484.html">https://www.youhuaxing.cn/seojianzhan/17484.html</a></p>
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百度首页爬虫</title>
+    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
+
+<span id="more"></span>
+
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
+<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
+</blockquote>
+<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编程的智慧</title>
+    <url>/2022/09/24/2022-09-24-%E7%BC%96%E7%A8%8B%E7%9A%84%E6%99%BA%E6%85%A7/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<p><a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy">http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy</a></p>
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>状语从句</title>
+    <url>/2022/09/24/2022-09-24-%E7%8A%B6%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-v9w3v3.jpg"></p>
+<span id="more"></span>
+
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/231d2c258f20bd22febdf9c16ff71f8.jpg"></p>
+<hr>
+<h2 id="时间状语从句"><a href="#时间状语从句" class="headerlink" title="时间状语从句"></a>时间状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6e740660fa8111ed072b73cf5c704cb.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/585e500b2f52d304c41d8a10d497b97.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a019a2c50e0232570a53521db25e127.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/46d29353f02579c4f079561b13038a9.jpg"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="地点状语从句"><a href="#地点状语从句" class="headerlink" title="地点状语从句"></a>地点状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dfa3012593798ed94e039b7b902b66.jpg"></p>
+<blockquote>
+<p>you should put things where you can find them again<br>你应该把东西放在你能再找到的地方</p>
+</blockquote>
+<hr>
+<h2 id="条件状语从句"><a href="#条件状语从句" class="headerlink" title="条件状语从句"></a>条件状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c99e3302901b20013ef87ecfe15fe64.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0eea7ce9edf429b16af8116c326a584.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="原因状语从句"><a href="#原因状语从句" class="headerlink" title="原因状语从句"></a>原因状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2f49a730c3afcb08f5e94d0b9422570.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5ce66ebba1cdb2620ac361e31d2037.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="目的状语从句"><a href="#目的状语从句" class="headerlink" title="目的状语从句"></a>目的状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5f0a2db7761e8280871d566c022d1e4.jpg"></p>
+<hr>
+<h2 id="结果状语从句"><a href="#结果状语从句" class="headerlink" title="结果状语从句"></a>结果状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3dfd1e55f3016ffa22e9142ae3c0ae8.jpg"></p>
+<hr>
+<h2 id="让步状语从句"><a href="#让步状语从句" class="headerlink" title="让步状语从句"></a>让步状语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c76486b63b8f31d788322f0e408ec38.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/88964d71eea37198a84bb3975a3da84.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="方式状语从句"><a href="#方式状语从句" class="headerlink" title="方式状语从句"></a>方式状语从句</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/656190d842c933bf45667ace1c69058.jpg"></p>
+<hr>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0077a2d2899161ce9c72e522785060c.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b02ee1448c6148c90d71cd40926da85.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+]]></content>
+      <categories>
+        <category>专升本</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>向量</title>
+    <url>/2022/10/06/2022-10-06-%E5%90%91%E9%87%8F/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
+<span id="more"></span>
+
+<h2 id="概念与公式："><a href="#概念与公式：" class="headerlink" title="概念与公式："></a>概念与公式：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c8dbc5469da84f2f23b25c401318068.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71fc08b67820c614e49f231668ab8c7.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a71e8c2d32ac299f28e6aae5694feb6.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f8ac98c85a42bd3ad1c528c5dfd152.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5651750857f499705dc7d3443d478fe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cec38ea9e889ab640660cd5c35fa81.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="空间平面与空间直线"><a href="#空间平面与空间直线" class="headerlink" title="空间平面与空间直线"></a>空间平面与空间直线</h2><h3 id="空间平面"><a href="#空间平面" class="headerlink" title="空间平面"></a>空间平面</h3><p>法向量：垂直于平面的非零向量。</p>
+<h4 id="平面的点法式与一般式"><a href="#平面的点法式与一般式" class="headerlink" title="平面的点法式与一般式"></a>平面的点法式与一般式</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/80631aefddc44c91ffcd7481178f60b.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/33a40478ff872e97b8b851034c64480.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4d1361c5add9e47248b19d058269fe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ae79fec62410715314776ae50dd44c5.jpg"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>对于一般式方程：平行于谁谁消失，过谁D也消失。</p>
+</blockquote>
+<h4 id="点到平面的距离公式与俩平行平面的距离公式"><a href="#点到平面的距离公式与俩平行平面的距离公式" class="headerlink" title="点到平面的距离公式与俩平行平面的距离公式"></a>点到平面的距离公式与俩平行平面的距离公式</h4><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/633aff5596a99bd9ac595334eb07f5c.jpg" style="zoom: 67%;" />
+
+<h3 id="空间直线"><a href="#空间直线" class="headerlink" title="空间直线"></a>空间直线</h3><p>方向向量：平行于直线的非零向量。</p>
+<h4 id="一般式与点向式"><a href="#一般式与点向式" class="headerlink" title="一般式与点向式"></a>一般式与点向式</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/996d8971250e408eb6008b6efd19d73.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/980c405c8c2d50de992ada8d0d05280.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/eb85c463a80b9015c819ea34ea30c4b.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="参数方程"><a href="#参数方程" class="headerlink" title="参数方程"></a>参数方程</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/785aa768cac3732619bae903adbc7cc.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/789b223e512fa6bbb651632bbfe9b0a.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="空间曲线"><a href="#空间曲线" class="headerlink" title="空间曲线"></a>空间曲线</h2><h3 id="旋转曲面"><a href="#旋转曲面" class="headerlink" title="旋转曲面"></a>旋转曲面</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/717404c43900971eb214f8bf698249a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e1a144d1e5b9e1715c35bfa37e2cae4.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="投影（柱面）方程"><a href="#投影（柱面）方程" class="headerlink" title="投影（柱面）方程"></a>投影（柱面）方程</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92e5e4e2eaa6257ddd57662bc136ad9.jpg"></p>
+]]></content>
+      <categories>
+        <category>专升本</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>酷我音乐爬虫</title>
+    <url>/2022/09/24/2022-09-24-%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/182e4b35411f30a3b7a160d13409f2d.jpg"></p>
+<span id="more"></span>
+
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> pprint</span><br><span class="line"><span class="comment"># 生成表格的模块</span></span><br><span class="line"><span class="keyword">import</span> prettytable <span class="keyword">as</span> pt</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(<span class="string">&#x27;kuwo&#x27;</span>):</span><br><span class="line">    os.mkdir(<span class="string">&#x27;kuwo&#x27;</span>)</span><br><span class="line">key=<span class="built_in">input</span>(<span class="string">&quot;请输入你想查找的歌手or歌曲:&quot;</span>)</span><br><span class="line"></span><br><span class="line">url=<span class="string">f&quot;https://www.kuwo.cn/api/www/search/searchMusicBykeyWord?key=<span class="subst">&#123;key&#125;</span>&amp;pn=1&amp;rn=30&quot;</span></span><br><span class="line"><span class="comment"># 伪装请求头</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line">headers=&#123;</span><br><span class="line">    <span class="string">&#x27;Accept&#x27;</span>:<span class="string">&#x27;application/json, text/plain, */*&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Accept-Encoding&#x27;</span>:<span class="string">&#x27;gzip, deflate&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Accept-Language&#x27;</span>:<span class="string">&#x27;zh-CN,zh;q=0.9&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Connection&#x27;</span>:<span class="string">&#x27;keep-alive&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Cookie&#x27;</span>:<span class="string">&#x27;Hm_lvt_cdb524f42f0ce19b169a8071123a4797=1663154581; _ga=GA1.2.567394232.1663154581; _gid=GA1.2.2123499681.1663154581; _gat=1; Hm_lpvt_cdb524f42f0ce19b169a8071123a4797=1663156972; kw_token=XATF666NGJP&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;csrf&#x27;</span>:<span class="string">&#x27;XATF666NGJP&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Host&#x27;</span>:<span class="string">&#x27;www.kuwo.cn&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;Referer&#x27;</span>:<span class="string">&#x27;http://www.kuwo.cn/search/list?key=%E5%91%A8%E6%9D%B0%E4%BC%A6&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;User-Agent&#x27;</span>:<span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36&#x27;</span>,</span><br><span class="line">&#125;</span><br><span class="line">response=requests.get(url=url,headers=headers)</span><br><span class="line"><span class="comment"># .JSON打印字典数值</span></span><br><span class="line"><span class="comment"># pprint.pprint(response.json())</span></span><br><span class="line"><span class="comment"># 获取到的歌曲数据源</span></span><br><span class="line">json=response.json()</span><br><span class="line"><span class="comment"># 提取到对应的内容</span></span><br><span class="line">json_data=json[<span class="string">&#x27;data&#x27;</span>][<span class="string">&#x27;list&#x27;</span>]</span><br><span class="line"><span class="comment"># pprint.pprint(json_data)</span></span><br><span class="line">count=<span class="number">0</span></span><br><span class="line">table=pt.PrettyTable()</span><br><span class="line"><span class="comment"># 设置表头</span></span><br><span class="line">table.field_names=[<span class="string">&#x27;专辑&#x27;</span>,<span class="string">&#x27;歌手&#x27;</span>,<span class="string">&#x27;歌曲&#x27;</span>,<span class="string">&#x27;rid&#x27;</span>]</span><br><span class="line"><span class="comment"># 创建一个列表，用来存放歌曲rid</span></span><br><span class="line">info_list=[]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="built_in">list</span> <span class="keyword">in</span> json_data:</span><br><span class="line">    <span class="comment"># 专辑</span></span><br><span class="line">    album=<span class="built_in">list</span>[<span class="string">&#x27;album&#x27;</span>]</span><br><span class="line">    <span class="comment"># 歌手</span></span><br><span class="line">    artist=<span class="built_in">list</span>[<span class="string">&#x27;artist&#x27;</span>]</span><br><span class="line">    <span class="comment"># 歌曲</span></span><br><span class="line">    name=<span class="built_in">list</span>[<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line">    <span class="comment"># rid</span></span><br><span class="line">    rid=<span class="built_in">list</span>[<span class="string">&#x27;rid&#x27;</span>]</span><br><span class="line">    <span class="comment"># print(album,artist,name,rid)</span></span><br><span class="line">    table.add_row([album,artist,name,count])</span><br><span class="line">    info_list.append([album,artist,name,rid])</span><br><span class="line">    count+=<span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(table)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置死循环</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    index=<span class="built_in">eval</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入你想要下载的歌曲rid:&quot;</span>))</span><br><span class="line">    <span class="keyword">if</span> index == -<span class="number">1</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="comment"># 下载的歌曲信息</span></span><br><span class="line">    download_info=info_list[index]</span><br><span class="line">    <span class="comment"># print(download_info[3])</span></span><br><span class="line">    rid=download_info[<span class="number">3</span>]</span><br><span class="line">    <span class="comment"># song_url=f&quot;https://www.kuwo.cn/api/v1/www/music/playUrl?mid=&#123;rid&#125;&amp;type=convert_url3&amp;br=320kmp3&quot;</span></span><br><span class="line">    song_url=<span class="string">f&quot;https://www.kuwo.cn/api/v1/www/music/playUrl?mid=<span class="subst">&#123;rid&#125;</span>&amp;type=convert_url&amp;httpsStatus=1&quot;</span></span><br><span class="line">    <span class="comment"># https://www.kuwo.cn/api/v1/www/music/playUrl?mid=&#123;rid&#125;&amp;type=convert_url&amp;httpsStatus=1</span></span><br><span class="line">    <span class="comment"># print(song_url)</span></span><br><span class="line">    <span class="comment"># 找到他的mp3链接  用字典取值的方法 拿到付费歌曲的MP3链接</span></span><br><span class="line">    song_info=requests.get(url=song_url).json()[<span class="string">&#x27;data&#x27;</span>][<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    <span class="comment"># print(song_info)</span></span><br><span class="line">    <span class="comment"># 转换二进制格式便于保存数据</span></span><br><span class="line">    music=requests.get(url=song_info).content</span><br><span class="line">    title=re.sub(<span class="string">r&#x27;[\\/:*?&quot;&lt;&gt;|]&#x27;</span>,<span class="string">&#x27;&#x27;</span>,download_info[<span class="number">2</span>])</span><br><span class="line">    <span class="comment">#歌曲保存</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&quot;kuwo/<span class="subst">&#123;title&#125;</span>-<span class="subst">&#123;download_info[<span class="number">1</span>]&#125;</span>.mp3&quot;</span>,<span class="string">&#x27;wb&#x27;</span>)<span class="keyword">as</span> f:</span><br><span class="line">        f.write(music)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;title&#125;</span>,下载成功&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>cookie的获取需要在自己电脑浏览器打开酷我首页，进入该网页源码获取</p>
+</blockquote>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-14 200226.jpg" style="zoom:150%;" />
+
+<blockquote>
+<p>cookie获取完成后，还要更改里面kw_token为下面’csrf包含的 XATF666NGJP</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思考-0</title>
+    <url>/2022/09/05/%E6%80%9D%E8%80%83-0/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
+<span id="more"></span>
+
+<blockquote>
+<p>告诉我知识，我会忘，教导我知识，我只会记得，让我深入其中，我才能真正学习<br>热情与好奇，是实现一切可能的基石.</p>
+</blockquote>
+<blockquote>
+<p>你不能强迫一个人爱上你，但你可以制造机会</p>
+</blockquote>
+<blockquote>
+<p>规则存在的意义就是快速的帮你做出选择<br>比如，游戏就是有一套规则，然后我们用规则去答题</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>今日不肯埋头，明日何以抬头</p>
+</blockquote>
+<blockquote>
+<p>学到知识了，就要想想做点不一样的事，即没学前办不到的事情</p>
+</blockquote>
+<blockquote>
+<p>问题是学习的目的，学习要问出来</p>
+</blockquote>
+<blockquote>
+<p>先有想法再把它做出来</p>
+</blockquote>
+<blockquote>
+<p>找到你心中真正的热爱，并追求它，把每一天当做最后一天去度过</p>
+</blockquote>
+<blockquote>
+<p>每个人都应该学习如何为计算机写程序，因为它能教你如何思考</p>
+</blockquote>
+<blockquote>
+<p>要有问题，就讲出来，不然就是你的问题</p>
+</blockquote>
+<blockquote>
+<p>念念不忘,必有回响,有一口气,点一盏灯。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-theme-matery博客如何添加看板娘</title>
+    <url>/2022/08/28/hexo-theme-matery%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/888fcc74d217660a6be539a72613881.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一-Live2D是什么？"><a href="#一-Live2D是什么？" class="headerlink" title="一,Live2D是什么？"></a>一,Live2D是什么？</h2><blockquote>
+<p>2D的素材实现一定程度的3D效果</p>
+</blockquote>
+<h2 id="二-前期准备"><a href="#二-前期准备" class="headerlink" title="二,前期准备"></a>二,前期准备</h2><blockquote>
+<p>检查博客主目录下的package.json是否有”hexo-helper-live2d”: “^3.0.3”,依赖，<br>有的话可以先卸载：npm uninstall hexo-helper-live2d<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20200129105033341.png" alt="这是图片"></p>
+</blockquote>
+<h2 id="三-安装依赖"><a href="#三-安装依赖" class="headerlink" title="三,安装依赖"></a>三,安装依赖</h2><blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+
+<p>成功了之后可以看到当前目录的node_modules&#x2F;下有个live2d-widget目录，这是动画的主配置：<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2020012910571945.png" alt="这是图片"></p>
+</blockquote>
+<h2 id="四-下载model文件"><a href="#四-下载model文件" class="headerlink" title="四,下载model文件"></a>四,下载model文件</h2><blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure>
+
+<p>model名字可在live2d-widget-models中找到，也可点击live2d看板娘模型预览来选择你喜欢的模型进行安装。<br>安装完成可以在node_modules&#x2F;下看到live2d-widget-model-shizuku文件夹<br><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20200129110058553.png" alt="This is an picture"></p>
+</blockquote>
+<h2 id="五-添加live2d看板娘到hexo"><a href="#五-添加live2d看板娘到hexo" class="headerlink" title="五,添加live2d看板娘到hexo"></a>五,添加live2d看板娘到hexo</h2><blockquote>
+<p>配置Hexo的主_config.yml或者使用的主题的_config.yml<br>添加以下代码到配置文件中：</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">## Live2D看板娘</span></span><br><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    <span class="comment">#模板目录，在node_modules里</span></span><br><span class="line">    use: live2d-widget-model-shizuku  </span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: <span class="number">300</span> </span><br><span class="line">    height: <span class="number">600</span></span><br><span class="line">  mobile:</span><br><span class="line">    <span class="comment"># 在手机端显示</span></span><br><span class="line">    show: false   </span><br><span class="line">  rect:</span><br><span class="line">    opacity:<span class="number">0.7</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="六-查看效果"><a href="#六-查看效果" class="headerlink" title="六,查看效果"></a>六,查看效果</h2><blockquote>
+<p>在git bash上<code>hexo g </code>,<code>hexo s</code>,用浏览器在本地打开即可看到效果。</p>
+</blockquote>
+<h2 id="七，参考链接"><a href="#七，参考链接" class="headerlink" title="七，参考链接"></a>七，参考链接</h2><p><a href="https://blog.csdn.net/qq_36239569/article/details/104104894?app_version=5.7.2&csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22104104894%22,%22source%22:%22qq_53322614%22%7D&utm_source=app">(52条消息) Hexo添加Live2D看板娘最新教程_飞萤乱入帘的博客-CSDN博客_hexo live2d</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>虚拟语气</title>
+    <url>/2022/09/24/%E8%99%9A%E6%8B%9F%E8%AF%AD%E6%B0%94/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/R-C (2).jpg" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8eddbbddfc53927d8c205dd198033cd.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be17426d52bd68166894f170602ebf6.jpg"></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>表示不可能发生的，要关注句子的动词，一般用过去时 </p>
+</blockquote>
+<h2 id="一，用过去式表虚拟："><a href="#一，用过去式表虚拟：" class="headerlink" title="一，用过去式表虚拟："></a>一，用过去式表虚拟：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a83b5a1b386dee2a98edb236075d8ad.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/364e369e927a34330dbe96470c53c60.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f210f0e890c8a965a7147deb306a53b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/43b9ef63163e645fd37f032dd2e597c.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f8e4fe695383d44060c390bf784bb06.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb7f8fce30376a81d8e1ecddd68a068.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e4af977ae1fcac677049a5182d42cd8.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="含蓄虚拟语气"><a href="#含蓄虚拟语气" class="headerlink" title="含蓄虚拟语气"></a>含蓄虚拟语气</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7cde192cbc60aca801518b462aa6888.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f82a2feda7c40ffd9b4db5c47a09cb.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="固定搭配"><a href="#固定搭配" class="headerlink" title="固定搭配"></a>固定搭配</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2cd11f9b97b8acef64e0bdce191144f.jpg" style="zoom: 33%;" /></th>
+</tr>
+</thead>
+</table>
+<h3 id="特殊句型-1"><a href="#特殊句型-1" class="headerlink" title="特殊句型-1"></a>特殊句型-1</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4b439b3123c6aa6416a9a98cbd5a801.jpg" style="zoom:33%;" />
+
+
+
+<h3 id="特殊句型-2"><a href="#特殊句型-2" class="headerlink" title="特殊句型-2"></a>特殊句型-2</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8b12d97b0c8a35ee98d8e7ae1615254.jpg" style="zoom:33%;" />
+
+<h2 id="二，用should-do-表虚拟："><a href="#二，用should-do-表虚拟：" class="headerlink" title="二，用should do 表虚拟："></a>二，用should do 表虚拟：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f7daecfcb9110d18e5b4d62baa12e5d.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/70a9df59c0a6a2d77c7c3e7609043e6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dac1f3db6f8428837dffebbbea52d2c.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9729e498e401fa42df273128d0e4de6.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e30c59d73270f0b90f4c27e7fdd7929.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8cfc18df355a2cc630996e3f1f60d0e.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="三，用”情态动词-have-done-“表对过去的虚拟："><a href="#三，用”情态动词-have-done-“表对过去的虚拟：" class="headerlink" title="三，用”情态动词+have done “表对过去的虚拟："></a>三，用”情态动词+have done “表对过去的虚拟：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e6be1a582998f69cb30e06365c61f75.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/83ded547facc8de48ac451bcc1a3102.jpg"></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>may&#x2F;minght 表可能性大小，may表可能性很小，minght表的可能性更小。（minght是may 的过去式}</p>
+<p>should与ought to</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>专升本</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>textbook-zero</title>
     <url>/2022/09/24/textbook-zero/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10003-1-1024x576.webp"></p>
@@ -2281,12 +2552,28 @@
 </tbody></table>
 <p>object  to doing sth 反对做某事    objection  n. 反对   objective  n. 目标  adj.客观的   subjective   adj. 主观的</p>
 <p>find  fault  with …. 挑剔</p>
+<p>break      broke   broken</p>
+<p>break  up     break  down    break  out   break  into &#x2F;in    break  away    break  through</p>
+<p>take  a   break     break  the   law  </p>
+<p>glance   glance  at      at  first  glance </p>
+<p>precious    valuable   valueless    priceless     irreplaceable</p>
+<p>temper   temperature      lose   one’s  temper    emotion   </p>
+<p>worth   be worth  doing  sth     </p>
+<p>worthwhile     It  is  worthwhile  to do sth &#x2F; doing sth</p>
+<p>worthy   be  worthy  of  sth   </p>
+<p>dwarf    矮子，矮小的   desert  沙漠，抛弃   distort  扭曲</p>
+<p>bring about  导致  bring out 显示       bring up养育</p>
+<p>   property   财产 possession 个人财产，拥有</p>
+<p>ceremony  典礼，仪式   graduation  ceremony  毕业典礼   wedding   ceremony  婚礼    the  opening&#x2F;closing  ceremony 开&#x2F;闭幕式</p>
+<p>base根基  basic 基础的 basis 基础  base   A on&#x2F;upon B  把A基于B       be  based  on &#x2F;upon  以….为基础</p>
+<p>fault  错误find  fault with sb&#x2F;sth 找茬 error   guilt   责任</p>
+<p>be  always  doing  总是（表感情色彩）</p>
 ]]></content>
       <categories>
-        <category>英语</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>词汇</tag>
+        <tag>英语词汇</tag>
       </tags>
   </entry>
   <entry>
@@ -2365,7 +2652,7 @@
 <p>创建一个项目 hexo-blog 并初始化<br>hexo init hexo-blog<br>cd hexo-blog<br>npm install</p>
 <p>本地启动，预览<br>hexo g<br>hexo server</p>
 <p>部署到GitHub</p>
-<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#109;">&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#109;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
+<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#x62;&#x2e;&#99;&#111;&#109;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#x62;&#x2e;&#99;&#111;&#109;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
 <p>安装 npm 部署插件<br>npm install hexo-deployer-git –save</p>
 <p>进入分支<br>git init</p>
 <p>上传三连<br> hexo clean<br> hexo g<br> hexo d </p>
@@ -2377,149 +2664,6 @@
       </categories>
       <tags>
         <tag>hexo教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思考-0</title>
-    <url>/2022/09/05/%E6%80%9D%E8%80%83-0/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
-<span id="more"></span>
-
-<blockquote>
-<p>告诉我知识，我会忘，教导我知识，我只会记得，让我深入其中，我才能真正学习<br>热情与好奇，是实现一切可能的基石.</p>
-</blockquote>
-<blockquote>
-<p>你不能强迫一个人爱上你，但你可以制造机会</p>
-</blockquote>
-<blockquote>
-<p>规则存在的意义就是快速的帮你做出选择<br>比如，游戏就是有一套规则，然后我们用规则去答题</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>今日不肯埋头，明日何以抬头</p>
-</blockquote>
-<blockquote>
-<p>学到知识了，就要想想做点不一样的事，即没学前办不到的事情</p>
-</blockquote>
-<blockquote>
-<p>问题是学习的目的，学习要问出来</p>
-</blockquote>
-<blockquote>
-<p>先有想法再把它做出来</p>
-</blockquote>
-<blockquote>
-<p>找到你心中真正的热爱，并追求它，把每一天当做最后一天去度过</p>
-</blockquote>
-<blockquote>
-<p>每个人都应该学习如何为计算机写程序，因为它能教你如何思考</p>
-</blockquote>
-<blockquote>
-<p>要有问题，就讲出来，不然就是你的问题</p>
-</blockquote>
-<blockquote>
-<p>念念不忘,必有回响,有一口气,点一盏灯。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>思考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>虚拟语气</title>
-    <url>/2022/09/24/%E8%99%9A%E6%8B%9F%E8%AF%AD%E6%B0%94/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/R-C (2).jpg" style="zoom:200%;" />
-
-<span id="more"></span>
-
-<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8eddbbddfc53927d8c205dd198033cd.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be17426d52bd68166894f170602ebf6.jpg"></th>
-</tr>
-</thead>
-</table>
-<blockquote>
-<p>表示不可能发生的，要关注句子的动词，一般用过去时 </p>
-</blockquote>
-<h2 id="一，用过去式表虚拟："><a href="#一，用过去式表虚拟：" class="headerlink" title="一，用过去式表虚拟："></a>一，用过去式表虚拟：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a83b5a1b386dee2a98edb236075d8ad.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/364e369e927a34330dbe96470c53c60.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f210f0e890c8a965a7147deb306a53b.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/43b9ef63163e645fd37f032dd2e597c.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f8e4fe695383d44060c390bf784bb06.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb7f8fce30376a81d8e1ecddd68a068.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e4af977ae1fcac677049a5182d42cd8.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="含蓄虚拟语气"><a href="#含蓄虚拟语气" class="headerlink" title="含蓄虚拟语气"></a>含蓄虚拟语气</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7cde192cbc60aca801518b462aa6888.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f82a2feda7c40ffd9b4db5c47a09cb.jpg"></th>
-</tr>
-</thead>
-</table>
-<h3 id="固定搭配"><a href="#固定搭配" class="headerlink" title="固定搭配"></a>固定搭配</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2cd11f9b97b8acef64e0bdce191144f.jpg" style="zoom: 33%;" /></th>
-</tr>
-</thead>
-</table>
-<h3 id="特殊句型-1"><a href="#特殊句型-1" class="headerlink" title="特殊句型-1"></a>特殊句型-1</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4b439b3123c6aa6416a9a98cbd5a801.jpg" style="zoom:33%;" />
-
-
-
-<h3 id="特殊句型-2"><a href="#特殊句型-2" class="headerlink" title="特殊句型-2"></a>特殊句型-2</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8b12d97b0c8a35ee98d8e7ae1615254.jpg" style="zoom:33%;" />
-
-<h2 id="二，用should-do-表虚拟："><a href="#二，用should-do-表虚拟：" class="headerlink" title="二，用should do 表虚拟："></a>二，用should do 表虚拟：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f7daecfcb9110d18e5b4d62baa12e5d.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/70a9df59c0a6a2d77c7c3e7609043e6.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dac1f3db6f8428837dffebbbea52d2c.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9729e498e401fa42df273128d0e4de6.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e30c59d73270f0b90f4c27e7fdd7929.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8cfc18df355a2cc630996e3f1f60d0e.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="三，用”情态动词-have-done-“表对过去的虚拟："><a href="#三，用”情态动词-have-done-“表对过去的虚拟：" class="headerlink" title="三，用”情态动词+have done “表对过去的虚拟："></a>三，用”情态动词+have done “表对过去的虚拟：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e6be1a582998f69cb30e06365c61f75.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/83ded547facc8de48ac451bcc1a3102.jpg"></th>
-</tr>
-</thead>
-</table>
-<blockquote>
-<p>may&#x2F;minght 表可能性大小，may表可能性很小，minght表的可能性更小。（minght是may 的过去式}</p>
-<p>should与ought to</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>语法</tag>
       </tags>
   </entry>
 </search>
