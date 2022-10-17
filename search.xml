@@ -89,6 +89,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Pycharm的安装与使用</title>
+    <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a03ea1a5f8cd4de49682ff301645bd6c.png"></p>
+<span id="more"></span>
+
+<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
+<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
+<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
+]]></content>
+      <categories>
+        <category>软件使用</category>
+      </categories>
+      <tags>
+        <tag>软件教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>非谓语动词</title>
     <url>/2022/10/04/2022-010-4-%E9%9D%9E%E8%B0%93%E8%AF%AD%E5%8A%A8%E8%AF%8D/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/girl_rabbit_happiness_206996_1280x720.jpg"></p>
@@ -262,67 +279,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Pycharm的安装与使用</title>
-    <url>/2022/09/04/2022-09-04-Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a03ea1a5f8cd4de49682ff301645bd6c.png"></p>
-<span id="more"></span>
-
-<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用</p>
-<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
-<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
-]]></content>
-      <categories>
-        <category>软件使用</category>
-      </categories>
-      <tags>
-        <tag>软件教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>next-主题配置</title>
-    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
-<span id="more"></span>
-
-<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
-<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
-<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
-<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
-<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
-<p>设置圆角</p>
-<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
-<p>更换背景</p>
-<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
-<p><a href="https://blog.csdn.net/weixin_45877759/article/details/107005112">https://blog.csdn.net/weixin_45877759/article/details/107005112</a></p>
-<blockquote>
-<p>注意真正的位置！</p>
-</blockquote>
-<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-30 192414.jpg" style="zoom:80%;" />
-
-<p>更改博客透明度</p>
-<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
-<p>开启动画</p>
-<p><a href="https://tding.top/archives/dfac1e9c.html">https://tding.top/archives/dfac1e9c.html</a></p>
-<p>折叠代码</p>
-<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
-<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
-<p>给文章设置密码</p>
-<p><a href="https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/">https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</a></p>
-<p>点击鼠标出现爱心</p>
-<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88</a></p>
-<p>配置友链</p>
-<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2</a></p>
-<p>可以下现成的styles.styl文件，且很干净的博客</p>
-<p><a href="https://blog.shipengx.com/">https://blog.shipengx.com</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>next教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>多元函数微分</title>
     <url>/2022/09/04/2022-09-04-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
@@ -460,6 +416,50 @@
       </tags>
   </entry>
   <entry>
+    <title>next-主题配置</title>
+    <url>/2022/09/04/2022-09-04-next-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SHdvVGCf04.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本配置"><a href="#一，基本配置" class="headerlink" title="一，基本配置"></a>一，基本配置</h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<p><a href="https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">https://mercer5.github.io/2020/04/08/next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</a></p>
+<h2 id="二，个性化配置"><a href="#二，个性化配置" class="headerlink" title="二，个性化配置"></a>二，个性化配置</h2><p><a href="http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/">http://home.ustc.edu.cn/~liujunyan/blog/hexo-next-theme-config/</a></p>
+<p><a href="https://uchuhimo.me/2017/04/11/genesis/">https://uchuhimo.me/2017/04/11/genesis/</a></p>
+<h3 id="更换网站图标"><a href="#更换网站图标" class="headerlink" title="更换网站图标"></a>更换网站图标</h3><p><a href="https://blog.csdn.net/Calvin_zhou/article/details/110517826">https://blog.csdn.net/Calvin_zhou/article/details/110517826</a></p>
+<p>设置圆角</p>
+<p><a href="https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/">https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/</a></p>
+<p>更换背景</p>
+<p><a href="https://sqmwin.github.io/2017/12/31/next-background-image/">https://sqmwin.github.io/2017/12/31/next-background-image/</a></p>
+<p><a href="https://blog.csdn.net/weixin_45877759/article/details/107005112">https://blog.csdn.net/weixin_45877759/article/details/107005112</a></p>
+<blockquote>
+<p>注意真正的位置！</p>
+</blockquote>
+<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-30 192414.jpg" style="zoom:80%;" />
+
+<p>更改博客透明度</p>
+<p><a href="https://tding.top/archives/761b6f4d.html">https://tding.top/archives/761b6f4d.html</a></p>
+<p>开启动画</p>
+<p><a href="https://tding.top/archives/dfac1e9c.html">https://tding.top/archives/dfac1e9c.html</a></p>
+<p>折叠代码</p>
+<p><a href="http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/">http://tksy_1_xfgao.gitee.io/xfgblog/2022/07/02/20220702%E6%8A%98%E5%8F%A0%E4%BB%A3%E7%A0%81hexo/</a></p>
+<p><a href="https://www.toimc.com/hexo-usage-2/">https://www.toimc.com/hexo-usage-2/</a></p>
+<p>给文章设置密码</p>
+<p><a href="https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/">https://mrlichangming.github.io/2018/10/05/hexo-Next%E4%B8%BB%E9%A1%8C%E7%BB%99%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</a></p>
+<p>点击鼠标出现爱心</p>
+<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E7%89%B9%E6%95%88</a></p>
+<p>配置友链</p>
+<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2">https://guanqr.com/tech/website/hexo-theme-next-customization/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E9%A1%B5%E9%9D%A2</a></p>
+<p>可以下现成的styles.styl文件，且很干净的博客</p>
+<p><a href="https://blog.shipengx.com/">https://blog.shipengx.com</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>next教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>对hexo的探索</title>
     <url>/2022/09/04/2022-09-04-%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
     <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载 (1).png" style="zoom:200%;" />
@@ -475,7 +475,7 @@
 <p>  新建页面<br>post 文章   draft  草稿</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
 
-<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#x75;&#x30;&#x30;&#51;&#50;&#53;&#x31;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#108;&#105;&#x75;&#x30;&#x30;&#51;&#50;&#53;&#x31;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a>“</p>
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#105;&#117;&#48;&#x30;&#x33;&#50;&#53;&#49;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#108;&#105;&#117;&#48;&#x30;&#x33;&#50;&#53;&#49;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a>“</p>
 <p> 初始化一个Git仓库</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
 
@@ -486,6 +486,28 @@
       </categories>
       <tags>
         <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>意境</title>
+    <url>/2022/09/04/2022-09-04-%E6%84%8F%E5%A2%83/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="41ef7813142f85949bfd8e41e59bf26081a941a2a17010514e79090cd2f6e596">10d79030e8222445804370796b90fca18d1354a9b9b8f4d4edd73d957d9afbdeb6d99939ae1d824a59b5bd4636e52cfedd6331be7f11e1c848eb5b5d2cb2b5a2948dc8547d3e174eb32669a77f4dbe8d135bed55fe62a9b34a315a28cebf3b1c3dbd07cb27755e2f22c2260ecd341da62bbb13da48a05a59d3bd05b3af828f6e26e1ad0996626d066cb29909794ad3ecfbd88dab9f63f1ad1944a2cbd4342a137c14453546a3a0e802919ac4281b74cf9e34bc0f433d1e4f61d0217617319570321fa3a3c965c0f96c5ac97b87ad3bd86f331c1d7aaaff44366fa920a599bec06f32b9eeee187f8c27549408112adb5e97b8f97c5bd44812ae161351e8475b67ce91af87456d05073c9e18dbf455fc86e317fe82317c0db584512844cb25cf2398b7b4e492ef0f1e0a238f19393040ae56ae6c2ca1a5ce676c07ebb500462d0a8d9ca1b6e0f871d4768c902af3606855e7b20f0974ff6f3fba59cf15f6df7b2e46fd230454e629e3dff432b2398b93c3e32a88deb17fd26f98b889020e83a4e62ef353b5dbc8f4b357ba779c7309e8422e2c6d9328f2e5d89c7d6e28b10e9cf6c024aad81b224d6e98d907c6b5454213c4176df2072dd93adada9c71418661bb66e34faf2f26220786b99729aef27495f228b58d50fa1fa28b0f0cdde0b2255de1f267980df8f7b9d0abb13a0be2dfa2d101dffbe0b78bda6663583110e305344a67ac50cd368044f753b47ca2e46907dd887599976f035c81a0580e673fccb7567ff2cb76ff3c2f7c6d9a591e66889bacbea1147b745c8867611d8a40e788a3b8f3c7866c5c34b7da49eb94da5ae8ee5c1c0c6b1af0977ca0a78b10caf219471de9d25ea2ede49fe9216e29256653e8c4f4ba90d599964766fe6f73f3a3570def5e93882d00d210b8dae7bf787e827905b78b029e52f16958d496bb3322abde5e5f70abedce3375261f3c192d55623ddc3c2d7611fbec4ba5bdc1a1cd7086b6b3c30a49158c3b4d5f7943537499b3034c1f9de0a5c77afba578b2ec1cc9f4ade37364cf6d5cbbbf82063da7cdec8a6ecff69c2d0516e908c48ee18f3123879f05e433f52d33b8ce261da499d3cc45bc9f662ae6ddd627f49362dc4b7e1369fa47bddc699ecfd235a2de0269fe0cad1e68f3dd6f086fc97eda65f0b445a876f67dec67da7a1e67009961a421f0114362d46f4051b5059404c326d858822cfedd2b21d22bce2ee46008ead35670226df925762519e88526ecdfe853a178a9a638a46104d2b0a1cac0a2557cf22d894221c8263b68e1bf9be0bcb6be17a8231c42db0b9f11511cc13f40b75750c8f40575e9f9e6c0cfe1e16a6c8fd722d1de3467f84540448e53c90bd7872f9e4a378650682e7eb6bc2eea0cfa00ae81decde391fea1b3627c440809515bca387e8e4216e1634eea74aabe544033ac5813fc1e37ad4c8cda1cd72b615934a9289514addf485b1ee5b65520ae4e8c90a048ad1c8f38697744d85b38193a57aab378d4ee7fdbe70bcfe057360a259b2d1c9f89971a909fb36ecb9c6a371b4bb37174f8eec9131132b24f1ac6d3d37e0f4c4bf8a5f8a763debbccc9f747861ce2732472444b3d82f81aaa4afb43d6a23ddcdc75d163f55a6f37e9b622aa04eb8cf44a3ad03a0bcb59b632acf434f016554dc14db76bc3c076ee923fe26e5710c150b4f8f7f943ff6a105acf234a51fa1bf951f3ee0d7a7b67ab468a9584a5349c2868be1b3c8236aca0a462e6002fd460865df98da204759250d78be0f734af045d336e3ce019d68d4d64698e75437bfda6bcef083f6c9e45d04e225e74649b85abf36f5c8228a644d0ed4de67909d56f3cab4dc9f4bef0c63f47eb4118dbdc5f05ec41d857815c54b0785e647af1811544cb321963ef9d02e67d10ce0367379f93ac229ffb071e562bb4cfb0914249667a8106a0086107effdeaa0b66b852352112454b856cd1de68293fdcbe3f56aabff89830fb55497a887696298254efffbbee06d73266365b9e3b0b2f4f9321bee4dd7125deac2692399a6c07ff0cdf6efa9ef8da91435887b32c4e853973abe7a798f3749e20f473abe2e678d408af7dd408c30e1e5830867e7d9808add053bea80becc519b307f103fbdf63d884e9d4dbc3af28290cb8fbc64faf710a0b57713c3b1ac2ed212b573669ca6d81acae0715dcc30f0e1260bea4573c3a61cb19e31bd54a2bcaf0de6202acf34e728078a288b1564134755eea71ba339bbfcd4bef624cbee05f0707ccefae2d270ea6dd6d5b47bc3c1f602cc2fd4a859ff64a6622bee6b1b3038ab1adf4eea159d2c8de8d44727d22d855cbca4e34ecd4697a63e76db64f1927d455d65310066ff3998ca3c8b468378652798bd2f19fb00fbb2c0e840c2b27111f8e8e4b1045e63b996054f285c47fe22fdfeaac3d2e8c4b9f92755313ee7c768dd820a5fa799cc913fa102766f79283c5830ed1766dce08940d2919dd4f46248b60f4619486e6e7ed11453c24a9d39ea47d64da9fd3bf3a4e89082d4212a826f715fd3c6b54b2adc3edf7a5e2c7272eff4b06cbf04741fbeda4d07d508440a61986801c5dfbe8614c6cd0a023dd765fcf4853ad241e585c1a01eaea4abab7962ab385a9a4cf8cd9a23c0decb4ebc04f9e8c6cdcfe411938ef626e3048d8bb37313afe86b974d0b04c813525e3d4c8f40e74bc780490556c3f330f1b95337deb54d576a9e75287504526b018523d0c764d0a0de24323a22e090837217d2f57843c1e9ba9547a46e6dca6a3c5e1937623fb0f939c35d31970b22b9e619fd07fbd73e3aa3f4a2ad62580c4c409165a98cd0429e333f11a2e1978849ffcff1e897ef18026ed4f9592ab94d1c1f7562366185831f200fbf6b6c68813d8b72adfc705b7ad475cfbe43f52b9706c9fa6a5b03abf2ee9ec9d8851f8d4baaf6ffa180ac6165dafe34213d62b0a17ac5165911202ef395c3d4a4bf4126b4cde6fd6bdae30f43509c78423ff01a08fa5ac71e33298b36f6d89d53160188a2091f5a60f2936235f2394677b241b039481eb46bf81613079fabeb3504d039159f676b0972b37aa36f0a9706f58d81e97e812580ad62cf2c04932a1af6fdc82f786bf5bd5e5b48fd825ba63e0524440451e61bc8503445d54f8742f04e0a07785e4736e3b56ea8b3192675819c3a02412caf44095fb350bbb609ced6da0525512676bd2cd009dd</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>心动时刻</category>
+      </categories>
+      <tags>
+        <tag>思维火花</tag>
       </tags>
   </entry>
   <entry>
@@ -511,25 +533,106 @@
       </tags>
   </entry>
   <entry>
-    <title>意境</title>
-    <url>/2022/09/04/2022-09-04-%E6%84%8F%E5%A2%83/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="41ef7813142f85949bfd8e41e59bf26081a941a2a17010514e79090cd2f6e596">10d79030e8222445804370796b90fca18d1354a9b9b8f4d4edd73d957d9afbdeb6d99939ae1d824a59b5bd4636e52cfedd6331be7f11e1c848eb5b5d2cb2b5a2948dc8547d3e174eb32669a77f4dbe8d135bed55fe62a9b34a315a28cebf3b1c3dbd07cb27755e2f22c2260ecd341da62bbb13da48a05a59d3bd05b3af828f6e26e1ad0996626d066cb29909794ad3ecfbd88dab9f63f1ad1944a2cbd4342a137c14453546a3a0e802919ac4281b74cf9e34bc0f433d1e4f61d0217617319570321fa3a3c965c0f96c5ac97b87ad3bd86f331c1d7aaaff44366fa920a599bec06f32b9eeee187f8c27549408112adb5e97b8f97c5bd44812ae161351e8475b67ce91af87456d05073c9e18dbf455fc86e317fe82317c0db584512844cb25cf2398b7b4e492ef0f1e0a238f19393040ae56ae6c2ca1a5ce676c07ebb500462d0a8d9ca1b6e0f871d4768c902af3606855e7b20f0974ff6f3fba59cf15f6df7b2e46fd230454e629e3dff432b2398b93c3e32a88deb17fd26f98b889020e83a4e62ef353b5dbc8f4b357ba779c7309e8422e2c6d9328f2e5d89c7d6e28b10e9cf6c024aad81b224d6e98d907c6b5454213c4176df2072dd93adada9c71418661bb66e34faf2f26220786b99729aef27495f228b58d50fa1fa28b0f0cdde0b2255de1f267980df8f7b9d0abb13a0be2dfa2d101dffbe0b78bda6663583110e305344a67ac50cd368044f753b47ca2e46907dd887599976f035c81a0580e673fccb7567ff2cb76ff3c2f7c6d9a591e66889bacbea1147b745c8867611d8a40e788a3b8f3c7866c5c34b7da49eb94da5ae8ee5c1c0c6b1af0977ca0a78b10caf219471de9d25ea2ede49fe9216e29256653e8c4f4ba90d599964766fe6f73f3a3570def5e93882d00d210b8dae7bf787e827905b78b029e52f16958d496bb3322abde5e5f70abedce3375261f3c192d55623ddc3c2d7611fbec4ba5bdc1a1cd7086b6b3c30a49158c3b4d5f7943537499b3034c1f9de0a5c77afba578b2ec1cc9f4ade37364cf6d5cbbbf82063da7cdec8a6ecff69c2d0516e908c48ee18f3123879f05e433f52d33b8ce261da499d3cc45bc9f662ae6ddd627f49362dc4b7e1369fa47bddc699ecfd235a2de0269fe0cad1e68f3dd6f086fc97eda65f0b445a876f67dec67da7a1e67009961a421f0114362d46f4051b5059404c326d858822cfedd2b21d22bce2ee46008ead35670226df925762519e88526ecdfe853a178a9a638a46104d2b0a1cac0a2557cf22d894221c8263b68e1bf9be0bcb6be17a8231c42db0b9f11511cc13f40b75750c8f40575e9f9e6c0cfe1e16a6c8fd722d1de3467f84540448e53c90bd7872f9e4a378650682e7eb6bc2eea0cfa00ae81decde391fea1b3627c440809515bca387e8e4216e1634eea74aabe544033ac5813fc1e37ad4c8cda1cd72b615934a9289514addf485b1ee5b65520ae4e8c90a048ad1c8f38697744d85b38193a57aab378d4ee7fdbe70bcfe057360a259b2d1c9f89971a909fb36ecb9c6a371b4bb37174f8eec9131132b24f1ac6d3d37e0f4c4bf8a5f8a763debbccc9f747861ce2732472444b3d82f81aaa4afb43d6a23ddcdc75d163f55a6f37e9b622aa04eb8cf44a3ad03a0bcb59b632acf434f016554dc14db76bc3c076ee923fe26e5710c150b4f8f7f943ff6a105acf234a51fa1bf951f3ee0d7a7b67ab468a9584a5349c2868be1b3c8236aca0a462e6002fd460865df98da204759250d78be0f734af045d336e3ce019d68d4d64698e75437bfda6bcef083f6c9e45d04e225e74649b85abf36f5c8228a644d0ed4de67909d56f3cab4dc9f4bef0c63f47eb4118dbdc5f05ec41d857815c54b0785e647af1811544cb321963ef9d02e67d10ce0367379f93ac229ffb071e562bb4cfb0914249667a8106a0086107effdeaa0b66b852352112454b856cd1de68293fdcbe3f56aabff89830fb55497a887696298254efffbbee06d73266365b9e3b0b2f4f9321bee4dd7125deac2692399a6c07ff0cdf6efa9ef8da91435887b32c4e853973abe7a798f3749e20f473abe2e678d408af7dd408c30e1e5830867e7d9808add053bea80becc519b307f103fbdf63d884e9d4dbc3af28290cb8fbc64faf710a0b57713c3b1ac2ed212b573669ca6d81acae0715dcc30f0e1260bea4573c3a61cb19e31bd54a2bcaf0de6202acf34e728078a288b1564134755eea71ba339bbfcd4bef624cbee05f0707ccefae2d270ea6dd6d5b47bc3c1f602cc2fd4a859ff64a6622bee6b1b3038ab1adf4eea159d2c8de8d44727d22d855cbca4e34ecd4697a63e76db64f1927d455d65310066ff3998ca3c8b468378652798bd2f19fb00fbb2c0e840c2b27111f8e8e4b1045e63b996054f285c47fe22fdfeaac3d2e8c4b9f92755313ee7c768dd820a5fa799cc913fa102766f79283c5830ed1766dce08940d2919dd4f46248b60f4619486e6e7ed11453c24a9d39ea47d64da9fd3bf3a4e89082d4212a826f715fd3c6b54b2adc3edf7a5e2c7272eff4b06cbf04741fbeda4d07d508440a61986801c5dfbe8614c6cd0a023dd765fcf4853ad241e585c1a01eaea4abab7962ab385a9a4cf8cd9a23c0decb4ebc04f9e8c6cdcfe411938ef626e3048d8bb37313afe86b974d0b04c813525e3d4c8f40e74bc780490556c3f330f1b95337deb54d576a9e75287504526b018523d0c764d0a0de24323a22e090837217d2f57843c1e9ba9547a46e6dca6a3c5e1937623fb0f939c35d31970b22b9e619fd07fbd73e3aa3f4a2ad62580c4c409165a98cd0429e333f11a2e1978849ffcff1e897ef18026ed4f9592ab94d1c1f7562366185831f200fbf6b6c68813d8b72adfc705b7ad475cfbe43f52b9706c9fa6a5b03abf2ee9ec9d8851f8d4baaf6ffa180ac6165dafe34213d62b0a17ac5165911202ef395c3d4a4bf4126b4cde6fd6bdae30f43509c78423ff01a08fa5ac71e33298b36f6d89d53160188a2091f5a60f2936235f2394677b241b039481eb46bf81613079fabeb3504d039159f676b0972b37aa36f0a9706f58d81e97e812580ad62cf2c04932a1af6fdc82f786bf5bd5e5b48fd825ba63e0524440451e61bc8503445d54f8742f04e0a07785e4736e3b56ea8b3192675819c3a02412caf44095fb350bbb609ced6da0525512676bd2cd009dd</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>名词性从句</title>
+    <url>/2022/09/05/2022-09-05-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/oK3TNlXaok.jpg"></p>
+<span id="more"></span>
+
+<h2 id="一，基本概念"><a href="#一，基本概念" class="headerlink" title="一，基本概念"></a>一，基本概念</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/709fa3c700d45f7f62a565cba512353.jpg" alt="0"></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<h2 id="二，连接词"><a href="#二，连接词" class="headerlink" title="二，连接词"></a>二，连接词</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d623fd7d36554e573cb3833e0cc8d9a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c7d41448626479615536202ce299d64.jpg"></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>在句首表是否只能用whether</p>
+</blockquote>
+<h2 id="三，主语从句"><a href="#三，主语从句" class="headerlink" title="三，主语从句"></a>三，主语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f0baa22d3c2327278b5082dbbefe3ec.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8c16990706cd89b5a6061b3af20637.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5a5b48f1397afdef3d80de8c2c2ebe0.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="四，宾语从句"><a href="#四，宾语从句" class="headerlink" title="四，宾语从句"></a>四，宾语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f2379ca309137a1bee8016ac2494a9.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e943fafbf331cb0969774155084b34.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ec28e8ddd51ec587bfe8499edb9663d.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d9c5225f3cd5876977c438d441928d6.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="五，表语从句"><a href="#五，表语从句" class="headerlink" title="五，表语从句"></a>五，表语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92cf46328bb09b326093594db526776.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c5ef32fa520aa71546297ff76fe1940.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/300681f3bfb9696fd30498edb8c94a8.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="六，同位语从句"><a href="#六，同位语从句" class="headerlink" title="六，同位语从句"></a>六，同位语从句</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/328fd083692cda1046aa17a25e687c0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/761d3f7318774f2f967d88e762aaca0.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a0252f29c9a37df4c1739539a7c6451.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>补充：suggestion 建议</p>
+</blockquote>
+]]></content>
       <categories>
-        <category>心动时刻</category>
+        <category>专升本</category>
       </categories>
       <tags>
-        <tag>思维火花</tag>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对手机配置的理解</title>
+    <url>/2022/09/05/2022-09-05-%E5%AF%B9%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%9A%84%E7%90%86%E8%A7%A3/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
+<span id="more"></span>
+
+<p>手机性能最重要的指标就是中央处理器，也就是CPU，其次是运行内存的大小，机身内存大小随意。</p>
+<p>手机的cpu不仅仅是处理数据运算的cpu，而是集成了很多东西在一起的，里面不仅有cpu还有GPU还有基带等等，GPU就是显卡。</p>
+<p>画质越好的游戏就越吃显卡，GPU性能的高低直接决定你玩游戏流不流畅，也就是帧数有多少，</p>
+<p>帧数的意思是在一秒钟里能刷新多少张图片，60帧意思是在一秒钟里能刷新60次，电影<a href="https://www.vipcn.com/zt/dsjgbyxhj/">电视剧</a>动画都是由一张张图片快速切换链接起来的，所以帧数直接决定游戏体验了</p>
+<p>如果游戏优化好，那就对手机配置要求会更友好点，如果优化一般般的话……GPU性能不行的手机估计帧数会比较低，内存不够的手机会黑屏闪退。</p>
+]]></content>
+      <categories>
+        <category>硬件探索</category>
+      </categories>
+      <tags>
+        <tag>手机</tag>
       </tags>
   </entry>
   <entry>
@@ -624,90 +727,6 @@
       </categories>
       <tags>
         <tag>英语文章</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>名词性从句</title>
-    <url>/2022/09/05/2022-09-05-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/oK3TNlXaok.jpg"></p>
-<span id="more"></span>
-
-<h2 id="一，基本概念"><a href="#一，基本概念" class="headerlink" title="一，基本概念"></a>一，基本概念</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/709fa3c700d45f7f62a565cba512353.jpg" alt="0"></th>
-<th></th>
-</tr>
-</thead>
-</table>
-<h2 id="二，连接词"><a href="#二，连接词" class="headerlink" title="二，连接词"></a>二，连接词</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d623fd7d36554e573cb3833e0cc8d9a.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c7d41448626479615536202ce299d64.jpg"></th>
-</tr>
-</thead>
-</table>
-<blockquote>
-<p>在句首表是否只能用whether</p>
-</blockquote>
-<h2 id="三，主语从句"><a href="#三，主语从句" class="headerlink" title="三，主语从句"></a>三，主语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f0baa22d3c2327278b5082dbbefe3ec.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8c16990706cd89b5a6061b3af20637.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5a5b48f1397afdef3d80de8c2c2ebe0.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="四，宾语从句"><a href="#四，宾语从句" class="headerlink" title="四，宾语从句"></a>四，宾语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f2379ca309137a1bee8016ac2494a9.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e943fafbf331cb0969774155084b34.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ec28e8ddd51ec587bfe8499edb9663d.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d9c5225f3cd5876977c438d441928d6.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="五，表语从句"><a href="#五，表语从句" class="headerlink" title="五，表语从句"></a>五，表语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92cf46328bb09b326093594db526776.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c5ef32fa520aa71546297ff76fe1940.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/300681f3bfb9696fd30498edb8c94a8.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="六，同位语从句"><a href="#六，同位语从句" class="headerlink" title="六，同位语从句"></a>六，同位语从句</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/328fd083692cda1046aa17a25e687c0.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/761d3f7318774f2f967d88e762aaca0.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a0252f29c9a37df4c1739539a7c6451.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>补充：suggestion 建议</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>专升本</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
       </tags>
   </entry>
   <entry>
@@ -839,25 +858,6 @@
       </categories>
       <tags>
         <tag>英语句子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对手机配置的理解</title>
-    <url>/2022/09/05/2022-09-05-%E5%AF%B9%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%9A%84%E7%90%86%E8%A7%A3/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
-<span id="more"></span>
-
-<p>手机性能最重要的指标就是中央处理器，也就是CPU，其次是运行内存的大小，机身内存大小随意。</p>
-<p>手机的cpu不仅仅是处理数据运算的cpu，而是集成了很多东西在一起的，里面不仅有cpu还有GPU还有基带等等，GPU就是显卡。</p>
-<p>画质越好的游戏就越吃显卡，GPU性能的高低直接决定你玩游戏流不流畅，也就是帧数有多少，</p>
-<p>帧数的意思是在一秒钟里能刷新多少张图片，60帧意思是在一秒钟里能刷新60次，电影<a href="https://www.vipcn.com/zt/dsjgbyxhj/">电视剧</a>动画都是由一张张图片快速切换链接起来的，所以帧数直接决定游戏体验了</p>
-<p>如果游戏优化好，那就对手机配置要求会更友好点，如果优化一般般的话……GPU性能不行的手机估计帧数会比较低，内存不够的手机会黑屏闪退。</p>
-]]></content>
-      <categories>
-        <category>硬件探索</category>
-      </categories>
-      <tags>
-        <tag>手机</tag>
       </tags>
   </entry>
   <entry>
@@ -1779,28 +1779,6 @@
       </tags>
   </entry>
   <entry>
-    <title>墙</title>
-    <url>/2022/10/04/2022-09-24-%E5%A2%99/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="343c17c7e8902cc3fbd8f1838170bc2dcf18232e9becbf91debca00ff609f81b">10d79030e8222445804370796b90fca18d1354a9b9b8f4d4edd73d957d9afbdeb6d99939ae1d824a59b5bd4636e52cfedd6331be7f11e1c848eb5b5d2cb2b5a2948dc8547d3e174eb32669a77f4dbe8de2e79566d9ba1999231553eea70b2515656373515ed37fcd96cef9627cb9ae4e9575adf6b522b0c5460b1d39a3257f0a24c3ff169f29fbda0e28eb129c4ff2e0ad8244f3df7c66260b56e46ef248a31bfccc906ec191bde02cc1c1c2d48e6eb83089943c5e3eba686b600386199634111d513c5ac6edb58f68d5c82ce50b5bd4086a99dee8083a0848661a31c97ca6bf3aaa688a66cc56316f23fb37e7831a344435d81b7ab7eab0ac95457f03d6177da762b1bd5024c981923335f42acab88503d7dc21f247738fb11ba572aef4477e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>墙</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不定积分</title>
     <url>/2022/09/24/2022-09-24-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/22536_33628137216.webp"></p>
@@ -1950,6 +1928,28 @@
       </tags>
   </entry>
   <entry>
+    <title>墙</title>
+    <url>/2022/10/04/2022-09-24-%E5%A2%99/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="343c17c7e8902cc3fbd8f1838170bc2dcf18232e9becbf91debca00ff609f81b">10d79030e8222445804370796b90fca18d1354a9b9b8f4d4edd73d957d9afbdeb6d99939ae1d824a59b5bd4636e52cfedd6331be7f11e1c848eb5b5d2cb2b5a2948dc8547d3e174eb32669a77f4dbe8de2e79566d9ba1999231553eea70b2515656373515ed37fcd96cef9627cb9ae4e9575adf6b522b0c5460b1d39a3257f0a24c3ff169f29fbda0e28eb129c4ff2e0ad8244f3df7c66260b56e46ef248a31bfccc906ec191bde02cc1c1c2d48e6eb83089943c5e3eba686b600386199634111d513c5ac6edb58f68d5c82ce50b5bd4086a99dee8083a0848661a31c97ca6bf3aaa688a66cc56316f23fb37e7831a344435d81b7ab7eab0ac95457f03d6177da762b1bd5024c981923335f42acab88503d7dc21f247738fb11ba572aef4477e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>墙</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>定积分</title>
     <url>/2022/09/24/2022-09-24-%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
@@ -2043,6 +2043,25 @@
       </tags>
   </entry>
   <entry>
+    <title>对Git与GitHub的探索</title>
+    <url>/2022/09/24/2022-09-24-%E5%AF%B9Git%E4%B8%8EGitHub%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<h2 id="Git第一版书籍地址"><a href="#Git第一版书籍地址" class="headerlink" title="Git第一版书籍地址"></a>Git第一版书籍地址</h2><p><a href="http://iissnan.com/progit/">http://iissnan.com/progit/</a></p>
+<p><a href="https://segmentfault.com/a/1190000023734704">参考教程</a></p>
+<h2 id="Git-Pro-书籍"><a href="#Git-Pro-书籍" class="headerlink" title="Git Pro 书籍"></a>Git Pro 书籍</h2><p><a href="https://codechina_dev.gitcode.host/progit2/">https://codechina_dev.gitcode.host/progit2/</a></p>
+<h2 id="GitHub搜索技巧"><a href="#GitHub搜索技巧" class="headerlink" title="GitHub搜索技巧"></a>GitHub搜索技巧</h2><p><a href="https://codeantenna.com/a/kgBjkAvYJz">https://codeantenna.com/a/kgBjkAvYJz</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>Git/GitHub教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>对Typora的探索</title>
     <url>/2022/09/24/2022-09-24-%E5%AF%B9Typora%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-x8vgrz.jpg"></p>
@@ -2063,22 +2082,20 @@
       </tags>
   </entry>
   <entry>
-    <title>对Git与GitHub的探索</title>
-    <url>/2022/09/24/2022-09-24-%E5%AF%B9Git%E4%B8%8EGitHub%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <title>提问的智慧</title>
+    <url>/2022/09/24/2022-09-24-%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/</url>
     <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
 
 <span id="more"></span>
 
-<h2 id="Git第一版书籍地址"><a href="#Git第一版书籍地址" class="headerlink" title="Git第一版书籍地址"></a>Git第一版书籍地址</h2><p><a href="http://iissnan.com/progit/">http://iissnan.com/progit/</a></p>
-<p><a href="https://segmentfault.com/a/1190000023734704">参考教程</a></p>
-<h2 id="Git-Pro-书籍"><a href="#Git-Pro-书籍" class="headerlink" title="Git Pro 书籍"></a>Git Pro 书籍</h2><p><a href="https://codechina_dev.gitcode.host/progit2/">https://codechina_dev.gitcode.host/progit2/</a></p>
-<h2 id="GitHub搜索技巧"><a href="#GitHub搜索技巧" class="headerlink" title="GitHub搜索技巧"></a>GitHub搜索技巧</h2><p><a href="https://codeantenna.com/a/kgBjkAvYJz">https://codeantenna.com/a/kgBjkAvYJz</a></p>
+<p><a href="https://zhaochenyang20.github.io/2022/03/16/CS/others/how_to_ask_a_question/">https://zhaochenyang20.github.io/2022/03/16/CS/others/how_to_ask_a_question/</a></p>
+<p><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
 ]]></content>
       <categories>
-        <category>网站探索</category>
+        <category>网络编程</category>
       </categories>
       <tags>
-        <tag>Git/GitHub教程</tag>
+        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
@@ -2185,59 +2202,6 @@
       </tags>
   </entry>
   <entry>
-    <title>提问的智慧</title>
-    <url>/2022/09/24/2022-09-24-%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
-
-<span id="more"></span>
-
-<p><a href="https://zhaochenyang20.github.io/2022/03/16/CS/others/how_to_ask_a_question/">https://zhaochenyang20.github.io/2022/03/16/CS/others/how_to_ask_a_question/</a></p>
-<p><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
-]]></content>
-      <categories>
-        <category>网络编程</category>
-      </categories>
-      <tags>
-        <tag>思考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>百度首页爬虫</title>
-    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
-
-<span id="more"></span>
-
-<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
-<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
-</blockquote>
-<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>网络编程</category>
-      </categories>
-      <tags>
-        <tag>python爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>编程的智慧</title>
-    <url>/2022/09/24/2022-09-24-%E7%BC%96%E7%A8%8B%E7%9A%84%E6%99%BA%E6%85%A7/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
-
-<span id="more"></span>
-
-<p><a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy">http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy</a></p>
-]]></content>
-      <categories>
-        <category>网络编程</category>
-      </categories>
-      <tags>
-        <tag>思考</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>状语从句</title>
     <url>/2022/09/24/2022-09-24-%E7%8A%B6%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/wallhaven-v9w3v3.jpg"></p>
@@ -2311,6 +2275,42 @@
       </categories>
       <tags>
         <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百度首页爬虫</title>
+    <url>/2022/09/24/2022-09-24-%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-09-17 194134.jpg" style="zoom:80%;" />
+
+<span id="more"></span>
+
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><blockquote>
+<p>效果：会在桌面生成一个html文件，打开即为百度首页。</p>
+</blockquote>
+<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第一步 确认爬取内容的网址</span></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com/&quot;</span></span><br><span class="line"><span class="comment"># headers = &#123;</span></span><br><span class="line"><span class="comment">#   &#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#x27;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment">#  第二步  向网站发出http请求</span></span><br><span class="line">response = requests.get(url)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第三步  获取网站响应的数据</span></span><br><span class="line">content = response.content.decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#  第四步 对响应数据持久化</span></span><br><span class="line"><span class="built_in">print</span>(content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;baibu.html&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    fp.write(content)</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>python爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编程的智慧</title>
+    <url>/2022/09/24/2022-09-24-%E7%BC%96%E7%A8%8B%E7%9A%84%E6%99%BA%E6%85%A7/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/下载.png" style="zoom:200%;" />
+
+<span id="more"></span>
+
+<p><a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy">http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy</a></p>
+]]></content>
+      <categories>
+        <category>网络编程</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
@@ -2419,6 +2419,268 @@
       </tags>
   </entry>
   <entry>
+    <title>2010 part</title>
+    <url>/2022/10/14/2022-10-14-2010-part/</url>
+    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3156058b882311ebb6edd017c2d2eca2.png" style="zoom:80%;" />
+
+<span id="more"></span>
+
+<h2 id="part-1"><a href="#part-1" class="headerlink" title="part  1"></a>part  1</h2><p>1．composition[ˌkɒmpəˈzɪʃn] n.作品; 作文<br>2．outline[ˈaʊtlaɪn] n 提纲大纲<br>3．below [bɪˈləʊ] prep.（表示位置）在…下面<br>4．depend on ①依靠 依赖&#x3D;rely on<br>②取决于&#x3D;be up to sb 5．surround [səˈraʊnd] v.围绕; 包围 6．break through 突围 7．break away 逃脱 8．break up 分手 婚姻关系破裂 9．divorce [dɪˈvɔːs] n.离婚; 分离;v.(与…)离婚; （使）分离 10．break off 折断 中断 11．break out （战争火灾等）爆发 12．break in 插嘴 13．break down 出故障 14．break into 闯入 打断 15．break through 突破 16．general [ˈdʒenrəl] n. 将军 adj.全体的; 一般的; 普通的 整体的 17．blame [bleɪm] v.责怪，指责; n.责备; 责任 18．take the blame for 承担…..的责任 19．guilt [ɡɪlt] n.有罪 内疚 20．charge [tʃɑːdʒ] v.收费; 指控,谴责; 给…充电; 21．immediately [ɪˈmiːdiətli] adv 立即 22．recognize[ˈrekəɡnaɪz] v. 认出 识别 23．missing [ˈmɪsɪŋ] adj.找不到的，丢失的; 失踪的 24．criminal [ˈkrɪmɪnl] n.罪犯;adj.犯罪的; 25．possession [pəˈzeʃn] n.占有; 所有物; 财产;. 26．precious [ˈpreʃəs] adj.宝贵的; 珍奇的; 27．previous [ˈpriːviəs] adj.先前的; 以前的 28．curious [ˈkjʊəriəs] adj. 好奇的 29．according [ə’kɔːdɪŋ]v 符合，与…一致 30．according to 根据</p>
+<table>
+<thead>
+<tr>
+<th>1．composition[ˌkɒmpəˈzɪʃn]</th>
+<th>11．break out</th>
+<th>21．immediately [ɪˈmiːdiətli]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2．outline[ˈaʊtlaɪn]</td>
+<td>12．break in</td>
+<td>22．recognize[ˈrekəɡnaɪz]</td>
+</tr>
+<tr>
+<td>3．below [bɪˈləʊ]</td>
+<td>13．break down</td>
+<td>23．missing [ˈmɪsɪŋ]</td>
+</tr>
+<tr>
+<td>4．depend on</td>
+<td>14．break into</td>
+<td>24．criminal [ˈkrɪmɪnl]</td>
+</tr>
+<tr>
+<td>5．surround [səˈraʊnd]</td>
+<td>15．break through</td>
+<td>25．possession [pəˈzeʃn]</td>
+</tr>
+<tr>
+<td>6．break through</td>
+<td>16．general [ˈdʒenrəl]</td>
+<td>26．precious [ˈpreʃəs]</td>
+</tr>
+<tr>
+<td>7．break away</td>
+<td>17．blame [bleɪm]</td>
+<td>27．previous [ˈpriːviəs]</td>
+</tr>
+<tr>
+<td>8．break up</td>
+<td>18．take the blame for</td>
+<td>28．curious [ˈkjʊəriəs]</td>
+</tr>
+<tr>
+<td>9．divorce [dɪˈvɔːs]</td>
+<td>19．guilt [ɡɪlt]</td>
+<td>29．according [ə’kɔːdɪŋ]</td>
+</tr>
+<tr>
+<td>10．break off</td>
+<td>20．charge [tʃɑːdʒ]</td>
+<td>30．according to</td>
+</tr>
+</tbody></table>
+<p> 31．describe[dɪˈskraɪb] v.描述; . 32．excuse [ɪkˈskjuːs ] n.借口; 理由; v.原谅</p>
+<p>33．major [ˈmeɪdʒə(r)] adj.重要的;主修的 v 主修 n 专业 34．major in 主修 35．subject [ˈsʌbdʒɪkt] n.话题; 学科 36．explore [ɪkˈsplɔː(r)] v 在…探险; 探讨; 探索 37．giant [ˈdʒaɪənt] n 巨人 38．liar [ˈlaɪə(r)] n.说谎者 39．coward [ˈkaʊəd] n.胆小鬼，懦夫 40．loser [ˈlu:zə(r)] n 失败者 41．quarrel [ˈkwɒrəl] n&#x2F;v.争吵，分歧 42．end [end] n 最后部分 结局; 末端 v 使结束 43．bring( …..) to the end 使结束 44．fetch [fetʃ] v.去拿 去取 45．aware [əˈweə(r)]adj 知道的 意识到的 46．be aware of 意识到… 47．will [wɪl] n.意志，决心; 遗嘱 48．share [ʃeə(r)] v 分享 n.一份; 股份 49．possibility[ˌpɒsəˈbɪləti] n.可能性 50．possible [ˈpɒsəbl] adj 51．property [ˈprɒpəti] n.财产 属性 52．priority [praɪˈɒrəti] n.优先，优先权; 重点 53．personality[ˌpɜːsəˈnæləti] n.性格，气质; 特征; 54．person [ˈpɜːsn] n.人 55．in person 亲自 56．personal [ˈpɜːsənl] adj 个人的; 亲自的; 人际的; 57．Prefer A to B 相对比 B 更喜欢 A 58．control [kənˈtrəʊl] v 控制 59．in trouble. 在困境中 60．It is + adj for sb to do 对 sb 来说做 sth 怎么样 </p>
+<table>
+<thead>
+<tr>
+<th>31．describe[dɪˈskraɪb]</th>
+<th>41．quarrel [ˈkwɒrəl]</th>
+<th>51．property [ˈprɒpəti]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>32．excuse [ɪkˈskjuːs ]</td>
+<td>42．end [end]</td>
+<td>52．priority [praɪˈɒrəti]</td>
+</tr>
+<tr>
+<td>33．major [ˈmeɪdʒə(r)]</td>
+<td>43．bring( …..) to the end</td>
+<td>53．personality[ˌpɜːsəˈnæləti]</td>
+</tr>
+<tr>
+<td>34．major in</td>
+<td>44．fetch [fetʃ]</td>
+<td>54．person [ˈpɜːsn]</td>
+</tr>
+<tr>
+<td>35．subject [ˈsʌbdʒɪkt]</td>
+<td>45．aware [əˈweə(r)]</td>
+<td>55．in person</td>
+</tr>
+<tr>
+<td>36．explore [ɪkˈsplɔː(r)]</td>
+<td>46．be aware of</td>
+<td>56．personal [ˈpɜːsənl]</td>
+</tr>
+<tr>
+<td>37．giant [ˈdʒaɪənt]</td>
+<td>47．will [wɪl]</td>
+<td>57．Prefer A to B</td>
+</tr>
+<tr>
+<td>38．liar [ˈlaɪə(r)]</td>
+<td>48．share [ʃeə(r)]</td>
+<td>58．control [kənˈtrəʊl]</td>
+</tr>
+<tr>
+<td>39．coward [ˈkaʊəd]</td>
+<td>49．possibility[ˌpɒsəˈbɪləti]</td>
+<td>59．in trouble</td>
+</tr>
+<tr>
+<td>40．loser [ˈlu:zə(r)]</td>
+<td>50．possible [ˈpɒsəbl]</td>
+<td>60．It is + adj for sb to do</td>
+</tr>
+</tbody></table>
+<p>61．feast [fiːst] n.宴会; 盛宴 62．interval [ˈɪntəvl] n.间隔；幕间休息 63．admit &#x2F;əd’mɪt&#x2F; v 承认<br>64．trust [trʌst] n&#x2F;v 信任; 信托. 65．moral [ˈmɒrəl] adj 道德的 道义上的</p>
+<p>66．rarely [ˈreəli] adv.很少地；罕有地； 67．survival [səˈvaɪvl] n.生存; 残存物 68．basis [ˈbeɪsɪs] n.基础 69．basic [ˈbeɪsɪk] adj.基础的，根本的 70．prevent [prɪˈvent] v 阻碍; 预防 71．forbid&#x2F;stop&#x2F;prevent sb from doing<br>禁止&#x2F;阻止&#x2F;阻止 sb做 sth<br>72．achieve [əˈtʃi:v] v.实现，达到 73．obstacle [ˈɒbstəkl] n.障碍（物）; 障碍物 74．command [kəˈmɑ:nd] v&#x2F;n 命令; 控制 精通 75．have a good command of sth 掌握… 精通…. 76．protect sb from doing 保护….以免 77．offense [əˈfens] n.进攻;冒犯 78．offend [əˈfend] v.冒犯; 79．huntsman [ˈhʌntsmən] n.猎人 80．woods [wʊdz] n.森林； 81．catch a glimpse of…. 瞥见….. 82．spare [speə(r)] adj.闲置的，空闲的 v.留出，剩余; 省得 83．spare no effort to do 不遗余力做 sth 84．reply to [rɪˈplaɪ] v 回应，回 85．metal [ˈmetl] n.金属; 金属元素; 86．gradually[ˈɡrædʒuəli] 逐渐地 87．be used for… 用于 88．be used as…. 用作 89．durable [ˈdjʊərəbl] adj.耐用的 90．portable [ˈpɔːtəbl] adj.轻便的; </p>
+<table>
+<thead>
+<tr>
+<th>61．feast [fiːst]</th>
+<th>71．forbid&#x2F;stop&#x2F;prevent sb from doing</th>
+<th>81．catch a glimpse of….</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>62．interval [ˈɪntəvl]</td>
+<td>72．achieve [əˈtʃi:v]</td>
+<td>82．spare [speə(r)]</td>
+</tr>
+<tr>
+<td>63．admit &#x2F;əd’mɪt&#x2F;</td>
+<td>73．obstacle [ˈɒbstəkl]</td>
+<td>83．spare no effort to do</td>
+</tr>
+<tr>
+<td>64．trust [trʌst]</td>
+<td>74．command [kəˈmɑ:nd]</td>
+<td>84．reply to [rɪˈplaɪ]</td>
+</tr>
+<tr>
+<td>65．moral [ˈmɒrəl]</td>
+<td>75．have a good command of sth</td>
+<td>85．metal [ˈmetl]</td>
+</tr>
+<tr>
+<td>66．rarely [ˈreəli]</td>
+<td>76．protect sb from doing</td>
+<td>86．gradually[ˈɡrædʒuəli]</td>
+</tr>
+<tr>
+<td>67．survival [səˈvaɪvl]</td>
+<td>77．offense [əˈfens]</td>
+<td>87．be used for…</td>
+</tr>
+<tr>
+<td>68．basis [ˈbeɪsɪs]</td>
+<td>78．offend [əˈfend]</td>
+<td>88．be used as….</td>
+</tr>
+<tr>
+<td>69．basic [ˈbeɪsɪk]</td>
+<td>79．huntsman [ˈhʌntsmən]</td>
+<td>89．durable [ˈdjʊərəbl]</td>
+</tr>
+<tr>
+<td>70．prevent [prɪˈvent]</td>
+<td>80．woods [wʊdz]</td>
+<td>90．portable [ˈpɔːtəbl]</td>
+</tr>
+</tbody></table>
+<p>91．recognize [ˈrekəgnaɪz] vt.认出；识别；承认; 92．recognizable [ˌrekəɡˈnaɪzəbl] adj.可识别的; 可认识的; 93．divide [dɪˈvaɪd] v.（使）分开; 分配 94．divisible[dɪˈvɪzəbl] adj.可分开的，可除尽的 95．probable [ˈprɒbəbl] adj.可能的; 大概的 96．probably [ˈprɒbəbli] adv 可能地 97．emotion [ɪˈməʊʃn] 情绪 98．mood [muːd] 情绪 心情</p>
+<p>99．In my opinion, 在我看来 100．tower[ˈtaʊə(r)] n.塔（楼） 101．discard [dɪˈskɑ:d] v 丢弃 抛弃 102．desert [ˈdezət] n.沙漠，荒原; v 遗弃 103．distort [dɪˈstɔːt] v.歪曲，曲解; 104．It is reported&#x2F;said&#x2F;believed&#x2F;thought that<br>据报道&#x2F;说&#x2F;相信&#x2F;认为<br>105．pollution [pəˈluːʃn] n.污染; 污染物 106．Intellectual [ˌɪntəˈlektʃuəl] adj. 智力的 107．refers to 指的是 涉及 108．invention [ɪnˈvenʃn] n 发明; 捏造 109．copyright [ˈkɒpiraɪt] n 版权，著作权; 110．officially [əˈfɪʃəli] adv.正式地; 官方地; 111．own v 有; 承认 adj 自己的 112．organization [ˌɔːɡənaɪˈzeɪʃn] n.组织 113．heritage [ˈherɪtɪdʒ] n.遗产; 传统; 114．possession [pəˈzeʃn] n.所有物; 财产; 115．wedding [ˈwedɪŋ] 婚礼; ceremony 116．celebration [ˌselɪˈbreɪʃn] n 庆祝 117．congratulation [kənˌɡrætʃuˈleɪʃn] n.祝贺; 恭喜 118．harmony [ˈhɑːməni] n 融洽; 119．harmonious [hɑ:ˈməʊniəs] adj.和谐的，融洽的 120．author [ˈɔ:θə(r)] n 作者&#x3D;writer 121．judgment [‘dʒʌdʒmənt] n.判断，鉴定 122．combine &#x2F;kəm’baɪn&#x2F; vt. 使联合，使结合 123．combination [ˌkɒmbɪˈneɪʃn] n.结合；联合体 124．observe [əbˈzɜ:v] vt&amp;vi.观察；研究 125．observation [ˌɒbzəˈveɪʃn] n.观察；观察力 126．analysis [əˈnæləsɪs] n.分析 127．get along well with sb 与….相处的好</p>
+<table>
+<thead>
+<tr>
+<th>91．recognize [ˈrekəgnaɪz]</th>
+<th>101．discard [dɪˈskɑ:d]</th>
+<th>111．own</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>92．recognizable [ˌrekəɡˈnaɪzəbl]</td>
+<td>102．desert [ˈdezət]</td>
+<td>112．organization [ˌɔːɡənaɪˈzeɪʃn]</td>
+</tr>
+<tr>
+<td>93．divide [dɪˈvaɪd]</td>
+<td>103．distort [dɪˈstɔːt]</td>
+<td>113．heritage [ˈherɪtɪdʒ]</td>
+</tr>
+<tr>
+<td>94．divisible[dɪˈvɪzəbl]</td>
+<td>104．It is reported&#x2F;said&#x2F;believed&#x2F;thought that</td>
+<td>114．possession [pəˈzeʃn]</td>
+</tr>
+<tr>
+<td>95．probable [ˈprɒbəbl]</td>
+<td>105．pollution [pəˈluːʃn]</td>
+<td>115．wedding [ˈwedɪŋ]</td>
+</tr>
+<tr>
+<td>96．probably [ˈprɒbəbli]</td>
+<td>106．Intellectual [ˌɪntəˈlektʃuəl]</td>
+<td>116．celebration [ˌselɪˈbreɪʃn]</td>
+</tr>
+<tr>
+<td>97．emotion [ɪˈməʊʃn]</td>
+<td>107．refers to</td>
+<td>117．congratulation [kənˌɡrætʃuˈleɪʃn]</td>
+</tr>
+<tr>
+<td>98．mood [muːd]</td>
+<td>108．invention [ɪnˈvenʃn]</td>
+<td>118．harmony [ˈhɑːməni]</td>
+</tr>
+<tr>
+<td>99．In my opinion,</td>
+<td>109．copyright [ˈkɒpiraɪt]</td>
+<td>119．harmonious [hɑ:ˈməʊniəs]</td>
+</tr>
+<tr>
+<td>100．tower[ˈtaʊə(r)]</td>
+<td>110．officially [əˈfɪʃəli]</td>
+<td>120．author [ˈɔ:θə(r)]</td>
+</tr>
+<tr>
+<td>121．judgment [‘dʒʌdʒmənt]</td>
+<td>122．combine &#x2F;kəm’baɪn&#x2F;</td>
+<td>123．combination [ˌkɒmbɪˈneɪʃn]</td>
+</tr>
+<tr>
+<td>124．observe [əbˈzɜ:v]</td>
+<td>125．observation [ˌɒbzəˈveɪʃn]</td>
+<td>126．analysis [əˈnæləsɪs]</td>
+</tr>
+<tr>
+<td>127．get along well with sb</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="part-2"><a href="#part-2" class="headerlink" title="part   2"></a>part   2</h2><p>1 earthquake [ˈɜ:θkweɪk] n. 地震;<br>2 preview [ˈpri:vjuː] n 预先<br>3 prejudice [ˈpredʒudɪs] n 偏见;<br>4 soft [sɒft] adj.软的，柔软的; 温和的<br>5 have a word with…与某人谈话<br>6 have words with….与某人吵架<br>7 loan [ləʊn] n.贷款; 借款; 借出;v.借给;<br>8 overdue [ˌəʊvəˈdjuː] adj.过期的; 延误的<br>9 as soon as possible 尽可能快地<br>10 due [djuː] adj.预期的; 到期的; 适当的<br>11 due to 由于<br>12 informal [ɪnˈfɔːml adj.非正式的; 不拘礼节的; 随意的<br>13 formal [ˈfɔːml] adj.正式的; 正规的;<br>14 form [fɔːm] n.类型;外形; 表格;v.形成，构成;<br>15 transform [trænsˈfɔːm] v.使改变形态; 使改观<br>16 visit sb&#x2F;sp&#x3D;pay a visit to sb&#x2F;sp<br>17 came up with 想出 想起<br>18 by no means 决不 否定词放句首 半倒装<br>19 approach [əˈprəʊtʃ] v.接近，临近;n 方法，方式; 接近，来临<br>20 method [ˈmeθəd] n.方法;<br>21 host [həʊst] n.主人; 东道主;<br>22 infect [ɪnˈfekt] v 传染; 使感染 影响;<br>23 be infected with 被感染<br>24 communicate [kəˈmjuːnɪkeɪt] v 沟通; 交流;<br>25 communication [kəˌmjuːnɪˈkeɪʃn] n 沟通 交流 通信<br>26 cultivate [ˈkʌltɪveɪt] v.耕作，种植; 培养<br>27 found [faʊnd] v.建立; 兴建; 创办;<br>28 bone [bəʊn] n.骨（头）<br>29 armchair [ˈɑːmtʃeə(r)] n.扶手椅<br>30 beside [bɪˈsaɪd] prep. 在…旁边;<br>31 depression [dɪˈpreʃn] n.抑郁(症); 消沉; 萧条<br>32 In the 1930s&#x2F;1930’s 在 20 世纪 30 年代</p>
+<p>33 cellphone [ˈselfəʊn] 手机<br>34 leave sth at sp 把…落在某地 35 concentrate [ˈkɒnsntreɪt] v.全神贯注; 使集中; 36 concentrate on &#x3D;focus on 致力于 集中注意于 37 technology [tekˈnɒlədʒi] n.科技 38 extra [ˈekstrə] adj.额外的<br>39 exceptional [ɪkˈsepʃənl] adj.杰出的，非凡的; 例外的 40 additional [əˈdɪʃənl] adj 附加的，添加的; 41 wood [wʊd] n.木材，木头 42 woods [wʊdz] n.森林; 树林 43 occasionally [əˈkeɪʒnəli] adv.偶尔; 偶然 44 apply to 应用于<br>45 arrange [əˈreɪndʒ] v.排列，布置; 安排 46 yield to 屈服 让步<br>47 resort to 诉诸于 求助于 48 resort [rɪˈzɔːt] v.诉诸;采取; 49 private [ˈpraɪvət] 个人的; 秘密的 50 secretary [ˈsekrətri] .秘书; 书记员 51 access [ˈækses] n.入口，通道 52 approach[əˈprəʊtʃ] v.接近，临近; 53 accent [ˈæksent] n.口音,腔调 v.强调; 重读; 54 response [rɪˈspɒns] n.答复; 反应 55 responsible [rɪˈspɒnsəbl] adj.有责任的; 引起…的; 可靠的; 56 plate [pleɪt] 盘子 on<br>57 dining [ˈdaɪnɪŋ] 用餐，吃饭（dine 的现在分词） 58 dining hall&#x2F; table 餐厅&#x2F;桌<br>59 purpose [ˈpɜːpəs] n.意图，计划; 60 center [ˈsentə(r)] n.中心<br>61 central [ˈsentrəl] adj.中心的; 中央的; 62 stubborn [ˈstʌbən]adj.顽固的，固执的; 63 change one’s mind. 改变想法 64 persuade [pəˈsweɪd] v.劝说; 使信服 65 Persuade sb to do sth<br>&#x3D;persuade sb into doing sth</p>
+<p>66 means [miːnz] n.方法; 67 in vain. 徒劳的 无用的 无效果的 68 Each&#x2F;every +单数名词 做主语 谓语用单数 69 resource [rɪˈsɔːs] n.资源; 物力，财力. 70 usage [ˈjuːsɪdʒ] n.使用; 用法; 71 Be supposed to do 被期望 被认为 应该 72 by all means 务必 一定 73 by no means 决不 74 case[keɪs] n.情况; 事例; 事实; 75 complicated [ˈkɒmplɪkeɪtɪd] adj.复杂的; 难处理的; 76 have no choice but to do 别无选择 只能 77 evil [ˈiːvl] adj.邪恶的; 有害的; 78 force [fɔːs] v.强迫; 强行;n.暴力; 力量 79 command [kəˈmɑːnd] v 命令; 控制 80 estimate [ˈestɪmeɪt] n&#x2F;v.估计，预测; 报价 81 foresee [fɔːˈsiː] vt.预知，预见 82 forecast [ˈfɔːkɑːst] n、v.预报; 83 junior [ˈdʒuːniə(r)] adj.职位较低的; 青少年的 84 senior [ˈsiːniə(r)] adj 级别&#x2F;地位高的，资深的; 85 automobile [ˈɔːtəməbiːl] n 汽车 86 social [ˈsəʊʃl] adj.社会的; 社交的 87 society [səˈsaɪəti] n.社会; 社团; 88 recreational [ˌrekriˈeɪʃənl] adj.消遣的; 娱乐的;</p>
+<h2 id="真题部分"><a href="#真题部分" class="headerlink" title="真题部分"></a>真题部分</h2><p>1．break &#x2F;breɪk&#x2F; v. 打破；折断 违背 &#x2F;n. 休息 2．take a break&#x3D;have a rest 休息一下 3．break the law 违背法律 4．follow&#x2F;obey the law 遵守法律 5．break up 打碎；分解；破裂 6．break down 分解；出故障 7．break out爆发 fire war accident earthquake volcano 8．break into 强行进入 9．break in 闯入；插嘴</p>
+<p>10．break away 脱逃；脱离 11．break through 突围；突破 12．break off 折断 中止 13．glance [ɡla:ns] vi.&#x2F;n. 瞥一眼；匆匆一看；浏览；粗略地看 14．glance at sth. 瞥见 15．at first glance 乍一看 初看 16．report [rɪˈpɔ:t] v&#x2F;n 报告 17．precious [ˈpreʃəs] adj. 珍奇的；珍稀的；宝贵的；珍贵的 18．replace [rɪˈpleɪs] vt.替换；代替 19．practical [ˈpræktɪkl] adj.实践的；可实现的 可行的 20．Practice 练习 实践 21．plentiful [ˈplentɪfl] adj.丰富的；富产的 22．Plenty of +可数、不可数名词 大量的 23．temper [ˈtempə(r)] n. 脾气；怒气；火气 24．lose one’s temper 发脾气 25．mood [mu:d] n.心情；语气 26．mind v 介意 n. 大脑 思想 27．passion [ˈpæʃn] n.激情，热情 28．worth [wɜ:θ] adj. 有…价值；值…钱&#x2F; n. 价值；意义；作用 29．be worth doing sth. 值得被 30．worthwhile [ˌwɜ:θˈwaɪl] adj. 值得的；值得做的 31．It is worthwhile to do sth. &#x2F; doing sth. 32．Be worthy of sth 值得….. 33．Be worthy of being done 值得被… 34．Be worthy to be done 值得被…… 35．textbook [ˈtekstbʊk] n.教科书；课本 36．dwarf [dwɔ:f] n. 矮子；侏儒&#x2F; adj. 矮小的 v 使矮小 37．distorts [dɪˈstɔ:t] vt.歪曲，扭曲；曲解 38．deserts [dɪˈzɜ:rt] 39．depress [dɪˈpres] vt.压低；使沮丧； 40．bring about 使发生；致使 导致 造成 41．bring down 打倒；击落；打死；降低 42．bring forth 提出；出示；展示<br>43．bring forward 提出；提前；显示</p>
+<p>44．bring out 显现；显示；出版；推出；生产 45．bring up 教育；养育；提出<br>46．bring back 把…带回来；使回忆起；使恢复<br>47．property [ˈprɒpəti] n.所有物；财产；财物；性质；特性 48．intellectual [ˌɪntəˈlektʃuəl] adj.智力的；有才智的 property 49．possession [pəˈzeʃn] n. 个人财产；拥有 50．heritage [ˈherɪtɪdʒ] n. 遗产（指国家或社会长期形成的历史、传统和特色） 51．wealth [welθ] n. 财富；富有 52．ceremony [ˈserəməni] n. 仪式；典礼 53．the opening ceremony 开业典礼 开幕式 54．wedding ceremony.婚礼 55．base [beɪs] n. 根基；基地&#x2F;vt. 以…为根据 56．basic [ˈbeɪsɪk] adj. 基础的 57．basis [ˈbeɪsɪs] n. 基础 58．base A on B A 以 B 为基础 59．A be based on B A 以 B 为基础 60．fault [fɔ:lt] n. 过错[U]；缺点[C] 61．find fault with sb.&#x2F;sth. 挑剔 找茬 62．disappointing [ˌdɪsəˈpɔɪntɪŋ] adj.令人失望的，扫兴的; 63．disappointed [ˌdɪsəˈpɔɪntɪd] adj.失望的，灰心的; 64．disappoint [ˌdɪsəˈpɔɪnt] v 使失望 65．disappointment [ˌdɪsəˈpɔɪntmənt] n.失望; 扫兴; 令人失望的人&#x2F;事; 66．To one’s disappointment 让…失望的是 67．appoint v 任命 委派 约会 约定 68．appointment 约定 预约 约会 69．error [ˈerə(r)] n. 错误；谬误 70．guilt [ɡɪlt] n. 内疚 自责 (指对发生的坏事负有的责任) 71．guilty [ˈgɪlti] adj.内疚的；有罪的; 72．seek [si:k] vt.寻找，探寻；追求 73．lay out 摆开, 展示, 布置, 安排 74．lay aside 把…放在一边;搁置;储存…以备后用 75．lay off 辞退；解雇；使下岗<br>76．lay down 放下；制定；颁布 77．lay about 攻击；拳打脚踢</p>
+<p>78．lay on<br>提供；供应<br>79．economic crisis 经济危机<br>80．spare [speə(r)] vt. 抽出；匀出 adj. 空闲的，闲置的&#x2F; n. 备用品；备用轮胎 81．in one’s spare time 在某人空闲时<br>82．spare no effort to do sth 不遗余力做 sth<br>&#x3D;try one’s best to do sth 尽最大努力做 sth 83．inform [ɪnˈfɔ:m] vt. [正式]告知；通知 84．information [ˌɪnfəˈmeɪʃn] n. [U]信息<br>85．inform sb. of&#x2F;about sth.<br>86．keep sb informed of sth 使&#x2F;让 sb 了解&#x2F;知道 sth 87．hire [ˈhaɪə(r)] vt.聘用；录用.<br>88．intend&#x2F;plan&#x2F;mean to do 计划、打算做 89．tend to do 倾向于 往往做<br>90．Intention [ɪnˈtenʃn] n.意图，目的<br>91．resign [rɪˈzaɪn] v.辞职；放弃<br>92．happen [ˈhæpən] v. (偶然)发生；碰巧 93．happen to do sth 碰巧做<br>94．happen to be done 碰巧被<br>95．occur [əˈkɜ:(r)] vi. [正式]发生(可用于偶然事件或计划之事) 96．It occurs&#x2F;occurred to sb that… 某人突然想到… 97．reflected [rɪˈflekt] vt&amp;vi.反射 反映<br>98．use [ju:z] vt.&#x2F; n. 使用；运用<br>99．make use of&#x3D;take advantage of 利用 使用 100．make full use of…充分利用<br>101．use up 用光 耗尽<br>102．It is no use&#x2F;good&#x2F;help（in）doing sth. 做……没有用 103．It is no good learning English without practice. 学英语不练是不行的。 104．used to do sth. 过去常常做 sth<br>105．be used to do sth. 被用来做 sth<br>106．be&#x2F;get used to doing sth. 习惯于做 sth 107．apply [əˈplaɪ] for 申请….<br>108．apply to 应用于<br>109．application &#x2F;ˌæplɪ’keɪʃ(ə)n&#x2F;n. 应用；申请；应用程序 110．since&#x3D;now that 既然 he has</p>
+<p>111．make up one’s mind (to do) 下定决心做 sth 112．change one’s mind 改变主意&#x2F;想法 113．means [mi:nz] n. 方式；方法 114．mean [mi:n] v.意思是；打算 115．mean&#x2F;plan to do 打算&#x2F;计划做 sth 116．mean doing sth 意味着做 117．by all means 务必 一定 118．by no means 决不 119．method [ˈmeθəd] n. 方法(有计划地做某事的方法) 120．approach [əˈprəʊtʃ] n. 方法，步骤(处理问题的方法，常后接介词 to) 121．by all means 务必 一定 122．by any means 无论如何 123．by every means 想方设法 千方百计 124．by no means 决不 125．call at 访问(某处)；(车船等)停靠(某地) 126．call back 回电话；召回，叫回来 127．call for 需要，要求；去取(sth.),去接(某人同往某处) 128．call in 找来；请来 129．call on 访问(sb.)；号召；要求 130．call up 打电话 ；使人想起 131．call off 取消 132．call out 召集；使集中；召唤 133．on account of&#x3D;because of 由于 134．yield [ji:ld] vt. 出产(作物)；产生(收益、效益等)&#x2F; vi. 屈服;让步 135．yield to sb.&#x2F;sth. 屈服于 136．force [fɔ:s]n.力；武力；（社会）势力；vt.强迫；强行 137．force sb to do 强迫 sb 做 sth 138．give in 投降；屈服；让步 139．except 除…之外 140．shock [ʃɒk] n.休克；震惊 vt.使休克；使震惊 141．leak [li:k] vi.漏出；透露 142．leak out 泄露 143．quote [kwəʊt] v 引用 144．predict [prɪˈdɪkt] vt. 预言；预告；预报</p>
+<p>145．prediction [prɪˈdɪkʃn] n. 预言 预测，预报; 146．access [ˈækses] n. 通道；通路；入径&#x2F; vt. 到达；进入；使用 147．have access to sth. 有权利&#x2F;机会得到</p>
+]]></content>
+      <categories>
+        <category>专升本</category>
+      </categories>
+      <tags>
+        <tag>英语词汇</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo-theme-matery博客如何添加看板娘</title>
     <url>/2022/08/28/hexo-theme-matery%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
     <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/888fcc74d217660a6be539a72613881.jpg"></p>
@@ -2457,22 +2719,6 @@
       </categories>
       <tags>
         <tag>hexo教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二重积分</title>
-    <url>/2022/10/14/%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86%EF%BC%9A/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
-<span id="more"></span>
-
-<h2 id="二重积分："><a href="#二重积分：" class="headerlink" title="二重积分："></a>二重积分：</h2><h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><h4 id="性质4"><a href="#性质4" class="headerlink" title="性质4"></a>性质4</h4><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db5f5055937af02b18356f0b27a8148.jpg"></p>
-<h4 id="偶倍奇零"><a href="#偶倍奇零" class="headerlink" title="偶倍奇零"></a>偶倍奇零</h4><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/23821434bbd63522af52307084cf00e.jpg"></p>
-]]></content>
-      <categories>
-        <category>专升本</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -2623,31 +2869,67 @@
       </tags>
   </entry>
   <entry>
-    <title>2010 part</title>
-    <url>/2022/10/14/2022-10-14-2010-part/</url>
-    <content><![CDATA[<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3156058b882311ebb6edd017c2d2eca2.png" style="zoom:80%;" />
-
+    <title>二重积分</title>
+    <url>/2022/10/14/%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86%EF%BC%9A/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/17a6a51b880d11ebb6edd017c2d2eca2.jpg"></p>
 <span id="more"></span>
 
-<h2 id="part-1"><a href="#part-1" class="headerlink" title="part  1"></a>part  1</h2><p>1．composition[ˌkɒmpəˈzɪʃn] n.作品; 作文<br>2．outline[ˈaʊtlaɪn] n 提纲大纲<br>3．below [bɪˈləʊ] prep.（表示位置）在…下面<br>4．depend on ①依靠 依赖&#x3D;rely on<br>②取决于&#x3D;be up to sb 5．surround [səˈraʊnd] v.围绕; 包围 6．break through 突围 7．break away 逃脱 8．break up 分手 婚姻关系破裂 9．divorce [dɪˈvɔːs] n.离婚; 分离;v.(与…)离婚; （使）分离 10．break off 折断 中断 11．break out （战争火灾等）爆发 12．break in 插嘴 13．break down 出故障 14．break into 闯入 打断 15．break through 突破 16．general [ˈdʒenrəl] n. 将军 adj.全体的; 一般的; 普通的 整体的 17．blame [bleɪm] v.责怪，指责; n.责备; 责任 18．take the blame for 承担…..的责任 19．guilt [ɡɪlt] n.有罪 内疚 20．charge [tʃɑːdʒ] v.收费; 指控,谴责; 给…充电; 21．immediately [ɪˈmiːdiətli] adv 立即 22．recognize[ˈrekəɡnaɪz] v. 认出 识别 23．missing [ˈmɪsɪŋ] adj.找不到的，丢失的; 失踪的 24．criminal [ˈkrɪmɪnl] n.罪犯;adj.犯罪的; 25．possession [pəˈzeʃn] n.占有; 所有物; 财产;. 26．precious [ˈpreʃəs] adj.宝贵的; 珍奇的; 27．previous [ˈpriːviəs] adj.先前的; 以前的 28．curious [ˈkjʊəriəs] adj. 好奇的 29．according [ə’kɔːdɪŋ]v 符合，与…一致 30．according to 根据 31．describe[dɪˈskraɪb] v.描述; . 32．excuse [ɪkˈskjuːs ] n.借口; 理由; v.原谅</p>
-<p>33．major [ˈmeɪdʒə(r)] adj.重要的;主修的 v 主修 n 专业 34．major in 主修 35．subject [ˈsʌbdʒɪkt] n.话题; 学科 36．explore [ɪkˈsplɔː(r)] v 在…探险; 探讨; 探索 37．giant [ˈdʒaɪənt] n 巨人 38．liar [ˈlaɪə(r)] n.说谎者 39．coward [ˈkaʊəd] n.胆小鬼，懦夫 40．loser [ˈlu:zə(r)] n 失败者 41．quarrel [ˈkwɒrəl] n&#x2F;v.争吵，分歧 42．end [end] n 最后部分 结局; 末端 v 使结束 43．bring( …..) to the end 使结束 44．fetch [fetʃ] v.去拿 去取 45．aware [əˈweə(r)]adj 知道的 意识到的 46．be aware of 意识到… 47．will [wɪl] n.意志，决心; 遗嘱 48．share [ʃeə(r)] v 分享 n.一份; 股份 49．possibility[ˌpɒsəˈbɪləti] n.可能性 50．possible [ˈpɒsəbl] adj 51．property [ˈprɒpəti] n.财产 属性 52．priority [praɪˈɒrəti] n.优先，优先权; 重点 53．personality[ˌpɜːsəˈnæləti] n.性格，气质; 特征; 54．person [ˈpɜːsn] n.人 55．in person 亲自 56．personal [ˈpɜːsənl] adj 个人的; 亲自的; 人际的; 57．Prefer A to B 相对比 B 更喜欢 A 58．control [kənˈtrəʊl] v 控制 59．in trouble. 在困境中 60．It is + adj for sb to do 对 sb 来说做 sth 怎么样 61．feast [fiːst] n.宴会; 盛宴 62．interval [ˈɪntəvl] n.间隔；幕间休息 63．admit &#x2F;əd’mɪt&#x2F; v 承认<br>64．trust [trʌst] n&#x2F;v 信任; 信托. 65．moral [ˈmɒrəl] adj 道德的 道义上的</p>
-<p>66．rarely [ˈreəli] adv.很少地；罕有地； 67．survival [səˈvaɪvl] n.生存; 残存物 68．basis [ˈbeɪsɪs] n.基础 69．basic [ˈbeɪsɪk] adj.基础的，根本的 70．prevent [prɪˈvent] v 阻碍; 预防 71．forbid&#x2F;stop&#x2F;prevent sb from doing<br>禁止&#x2F;阻止&#x2F;阻止 sb做 sth<br>72．achieve [əˈtʃi:v] v.实现，达到 73．obstacle [ˈɒbstəkl] n.障碍（物）; 障碍物 74．command [kəˈmɑ:nd] v&#x2F;n 命令; 控制 精通 75．have a good command of sth 掌握… 精通…. 76．protect sb from doing 保护….以免 77．offense [əˈfens] n.进攻;冒犯 78．offend [əˈfend] v.冒犯; 79．huntsman [ˈhʌntsmən] n.猎人 80．woods [wʊdz] n.森林； 81．catch a glimpse of…. 瞥见….. 82．spare [speə(r)] adj.闲置的，空闲的 v.留出，剩余; 省得 83．spare no effort to do 不遗余力做 sth 84．reply to [rɪˈplaɪ] v 回应，回 85．metal [ˈmetl] n.金属; 金属元素; 86．gradually[ˈɡrædʒuəli] 逐渐地 87．be used for… 用于 88．be used as…. 用作 89．durable [ˈdjʊərəbl] adj.耐用的 90．portable [ˈpɔːtəbl] adj.轻便的; 91．recognize [ˈrekəgnaɪz] vt.认出；识别；承认; 92．recognizable [ˌrekəɡˈnaɪzəbl] adj.可识别的; 可认识的; 93．divide [dɪˈvaɪd] v.（使）分开; 分配 94．divisible[dɪˈvɪzəbl] adj.可分开的，可除尽的 95．probable [ˈprɒbəbl] adj.可能的; 大概的 96．probably [ˈprɒbəbli] adv 可能地 97．emotion [ɪˈməʊʃn] 情绪 98．mood [muːd] 情绪 心情</p>
-<p>99．In my opinion, 在我看来 100．tower[ˈtaʊə(r)] n.塔（楼） 101．discard [dɪˈskɑ:d] v 丢弃 抛弃 102．desert [ˈdezət] n.沙漠，荒原; v 遗弃 103．distort [dɪˈstɔːt] v.歪曲，曲解; 104．It is reported&#x2F;said&#x2F;believed&#x2F;thought that<br>据报道&#x2F;说&#x2F;相信&#x2F;认为<br>105．pollution [pəˈluːʃn] n.污染; 污染物 106．Intellectual [ˌɪntəˈlektʃuəl] adj. 智力的 107．refers to 指的是 涉及 108．invention [ɪnˈvenʃn] n 发明; 捏造 109．copyright [ˈkɒpiraɪt] n 版权，著作权; 110．officially [əˈfɪʃəli] adv.正式地; 官方地; 111．own v 有; 承认 adj 自己的 112．organization [ˌɔːɡənaɪˈzeɪʃn] n.组织 113．heritage [ˈherɪtɪdʒ] n.遗产; 传统; 114．possession [pəˈzeʃn] n.所有物; 财产; 115．wedding [ˈwedɪŋ] 婚礼; ceremony 116．celebration [ˌselɪˈbreɪʃn] n 庆祝 117．congratulation [kənˌɡrætʃuˈleɪʃn] n.祝贺; 恭喜 118．harmony [ˈhɑːməni] n 融洽; 119．harmonious [hɑ:ˈməʊniəs] adj.和谐的，融洽的 120．author [ˈɔ:θə(r)] n 作者&#x3D;writer 121．judgment [‘dʒʌdʒmənt] n.判断，鉴定 122．combine &#x2F;kəm’baɪn&#x2F; vt. 使联合，使结合 123．combination [ˌkɒmbɪˈneɪʃn] n.结合；联合体 124．observe [əbˈzɜ:v] vt&amp;vi.观察；研究 125．observation [ˌɒbzəˈveɪʃn] n.观察；观察力 126．analysis [əˈnæləsɪs] n.分析 127．get along well with sb 与….相处的好</p>
-<h2 id="part-2"><a href="#part-2" class="headerlink" title="part   2"></a>part   2</h2><p>1 earthquake [ˈɜ:θkweɪk] n. 地震;<br>2 preview [ˈpri:vjuː] n 预先<br>3 prejudice [ˈpredʒudɪs] n 偏见;<br>4 soft [sɒft] adj.软的，柔软的; 温和的<br>5 have a word with…与某人谈话<br>6 have words with….与某人吵架<br>7 loan [ləʊn] n.贷款; 借款; 借出;v.借给;<br>8 overdue [ˌəʊvəˈdjuː] adj.过期的; 延误的<br>9 as soon as possible 尽可能快地<br>10 due [djuː] adj.预期的; 到期的; 适当的<br>11 due to 由于<br>12 informal [ɪnˈfɔːml adj.非正式的; 不拘礼节的; 随意的<br>13 formal [ˈfɔːml] adj.正式的; 正规的;<br>14 form [fɔːm] n.类型;外形; 表格;v.形成，构成;<br>15 transform [trænsˈfɔːm] v.使改变形态; 使改观<br>16 visit sb&#x2F;sp&#x3D;pay a visit to sb&#x2F;sp<br>17 came up with 想出 想起<br>18 by no means 决不 否定词放句首 半倒装<br>19 approach [əˈprəʊtʃ] v.接近，临近;n 方法，方式; 接近，来临<br>20 method [ˈmeθəd] n.方法;<br>21 host [həʊst] n.主人; 东道主;<br>22 infect [ɪnˈfekt] v 传染; 使感染 影响;<br>23 be infected with 被感染<br>24 communicate [kəˈmjuːnɪkeɪt] v 沟通; 交流;<br>25 communication [kəˌmjuːnɪˈkeɪʃn] n 沟通 交流 通信<br>26 cultivate [ˈkʌltɪveɪt] v.耕作，种植; 培养<br>27 found [faʊnd] v.建立; 兴建; 创办;<br>28 bone [bəʊn] n.骨（头）<br>29 armchair [ˈɑːmtʃeə(r)] n.扶手椅<br>30 beside [bɪˈsaɪd] prep. 在…旁边;<br>31 depression [dɪˈpreʃn] n.抑郁(症); 消沉; 萧条<br>32 In the 1930s&#x2F;1930’s 在 20 世纪 30 年代</p>
-<p>33 cellphone [ˈselfəʊn] 手机<br>34 leave sth at sp 把…落在某地 35 concentrate [ˈkɒnsntreɪt] v.全神贯注; 使集中; 36 concentrate on &#x3D;focus on 致力于 集中注意于 37 technology [tekˈnɒlədʒi] n.科技 38 extra [ˈekstrə] adj.额外的<br>39 exceptional [ɪkˈsepʃənl] adj.杰出的，非凡的; 例外的 40 additional [əˈdɪʃənl] adj 附加的，添加的; 41 wood [wʊd] n.木材，木头 42 woods [wʊdz] n.森林; 树林 43 occasionally [əˈkeɪʒnəli] adv.偶尔; 偶然 44 apply to 应用于<br>45 arrange [əˈreɪndʒ] v.排列，布置; 安排 46 yield to 屈服 让步<br>47 resort to 诉诸于 求助于 48 resort [rɪˈzɔːt] v.诉诸;采取; 49 private [ˈpraɪvət] 个人的; 秘密的 50 secretary [ˈsekrətri] .秘书; 书记员 51 access [ˈækses] n.入口，通道 52 approach[əˈprəʊtʃ] v.接近，临近; 53 accent [ˈæksent] n.口音,腔调 v.强调; 重读; 54 response [rɪˈspɒns] n.答复; 反应 55 responsible [rɪˈspɒnsəbl] adj.有责任的; 引起…的; 可靠的; 56 plate [pleɪt] 盘子 on<br>57 dining [ˈdaɪnɪŋ] 用餐，吃饭（dine 的现在分词） 58 dining hall&#x2F; table 餐厅&#x2F;桌<br>59 purpose [ˈpɜːpəs] n.意图，计划; 60 center [ˈsentə(r)] n.中心<br>61 central [ˈsentrəl] adj.中心的; 中央的; 62 stubborn [ˈstʌbən]adj.顽固的，固执的; 63 change one’s mind. 改变想法 64 persuade [pəˈsweɪd] v.劝说; 使信服 65 Persuade sb to do sth<br>&#x3D;persuade sb into doing sth</p>
-<p>66 means [miːnz] n.方法; 67 in vain. 徒劳的 无用的 无效果的 68 Each&#x2F;every +单数名词 做主语 谓语用单数 69 resource [rɪˈsɔːs] n.资源; 物力，财力. 70 usage [ˈjuːsɪdʒ] n.使用; 用法; 71 Be supposed to do 被期望 被认为 应该 72 by all means 务必 一定 73 by no means 决不 74 case[keɪs] n.情况; 事例; 事实; 75 complicated [ˈkɒmplɪkeɪtɪd] adj.复杂的; 难处理的; 76 have no choice but to do 别无选择 只能 77 evil [ˈiːvl] adj.邪恶的; 有害的; 78 force [fɔːs] v.强迫; 强行;n.暴力; 力量 79 command [kəˈmɑːnd] v 命令; 控制 80 estimate [ˈestɪmeɪt] n&#x2F;v.估计，预测; 报价 81 foresee [fɔːˈsiː] vt.预知，预见 82 forecast [ˈfɔːkɑːst] n、v.预报; 83 junior [ˈdʒuːniə(r)] adj.职位较低的; 青少年的 84 senior [ˈsiːniə(r)] adj 级别&#x2F;地位高的，资深的; 85 automobile [ˈɔːtəməbiːl] n 汽车 86 social [ˈsəʊʃl] adj.社会的; 社交的 87 society [səˈsaɪəti] n.社会; 社团; 88 recreational [ˌrekriˈeɪʃənl] adj.消遣的; 娱乐的;</p>
-<h2 id="真题部分"><a href="#真题部分" class="headerlink" title="真题部分"></a>真题部分</h2><p>1．break &#x2F;breɪk&#x2F; v. 打破；折断 违背 &#x2F;n. 休息 2．take a break&#x3D;have a rest 休息一下 3．break the law 违背法律 4．follow&#x2F;obey the law 遵守法律 5．break up 打碎；分解；破裂 6．break down 分解；出故障 7．break out爆发 fire war accident earthquake volcano 8．break into 强行进入 9．break in 闯入；插嘴</p>
-<p>10．break away 脱逃；脱离 11．break through 突围；突破 12．break off 折断 中止 13．glance [ɡla:ns] vi.&#x2F;n. 瞥一眼；匆匆一看；浏览；粗略地看 14．glance at sth. 瞥见 15．at first glance 乍一看 初看 16．report [rɪˈpɔ:t] v&#x2F;n 报告 17．precious [ˈpreʃəs] adj. 珍奇的；珍稀的；宝贵的；珍贵的 18．replace [rɪˈpleɪs] vt.替换；代替 19．practical [ˈpræktɪkl] adj.实践的；可实现的 可行的 20．Practice 练习 实践 21．plentiful [ˈplentɪfl] adj.丰富的；富产的 22．Plenty of +可数、不可数名词 大量的 23．temper [ˈtempə(r)] n. 脾气；怒气；火气 24．lose one’s temper 发脾气 25．mood [mu:d] n.心情；语气 26．mind v 介意 n. 大脑 思想 27．passion [ˈpæʃn] n.激情，热情 28．worth [wɜ:θ] adj. 有…价值；值…钱&#x2F; n. 价值；意义；作用 29．be worth doing sth. 值得被 30．worthwhile [ˌwɜ:θˈwaɪl] adj. 值得的；值得做的 31．It is worthwhile to do sth. &#x2F; doing sth. 32．Be worthy of sth 值得….. 33．Be worthy of being done 值得被… 34．Be worthy to be done 值得被…… 35．textbook [ˈtekstbʊk] n.教科书；课本 36．dwarf [dwɔ:f] n. 矮子；侏儒&#x2F; adj. 矮小的 v 使矮小 37．distorts [dɪˈstɔ:t] vt.歪曲，扭曲；曲解 38．deserts [dɪˈzɜ:rt] 39．depress [dɪˈpres] vt.压低；使沮丧； 40．bring about 使发生；致使 导致 造成 41．bring down 打倒；击落；打死；降低 42．bring forth 提出；出示；展示<br>43．bring forward 提出；提前；显示</p>
-<p>44．bring out 显现；显示；出版；推出；生产 45．bring up 教育；养育；提出<br>46．bring back 把…带回来；使回忆起；使恢复<br>47．property [ˈprɒpəti] n.所有物；财产；财物；性质；特性 48．intellectual [ˌɪntəˈlektʃuəl] adj.智力的；有才智的 property 49．possession [pəˈzeʃn] n. 个人财产；拥有 50．heritage [ˈherɪtɪdʒ] n. 遗产（指国家或社会长期形成的历史、传统和特色） 51．wealth [welθ] n. 财富；富有 52．ceremony [ˈserəməni] n. 仪式；典礼 53．the opening ceremony 开业典礼 开幕式 54．wedding ceremony.婚礼 55．base [beɪs] n. 根基；基地&#x2F;vt. 以…为根据 56．basic [ˈbeɪsɪk] adj. 基础的 57．basis [ˈbeɪsɪs] n. 基础 58．base A on B A 以 B 为基础 59．A be based on B A 以 B 为基础 60．fault [fɔ:lt] n. 过错[U]；缺点[C] 61．find fault with sb.&#x2F;sth. 挑剔 找茬 62．disappointing [ˌdɪsəˈpɔɪntɪŋ] adj.令人失望的，扫兴的; 63．disappointed [ˌdɪsəˈpɔɪntɪd] adj.失望的，灰心的; 64．disappoint [ˌdɪsəˈpɔɪnt] v 使失望 65．disappointment [ˌdɪsəˈpɔɪntmənt] n.失望; 扫兴; 令人失望的人&#x2F;事; 66．To one’s disappointment 让…失望的是 67．appoint v 任命 委派 约会 约定 68．appointment 约定 预约 约会 69．error [ˈerə(r)] n. 错误；谬误 70．guilt [ɡɪlt] n. 内疚 自责 (指对发生的坏事负有的责任) 71．guilty [ˈgɪlti] adj.内疚的；有罪的; 72．seek [si:k] vt.寻找，探寻；追求 73．lay out 摆开, 展示, 布置, 安排 74．lay aside 把…放在一边;搁置;储存…以备后用 75．lay off 辞退；解雇；使下岗<br>76．lay down 放下；制定；颁布 77．lay about 攻击；拳打脚踢</p>
-<p>78．lay on<br>提供；供应<br>79．economic crisis 经济危机<br>80．spare [speə(r)] vt. 抽出；匀出 adj. 空闲的，闲置的&#x2F; n. 备用品；备用轮胎 81．in one’s spare time 在某人空闲时<br>82．spare no effort to do sth 不遗余力做 sth<br>&#x3D;try one’s best to do sth 尽最大努力做 sth 83．inform [ɪnˈfɔ:m] vt. [正式]告知；通知 84．information [ˌɪnfəˈmeɪʃn] n. [U]信息<br>85．inform sb. of&#x2F;about sth.<br>86．keep sb informed of sth 使&#x2F;让 sb 了解&#x2F;知道 sth 87．hire [ˈhaɪə(r)] vt.聘用；录用.<br>88．intend&#x2F;plan&#x2F;mean to do 计划、打算做 89．tend to do 倾向于 往往做<br>90．Intention [ɪnˈtenʃn] n.意图，目的<br>91．resign [rɪˈzaɪn] v.辞职；放弃<br>92．happen [ˈhæpən] v. (偶然)发生；碰巧 93．happen to do sth 碰巧做<br>94．happen to be done 碰巧被<br>95．occur [əˈkɜ:(r)] vi. [正式]发生(可用于偶然事件或计划之事) 96．It occurs&#x2F;occurred to sb that… 某人突然想到… 97．reflected [rɪˈflekt] vt&amp;vi.反射 反映<br>98．use [ju:z] vt.&#x2F; n. 使用；运用<br>99．make use of&#x3D;take advantage of 利用 使用 100．make full use of…充分利用<br>101．use up 用光 耗尽<br>102．It is no use&#x2F;good&#x2F;help（in）doing sth. 做……没有用 103．It is no good learning English without practice. 学英语不练是不行的。 104．used to do sth. 过去常常做 sth<br>105．be used to do sth. 被用来做 sth<br>106．be&#x2F;get used to doing sth. 习惯于做 sth 107．apply [əˈplaɪ] for 申请….<br>108．apply to 应用于<br>109．application &#x2F;ˌæplɪ’keɪʃ(ə)n&#x2F;n. 应用；申请；应用程序 110．since&#x3D;now that 既然 he has</p>
-<p>111．make up one’s mind (to do) 下定决心做 sth 112．change one’s mind 改变主意&#x2F;想法 113．means [mi:nz] n. 方式；方法 114．mean [mi:n] v.意思是；打算 115．mean&#x2F;plan to do 打算&#x2F;计划做 sth 116．mean doing sth 意味着做 117．by all means 务必 一定 118．by no means 决不 119．method [ˈmeθəd] n. 方法(有计划地做某事的方法) 120．approach [əˈprəʊtʃ] n. 方法，步骤(处理问题的方法，常后接介词 to) 121．by all means 务必 一定 122．by any means 无论如何 123．by every means 想方设法 千方百计 124．by no means 决不 125．call at 访问(某处)；(车船等)停靠(某地) 126．call back 回电话；召回，叫回来 127．call for 需要，要求；去取(sth.),去接(某人同往某处) 128．call in 找来；请来 129．call on 访问(sb.)；号召；要求 130．call up 打电话 ；使人想起 131．call off 取消 132．call out 召集；使集中；召唤 133．on account of&#x3D;because of 由于 134．yield [ji:ld] vt. 出产(作物)；产生(收益、效益等)&#x2F; vi. 屈服;让步 135．yield to sb.&#x2F;sth. 屈服于 136．force [fɔ:s]n.力；武力；（社会）势力；vt.强迫；强行 137．force sb to do 强迫 sb 做 sth 138．give in 投降；屈服；让步 139．except 除…之外 140．shock [ʃɒk] n.休克；震惊 vt.使休克；使震惊 141．leak [li:k] vi.漏出；透露 142．leak out 泄露 143．quote [kwəʊt] v 引用 144．predict [prɪˈdɪkt] vt. 预言；预告；预报</p>
-<p>145．prediction [prɪˈdɪkʃn] n. 预言 预测，预报; 146．access [ˈækses] n. 通道；通路；入径&#x2F; vt. 到达；进入；使用 147．have access to sth. 有权利&#x2F;机会得到</p>
+<h2 id="二重积分："><a href="#二重积分：" class="headerlink" title="二重积分："></a>二重积分：</h2><h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><h4 id="性质4"><a href="#性质4" class="headerlink" title="性质4"></a>性质4</h4><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db5f5055937af02b18356f0b27a8148.jpg"></p>
+<h4 id="偶倍奇零"><a href="#偶倍奇零" class="headerlink" title="偶倍奇零"></a>偶倍奇零</h4><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/23821434bbd63522af52307084cf00e.jpg"></p>
 ]]></content>
       <categories>
         <category>专升本</category>
       </categories>
       <tags>
-        <tag>英语词汇</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思考-0</title>
+    <url>/2022/09/05/%E6%80%9D%E8%80%83-0/</url>
+    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
+<span id="more"></span>
+
+<blockquote>
+<p>告诉我知识，我会忘，教导我知识，我只会记得，让我深入其中，我才能真正学习<br>热情与好奇，是实现一切可能的基石.</p>
+</blockquote>
+<blockquote>
+<p>你不能强迫一个人爱上你，但你可以制造机会</p>
+</blockquote>
+<blockquote>
+<p>规则存在的意义就是快速的帮你做出选择<br>比如，游戏就是有一套规则，然后我们用规则去答题</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>今日不肯埋头，明日何以抬头</p>
+</blockquote>
+<blockquote>
+<p>学到知识了，就要想想做点不一样的事，即没学前办不到的事情</p>
+</blockquote>
+<blockquote>
+<p>问题是学习的目的，学习要问出来</p>
+</blockquote>
+<blockquote>
+<p>先有想法再把它做出来</p>
+</blockquote>
+<blockquote>
+<p>找到你心中真正的热爱，并追求它，把每一天当做最后一天去度过</p>
+</blockquote>
+<blockquote>
+<p>每个人都应该学习如何为计算机写程序，因为它能教你如何思考</p>
+</blockquote>
+<blockquote>
+<p>要有问题，就讲出来，不然就是你的问题</p>
+</blockquote>
+<blockquote>
+<p>念念不忘,必有回响,有一口气,点一盏灯。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
@@ -2726,7 +3008,7 @@
 <p>创建一个项目 hexo-blog 并初始化<br>hexo init hexo-blog<br>cd hexo-blog<br>npm install</p>
 <p>本地启动，预览<br>hexo g<br>hexo server</p>
 <p>部署到GitHub</p>
-<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#x67;&#105;&#x74;&#x40;&#x67;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;">&#x67;&#105;&#x74;&#x40;&#x67;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
+<p>改本地博客根目录的_config.yml 文件<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;</a>:cunko&#x2F;cunko.github.io.git	<br>  branch: master</p>
 <p>安装 npm 部署插件<br>npm install hexo-deployer-git –save</p>
 <p>进入分支<br>git init</p>
 <p>上传三连<br> hexo clean<br> hexo g<br> hexo d </p>
@@ -2833,54 +3115,6 @@
       </categories>
       <tags>
         <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思考-0</title>
-    <url>/2022/09/05/%E6%80%9D%E8%80%83-0/</url>
-    <content><![CDATA[<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/le4qowZahf.jpg"></p>
-<span id="more"></span>
-
-<blockquote>
-<p>告诉我知识，我会忘，教导我知识，我只会记得，让我深入其中，我才能真正学习<br>热情与好奇，是实现一切可能的基石.</p>
-</blockquote>
-<blockquote>
-<p>你不能强迫一个人爱上你，但你可以制造机会</p>
-</blockquote>
-<blockquote>
-<p>规则存在的意义就是快速的帮你做出选择<br>比如，游戏就是有一套规则，然后我们用规则去答题</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>今日不肯埋头，明日何以抬头</p>
-</blockquote>
-<blockquote>
-<p>学到知识了，就要想想做点不一样的事，即没学前办不到的事情</p>
-</blockquote>
-<blockquote>
-<p>问题是学习的目的，学习要问出来</p>
-</blockquote>
-<blockquote>
-<p>先有想法再把它做出来</p>
-</blockquote>
-<blockquote>
-<p>找到你心中真正的热爱，并追求它，把每一天当做最后一天去度过</p>
-</blockquote>
-<blockquote>
-<p>每个人都应该学习如何为计算机写程序，因为它能教你如何思考</p>
-</blockquote>
-<blockquote>
-<p>要有问题，就讲出来，不然就是你的问题</p>
-</blockquote>
-<blockquote>
-<p>念念不忘,必有回响,有一口气,点一盏灯。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>思考</tag>
       </tags>
   </entry>
 </search>
