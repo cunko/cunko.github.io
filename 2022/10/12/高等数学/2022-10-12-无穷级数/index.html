@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="我的数学专升本笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="无穷级数">
+<meta property="og:url" content="https://cunko.github.io/2022/10/12/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-12-%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="我的数学专升本笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f44eb211393f450b42b8c18d832083c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9915635792f7acd6ae1096bfa730834.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/724da3492be506a0252a2072276b0d3.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/83e85413e483bc25e03bc8ef2f06f42.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a5331cd8e3d1e3e8b45f9d2238f6e4d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f9f0d5e69cfcd624b8c16d7d77dbf07.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f2784de696009ae64bf5fcbc8701dec.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/52a9853b9b2ca3360d9c022875041a3.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0fc2db0e4a3cd8062f2f2bbad9bf1f0.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ccc2847012585b57feee22deb797e36.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e8e0bf4152148a91dd11b048d1de80d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ec0e4c28b566587cc2bf3e866f1e2a0.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a810b7686150c9a3ef08c19eb01ef11.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9e1d90f762787ae1a76cc99c20cb1d9.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4de7e88e95146acfa45e38c17563e32.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8162015b1d028dce5d937b2189560fb.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c3724944be23e69e8ca06f48a15ffd.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f537fb3f3f141c330e573a0a3733c6.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/df8a9d258867c9dac7902cfee35cc39.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c9d04091528f250552ce9d13094c43a.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2870bb63b21821f76814f59536473b6.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7b2139c75af93e42eaa79389e03c4c5.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/587c1601e49e0d30dfeb7a316d1f0db.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ddd5999646177a1abc79d54ddbe6bac.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e0078f6863d63f52df55ff3a7bed268.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/66f92f1086d4383ba8ce8669ecf6367.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2868fb67e8a2dd499bf5dbb1cc4d238.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/77c2e6dc68172018c55651f40209d24.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/24bf67322d262253031538401a57d2c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f44d48b12a157a1de652cc66cbc9185.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7e9149cc0c8300d9754e1bd8b4cad68.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ffaf62f955c6531564898709134d3c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/79187702330122f6d43fe819296157e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e8ce3b7fc24156e4a69c6c3bfa61386.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4f949806399a8a8c1782923bf9492d6.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3371cc1e0d63029a783520d4e761bfd.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d9028d91cff1f9dba4af060d8cab22e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/35e3816c3d6d80142a17ffb9f55ee7d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7e2822fd3a449120cb52d1295c0b84e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/291ebdcd6d5464ea2e808dcf15a89f7.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30f51cc891abafc7e72a8b7224f391a.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2164b1c25e250e4c53ce649b6fb7c7a.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6d6c722873c5777d4c4b7fb1856229f.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c0b9d467ebadb786a9dd5e56e287371.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/60e031a6d8fbf77e4dac362c8ac6049.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/87887af64a8e75223e3378a38e6ffc7.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6e28fe4e5eba1584a5df02f4bd6445d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cbedf823cb30a303516405f03f9f729.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f8ad2d9346ed00ecd4961e6151fad26.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4e845e883bf8c7d2423a3261d5af083.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1ba4d1686e2576831a06e06d09f6b62.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/570b1395072293ab52273bfb31c306c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b67c57e2cc6ea13881c3be7bc62cda5.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/402961a7d52d7e7a1cdca0fb8e31e37.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fb38cc9ec09d2ce993dea9c7224c000.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20764cdf86d81caeea59cf4bd92e29e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3dbfbdbc75c0485c151c3e1fac686aa.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d8a9faffe51fe074a20b9374204992d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4df4e80e71ec51937b360579b01e5dd.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fc063d04a75f18a80002e3284b6032a.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f42857f66dda31f49f9582abf46575.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d2e48a55c270fda05bfdd0c882226c7.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/05d6dd39da1d1710c9881227fc4185e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2824ce1f4af2d79bf1f381d3b72f077.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39e5e5abaaef2692ba710b165f15a27.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/11c97d44f1e504fd84de124d898d286.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/68fb14316f37e981d96825ef254dc02.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d92c52c50d03e85c7686c505cce4b40.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6a0d370da0c56a30e4e10de2d44f3c0.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/808839956d3ca9795fba8c041e72848.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/012998a5a638ecab46587813d6d07f6.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f3156eb9750ab91b6b18c50b7f4213b.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-10%20153110.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-10%20150320.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SharedScreenshot.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5b58bab4e466584855d9fd5203637f3.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0e6ecd2d6335ec77f7c3dafa0eca856.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-10%20164510.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dad948fc6eea797d34b3fa812365af.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b6cfefc85a6ce1075e98b26f05bfaef.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dd9a8af4b3205880ef98fe968664bd.jpg">
+<meta property="article:published_time" content="2022-10-12T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-04-10T03:09:10.934Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="高等数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f44eb211393f450b42b8c18d832083c.jpg">
+
+<link rel="canonical" href="https://cunko.github.io/2022/10/12/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-12-%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>无穷级数 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2022/10/12/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-12-%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          无穷级数
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-10-12 15:31:06" itemprop="dateCreated datePublished" datetime="2022-10-12T15:31:06+08:00">2022-10-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-10 11:09:10" itemprop="dateModified" datetime="2023-04-10T11:09:10+08:00">2023-04-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">数学</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="总览："><a href="#总览：" class="headerlink" title="总览："></a>总览：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f44eb211393f450b42b8c18d832083c.jpg"></p>
+<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9915635792f7acd6ae1096bfa730834.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/724da3492be506a0252a2072276b0d3.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/83e85413e483bc25e03bc8ef2f06f42.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a5331cd8e3d1e3e8b45f9d2238f6e4d.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f9f0d5e69cfcd624b8c16d7d77dbf07.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f2784de696009ae64bf5fcbc8701dec.jpg"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/52a9853b9b2ca3360d9c022875041a3.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0fc2db0e4a3cd8062f2f2bbad9bf1f0.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ccc2847012585b57feee22deb797e36.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e8e0bf4152148a91dd11b048d1de80d.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ec0e4c28b566587cc2bf3e866f1e2a0.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a810b7686150c9a3ef08c19eb01ef11.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9e1d90f762787ae1a76cc99c20cb1d9.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h2><h2 id="常数项级数："><a href="#常数项级数：" class="headerlink" title="常数项级数："></a>常数项级数：</h2><h3 id="正向级数："><a href="#正向级数：" class="headerlink" title="正向级数："></a>正向级数：</h3><h4 id="比较审敛法："><a href="#比较审敛法：" class="headerlink" title="比较审敛法："></a>比较审敛法：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4de7e88e95146acfa45e38c17563e32.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8162015b1d028dce5d937b2189560fb.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c3724944be23e69e8ca06f48a15ffd.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f537fb3f3f141c330e573a0a3733c6.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/df8a9d258867c9dac7902cfee35cc39.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c9d04091528f250552ce9d13094c43a.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2870bb63b21821f76814f59536473b6.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7b2139c75af93e42eaa79389e03c4c5.jpg"></td>
+</tr>
+</tbody></table>
+<h4 id="比值审敛法："><a href="#比值审敛法：" class="headerlink" title="比值审敛法："></a>比值审敛法：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/587c1601e49e0d30dfeb7a316d1f0db.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ddd5999646177a1abc79d54ddbe6bac.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e0078f6863d63f52df55ff3a7bed268.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/66f92f1086d4383ba8ce8669ecf6367.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2868fb67e8a2dd499bf5dbb1cc4d238.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/77c2e6dc68172018c55651f40209d24.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/24bf67322d262253031538401a57d2c.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="根值审敛法："><a href="#根值审敛法：" class="headerlink" title="根值审敛法："></a>根值审敛法：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f44d48b12a157a1de652cc66cbc9185.jpg"></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<h3 id="交错级数："><a href="#交错级数：" class="headerlink" title="交错级数："></a>交错级数：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7e9149cc0c8300d9754e1bd8b4cad68.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ffaf62f955c6531564898709134d3c.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="任意常数项级数："><a href="#任意常数项级数：" class="headerlink" title="任意常数项级数："></a>任意常数项级数：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/79187702330122f6d43fe819296157e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e8ce3b7fc24156e4a69c6c3bfa61386.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4f949806399a8a8c1782923bf9492d6.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3371cc1e0d63029a783520d4e761bfd.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="函数项级数（幂函数）："><a href="#函数项级数（幂函数）：" class="headerlink" title="函数项级数（幂函数）："></a>函数项级数（幂函数）：</h2><h3 id="收敛（半径，区间，域）："><a href="#收敛（半径，区间，域）：" class="headerlink" title="收敛（半径，区间，域）："></a>收敛（半径，区间，域）：</h3><blockquote>
+<p>中心点就是令框为0时x的取值</p>
+</blockquote>
+<blockquote>
+<p>不标准就是框的n方里的框不止一项，标准就框里只有x一项。</p>
+</blockquote>
+<blockquote>
+<p>缺项就是框的n方的n前有系数，不缺项就是n前没有系数。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d9028d91cff1f9dba4af060d8cab22e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/35e3816c3d6d80142a17ffb9f55ee7d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7e2822fd3a449120cb52d1295c0b84e.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/291ebdcd6d5464ea2e808dcf15a89f7.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30f51cc891abafc7e72a8b7224f391a.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2164b1c25e250e4c53ce649b6fb7c7a.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6d6c722873c5777d4c4b7fb1856229f.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c0b9d467ebadb786a9dd5e56e287371.jpg"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/60e031a6d8fbf77e4dac362c8ac6049.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/87887af64a8e75223e3378a38e6ffc7.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6e28fe4e5eba1584a5df02f4bd6445d.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cbedf823cb30a303516405f03f9f729.jpg"></p>
+<h4 id="标准不缺项"><a href="#标准不缺项" class="headerlink" title="标准不缺项"></a>标准不缺项</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f8ad2d9346ed00ecd4961e6151fad26.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4e845e883bf8c7d2423a3261d5af083.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="非标准不缺项"><a href="#非标准不缺项" class="headerlink" title="非标准不缺项"></a>非标准不缺项</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1ba4d1686e2576831a06e06d09f6b62.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/570b1395072293ab52273bfb31c306c.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b67c57e2cc6ea13881c3be7bc62cda5.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="标准缺项"><a href="#标准缺项" class="headerlink" title="标准缺项"></a>标准缺项</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/402961a7d52d7e7a1cdca0fb8e31e37.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fb38cc9ec09d2ce993dea9c7224c000.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/20764cdf86d81caeea59cf4bd92e29e.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="和函数："><a href="#和函数：" class="headerlink" title="和函数："></a>和函数：</h3><h4 id="麦克劳林级数："><a href="#麦克劳林级数：" class="headerlink" title="麦克劳林级数："></a>麦克劳林级数：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3dbfbdbc75c0485c151c3e1fac686aa.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d8a9faffe51fe074a20b9374204992d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4df4e80e71ec51937b360579b01e5dd.jpg"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="幂级数的性质："><a href="#幂级数的性质：" class="headerlink" title="幂级数的性质："></a>幂级数的性质：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fc063d04a75f18a80002e3284b6032a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8f42857f66dda31f49f9582abf46575.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d2e48a55c270fda05bfdd0c882226c7.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/05d6dd39da1d1710c9881227fc4185e.jpg"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="标准展开："><a href="#标准展开：" class="headerlink" title="标准展开："></a>标准展开：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2824ce1f4af2d79bf1f381d3b72f077.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39e5e5abaaef2692ba710b165f15a27.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/11c97d44f1e504fd84de124d898d286.jpg"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="非标准展开："><a href="#非标准展开：" class="headerlink" title="非标准展开："></a>非标准展开：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/68fb14316f37e981d96825ef254dc02.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d92c52c50d03e85c7686c505cce4b40.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6a0d370da0c56a30e4e10de2d44f3c0.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/808839956d3ca9795fba8c041e72848.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/012998a5a638ecab46587813d6d07f6.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f3156eb9750ab91b6b18c50b7f4213b.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-11-10 153110.jpg" style="zoom:80%;" /></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="和函数：-1"><a href="#和函数：-1" class="headerlink" title="和函数："></a>和函数：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-11-10 150320.jpg" style="zoom:80%;" /></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/SharedScreenshot.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5b58bab4e466584855d9fd5203637f3.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0e6ecd2d6335ec77f7c3dafa0eca856.jpg"></th>
+</tr>
+</thead>
+</table>
+<h4 id="收敛区间："><a href="#收敛区间：" class="headerlink" title="收敛区间："></a>收敛区间：</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-11-10 164510.jpg" style="zoom:80%;" /></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dad948fc6eea797d34b3fa812365af.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b6cfefc85a6ce1075e98b26f05bfaef.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dd9a8af4b3205880ef98fe968664bd.jpg"></td>
+</tr>
+</tbody></table>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2022/10/12/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-12-%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/" title="无穷级数">https://cunko.github.io/2022/10/12/高等数学/2022-10-12-无穷级数/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" rel="tag"># 高等数学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/10/11/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-11-%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/" rel="prev" title="微分方程">
+      <i class="fa fa-chevron-left"></i> 微分方程
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/10/13/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-13-%E9%AB%98%E6%95%B0%E8%AF%81%E6%98%8E%E9%A2%98/" rel="next" title="高数证明题">
+      高数证明题 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E8%A7%88%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">总览：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">基本概念：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%A7%E8%B4%A8%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">性质：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E6%95%B0%E9%A1%B9%E7%BA%A7%E6%95%B0%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">常数项级数：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E5%90%91%E7%BA%A7%E6%95%B0%EF%BC%9A"><span class="nav-number">4.1.</span> <span class="nav-text">正向级数：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AF%94%E8%BE%83%E5%AE%A1%E6%95%9B%E6%B3%95%EF%BC%9A"><span class="nav-number">4.1.1.</span> <span class="nav-text">比较审敛法：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AF%94%E5%80%BC%E5%AE%A1%E6%95%9B%E6%B3%95%EF%BC%9A"><span class="nav-number">4.1.2.</span> <span class="nav-text">比值审敛法：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%B9%E5%80%BC%E5%AE%A1%E6%95%9B%E6%B3%95%EF%BC%9A"><span class="nav-number">4.1.3.</span> <span class="nav-text">根值审敛法：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%A4%E9%94%99%E7%BA%A7%E6%95%B0%EF%BC%9A"><span class="nav-number">4.2.</span> <span class="nav-text">交错级数：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%BB%E6%84%8F%E5%B8%B8%E6%95%B0%E9%A1%B9%E7%BA%A7%E6%95%B0%EF%BC%9A"><span class="nav-number">4.3.</span> <span class="nav-text">任意常数项级数：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%BD%E6%95%B0%E9%A1%B9%E7%BA%A7%E6%95%B0%EF%BC%88%E5%B9%82%E5%87%BD%E6%95%B0%EF%BC%89%EF%BC%9A"><span class="nav-number">5.</span> <span class="nav-text">函数项级数（幂函数）：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%B6%E6%95%9B%EF%BC%88%E5%8D%8A%E5%BE%84%EF%BC%8C%E5%8C%BA%E9%97%B4%EF%BC%8C%E5%9F%9F%EF%BC%89%EF%BC%9A"><span class="nav-number">5.1.</span> <span class="nav-text">收敛（半径，区间，域）：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E4%B8%8D%E7%BC%BA%E9%A1%B9"><span class="nav-number">5.1.1.</span> <span class="nav-text">标准不缺项</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%9D%9E%E6%A0%87%E5%87%86%E4%B8%8D%E7%BC%BA%E9%A1%B9"><span class="nav-number">5.1.2.</span> <span class="nav-text">非标准不缺项</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E7%BC%BA%E9%A1%B9"><span class="nav-number">5.1.3.</span> <span class="nav-text">标准缺项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%92%8C%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">5.2.</span> <span class="nav-text">和函数：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E7%BA%A7%E6%95%B0%EF%BC%9A"><span class="nav-number">5.2.1.</span> <span class="nav-text">麦克劳林级数：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B9%82%E7%BA%A7%E6%95%B0%E7%9A%84%E6%80%A7%E8%B4%A8%EF%BC%9A"><span class="nav-number">5.2.2.</span> <span class="nav-text">幂级数的性质：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E5%B1%95%E5%BC%80%EF%BC%9A"><span class="nav-number">5.2.3.</span> <span class="nav-text">标准展开：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%9D%9E%E6%A0%87%E5%87%86%E5%B1%95%E5%BC%80%EF%BC%9A"><span class="nav-number">5.2.4.</span> <span class="nav-text">非标准展开：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%92%8C%E5%87%BD%E6%95%B0%EF%BC%9A-1"><span class="nav-number">5.2.5.</span> <span class="nav-text">和函数：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%94%B6%E6%95%9B%E5%8C%BA%E9%97%B4%EF%BC%9A"><span class="nav-number">5.2.6.</span> <span class="nav-text">收敛区间：</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">89</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>

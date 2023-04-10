@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="我的数学专升本笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="函数">
+<meta property="og:url" content="https://cunko.github.io/2022/10/01/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-01-%E5%87%BD%E6%95%B0/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="我的数学专升本笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2585a857-7b01-4b1c-83b2-0e932be498e9.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5069981d-f3c2-4f90-87c0-ddba065bde5f.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/54183ae1-91b5-4547-b1a7-26714945e772.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2e606b8e-d381-485f-a821-3c924a3c7e26.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/de193c0a-62ab-4cf6-846e-4b0736ef2033.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10001.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5b6495ea-b44d-4a85-ba46-7484fcc8a372.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/26990f95-f7b5-420f-9536-f87100f294f5.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/40acda9e-da90-4110-a695-5135df79029e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/75e8bea2-adcb-43d6-9fdd-e9e3300035ca.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/230c623e-76ce-487d-8726-87e380678d09.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a659e666-1395-41d2-9e37-055b95f0606d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9a313c11-ba2f-44bc-a783-665af41bc1c4.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0cbeeca3-8267-481f-8647-5ec4bb1a1296.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c1e0ccde-4f62-43b0-acb4-067f7d12477d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/377f9a4a-606e-4dc9-942d-b487fbb8d587.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/44d65abd-b469-4427-a82b-f1a0260c2987.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ab189825-62bd-441c-a888-63a0caa0c644.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9dfa238f-5e5f-4388-b83c-1cf0f0a4dc96.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4c49fe85-60ff-4307-9fc9-43b7c867d4f6.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/40a984ad-760b-40a3-a034-76a335024c49.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c305b276-869e-4511-bb18-5dbc86e430c7.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ff01ae9e-7520-4589-a92a-94aaec463817.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/12c33b36-0a1b-4087-a2c9-54537f8776be.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ab1a5d63-0777-4582-988b-8158373edb4b.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3e3f29fa-d547-4088-a898-0c7b564d51ea.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f35d1e17-8a0a-4d8c-a052-10425e076f05.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/22fc66d8-034f-4f79-ba50-e6c49cfbd1eb.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/15f1c297-2981-45c8-8ba2-dc3ad1c916ca.jpg">
+<meta property="article:published_time" content="2022-10-01T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-04-10T03:07:48.480Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="高等数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2585a857-7b01-4b1c-83b2-0e932be498e9.jpg">
+
+<link rel="canonical" href="https://cunko.github.io/2022/10/01/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-01-%E5%87%BD%E6%95%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>函数 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2022/10/01/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-01-%E5%87%BD%E6%95%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          函数
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-10-01 15:31:06" itemprop="dateCreated datePublished" datetime="2022-10-01T15:31:06+08:00">2022-10-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-10 11:07:48" itemprop="dateModified" datetime="2023-04-10T11:07:48+08:00">2023-04-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">数学</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="大分类："><a href="#大分类：" class="headerlink" title="大分类："></a>大分类：</h2><p>1.具体函数</p>
+<p>2.抽象函数（没有表达式的函数）</p>
+<h2 id="小分类："><a href="#小分类：" class="headerlink" title="小分类："></a>小分类：</h2><h3 id="1-常函数："><a href="#1-常函数：" class="headerlink" title="1.常函数："></a>1.常函数：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2585a857-7b01-4b1c-83b2-0e932be498e9.jpg"></p>
+<h3 id="2-幂函数："><a href="#2-幂函数：" class="headerlink" title="2.幂函数："></a>2.幂函数：</h3><p>分类：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5069981d-f3c2-4f90-87c0-ddba065bde5f.jpg"></p>
+<p>性质：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/54183ae1-91b5-4547-b1a7-26714945e772.png"></p>
+<h3 id="3-指数函数："><a href="#3-指数函数：" class="headerlink" title="3.指数函数："></a>3.指数函数：</h3><p>分类：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2e606b8e-d381-485f-a821-3c924a3c7e26.jpg"></p>
+<p>性质：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/de193c0a-62ab-4cf6-846e-4b0736ef2033.jpg"></p>
+<h3 id="4-对数函数："><a href="#4-对数函数：" class="headerlink" title="4.对数函数："></a>4.对数函数：</h3><p>分类：</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/10001.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5b6495ea-b44d-4a85-ba46-7484fcc8a372.jpg"></th>
+</tr>
+</thead>
+</table>
+<p>性质：</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/26990f95-f7b5-420f-9536-f87100f294f5.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/40acda9e-da90-4110-a695-5135df79029e.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="5-三角函数："><a href="#5-三角函数：" class="headerlink" title="5.三角函数："></a>5.三角函数：</h3><p>分类：</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/75e8bea2-adcb-43d6-9fdd-e9e3300035ca.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/230c623e-76ce-487d-8726-87e380678d09.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a659e666-1395-41d2-9e37-055b95f0606d.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9a313c11-ba2f-44bc-a783-665af41bc1c4.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0cbeeca3-8267-481f-8647-5ec4bb1a1296.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>性质：</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c1e0ccde-4f62-43b0-acb4-067f7d12477d.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/377f9a4a-606e-4dc9-942d-b487fbb8d587.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/44d65abd-b469-4427-a82b-f1a0260c2987.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ab189825-62bd-441c-a888-63a0caa0c644.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="求具体函数定义域："><a href="#求具体函数定义域：" class="headerlink" title="求具体函数定义域："></a>求具体函数定义域：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9dfa238f-5e5f-4388-b83c-1cf0f0a4dc96.jpg"></p>
+<h2 id="求抽象函数定义域："><a href="#求抽象函数定义域：" class="headerlink" title="求抽象函数定义域："></a>求抽象函数定义域：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4c49fe85-60ff-4307-9fc9-43b7c867d4f6.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/40a984ad-760b-40a3-a034-76a335024c49.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c305b276-869e-4511-bb18-5dbc86e430c7.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>情况2，函数最高次方为偶次方，要把所给的定义域正负分开代入，奇次方，直接代入</p>
+<h2 id="求函数解析式："><a href="#求函数解析式：" class="headerlink" title="求函数解析式："></a>求函数解析式：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ff01ae9e-7520-4589-a92a-94aaec463817.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/12c33b36-0a1b-4087-a2c9-54537f8776be.jpg"></th>
+</tr>
+</thead>
+</table>
+<p>这是第四种情况，前几种直接用换元法和配凑法就可以了</p>
+<h2 id="奇偶性："><a href="#奇偶性：" class="headerlink" title="奇偶性："></a>奇偶性：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ab1a5d63-0777-4582-988b-8158373edb4b.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3e3f29fa-d547-4088-a898-0c7b564d51ea.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f35d1e17-8a0a-4d8c-a052-10425e076f05.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>1.奇奇偶，异非异奇</p>
+<p>2.内偶则偶，内奇则外</p>
+<h2 id="反函数："><a href="#反函数：" class="headerlink" title="反函数："></a>反函数：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/22fc66d8-034f-4f79-ba50-e6c49cfbd1eb.jpg"></p>
+<h2 id="判断俩函数是否为同一函数："><a href="#判断俩函数是否为同一函数：" class="headerlink" title="判断俩函数是否为同一函数："></a>判断俩函数是否为同一函数：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/15f1c297-2981-45c8-8ba2-dc3ad1c916ca.jpg"></p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2022/10/01/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-01-%E5%87%BD%E6%95%B0/" title="函数">https://cunko.github.io/2022/10/01/高等数学/2022-10-01-函数/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" rel="tag"># 高等数学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-python-%E7%8C%9C%E6%95%B0%E5%B0%8F%E6%B8%B8%E6%88%8F/" rel="prev" title="python-猜数小游戏">
+      <i class="fa fa-chevron-left"></i> python-猜数小游戏
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/10/02/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-02-%E6%9E%81%E9%99%90/" rel="next" title="极限">
+      极限 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E5%88%86%E7%B1%BB%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">大分类：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%8F%E5%88%86%E7%B1%BB%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">小分类：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%B8%B8%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">1.常函数：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%B9%82%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">2.2.</span> <span class="nav-text">2.幂函数：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%8C%87%E6%95%B0%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">2.3.</span> <span class="nav-text">3.指数函数：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%AF%B9%E6%95%B0%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">2.4.</span> <span class="nav-text">4.对数函数：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">2.5.</span> <span class="nav-text">5.三角函数：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B1%82%E5%85%B7%E4%BD%93%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%E5%9F%9F%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">求具体函数定义域：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B1%82%E6%8A%BD%E8%B1%A1%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%E5%9F%9F%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">求抽象函数定义域：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B1%82%E5%87%BD%E6%95%B0%E8%A7%A3%E6%9E%90%E5%BC%8F%EF%BC%9A"><span class="nav-number">5.</span> <span class="nav-text">求函数解析式：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%87%E5%81%B6%E6%80%A7%EF%BC%9A"><span class="nav-number">6.</span> <span class="nav-text">奇偶性：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8D%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">7.</span> <span class="nav-text">反函数：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%A4%E6%96%AD%E4%BF%A9%E5%87%BD%E6%95%B0%E6%98%AF%E5%90%A6%E4%B8%BA%E5%90%8C%E4%B8%80%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">8.</span> <span class="nav-text">判断俩函数是否为同一函数：</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">89</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="我的数学专升本笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="连续及间断">
+<meta property="og:url" content="https://cunko.github.io/2022/10/03/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-03-%E8%BF%9E%E7%BB%AD%E5%8F%8A%E9%97%B4%E6%96%AD/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="我的数学专升本笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/97a969a2-29cd-49bd-999e-f1b5bb5c7dfa.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b8822bbf-1318-442f-b1b3-2203709bc04d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e536389c-e9ba-4314-92f8-8da8c8379741.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/539ac4c5-5070-4be0-88eb-12af29d70b4e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f985ef48-38d2-431e-b1ff-c490cc172803.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4a800f39-50e9-43b4-bb8b-c145a32f1b7c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e105edfc-791d-42e1-bcf6-444656f96711.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a6bd405d-2eab-4323-ba1a-f0a396ac6919.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3895d24f-c261-4968-985b-d0f940120bc0.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71ffee72-5b8c-4844-9138-1e7c7a9bffba.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4ab5bbbc-a566-4e18-a3c4-69763b9fc680.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3c52e385-d079-4cb9-b56d-251b26b8f584.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f00aae04-3568-434a-a565-4cd43493ddda.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dade0e6c-e647-4038-a906-4d8dfaf6b677.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9a5ef56b-b2e1-4294-b925-fc45e0203a47.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/84adecce-8e3e-4f70-bcfa-51012eb0eeb7.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f56ffff7-f4dc-432a-ba7a-fd0516439e82.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f51b6f02-f571-40e8-bd11-90aad5646eb4.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5572341-1527-44c8-8a67-8d3360db82e5.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/81086b78-60bb-4ed8-857e-708b91032c28.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/72498691-fd51-4465-af42-2b370ee850cc.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7e35e381-1c93-4fd2-bb39-2a8789c7255a.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2fb6879c-0c84-42cd-9571-82ef5af071cd.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/29dbff31-c25e-4e8c-b797-41e04ab3c903.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/49327a42-28ad-4d9f-a027-810c1d4c167e.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/306605fe-a392-43e8-be6d-58de7bc3d43c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba756014-e53f-4dcb-8f06-8828af435273.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e41092af-0ad6-45f7-8658-13efb46174c4%20(1).jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bf2fea8e-5985-44ce-926a-d20a73890314.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3fe04c4b-fae4-447a-a5f9-01d68655b952.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6f2516d3-95e0-4013-a60c-e4086b7ae9c4.jpg">
+<meta property="article:published_time" content="2022-10-03T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-04-10T03:08:01.862Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="高等数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/97a969a2-29cd-49bd-999e-f1b5bb5c7dfa.jpg">
+
+<link rel="canonical" href="https://cunko.github.io/2022/10/03/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-03-%E8%BF%9E%E7%BB%AD%E5%8F%8A%E9%97%B4%E6%96%AD/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>连续及间断 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2022/10/03/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-03-%E8%BF%9E%E7%BB%AD%E5%8F%8A%E9%97%B4%E6%96%AD/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          连续及间断
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-10-03 15:31:06" itemprop="dateCreated datePublished" datetime="2022-10-03T15:31:06+08:00">2022-10-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-10 11:08:01" itemprop="dateModified" datetime="2023-04-10T11:08:01+08:00">2023-04-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">数学</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><p>连续函数的图像是一笔画成的线。</p>
+<h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/97a969a2-29cd-49bd-999e-f1b5bb5c7dfa.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b8822bbf-1318-442f-b1b3-2203709bc04d.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="分段函数连续的俩种形式："><a href="#分段函数连续的俩种形式：" class="headerlink" title="分段函数连续的俩种形式："></a>分段函数连续的俩种形式：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e536389c-e9ba-4314-92f8-8da8c8379741.jpg"></p>
+<h2 id="间断点及其分类："><a href="#间断点及其分类：" class="headerlink" title="间断点及其分类："></a>间断点及其分类：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/539ac4c5-5070-4be0-88eb-12af29d70b4e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f985ef48-38d2-431e-b1ff-c490cc172803.jpg"></th>
+</tr>
+</thead>
+</table>
+<p>注意：</p>
+<p>1.间断点就是f(x)定义域以外的点</p>
+<p>2.只有分成左右极限去求的时候，才有可能是跳跃间断点</p>
+<p>3.可去间断点和跳跃间断点统称第一类间断点</p>
+<h2 id="闭区间上连续函数函数的性质："><a href="#闭区间上连续函数函数的性质：" class="headerlink" title="闭区间上连续函数函数的性质："></a>闭区间上连续函数函数的性质：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4a800f39-50e9-43b4-bb8b-c145a32f1b7c.jpg"></p>
+<p>零点定理：</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e105edfc-791d-42e1-bcf6-444656f96711.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a6bd405d-2eab-4323-ba1a-f0a396ac6919.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="罗尔定理："><a href="#罗尔定理：" class="headerlink" title="罗尔定理："></a>罗尔定理：</h2><p>对于选择题直接找条件就行，对于证明题如下（注意与零点定理比较一下区别，题目中有俩问，一般第一问考的都是零点定理）：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3895d24f-c261-4968-985b-d0f940120bc0.jpg"></p>
+<p>判断连续：</p>
+<p>1.找函数值的定义域，若包含所给区间则连续，反之，不连续，（分段函数除外）</p>
+<p>2.找极限值与函数值，若相等则连续。</p>
+<p>判断可导：</p>
+<p>1.找导数的定义域，若包含所给区间则可导，反之，不不可导，（分段函数，带绝对值的函数除外）</p>
+<p>2.找左导和右导，若相等着可导</p>
+<p>3.尖端不可导：使绝对值等于0的点不可导</p>
+<h3 id="构造辅助函数："><a href="#构造辅助函数：" class="headerlink" title="构造辅助函数："></a>构造辅助函数：</h3><p><strong>出题类型</strong></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71ffee72-5b8c-4844-9138-1e7c7a9bffba.jpg"></p>
+<p><strong>还原法</strong></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4ab5bbbc-a566-4e18-a3c4-69763b9fc680.jpg"></p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3c52e385-d079-4cb9-b56d-251b26b8f584.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f00aae04-3568-434a-a565-4cd43493ddda.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dade0e6c-e647-4038-a906-4d8dfaf6b677.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9a5ef56b-b2e1-4294-b925-fc45e0203a47.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/84adecce-8e3e-4f70-bcfa-51012eb0eeb7.jpg"></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f56ffff7-f4dc-432a-ba7a-fd0516439e82.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f51b6f02-f571-40e8-bd11-90aad5646eb4.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="拉格朗日定理："><a href="#拉格朗日定理：" class="headerlink" title="拉格朗日定理："></a>拉格朗日定理：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5572341-1527-44c8-8a67-8d3360db82e5.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/81086b78-60bb-4ed8-857e-708b91032c28.jpg"></th>
+</tr>
+</thead>
+</table>
+<p>适用范围：证明连体不等式（俩个及俩个以上的不等式）和含俩个不同字母的式子。</p>
+<p>要判断原函数的单调性,就要去求其导数的正负，（正为增，负为减），要求其导数的单调性，就要找导导函数的正负。</p>
+<p><strong>出题类型</strong>:</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/72498691-fd51-4465-af42-2b370ee850cc.jpg"></p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7e35e381-1c93-4fd2-bb39-2a8789c7255a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2fb6879c-0c84-42cd-9571-82ef5af071cd.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/29dbff31-c25e-4e8c-b797-41e04ab3c903.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/49327a42-28ad-4d9f-a027-810c1d4c167e.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/306605fe-a392-43e8-be6d-58de7bc3d43c.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba756014-e53f-4dcb-8f06-8828af435273.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e41092af-0ad6-45f7-8658-13efb46174c4%20(1).jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bf2fea8e-5985-44ce-926a-d20a73890314.jpg"></td>
+</tr>
+</tbody></table>
+<p>中间拆开除于俩边相同的部分,定分子，换分母</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3fe04c4b-fae4-447a-a5f9-01d68655b952.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6f2516d3-95e0-4013-a60c-e4086b7ae9c4.jpg"></th>
+</tr>
+</thead>
+</table>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2022/10/03/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-03-%E8%BF%9E%E7%BB%AD%E5%8F%8A%E9%97%B4%E6%96%AD/" title="连续及间断">https://cunko.github.io/2022/10/03/高等数学/2022-10-03-连续及间断/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" rel="tag"># 高等数学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/10/02/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-02-%E6%9E%81%E9%99%90/" rel="prev" title="极限">
+      <i class="fa fa-chevron-left"></i> 极限
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/10/04/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-04-%E5%AF%BC%E6%95%B0/" rel="next" title="导数">
+      导数 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">基本概念：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">定义：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E6%AE%B5%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E7%9A%84%E4%BF%A9%E7%A7%8D%E5%BD%A2%E5%BC%8F%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">分段函数连续的俩种形式：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%B4%E6%96%AD%E7%82%B9%E5%8F%8A%E5%85%B6%E5%88%86%E7%B1%BB%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">间断点及其分类：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AD%E5%8C%BA%E9%97%B4%E4%B8%8A%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E5%87%BD%E6%95%B0%E7%9A%84%E6%80%A7%E8%B4%A8%EF%BC%9A"><span class="nav-number">5.</span> <span class="nav-text">闭区间上连续函数函数的性质：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%97%E5%B0%94%E5%AE%9A%E7%90%86%EF%BC%9A"><span class="nav-number">6.</span> <span class="nav-text">罗尔定理：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%84%E9%80%A0%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">6.1.</span> <span class="nav-text">构造辅助函数：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%AE%9A%E7%90%86%EF%BC%9A"><span class="nav-number">7.</span> <span class="nav-text">拉格朗日定理：</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">89</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>

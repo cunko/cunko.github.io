@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="有趣的技术">
+<meta property="og:type" content="article">
+<meta property="og:title" content="爬虫基础">
+<meta property="og:url" content="https://cunko.github.io/2022/09/24/python%E7%90%86%E8%AE%BA/2022-09-24-%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="有趣的技术">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-09-24T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-04-10T03:10:23.857Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="python理论">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://cunko.github.io/2022/09/24/python%E7%90%86%E8%AE%BA/2022-09-24-%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>爬虫基础 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2022/09/24/python%E7%90%86%E8%AE%BA/2022-09-24-%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          爬虫基础
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-09-24 15:31:06" itemprop="dateCreated datePublished" datetime="2022-09-24T15:31:06+08:00">2022-09-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-10 11:10:23" itemprop="dateModified" datetime="2023-04-10T11:10:23+08:00">2023-04-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>有趣的技术</p>
+<span id="more"></span>
+
+<h2 id="python本质："><a href="#python本质：" class="headerlink" title="python本质："></a>python本质：</h2><blockquote>
+<p>一个自动化的程序</p>
+</blockquote>
+<h2 id="分类："><a href="#分类：" class="headerlink" title="分类："></a>分类：</h2><blockquote>
+<p>爬虫一般是通用爬取和聚焦爬取，而新手都是从通用爬取开始，就相当于对整个页面爬取。</p>
+</blockquote>
+<h2 id="工作过程："><a href="#工作过程：" class="headerlink" title="工作过程："></a>工作过程：</h2><ul>
+<li>抓取</li>
+<li>分析</li>
+<li>存储</li>
+</ul>
+<h2 id="一、网络爬虫是什么意思"><a href="#一、网络爬虫是什么意思" class="headerlink" title="一、网络爬虫是什么意思"></a><strong>一、<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seojianzhan/17484.html">网络爬虫</a>是什么意思</strong></h2><p>网络爬虫（英文：Web Crawler或Spider）又称为网络蜘蛛、网页蜘蛛或网络机器人，是一种按照一定的规则，自动地抓取互联网信息的程序或者脚本。网络爬虫是为搜索引擎从万维网上下载网页的程序，是搜索引擎的重要组成。传统爬虫从一个或若干初始网页的URL开始，获得初始网页上的URL，在抓取网页的过程中，不断从当前页面上抽取新的URL放入队列，直到满足系统的一定停止条件。</p>
+<h2 id="二、网络爬虫的分类"><a href="#二、网络爬虫的分类" class="headerlink" title="二、网络爬虫的分类"></a><strong>二、网络爬虫的分类</strong></h2><p>网络爬虫按照系统结构和实现技术，大致可以分为以下几种类型：通用网络爬虫(General <a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seojianzhan/17514.html">PUR</a>pose Web Crawler)、聚焦网络爬虫(Focused Web Crawler)、增量式网络爬虫(Incremental Web Crawler)、深层网络爬虫(Deep Web Crawler)。 实际的网络爬虫系统通常是几种爬虫技术相结合实现的。</p>
+<h4 id="1、通用网络爬虫"><a href="#1、通用网络爬虫" class="headerlink" title="1、通用网络爬虫"></a><strong>1、通用网络爬虫</strong></h4><p>通用网络爬虫又称全网爬虫(Scalable Web Crawler)，爬行对象从一些种子 URL 扩充到整个 Web，主要为门户站点搜索引擎和大型 Web 服务提供商采集数据。 由于商业原因，它们的技术细节很少公布出来。 这类网络爬虫的爬行范围和数量巨大，对于爬行速度和存储空间要求较高，对于爬行页面的顺序要求相对较低，同时由于待刷新的页面太多，通常采用并行工作方式，但需要较长时间才能刷新一次页面。 虽然存在一定缺陷，通用网络爬虫适用于为搜索引擎搜索广泛的主题，有较强的应用价值。</p>
+<p>通用网络爬虫的结构大致可以分为页面爬行模块、页面分析模块、链接过滤模块、页面数据库、URL 队列、初始 URL 集合几个部分。为提高工作效率，通用网络爬虫会采取一定的爬行策略。 常用的爬行策略有：深度优先策略、广度优先策略。</p>
+<p><strong>(1)、深度优先策略：</strong>其基本方法是按照深度由低到高的顺序，依次访问下一级网页链接，直到不能再深入为止。 爬虫在完成一个爬行分支后返回到上一链接节点进一步搜索其它链接。 当所有链接遍历完后，爬行任务结束。 这种策略比较适合垂直搜索或站内搜索，但爬行页面内容层次较深的站点时会造成资源的巨大浪费。</p>
+<p><strong>(2)、广度优先策略：</strong>此策略按照网页内容目录层次深浅来爬行页面，处于较浅目录层次的页面首先被爬行。 当同一层次中的页面爬行完毕后，爬虫再深入下一层继续爬行。 这种策略能够有效控制页面的爬行深度，避免遇到一个无穷深层分支时无法结束爬行的问题，实现方便，无需存储大量中间节点，不足之处在于需较长时间才能爬行到目录层次较深的页面。</p>
+<h4 id="2、聚焦网络爬虫"><a href="#2、聚焦网络爬虫" class="headerlink" title="2、聚焦网络爬虫"></a><strong>2、聚焦网络爬虫</strong></h4><p>聚焦网络爬虫(Focused Crawler)，又称主题网络爬虫(Topical Crawler)，是指选择性地爬行那些与预先定义好的主题相关页面的网络爬虫。 和通用网络爬虫相比，聚焦爬虫只需要爬行与主题相关的页面，极大地节省了硬件和网络资源，保存的页面也由于数量少而更新快，还可以很好地满足一些特定人群对特定领域信息的需求。</p>
+<p>聚焦网络爬虫和通用网络爬虫相比，增加了链接评价模块以及内容评价模块。聚焦爬虫爬行策略实现的关键是评价页面内容和链接的重要性，不同的方法计算出的重要性不同，由此导致链接的访问顺序也不同。</p>
+<h4 id="3、增量式网络爬虫"><a href="#3、增量式网络爬虫" class="headerlink" title="3、增量式网络爬虫"></a><strong>3、增量式网络爬虫</strong></h4><p>增量式网络爬虫(Incremental Web Crawler)是指对已下载网页采取增量式更新和只爬行新产生的或者已经发生变化网页的爬虫，它能够在一定程度上保证所爬行的页面是尽可能新的页面。 和周期性爬行和刷新页面的网络爬虫相比，增量式爬虫只会在需要的时候爬行新产生或发生更新的页面，并不重新下载没有发生变化的页面，可有效减少数据下载量，及时更新已爬行的网页，减小时间和空间上的耗费，但是增加了爬行算法的复杂度和实现难度。增量式网络爬虫的体系结构[包含爬行模块、排序模块、更新模块、本地页面集、待爬行 URL 集以及本地页面URL 集]。</p>
+<p>增量式爬虫有两个目标：保持本地页面集中存储的页面为最新页面和提高本地页面集中页面的质量。 为实现第一个目标，增量式爬虫需要通过重新访问网页来更新本地页面集中页面内容，常用的方法有：</p>
+<p>(1)、统一更新法：爬虫以相同的频率访问所有网页，不考虑网页的改变频率；</p>
+<p>(2)、个体更新法：爬虫根据个体网页的改变频率来重新访问各页面；</p>
+<p>(3)、基于分类的更新法：爬虫根据网页改变频率将其分为更新较快网页子集和更新较慢网页子集两类，然后以不同的频率访问这两类网页。</p>
+<h4 id="4、Deep-Web-爬虫"><a href="#4、Deep-Web-爬虫" class="headerlink" title="4、Deep Web 爬虫"></a><strong>4、Deep Web 爬虫</strong></h4><p>Web 页面按存在方式可以分为表层网页(Surface Web)和深层网页(Deep Web，也称 Invisible Web Pages 或 Hidden Web)。 表层网页是指传统搜索引擎可以索引的页面，以超链接可以到达的<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seojianzhan/17509.html">静态网页</a>为主构成的 Web 页面。Deep Web 是那些大部分内容不能通过静态链接获取的、隐藏在搜索表单后的，只有用户提交一些关键词才能获得的 Web 页面。例如那些用户注册后内容才可见的网页就属于 Deep Web。 2000 年 Bright Planet 指出：Deep Web 中可访问信息容量是 Surface Web 的几百倍，是互联网上最大、发展最快的新型信息资源。</p>
+<p>Deep Web 爬虫体系结构包含六个基本功能模块 (爬行控制器、解析器、表单分析器、表单处理器、响应分析器、LVS 控制器)和两个爬虫内部数据结构(URL 列表、LVS 表)。 其中 LVS(Label Value Set)表示标签&#x2F;数值集合，用来表示填充表单的数据源。</p>
+<h2 id="三、网络爬虫的组成"><a href="#三、网络爬虫的组成" class="headerlink" title="三、网络爬虫的组成"></a><strong>三、网络爬虫的组成</strong></h2><p>在网络爬虫的系统框架中，主过程由控制器，解析器，资源库三部分组成。控制器的主要工作是负责给多线程中的各个爬虫线程分配工作任务。解析器的主要工作是下载网页，进行页面的处理，主要是将一些JS脚本标签、<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seojianzhan/17781.html">CSS</a>代码内容、空格字符、<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seojianzhan/17775.html">Html</a>标签等内容处理掉，爬虫的基本工作是由解析器完成。资源库是用来存放下载到的网页资源，一般都采用大型的数据库存储，并对其建立索引。</p>
+<p><strong>1、控制器</strong></p>
+<p>控制器是网络爬虫的中央控制器，它主要是负责根据系统传过来的URL链接，分配一线程，然后启动线程调用爬虫爬取网页的过程。</p>
+<p><strong>2、解析器</strong></p>
+<p>解析器是负责网络爬虫的主要部分，其负责的工作主要有：下载网页的功能，对网页的文本进行处理，如过滤功能，抽取特殊HTML标签的功能，分析数据功能。</p>
+<p><strong>3、资源库</strong></p>
+<p>主要是用来存储网页中下载下来的数据记录的容器，并提供生成索引的目标源。中大型的数据库产品有：Oracle、Sql Server等。</p>
+<h2 id="四、网络爬虫的基本步骤"><a href="#四、网络爬虫的基本步骤" class="headerlink" title="四、网络爬虫的基本步骤"></a><strong>四、网络爬虫的基本步骤</strong></h2><p>1、首先选取一部分种子URL；</p>
+<p>2、将这些URL放入待抓取URL队列；</p>
+<p>3、从待抓取URL队列中取出待抓取的URL,解析DNS，得到主机的IP，并将URL对应的网页下载下来，存储到已下载网页库中，此外，将这些URL放入已抓取URL队列；</p>
+<p>4、分析已抓取到的网页内容中的其他URL,并将URL放入待抓取URL队列，从而进入下一个循环。</p>
+<h2 id="五、网络爬虫的应用场景"><a href="#五、网络爬虫的应用场景" class="headerlink" title="五、网络爬虫的应用场景"></a><strong>五、网络爬虫的应用场景</strong></h2><p><strong>1、搜索引擎抓取网页信息。</strong></p>
+<p>大家常用的搜索引擎的首要工作流程就是利用网络爬虫去爬取各个网站的页面。以<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seojianzhan/17312.html">百度蜘蛛</a>为例，一旦有网站的页面更新了，百度蜘蛛就会出动，然后把爬取的页面信息搬回百度，再进行多次的筛选和整理。最终在大家搜索相关信息的时候，通过排名呈现给大家。可以说，没有网络爬虫，我们使用搜索引擎查询资料的时候，就不会那么便捷、全面和高效。</p>
+<p><strong>2、爬取需要数据进行统计。</strong></p>
+<p>冷数据启动时丰富数据的主要工具，新业务开始时，由于刚起步，所以没有多少数据，此时就需要爬取其他平台的数据来填充我们的业务数据。比如说，如果我们想做一个类似大众点评这样的平台，一开始没有商户等信息，就需要去爬取大众，美团等商家的信息来填充数据，比如天眼查，企查查，西瓜数据等等。</p>
+<p><strong>3、出行类软件通过爬虫抢票。</strong></p>
+<p>如果问网络爬虫技术应用最多的领域是什么？那一定是出行行业。相信每逢春运或是节假日，大家都用过一些抢票的软件，就为了获得一张机票或者是一张火车票，而这种出行类软件正是运用网络爬虫技术来达到抢票的目的。像抢票软件这样的网络爬虫，会不停地爬取交通出行的售票网站，一旦有票就会点击拍下来，放到自己的网站售卖。如果一定时间内没有人购买，就又会自动退票。然后又通过网站爬虫把票拍下来，到时间又继续退票，如此反复循环。</p>
+<p><strong>4、聚合平台整合信息进行比较。</strong></p>
+<p>如今，出现了很多比价平台、聚合电商还有返利平台等等给，这类聚合平台的本质都是提供横向数据比较，聚合服。比如说电商中经常需要有一种比价系统，从各大电商平台，如拼多多，淘宝，京东等抓取同一个商品的价格信息，以给用户提供最实惠的商品价格，这样就需要利用网络爬虫从各大电商平台爬取信息。</p>
+<h2 id="六、搜索引擎蜘蛛介绍"><a href="#六、搜索引擎蜘蛛介绍" class="headerlink" title="六、搜索引擎蜘蛛介绍"></a><strong>六、搜索引擎蜘蛛介绍</strong></h2><p><strong>1、BaiduSpider（百度蜘蛛）</strong></p>
+<p>常见的百度蜘蛛有：Baiduspider 和 Baiduspider-image（抓取图片）。国内网站大多数流量都来自百度，所以推荐放行。</p>
+<p>百度还有其它几个蜘蛛：</p>
+<p>Baiduspider-video（抓取视频）</p>
+<p>Baiduspider-news（抓取新闻）</p>
+<p>Baiduspider-mobile（抓取wap）</p>
+<p>百度蜘蛛介绍：<a target="_blank" rel="noopener" href="http://www.baidu.com/search/spider.html">http://www.baidu.com/search/spider.html</a></p>
+<p><strong>2、Googlebot（谷歌蜘蛛）</strong></p>
+<p>常见的谷歌蜘蛛有：Googlebot，还一个 Googlebot-Mobile ，不是很常见，看名字是应该是抓取 wap 页面的。世界第一大搜索引擎，推荐放行。</p>
+<p>谷歌蜘蛛链接：<a target="_blank" rel="noopener" href="http://www.google.com/bot.html">http://www.google.com/bot.html</a></p>
+<p><strong>3、360Spider（360蜘蛛）</strong></p>
+<p>一个十分”勤奋抓爬”的蜘蛛。</p>
+<p>360蜘蛛IP：<a target="_blank" rel="noopener" href="https://www.so.com/help/spider_ip.html">https://www.so.com/help/spider_ip.html</a></p>
+<p><strong>4、Sogou web spider（搜狗蜘蛛）</strong></p>
+<p>搜狗公司还有其它几个蜘蛛：Sogou News Spider、Sogou inst spider、Sogou spider2、Sogou blog、Sogou Orion spider、Sogou web spider。</p>
+<p>搜狗蜘蛛爬虫：<a target="_blank" rel="noopener" href="http://www.sogou.com/docs/help/webmasters.htm">http://www.sogou.com/docs/help/webmasters.htm</a></p>
+<p><strong>5、Bingbot（必应蜘蛛）</strong></p>
+<p>必应是微软的搜索引擎，微软的IE浏览器和Edge浏览器会默认使用该搜索引擎，而且占有率也还可以，不建议屏蔽。</p>
+<p>必应蜘蛛爬虫：<a target="_blank" rel="noopener" href="http://www.bing.com/bingbot.htm">http://www.bing.com/bingbot.htm</a></p>
+<p><strong>6、Sosospider（SOSO蜘蛛）</strong></p>
+<p>腾讯soso，目前搜狗公司管理。</p>
+<p>soso蜘蛛爬虫：<a target="_blank" rel="noopener" href="http://help.soso.com/webspider.htm">http://help.soso.com/webspider.htm</a></p>
+<p><strong>7、Yahoo! Slurp China（雅虎中国）或 Yahoo! Slurp（雅虎英文）</strong></p>
+<p>雅虎蜘蛛爬虫：</p>
+<p>雅虎中国：<a target="_blank" rel="noopener" href="http://misc.yahoo.com.cn/help.html">http://misc.yahoo.com.cn/help.html</a></p>
+<p>雅虎英文：<a target="_blank" rel="noopener" href="http://help.yahoo.com/help/us/ysearch/slurp">http://help.yahoo.com/help/us/ysearch/slurp</a></p>
+<p><strong>8、MSNBot，MSNot-media（MSN蜘蛛）</strong></p>
+<p>MSNBOT应该是 bing 搜索的蜘蛛，MSN和bing是一家的，可以只保留 Bingbot。</p>
+<p>MSN蜘蛛爬虫：<a target="_blank" rel="noopener" href="http://search.msn.com/msnbot.htm">http://search.msn.com/msnbot.htm</a></p>
+<p><strong>9、YisouSpider（一搜蜘蛛&#x2F;神马搜索）</strong></p>
+<p>神马搜索是UC和阿里2013年已经成立合资公司推出的移动搜索引擎。</p>
+<p>该蜘蛛抓取频率还是很高的，很多人并不看好，不过如果屏蔽的话，会损失 UC浏览器 的流量来源。自己斟酌吧！</p>
+<p><strong>10、还有一些蜘蛛，不会给网站带来什么流量，站长看是否屏蔽。</strong></p>
+<p><strong>YoudaoBot（有道蜘蛛）：</strong>网易有道的蜘蛛，并不会带来流量。</p>
+<p><strong>JikeSpider（即刻蜘蛛）：</strong>“即刻搜索”是由人民搜索网络股份公司于2011年6月20日推出的通用搜索引擎平台。</p>
+<p>即刻蜘蛛：<a target="_blank" rel="noopener" href="http://shoulu.jike.com/spider.html">http://shoulu.jike.com/spider.html</a></p>
+<p><strong>ToutiaoSpider（头条号）：</strong>今日头条的头条号蜘蛛，不能带来流量，屏蔽好啦。</p>
+<p>来源：http &#x2F;&#x2F;web toutiao com&#x2F;media_cooperation</p>
+<p><em>除了上述的爬虫，其他的就直接毫不犹豫的禁掉。</em></p>
+<h4 id="最后总结"><a href="#最后总结" class="headerlink" title="最后总结"></a><strong>最后总结</strong></h4><p>优化猩<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/">SEO</a>：在信息大爆炸的时代，网络爬虫可以代替手工做很多事情，比如可以用于做搜索引擎，也可以爬取网站上面的图片等，网络爬虫可以更高效率地利用好互联网中的有效信息。</p>
+<p>想了解更多SEO百科的内容，请访问：<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seobaike/">SEO百科</a></p>
+<p>本文来源：<a target="_blank" rel="noopener" href="https://www.youhuaxing.cn/seojianzhan/17484.html">https://www.youhuaxing.cn/seojianzhan/17484.html</a></p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2022/09/24/python%E7%90%86%E8%AE%BA/2022-09-24-%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/" title="爬虫基础">https://cunko.github.io/2022/09/24/python理论/2022-09-24-爬虫基础/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python%E7%90%86%E8%AE%BA/" rel="tag"># python理论</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/09/24/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E5%AF%B9Git%E4%B8%8EGitHub%E7%9A%84%E6%8E%A2%E7%B4%A2/" rel="prev" title="对Git与GitHub的探索">
+      <i class="fa fa-chevron-left"></i> 对Git与GitHub的探索
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%88%AC%E8%99%AB/" rel="next" title="酷我音乐爬虫">
+      酷我音乐爬虫 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#python%E6%9C%AC%E8%B4%A8%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">python本质：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E7%B1%BB%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">分类：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E4%BD%9C%E8%BF%87%E7%A8%8B%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">工作过程：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D"><span class="nav-number">4.</span> <span class="nav-text">一、网络爬虫是什么意思</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%9A%84%E5%88%86%E7%B1%BB"><span class="nav-number">5.</span> <span class="nav-text">二、网络爬虫的分类</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E3%80%81%E9%80%9A%E7%94%A8%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB"><span class="nav-number">5.0.1.</span> <span class="nav-text">1、通用网络爬虫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%E3%80%81%E8%81%9A%E7%84%A6%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB"><span class="nav-number">5.0.2.</span> <span class="nav-text">2、聚焦网络爬虫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%E3%80%81%E5%A2%9E%E9%87%8F%E5%BC%8F%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB"><span class="nav-number">5.0.3.</span> <span class="nav-text">3、增量式网络爬虫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%E3%80%81Deep-Web-%E7%88%AC%E8%99%AB"><span class="nav-number">5.0.4.</span> <span class="nav-text">4、Deep Web 爬虫</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%9A%84%E7%BB%84%E6%88%90"><span class="nav-number">6.</span> <span class="nav-text">三、网络爬虫的组成</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%AD%A5%E9%AA%A4"><span class="nav-number">7.</span> <span class="nav-text">四、网络爬虫的基本步骤</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="nav-number">8.</span> <span class="nav-text">五、网络爬虫的应用场景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%9C%98%E8%9B%9B%E4%BB%8B%E7%BB%8D"><span class="nav-number">9.</span> <span class="nav-text">六、搜索引擎蜘蛛介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%80%E5%90%8E%E6%80%BB%E7%BB%93"><span class="nav-number">9.0.1.</span> <span class="nav-text">最后总结</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">89</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>

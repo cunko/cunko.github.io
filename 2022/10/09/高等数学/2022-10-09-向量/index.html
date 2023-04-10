@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="我的数学专升本笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="向量">
+<meta property="og:url" content="https://cunko.github.io/2022/10/09/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-09-%E5%90%91%E9%87%8F/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="我的数学专升本笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c8dbc5469da84f2f23b25c401318068.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71fc08b67820c614e49f231668ab8c7.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a71e8c2d32ac299f28e6aae5694feb6.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f8ac98c85a42bd3ad1c528c5dfd152.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5651750857f499705dc7d3443d478fe.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cec38ea9e889ab640660cd5c35fa81.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f1f60a72971a78734fd147edf961b63.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/80631aefddc44c91ffcd7481178f60b.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/33a40478ff872e97b8b851034c64480.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4d1361c5add9e47248b19d058269fe.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ae79fec62410715314776ae50dd44c5.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/633aff5596a99bd9ac595334eb07f5c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/996d8971250e408eb6008b6efd19d73.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/980c405c8c2d50de992ada8d0d05280.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/eb85c463a80b9015c819ea34ea30c4b.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/785aa768cac3732619bae903adbc7cc.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/789b223e512fa6bbb651632bbfe9b0a.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba83e581cc183733d0c12e6bdcdeda2.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4023e32be09132c30f4256ed42f0ef5.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b23ab34ef90c8841c4341928c4059f4.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e354de3882bb3f8c4ded2fbdc2246c5.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be943f666df10c0a70177b8025eb44c.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be8bee8a756d75582fb276159f43d5d.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/717404c43900971eb214f8bf698249a.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e1a144d1e5b9e1715c35bfa37e2cae4.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92e5e4e2eaa6257ddd57662bc136ad9.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c749d78bd6fda5ab310b2d5d776ad9b.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9782b42a0eb50c1f58eeb5ee9894992.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf2ddf1450f0b776df45041aea314d8.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32f914d09d3aa6e6101ca50a1a767c0.jpg">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/34d0dab6bff5995f9bac1b971d2e2eb.jpg">
+<meta property="article:published_time" content="2022-10-09T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-04-10T03:08:44.556Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="高等数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c8dbc5469da84f2f23b25c401318068.jpg">
+
+<link rel="canonical" href="https://cunko.github.io/2022/10/09/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-09-%E5%90%91%E9%87%8F/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>向量 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2022/10/09/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-09-%E5%90%91%E9%87%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          向量
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-10-09 15:31:06" itemprop="dateCreated datePublished" datetime="2022-10-09T15:31:06+08:00">2022-10-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-10 11:08:44" itemprop="dateModified" datetime="2023-04-10T11:08:44+08:00">2023-04-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">数学</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="概念与公式："><a href="#概念与公式：" class="headerlink" title="概念与公式："></a>概念与公式：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c8dbc5469da84f2f23b25c401318068.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71fc08b67820c614e49f231668ab8c7.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a71e8c2d32ac299f28e6aae5694feb6.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f8ac98c85a42bd3ad1c528c5dfd152.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5651750857f499705dc7d3443d478fe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cec38ea9e889ab640660cd5c35fa81.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="空间平面与空间直线"><a href="#空间平面与空间直线" class="headerlink" title="空间平面与空间直线"></a>空间平面与空间直线</h2><h3 id="向量对称点："><a href="#向量对称点：" class="headerlink" title="向量对称点："></a>向量对称点：</h3><p>某轴对称某不变；某面对称某不变；原点对称全相反；</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f1f60a72971a78734fd147edf961b63.jpg"></p>
+<h3 id="空间平面"><a href="#空间平面" class="headerlink" title="空间平面"></a>空间平面</h3><p>法向量：垂直于平面的非零向量。</p>
+<h4 id="平面的点法式与一般式"><a href="#平面的点法式与一般式" class="headerlink" title="平面的点法式与一般式"></a>平面的点法式与一般式</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/80631aefddc44c91ffcd7481178f60b.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/33a40478ff872e97b8b851034c64480.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4d1361c5add9e47248b19d058269fe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ae79fec62410715314776ae50dd44c5.jpg"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>对于一般式方程：平行于谁谁消失，过谁D也消失。</p>
+</blockquote>
+<h4 id="点到平面的距离公式与俩平行平面的距离公式"><a href="#点到平面的距离公式与俩平行平面的距离公式" class="headerlink" title="点到平面的距离公式与俩平行平面的距离公式"></a>点到平面的距离公式与俩平行平面的距离公式</h4><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/633aff5596a99bd9ac595334eb07f5c.jpg" style="zoom: 67%;" />
+
+<h3 id="空间直线"><a href="#空间直线" class="headerlink" title="空间直线"></a>空间直线</h3><p>方向向量：平行于直线的非零向量。</p>
+<h4 id="一般式与点向式"><a href="#一般式与点向式" class="headerlink" title="一般式与点向式"></a>一般式与点向式</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/996d8971250e408eb6008b6efd19d73.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/980c405c8c2d50de992ada8d0d05280.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/eb85c463a80b9015c819ea34ea30c4b.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="参数方程"><a href="#参数方程" class="headerlink" title="参数方程"></a>参数方程</h4><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/785aa768cac3732619bae903adbc7cc.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/789b223e512fa6bbb651632bbfe9b0a.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="计算线与面的交点："><a href="#计算线与面的交点：" class="headerlink" title="计算线与面的交点："></a>计算线与面的交点：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ba83e581cc183733d0c12e6bdcdeda2.jpg"></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4023e32be09132c30f4256ed42f0ef5.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b23ab34ef90c8841c4341928c4059f4.jpg"></td>
+</tr>
+</tbody></table>
+<h3 id="直线与平面的位置关系判断："><a href="#直线与平面的位置关系判断：" class="headerlink" title="直线与平面的位置关系判断："></a>直线与平面的位置关系判断：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e354de3882bb3f8c4ded2fbdc2246c5.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be943f666df10c0a70177b8025eb44c.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be8bee8a756d75582fb276159f43d5d.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="空间曲线"><a href="#空间曲线" class="headerlink" title="空间曲线"></a>空间曲线</h2><h3 id="旋转曲面"><a href="#旋转曲面" class="headerlink" title="旋转曲面"></a>旋转曲面</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/717404c43900971eb214f8bf698249a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e1a144d1e5b9e1715c35bfa37e2cae4.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="投影（柱面）方程"><a href="#投影（柱面）方程" class="headerlink" title="投影（柱面）方程"></a>投影（柱面）方程</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92e5e4e2eaa6257ddd57662bc136ad9.jpg"></p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c749d78bd6fda5ab310b2d5d776ad9b.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9782b42a0eb50c1f58eeb5ee9894992.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="二次曲面"><a href="#二次曲面" class="headerlink" title="二次曲面"></a>二次曲面</h2><h3 id="柱面"><a href="#柱面" class="headerlink" title="柱面"></a>柱面</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf2ddf1450f0b776df45041aea314d8.jpg"></p>
+<h3 id="抛物面"><a href="#抛物面" class="headerlink" title="抛物面"></a>抛物面</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32f914d09d3aa6e6101ca50a1a767c0.jpg"></p>
+<h3 id="其余类型"><a href="#其余类型" class="headerlink" title="其余类型"></a>其余类型</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/34d0dab6bff5995f9bac1b971d2e2eb.jpg"></p>
+<p>锥面指的是单双叶双曲面的情况和</p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2022/10/09/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-09-%E5%90%91%E9%87%8F/" title="向量">https://cunko.github.io/2022/10/09/高等数学/2022-10-09-向量/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" rel="tag"># 高等数学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/10/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-08-%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86/" rel="prev" title="二重积分">
+      <i class="fa fa-chevron-left"></i> 二重积分
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/10/10/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-10-%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/" rel="next" title="曲线积分">
+      曲线积分 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%85%AC%E5%BC%8F%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">概念与公式：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A9%BA%E9%97%B4%E5%B9%B3%E9%9D%A2%E4%B8%8E%E7%A9%BA%E9%97%B4%E7%9B%B4%E7%BA%BF"><span class="nav-number">2.</span> <span class="nav-text">空间平面与空间直线</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8F%E5%AF%B9%E7%A7%B0%E7%82%B9%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">向量对称点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A9%BA%E9%97%B4%E5%B9%B3%E9%9D%A2"><span class="nav-number">2.2.</span> <span class="nav-text">空间平面</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B9%B3%E9%9D%A2%E7%9A%84%E7%82%B9%E6%B3%95%E5%BC%8F%E4%B8%8E%E4%B8%80%E8%88%AC%E5%BC%8F"><span class="nav-number">2.2.1.</span> <span class="nav-text">平面的点法式与一般式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%82%B9%E5%88%B0%E5%B9%B3%E9%9D%A2%E7%9A%84%E8%B7%9D%E7%A6%BB%E5%85%AC%E5%BC%8F%E4%B8%8E%E4%BF%A9%E5%B9%B3%E8%A1%8C%E5%B9%B3%E9%9D%A2%E7%9A%84%E8%B7%9D%E7%A6%BB%E5%85%AC%E5%BC%8F"><span class="nav-number">2.2.2.</span> <span class="nav-text">点到平面的距离公式与俩平行平面的距离公式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A9%BA%E9%97%B4%E7%9B%B4%E7%BA%BF"><span class="nav-number">2.3.</span> <span class="nav-text">空间直线</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E8%88%AC%E5%BC%8F%E4%B8%8E%E7%82%B9%E5%90%91%E5%BC%8F"><span class="nav-number">2.3.1.</span> <span class="nav-text">一般式与点向式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E6%95%B0%E6%96%B9%E7%A8%8B"><span class="nav-number">2.3.2.</span> <span class="nav-text">参数方程</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E7%BA%BF%E4%B8%8E%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%82%B9%EF%BC%9A"><span class="nav-number">2.4.</span> <span class="nav-text">计算线与面的交点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B4%E7%BA%BF%E4%B8%8E%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%85%B3%E7%B3%BB%E5%88%A4%E6%96%AD%EF%BC%9A"><span class="nav-number">2.5.</span> <span class="nav-text">直线与平面的位置关系判断：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF"><span class="nav-number">3.</span> <span class="nav-text">空间曲线</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%8B%E8%BD%AC%E6%9B%B2%E9%9D%A2"><span class="nav-number">3.1.</span> <span class="nav-text">旋转曲面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%95%E5%BD%B1%EF%BC%88%E6%9F%B1%E9%9D%A2%EF%BC%89%E6%96%B9%E7%A8%8B"><span class="nav-number">3.2.</span> <span class="nav-text">投影（柱面）方程</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E6%AC%A1%E6%9B%B2%E9%9D%A2"><span class="nav-number">4.</span> <span class="nav-text">二次曲面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%B1%E9%9D%A2"><span class="nav-number">4.1.</span> <span class="nav-text">柱面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%9B%E7%89%A9%E9%9D%A2"><span class="nav-number">4.2.</span> <span class="nav-text">抛物面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BD%99%E7%B1%BB%E5%9E%8B"><span class="nav-number">4.3.</span> <span class="nav-text">其余类型</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">89</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>
