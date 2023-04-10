@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>蓝牙模块的配置与使用</title>
+    <url>/2022/09/04/51/%E8%93%9D%E7%89%99%E6%A8%A1%E5%9D%97%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p>有趣的技术</p>
+<span id="more"></span>
+
+<h2 id="1-配置"><a href="#1-配置" class="headerlink" title="1.配置"></a>1.配置</h2><p>即用TTL转USB接口和电脑的串口助手调节蓝牙模块的参数</p>
+<h3 id="a-配置连线"><a href="#a-配置连线" class="headerlink" title="a.配置连线"></a>a.配置连线</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b7777ba4-24ba-42a1-835f-65312679d816.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5dbacd03-9ada-4839-95e2-34c3c70eb918.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/96eb7cb2-78b4-4219-85e2-d585d3b55b8b.jpg"></th>
+</tr>
+</thead>
+</table>
+<h3 id="b-调节蓝牙模块参数"><a href="#b-调节蓝牙模块参数" class="headerlink" title="b.调节蓝牙模块参数"></a>b.调节蓝牙模块参数</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e4ea1729-4781-48ea-a723-456133121c28.png"></p>
+<h3 id="进入AT指令模式"><a href="#进入AT指令模式" class="headerlink" title="进入AT指令模式"></a>进入AT指令模式</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b581d138-be86-4ff9-9ad7-50bc047c4fc3.jpg" style="zoom: 150%;" />
+
+<h3 id="确认连接"><a href="#确认连接" class="headerlink" title="确认连接"></a>确认连接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">发：AT</span><br><span class="line"></span><br><span class="line">收：OK</span><br></pre></td></tr></table></figure>
+
+<h3 id="更改蓝牙名称"><a href="#更改蓝牙名称" class="headerlink" title="更改蓝牙名称"></a>更改蓝牙名称</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">发：AT+NAME?</span><br><span class="line"></span><br><span class="line">收:  ERROR:0</span><br><span class="line"></span><br><span class="line">发：AT+NAME=yang(名字)</span><br><span class="line"></span><br><span class="line">收：OK</span><br><span class="line"></span><br><span class="line">发：AT+NAME?</span><br><span class="line"></span><br><span class="line">收:   yang</span><br></pre></td></tr></table></figure>
+
+<h3 id="更改配对密码"><a href="#更改配对密码" class="headerlink" title="更改配对密码"></a>更改配对密码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">默认为1234，一般不需要改</span><br><span class="line"></span><br><span class="line">发：AT+ PSWD?</span><br><span class="line"></span><br><span class="line">收：+PSWD:1234</span><br></pre></td></tr></table></figure>
+
+<h3 id="更改波特率"><a href="#更改波特率" class="headerlink" title="更改波特率"></a>更改波特率</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">发：AT+ UART=9600,0,0</span><br><span class="line"></span><br><span class="line">收：OK</span><br></pre></td></tr></table></figure>
+
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>一般错误加减空格或注意换行就可以解决</p>
+<h2 id="2-使用"><a href="#2-使用" class="headerlink" title="2.使用"></a>2.使用</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/682fdaaa-f755-4d3c-bbe7-5c3c743977d9.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/755d5a8f-2398-4bcc-a137-51e5f244db6d.png"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/52cc200a-347e-446e-b54e-117d009e785a.jpg"></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>嵌入式</category>
+      </categories>
+      <tags>
+        <tag>51</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo-theme-matery博客如何添加看板娘</title>
     <url>/2022/08/28/Hexo+next/hexo-theme-matery%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
     <content><![CDATA[<p>有趣的技术</p>
@@ -96,21 +141,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>个人图床搭建</title>
-    <url>/2022/09/04/Hexo+next/%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<p>有趣的技术</p>
-<span id="more"></span>
-
-<h2 id="Typora-PicGo-阿里云OSS搭建博客图床"><a href="#Typora-PicGo-阿里云OSS搭建博客图床" class="headerlink" title="Typora+PicGo+阿里云OSS搭建博客图床"></a>Typora+PicGo+阿里云OSS搭建博客图床</h2><p>参考链接：<a href="https://blog.csdn.net/muxuen/article/details/122441469">https://blog.csdn.net/muxuen/article/details/122441469</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>软件使用</tag>
       </tags>
   </entry>
   <entry>
@@ -216,6 +246,21 @@
       </tags>
   </entry>
   <entry>
+    <title>个人图床搭建</title>
+    <url>/2022/09/04/Hexo+next/%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<p>有趣的技术</p>
+<span id="more"></span>
+
+<h2 id="Typora-PicGo-阿里云OSS搭建博客图床"><a href="#Typora-PicGo-阿里云OSS搭建博客图床" class="headerlink" title="Typora+PicGo+阿里云OSS搭建博客图床"></a>Typora+PicGo+阿里云OSS搭建博客图床</h2><p>参考链接：<a href="https://blog.csdn.net/muxuen/article/details/122441469">https://blog.csdn.net/muxuen/article/details/122441469</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>软件使用</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>对hexo的探索</title>
     <url>/2022/09/04/Hexo+next/%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
     <content><![CDATA[<p>有趣的技术</p>
@@ -230,7 +275,7 @@
 <p>  新建页面<br>post 文章   draft  草稿</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
 
-<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#108;&#x69;&#x75;&#48;&#x30;&#x33;&#50;&#x35;&#49;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#x69;&#x75;&#48;&#x30;&#x33;&#50;&#x35;&#49;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a>“</p>
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#x6c;&#105;&#117;&#x30;&#x30;&#51;&#x32;&#x35;&#49;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#x6c;&#105;&#117;&#x30;&#x30;&#51;&#x32;&#x35;&#49;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a>“</p>
 <p> 初始化一个Git仓库</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
 
@@ -241,51 +286,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>蓝牙模块的配置与使用</title>
-    <url>/2022/09/04/51/%E8%93%9D%E7%89%99%E6%A8%A1%E5%9D%97%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p>有趣的技术</p>
-<span id="more"></span>
-
-<h2 id="1-配置"><a href="#1-配置" class="headerlink" title="1.配置"></a>1.配置</h2><p>即用TTL转USB接口和电脑的串口助手调节蓝牙模块的参数</p>
-<h3 id="a-配置连线"><a href="#a-配置连线" class="headerlink" title="a.配置连线"></a>a.配置连线</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b7777ba4-24ba-42a1-835f-65312679d816.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5dbacd03-9ada-4839-95e2-34c3c70eb918.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/96eb7cb2-78b4-4219-85e2-d585d3b55b8b.jpg"></th>
-</tr>
-</thead>
-</table>
-<h3 id="b-调节蓝牙模块参数"><a href="#b-调节蓝牙模块参数" class="headerlink" title="b.调节蓝牙模块参数"></a>b.调节蓝牙模块参数</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e4ea1729-4781-48ea-a723-456133121c28.png"></p>
-<h3 id="进入AT指令模式"><a href="#进入AT指令模式" class="headerlink" title="进入AT指令模式"></a>进入AT指令模式</h3><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b581d138-be86-4ff9-9ad7-50bc047c4fc3.jpg" style="zoom: 150%;" />
-
-<h3 id="确认连接"><a href="#确认连接" class="headerlink" title="确认连接"></a>确认连接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">发：AT</span><br><span class="line"></span><br><span class="line">收：OK</span><br></pre></td></tr></table></figure>
-
-<h3 id="更改蓝牙名称"><a href="#更改蓝牙名称" class="headerlink" title="更改蓝牙名称"></a>更改蓝牙名称</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">发：AT+NAME?</span><br><span class="line"></span><br><span class="line">收:  ERROR:0</span><br><span class="line"></span><br><span class="line">发：AT+NAME=yang(名字)</span><br><span class="line"></span><br><span class="line">收：OK</span><br><span class="line"></span><br><span class="line">发：AT+NAME?</span><br><span class="line"></span><br><span class="line">收:   yang</span><br></pre></td></tr></table></figure>
-
-<h3 id="更改配对密码"><a href="#更改配对密码" class="headerlink" title="更改配对密码"></a>更改配对密码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">默认为1234，一般不需要改</span><br><span class="line"></span><br><span class="line">发：AT+ PSWD?</span><br><span class="line"></span><br><span class="line">收：+PSWD:1234</span><br></pre></td></tr></table></figure>
-
-<h3 id="更改波特率"><a href="#更改波特率" class="headerlink" title="更改波特率"></a>更改波特率</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">发：AT+ UART=9600,0,0</span><br><span class="line"></span><br><span class="line">收：OK</span><br></pre></td></tr></table></figure>
-
-<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>一般错误加减空格或注意换行就可以解决</p>
-<h2 id="2-使用"><a href="#2-使用" class="headerlink" title="2.使用"></a>2.使用</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/682fdaaa-f755-4d3c-bbe7-5c3c743977d9.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/755d5a8f-2398-4bcc-a137-51e5f244db6d.png"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/52cc200a-347e-446e-b54e-117d009e785a.jpg"></th>
-</tr>
-</thead>
-</table>
-]]></content>
-      <categories>
-        <category>嵌入式</category>
-      </categories>
-      <tags>
-        <tag>51</tag>
       </tags>
   </entry>
   <entry>
@@ -407,6 +407,24 @@
       </tags>
   </entry>
   <entry>
+    <title>函数的简单实现</title>
+    <url>/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-%E5%87%BD%E6%95%B0%E7%9A%84%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>有趣的技术</p>
+<span id="more"></span>
+
+<h2 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5cdde8ef-7099-4781-a4c3-cabc05b71636.jpg"></p>
+<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">isPrime</span>(<span class="params">n</span>):</span><br><span class="line">  <span class="keyword">if</span> n &gt; <span class="number">1</span>:</span><br><span class="line">     <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>,num):</span><br><span class="line">        <span class="keyword">if</span> (num % i) == <span class="number">0</span>:</span><br><span class="line">           <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">           <span class="keyword">break</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Ture&quot;</span>)</span><br><span class="line">  <span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">num=<span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入一个数：&quot;</span>))</span><br><span class="line">isPrime(num)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2f733888-d56f-4602-baa9-62dcfd450382.jpg"></p>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python实现</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>字符串和散列类型训练题</title>
     <url>/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%95%A3%E5%88%97%E7%B1%BB%E5%9E%8B%E8%AE%AD%E7%BB%83%E9%A2%98/</url>
     <content><![CDATA[<p>有趣的技术</p>
@@ -425,24 +443,6 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="built_in">str</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入号码：&#x27;</span>))</span><br><span class="line"><span class="keyword">if</span> a[<span class="number">0</span>] == <span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(a) == <span class="number">11</span>:</span><br><span class="line">        <span class="keyword">if</span> a.isdigit() == <span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;是号码&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;不是号码&quot;</span>)</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bfbff083-670d-4014-9650-1ecc8fbfc110.jpg"></p>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python实现</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>函数的简单实现</title>
-    <url>/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-%E5%87%BD%E6%95%B0%E7%9A%84%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p>有趣的技术</p>
-<span id="more"></span>
-
-<h2 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5cdde8ef-7099-4781-a4c3-cabc05b71636.jpg"></p>
-<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">isPrime</span>(<span class="params">n</span>):</span><br><span class="line">  <span class="keyword">if</span> n &gt; <span class="number">1</span>:</span><br><span class="line">     <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>,num):</span><br><span class="line">        <span class="keyword">if</span> (num % i) == <span class="number">0</span>:</span><br><span class="line">           <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">           <span class="keyword">break</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Ture&quot;</span>)</span><br><span class="line">  <span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">num=<span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入一个数：&quot;</span>))</span><br><span class="line">isPrime(num)</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2f733888-d56f-4602-baa9-62dcfd450382.jpg"></p>
 ]]></content>
       <categories>
         <category>python</category>
@@ -817,6 +817,23 @@
       </tags>
   </entry>
   <entry>
+    <title>docker</title>
+    <url>/2022/12/01/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/docker/</url>
+    <content><![CDATA[<p>有趣的技术</p>
+<span id="more"></span>
+
+<p><a href="https://www.iots.vip/post/free-docker-deploy-shadowsocks.html">https://www.iots.vip/post/free-docker-deploy-shadowsocks.html</a></p>
+<p><a href="https://www.zhihu.com/question/263537989">https://www.zhihu.com/question/263537989</a></p>
+<p><a href="https://www.redhat.com/zh/topics/containers/what-is-docker">https://www.redhat.com/zh/topics/containers/what-is-docker</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ipad pro 系统更新</title>
     <url>/2022/11/12/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/ipad-pro-%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</url>
     <content><![CDATA[<p>个人理解</p>
@@ -836,47 +853,6 @@
 <p>特别注意：更新时它会自动备份平板的数据，默认路径是在C盘，于是我们要更改路径，具体操作如下：</p>
 <p><a href="https://jingyan.baidu.com/article/295430f19030420c7e0050e1.html">https://jingyan.baidu.com/article/295430f19030420c7e0050e1.html</a></p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>docker</title>
-    <url>/2022/12/01/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/docker/</url>
-    <content><![CDATA[<p>有趣的技术</p>
-<span id="more"></span>
-
-<p><a href="https://www.iots.vip/post/free-docker-deploy-shadowsocks.html">https://www.iots.vip/post/free-docker-deploy-shadowsocks.html</a></p>
-<p><a href="https://www.zhihu.com/question/263537989">https://www.zhihu.com/question/263537989</a></p>
-<p><a href="https://www.redhat.com/zh/topics/containers/what-is-docker">https://www.redhat.com/zh/topics/containers/what-is-docker</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>网络</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>oppo手机安装google play</title>
-    <url>/2023/03/05/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/oppo%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85google-play/</url>
-    <content><![CDATA[<p>个人理解</p>
-<span id="more"></span>
-
-
-
-<h2 id="设置手机基本环境"><a href="#设置手机基本环境" class="headerlink" title="设置手机基本环境"></a>设置手机基本环境</h2><p>打开手机的关于Google和VPN的开关；</p>
-<p>通过手机应用商店下载Google浏览器</p>
-<h2 id="设置上网环境"><a href="#设置上网环境" class="headerlink" title="设置上网环境"></a>设置上网环境</h2><p>下载翻墙软件</p>
-<p>导入节点</p>
-<h2 id="下载谷歌商店下载软件"><a href="#下载谷歌商店下载软件" class="headerlink" title="下载谷歌商店下载软件"></a>下载谷歌商店下载软件</h2><p>下载地址：<a href="https://apkpure.com/cn/google-play-store/com.android.vending/download#google_vignette">https://apkpure.com/cn/google-play-store/com.android.vending/download#google_vignette</a></p>
-<p>注：</p>
-<p>1.这是一个第三方网站，但并不影响下载；</p>
-<p>2.建议用电脑下载好后，再传给手机；</p>
 ]]></content>
       <categories>
         <category>教程</category>
@@ -930,20 +906,24 @@
       </tags>
   </entry>
   <entry>
-    <title>对手机配置的理解</title>
-    <url>/2022/09/05/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E5%AF%B9%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%9A%84%E7%90%86%E8%A7%A3/</url>
+    <title>oppo手机安装google play</title>
+    <url>/2023/03/05/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/oppo%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85google-play/</url>
     <content><![CDATA[<p>个人理解</p>
 <span id="more"></span>
 
-<p>手机性能最重要的指标就是中央处理器，也就是CPU，其次是运行内存的大小，机身内存大小随意。</p>
-<p>手机的cpu不仅仅是处理数据运算的cpu，而是集成了很多东西在一起的，里面不仅有cpu还有GPU还有基带等等，GPU就是显卡。</p>
-<p>画质越好的游戏就越吃显卡，GPU性能的高低直接决定你玩游戏流不流畅，也就是帧数有多少，</p>
-<p>帧数的意思是在一秒钟里能刷新多少张图片，60帧意思是在一秒钟里能刷新60次，电影<a href="https://www.vipcn.com/zt/dsjgbyxhj/">电视剧</a>动画都是由一张张图片快速切换链接起来的，所以帧数直接决定游戏体验了</p>
-<p>如果游戏优化好，那就对手机配置要求会更友好点，如果优化一般般的话……GPU性能不行的手机估计帧数会比较低，内存不够的手机会黑屏闪退。</p>
-<p>个人理解</p>
+
+
+<h2 id="设置手机基本环境"><a href="#设置手机基本环境" class="headerlink" title="设置手机基本环境"></a>设置手机基本环境</h2><p>打开手机的关于Google和VPN的开关；</p>
+<p>通过手机应用商店下载Google浏览器</p>
+<h2 id="设置上网环境"><a href="#设置上网环境" class="headerlink" title="设置上网环境"></a>设置上网环境</h2><p>下载翻墙软件</p>
+<p>导入节点</p>
+<h2 id="下载谷歌商店下载软件"><a href="#下载谷歌商店下载软件" class="headerlink" title="下载谷歌商店下载软件"></a>下载谷歌商店下载软件</h2><p>下载地址：<a href="https://apkpure.com/cn/google-play-store/com.android.vending/download#google_vignette">https://apkpure.com/cn/google-play-store/com.android.vending/download#google_vignette</a></p>
+<p>注：</p>
+<p>1.这是一个第三方网站，但并不影响下载；</p>
+<p>2.建议用电脑下载好后，再传给手机；</p>
 ]]></content>
       <categories>
-        <category>个人</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>生活</tag>
@@ -970,22 +950,20 @@
       </tags>
   </entry>
   <entry>
-    <title>浏览器--插件</title>
-    <url>/2023/02/12/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E6%B5%8F%E8%A7%88%E5%99%A8--%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<p>优化体验</p>
+    <title>对手机配置的理解</title>
+    <url>/2022/09/05/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E5%AF%B9%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%9A%84%E7%90%86%E8%A7%A3/</url>
+    <content><![CDATA[<p>个人理解</p>
 <span id="more"></span>
 
-<h2 id="微软浏览器："><a href="#微软浏览器：" class="headerlink" title="微软浏览器："></a>微软浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212203613.png"></p>
-<h2 id="谷歌浏览器："><a href="#谷歌浏览器：" class="headerlink" title="谷歌浏览器："></a>谷歌浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204719.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204711.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204658.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204920.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204737.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204828.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204728.png"></p>
+<p>手机性能最重要的指标就是中央处理器，也就是CPU，其次是运行内存的大小，机身内存大小随意。</p>
+<p>手机的cpu不仅仅是处理数据运算的cpu，而是集成了很多东西在一起的，里面不仅有cpu还有GPU还有基带等等，GPU就是显卡。</p>
+<p>画质越好的游戏就越吃显卡，GPU性能的高低直接决定你玩游戏流不流畅，也就是帧数有多少，</p>
+<p>帧数的意思是在一秒钟里能刷新多少张图片，60帧意思是在一秒钟里能刷新60次，电影<a href="https://www.vipcn.com/zt/dsjgbyxhj/">电视剧</a>动画都是由一张张图片快速切换链接起来的，所以帧数直接决定游戏体验了</p>
+<p>如果游戏优化好，那就对手机配置要求会更友好点，如果优化一般般的话……GPU性能不行的手机估计帧数会比较低，内存不够的手机会黑屏闪退。</p>
+<p>个人理解</p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>个人</category>
       </categories>
       <tags>
         <tag>生活</tag>
@@ -1084,22 +1062,22 @@
       </tags>
   </entry>
   <entry>
-    <title>My Memory</title>
-    <url>/2023/01/04/%E7%94%9F%E6%B4%BB/My%20Memory/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ff79aff215b2e39fe162e149fb910540177755b12784f66fed0b67172d633f2c">10d79030e8222445804370796b90fca1299caaed89011030d169a7911c64919244fd35308b08b94155ef1c72f44a77aa1282610cecdf2fbe2cb57b9e0bdc45c11b1b28973912cadef2cd388be857cfa34e1360522644c220e8290fa6ca71d72c6b41c03768c2363073556517658461ddd4c43513be56bb5f9cd9ada62caefafc30ceab216c6506c623dc7684abe60414c669cb90bb1a2309f1b31abff3deb5c3707ad3dfef8e95dd12b10b7711760ad370e985cce9ee69fe522c697e7d14004cc257045ac4245635b70e6d505d9d2067df01690223eb7f7a6363bbf79989c38b02a0d0ce21478f42e689ab62e270708f66b3fb4e75e1baec2448f388edda121c813b4bfeaf64c360b2d98a15e7901e7382ca0a46115ba68cb364abae9592aba94fee56f55dbddcb9f950f711c853f5554d1e825e024fc96ae69be8773d77d48369c4550a1abe35c493c832c1a3620d2f3f2a4a3c31de5761caed1e427054f959e979373995037c0ecf87403bb5738db0a8ddabfe903f1dc59bbf7fb60ed498622cf262fc24e4cae6717e31ed72b972d2efb9f00d3a705974eebe4079a048a72322215dc90ff6e6c60faa403455c2203acefd94aeae0aab56b86586be3f19e34244d22bac92b8d68b8f55d9293bc77def9dccd04f6b42785bb311f93582f1446ba37a80b707bcef488f77e59144aa93e9aa2317b26ad69e917445990a7d7d788a76f217bfeba7ffc9fadfd9292fd6dc63b8f14d4dac8eac7fd7655b4055ddd1cddda9e13d7ba20411f37f4c6fb9ed901a5a49991343335467149f70673cde6465688e5f7e6d130680ad68d3bc0e858f0a735a142e4e0cb572659b4670ac9ea2633931286c9b294fe64a12c38c3f8aaecc3d5e5784a51566bb4e4aeb46fdf693de6ce34bba9b53e378ed88db2fb3b81a724a06d2afe48b83e84b8e10597d5e8d47cf0e5dff704b8ea2e804d4aa8d14d3cea017fc60a80fe3ccdae3475d6b6021c65a94fdba016590bbb70306b3fd21396a0d9538ce519fadfa3dba4e7755f989e01827d98e046831e027b4fb6e18445e770cdb225b288a68a011cc572f2811b2d7982184642dfad48c696b91002ddda4cd14c55928341245a80278eafaab03bb3491a1b79101fa40c699639520c512890481e830f08f7672568a493d6036e658fc0ec146874961536f9cb79db195985bacb5f7fdcc8bd7bee964a4a410c99692b116435bc3cdf650076ddfca266c00339bab6854a3896d012fb4f342d825190efcd4867bdedb8b162a3051d3883933af486feb74feea12be693e1158a861cf15893072158bdbe42117c45f0aa03460c275b6029049ad3a2f945921132766022b52971cc8d76de2b7d07375706c8861e4f3c324028a44e9aa90f655187ca3d22753389c34a05c25e09b0f15c6064947b25399dab2d0bf35076da2c2bc60536b6c96fb8452179fa391304ff0a0e03aafe057b8640167f1ec5e509b0a282333bc39ecefd0dcc2f873e71efcb9a95051ffc2292779c63442a966ef1c2cd59ff4ff96adb4636e459bb3b325caaf933e0782d4af081cd6a6aa6a093952659abdbac2c2496f450e8f4e9edb1e1d89de339cfba1fdd22b51aa1ea896bcbefe9077cf13469a5f9cefe98eb0debd5900536885374cd1d902c428aeffd96be939c8ad439aec16b7758b9bfe485a3b6db6d9fb2ad1f6722148ba55101016e591ce3103f34c64597a0ac9fd49f71175096d86605efcf846bf5874705560ed2f6bdac0a31e1a6e5662daaaeabbb2e7bd9ab200d32fcb0161c995e9409c8cf4fa564be2d9182cf96aa00fea320c9a286cbe26fb8e8d050134913b0ec8065d0cb698fbf1c2061701d12264115f10eec98f79eaed4ce37a5eb692572b1fd89710bd09feb12d15020baad99d30a84309f88040114c88acc1f0785fce8e58d8c38109099320e7fa3e38287185e7230b0d61b46a57b1b9b7998cc85d1039fae56aac5f4de3db8cf8f973b5e5232076d65321c0a2383a0354b6836609ebbf3887645c5de1d73f0f81af1acdd5cd5d4994dab609d4ab290d053868a6f31f9b5ba083b32231e03183fcffac2449515e960fa851740c68ee1bea9055141a481dd06db600f1f0f8b8f7316bb8a1f65a7bda7d53bea2b5d563bb83fc828a9541ab4bf5f641e63bca6de681b47be70f45913679d4d58b8a3ea67bcd6576be9ecc1c01429ee4c506560ad52eef793ce7ca460916c45d8a9bf353d4cb1310c3a4642c993fdf60a11141eadc0441a42c6b87f06abd358f38481ff1b2441ab2e8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>浏览器--插件</title>
+    <url>/2023/02/12/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E6%B5%8F%E8%A7%88%E5%99%A8--%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p>优化体验</p>
+<span id="more"></span>
+
+<h2 id="微软浏览器："><a href="#微软浏览器：" class="headerlink" title="微软浏览器："></a>微软浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212203613.png"></p>
+<h2 id="谷歌浏览器："><a href="#谷歌浏览器：" class="headerlink" title="谷歌浏览器："></a>谷歌浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204719.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204711.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204658.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204920.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204737.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204828.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204728.png"></p>
+]]></content>
       <categories>
-        <category>个人</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>生活</tag>
@@ -1119,28 +1097,6 @@
       </categories>
       <tags>
         <tag>思考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My honor</title>
-    <url>/2023/01/04/%E7%94%9F%E6%B4%BB/My-honor/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="b2d9e1781fb1bad2e9c9d9b275383d3dff59faec44ae4c5630e036f1568bd55c">10d79030e8222445804370796b90fca1299caaed89011030d169a7911c64919244fd35308b08b94155ef1c72f44a77aa1282610cecdf2fbe2cb57b9e0bdc45c117c6c88565fdab0ae1224f73e0eb6ceca24098aacfa1ce5059fe752399ec398fa7c8de491b88d0251292c03af4ca07167a109537b18fbccc9de6be3b2f1dd2d5115423c2bfcd6e43bbde6286e6fb4c12f44da459d227bb6a0f67d9bd5c8f15c4610c2db8a12860bf7c8a54ade57e739c3a8a1d96d2ff771db1285a50577c0b01d7f82bb1080cf8145bd42554d65683c48d66dbda4bafc67bee730a140286f3429b9032b10b341b16399374020ae418ba8cd56f8ea46c41a8e1028b66397702b0bf1c669f2bdfc3a8b0d92359c470fab5214f7dbcd520a367049bba1d2b7ee12185e85d60e744267a95922a77c735c3bea2563c43e79f7bcaa653ad38063bce1375854ac666443938d8fdba3f6bc93f24f3206bbcc230fe7563e34a95c5fdd4de755bc75526d02c381f406b4de03b93532e206d0b5f8ab99a10d604e8ffa893897dce88a776b9942e68208efa198ad93d90f1763e85e96fcea9a1c1f737cf3250fd397f1352a08914508adf743887c4270f4f58a6a0838dd59c17f36106c2e8c7206a9133b9bf97c2c8993791e805d76fc9810b28e3aec8111d5ed426c19b8f40a8ec0415b817f72cf989f0c943e723204550a08b3b5ae64e00ad6704f7408e499f975bf07dfc14ba12e120cb5715adb4a7ea4f55d9861bf907989f6b21e136d4694bf0c800694c2d75fe893d21d9bef2e457a6eb950d434bdecdb35403e3932e98386941aa477bbcc4d388141601687d436397b62e6e0e694d97cdaae9171fd1a877b7a829c9e4ead3d410cc9cd39b9efaf00157d86c0ec1cf816c0d0745db38146599543278653363fdb3be0a0e9d27341b42e9d810fd5fcf7fa5e7ecfa62d5235b4950325501d9a4adb2ec3791db4a79b388fab0099395887d69e0f874494b8bab1a45b033a2e59fba2ad5d85863e779170b53053112562752c7d7bd4bd59704185f490f61ee841e2e69bdc9747546a1247d77d591659823fac42c47dcb2d013aec49189d59782004e55938bd2c5128f9b8ece2509c4bfd59b574eda992e12179f924d08bce6fb4635db40fe93ccf9</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1196,10 +1152,10 @@
       </tags>
   </entry>
   <entry>
-    <title>思考-2</title>
-    <url>/2022/09/04/%E6%96%87%E5%AD%A6%E5%AD%A6%E4%B9%A0/%E6%80%9D%E8%80%83-2/</url>
+    <title>思考-1</title>
+    <url>/2022/09/04/%E6%96%87%E5%AD%A6%E5%AD%A6%E4%B9%A0/%E6%80%9D%E8%80%83-1/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="49e16829ec17a0003398c7fcca5f119ca64a3be65b716289437f6919c6d8ac4c">10d79030e8222445804370796b90fca1f15c3bf8192e45c3734106fc7a9b94dc069eec7c99e2b6e3b55dfd59ffa10680c8129975487e381a0f696838239156de8d5ccc592e88b92b777a760ef7bcee2eb667cc8458c6b908e6eef71cbb4ae15705e21e55a5d88ee214d7ed4843c2c1bbb4ff9c6517975a402183972447ad619ad5510386f90815f60a8ce751ef00a96b4cd950ee6c13e574ebb1bc4107244d0dae0465326c1c952c177d912d7e868a2b6657d3bb50114da4c759f4c0617297f3251774338967a6382e2b06e6004fed51f7e4b08f3efeba258e46560eba3d208725b700eaccb71656927d0725f3504c1f2c19c2c87da33a7469977401c10a0d7e76f29ddb9bb315fac2b7f11abf4c9243e98df46e0f8c2da6c27d836f3d08cb8534f8d32bf77baba1b1f143cc5599870bb3ac4927e49be6ec958ccb19072017fb63c38f9f3c1de83741d0368669417e097359e90cbe0dda03a21f0ede33a24456f002268d48a96f3636e26dd3723e31795630080f57ff701581d8d9c2163264598949bba77ffaa8b5a5e9d134e99350a943d3837a139c428cf0cbd8f968d6dcec9e831acaf7faec60830074bc9a688ee0fe490e8b98b5574559765f4956eee7f8c8a702c79a61893860e79ebb3b26c09e5ec15e834c75a35ab57dd9f7aeee21d2da43f8a96be578b567303599af55a0a16d3e3dd82f796b576ce227c09efb49f57c797d86c8cec90fc6d1d10b96af095c837cdc3f0051385609e1dbf3c3da1e284e8af5e78605c3949a41c0775b1d0c757d59cb052978dbebae44a871d84d148b5975c509d71cf952386c3270809459eb1e478cfb73edd94403453a13b2410965cb7d990f6dac6b0ffedcb86bacf684483f3c4b21453f33db42a0908e576ee74fc5c0c25c65ad383144b13c62a21d0ddd7e9aac7502c7ed03cc7f989c027f82271158ca8046d839bbff7d6065bf90e8af4d923fbe3276da46cb165cc0de79def9ec970bc0083c5da532734249e0445da3664f5da554cb9f8f4dc03e9c4d2ea6bf8007b10db2c746fbe700e1d5fa26fc8c87e0187881d526e87d03ddbbdaec80cfa0809ed7b90e55228b24e5c59c8d5dfb29db2d3fab73e1c22d31711111ddcd7d13acab5bafadd601534bff1bdb37c33f3eb6b038063ff7c2d67ad0415de38b4d0437cc95d98f06d89dafc273ee34681ae7d31e0579a31a6f5912a6905cfbf8ba3eeabc825f5ef55c9a8d6542fb39109f67d4e53f815d0257a052b513d5575721a3c8f5c24ed58cdb1d0ab5ad40f175e43ad6ed85a0fce962ad7fc48f7b998f6a45ee40eeb093cf91dfd5d38f66af653a8f0eae18bf9390810088f94ea5d1e56a288f00fa6a296417788e886111e1ae284a62e16937182514f24a58adca11c91b1138ca5436c3551e147aea9f76e5cc957435ae1f3d2292c734274bfb2e710c3cd94155228256fe6eda678b16a9b3f385db9d3042ffe6c45a967093ce889fe12b497f638e4dbdd566b10f9939e7808fe805868659bb89a9dc08a92206963a084ccc87253a7c98e497680891b6267c7345576408a4cd600f978c7a7b8c81be1bf09f25171ad6075e849d01cf6658bf7960ef597341adda7e87beb5e79c1596c1c7c86ea34326e555c8bcdb225e0edb32e3217589c3b4bfe6e6f667aea3b28f443ec5b3c18a916598c37bb41cf608008183ff8be20889361bf394faf95373c981462bc3d3d0f77af26b1d205533e95500bc099f8a69dcb7879d3b765e8ac011f1f7df12a9e710c465b0b53470d93b2862d30058eee5eabe794f3bf6345ac703f377ae1d8f08b1f74d689cb139d7377c17a06d7392815a3f6b73c71065166a7490e359a46f311ffa00e5c763757e7c25769076ea96e5004ab6a46237d693038e9cb89010af737d7a5e3f7b638d8187d3d8152cea1b654372f44a47c5cc71b6d2929802f629b62f9c21d6c7d43bde3c9440c74184b999ea2ed2e49637bf2e2c0d0aad6e21f14c7a9af9d25c578c10562dcbc72f821e3c00c804b1e728746cbf18dffb052c9181374d83ff1936f72e10d5c18b8936c9d8f1f5cb71a93673a7f8d30b226218f16e739cbdfc21c6d4c48ef04c682bcf139e13e0b2c24c209fac0b5e589b6f0a5ad765e1453cdc75600ddbd392d30ab188cdefc8d94554193cf47dad97fc0fea1560ce420bdac238a3a784f6fec973e445ab625c186b2e6f9ec9a690acf40e59747597bf3aad5ddcd4dc05cac259aab01bca661fea6c482ef75c630cb4f53ef4b1fa8ad84ff42e30023a2ce1ce5d4573eefb2056c0063060e57db988d5e83f6f87458fa109f8009d918503f3c82e033ca77f1089f0ab0686db9856ff3ba92ef3b431c3c56a413858d0874ff84367eaa82159e2ec71aa09a172a1d76cfde3749c96647d050bd47fc0fe081a6ea627e27a80e94a23a8f6bc0c4a5f2c09cc8a692e65b47cfc8ba20c7ea098eca41836e5ee07d629f22a18201ca0515900a6f97db7392300f21b69dbba0b91991de4817ae9622edf8e0ef978c834b24eacf4e0a2883f305405268783ca058acd1feecb18b900d9092cef8fefb2781c15009ac173b3681a3ad63292b2c02232db485c790be5ea435998c1349f71bfc2e334f88c60e8370ab4372b98f338a5531e9c5154306f1ab52d0816171d9b0531df23579d66d122402802f60d6ee840a68ec8baf583db572fcdfc94c4dfea88efda5ed7b6650a3a262df382f350106019ea0243dda7a05e484e4ad2a22e21154656d91cfac1bd191e871c36ae8930695cc82daf20d2221c3672cd5f3a11cf5086cc788f179f8c450be6c07286bbfdbc6856f0415604d622999b8caad4242fab5ab690ae7d433d4d47aaaad692b3dcecaa7e1dca61351884022eec280a97feeed0ba864bc169fed161d618137b8ad789fbf609533c21c457f4351e11440dbd9302cfa409ebf3af34eefadc8e14b2236f5cacb1fef197cf367848ef6daac8714e8a25549cb706b0a925a02b394c0f9c81ee08ea681e3533e55fa1bc89ea9c178857da06bb4cd4893fa7af1ee5008a263a4f8ebd885f368c6d97f99b0590ddfbdd54f119d8f36ca17e6260e70ed3a0a16f7cad8a8d83bffc5217a71b498bac1401bcfa1219857489f310b5a30decdd4acbe61bbe33444476227daa51e17b6218c3e850eaa674ca3d36850261fd77185f54c00452e47c20b5d0b25a9f967f545b90326daef7e54f7a505c512ff6e2e013441d52e8a25a44faf7b2af99a0bf6d5c0a3e42777bb945662c6ac3ba8537352e55fa32c4dae1c5c320ad82815b1c74f0c3730ddb3753a214f430233bf0e94868914651ec81e826cb7d1f8fd63fad5a13373b207bad3f1505ce9d9ce4aea0b3b93fac08d1312a644967908f6d10deddc76fd353a22142975b51168cc61d32587cc6ac8b55d88899578e16afdd133ed0b0a9fa252ba7ba6d3e6cfaea4ddc77bb1069e2b6c73609a98e35349d757441ffe5f051b2afe39221a50b8a0c65162b5c0d783e24625f70770193e01bd3658fe100518457e97724b82a358462f7b7e4bcf5ec08a968e3d4222a08911bfcfa522318275e60ac8fa54bc1769e7384aad8f9c45866b2ef4131a02af21b0b73345ec0cbda0b75cb3b5f154c4328c2b376c5edf9ca993452d6af3dfb872fc518b4bcde5e36e3afbca229b5d9588252de3583f9768a1e1f95f48a4d3f98f89f551726b51e212edd794ffed685343840b168ae607d97bd0bd59cd47f505766207feebea5b932f1e5313746ceaa576a7d6d9367e21b1479b622159a1e908d6c2e6c62de5e25fd87996360b4faa772e2d191bc8c3b8205fa09e90fce</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="e438e3092e996a1c41a28b03a034217034974cc43156c587cce51ba8164cfa1b">10d79030e8222445804370796b90fca1f15c3bf8192e45c3734106fc7a9b94dc069eec7c99e2b6e3b55dfd59ffa10680c8129975487e381a0f696838239156de8d5ccc592e88b92b777a760ef7bcee2eb667cc8458c6b908e6eef71cbb4ae15705e21e55a5d88ee214d7ed4843c2c1bbb4ff9c6517975a402183972447ad619ad5510386f90815f60a8ce751ef00a96b4cd950ee6c13e574ebb1bc4107244d0df4c4450944cde8c5205023c2de968dbda0fcbd740349edf9ff7b07eacb48f32fea1c86276baf56f2250651c7e6dc3d1cc92fc677f344723c86c3a86f3a1350e5346d3c790d4878f2e630b342401eb78f2624c59a6335c01ee58c4d7a5650a22238bf8c7aeee09fc8df88c03777598b1022dd8f930d1ceb5a847a3ff91c7885d24b05a4c3c8a1174d02bc8a8eaf892bb1fdee9159950988f376398876fc7bb39354a701b1a845cda7fac0b47ac5788785defa942b019aedd4d789fff27c43c30816285980236d2f531d62747c2f6e6f0b99622c9e5ef462778ab1e0d0c851a6b043682414963d6a79f8efe7690ab0ab53e0e62c3af9bf3a47bba6dd80a33722d1fc2bf7140cbd474a8b9dd98f761ace6e0509c9b46de03282ad9518bde3f60616b4363b8cefdaf5b9d4f29e388ffd60f51e014d1234980e697dd48624a16d7f50f0c9c7d5979bd5d83f58eb032e825c99f208681dc3dbd22bbfc060e6e561cd9e9735e340f7e379158f326374b4593e12391e164302a2abb25b2d23e6018086bb3326172eed76f79ec5b45f910bf76691a44820617f1827027a094135eab27c5ba7671d1b2ddce4168644491fef690bbbd6327198a3d2fcf1ba4c5ad5f98c261a208f988890c3b9251ea4e92819fd6de6dc45b1cb9db0bdd44dd7b1b3e572cdd79128a2c3ecfc57b501de0fcca4a528bd761bc19aba880ee574c04073678efb5fbcbed47520e83bbe4602a404edec4967bd26fe47187b184d570d3836d96ca27646dc316d8e6af08fbb509fa4452077f49f949074cdaf1f370a73e9960a251989722d8fb9a1849180fb89e1277934f61344375de0993b01ec5f2296561e001ce028660ace567859ed8d39b1f7b8a3a05c67b7f094f1b134c3b2548efd9786eaa508d0302e240208c3599ac33450c69e5d5576a0beaa60293a7ee2931c83edfbd816e5ebb9bcb85ac3398f0c39d84ebb4d2171ba1841d68fdbe305c2be24182cafafaa60fcde5b815b071d123f72f64047e6f29329fe20c9b9b781f50c063340de88a5dd0413c3cac2f6ceeaa2cc5501415bce29f7a1d88b618bef7228411031b9a6e1da718b92d85a27febc69b510268ea4c49a6be8d0275870d6c86fc6ff43c9c78dfd7a85327b4b8e7c3a0789afca2e16f87dce6a4ea1d165c4919438094bc28b8aeda7555d2bb8c8adbede75dd10e1bbb5267843363b43aadb2585b37eec66f4312289849e18bb10e45a8b1f42d94ba4d729eae00b908f141334f36ac40a2ce688309c782e010c423fc2c1c13c470cca749a308fc6073bbf755117d6a2052a488a6b6f31a8b7ed29833fe8291d6a984c2af140424f41a72df4b49dcb0a3fbebfd8eec3af5d0c1271ef4405fe63a4ddb7fd2de419ebfd4b9e7c1741cb8ff1b8e6ba4c2039005e3480a03e2249dc5becdc8f74db7417269d8b60e07a06ec9ef296d5408f0ed1a11cf06f8690751444a188a4dbbe859f9d09e912a077df79bc5710153f51cb2adb119dad37318780fcb16492a8cb58071ca72661244d6ea800953f4215b50b9389fa2a4e97ec15cac85211ef19153118a46731d8d0ce1132c1a0c62112926b419bd5874d57e2073fb1cbc4917493c92277916a8ad02dfa5907c4031cf95eca0fbe230adba729effc2896d1d17f05b716e2b2e171d8921b457a64f5d1065af11c5c6cdb755d1c1b7deeb91ffe6cc925282b5c7b78ccb8543453650627f1deb7b6c50f99b13e8217f8dfbee85c9441bfe9acf242b7f15825dc7997b8e9bb1bd48328925f84fa4f4b180e2bbad081f2e4f8752ce0ef13dc61b15baeab6d6ff9f042d2773caff7cce1824c22f430f05460265c3c8525608289a6b1e9b759ee6734693017608281042100f22b55419ceb20c8313225e55d256b20208ff977169f5c9c93d713355aa04e05e3f995b2b26541227a544a237df72c57078a21f8e297912d08fa95290ce0e5b762564ad0e30fe200091ee383b5493ed509ba18746c93b4bca57b07230d40f75687a691b1ee6dd8d7560658cb2e7f7a3898732c680c7bc58a25f5181eb973963a0b1aab772739ce768d87293333099433da06b9904b53eec5083cdebb542e34ab91499c4f961ffe8fe8652dcfbb397b4b8450016f9259919cb2874c902ae09854df96ef1cfbb34deb44451beca1e5a86d07937d26894246444d1ccfa00f3cd382eee7220d124ac21ee14689fe3e61618ee9b0a045626f373bf01d420b79c6824246785d161ebe05fcd99a8139a5b19a6949f35ff4d6aa6f952f2b93d8e0a533ebac69afcb88f36547ac6f1f2f8e3c9e8552dc7f10009289b71b6ac8c583d6fb3b4a443bbb27b55b50d72c1ef6849d06ab8d494bd36bfc32ee2b36d6676fb7f19f43dd65e64ba07c2c238914577f19b3470a1c1f9ec19aecad5267a9472a82e9ddd4869605e4d534037d52b48de761fd70322feeac55df7c582a9cb171556a2abb74652012780c85465f309982cab08b9d186f205e4d1eb449fa178f275c4d71dcabaff7a73dfc900d782f47703589a1806735a472dbc84c292a14a69c142622fc48112fd19c0b83f16102e263b12c404fff6ecefd446523f7f1df7a406b05131c0850395d25359dd84f592c00deab66f7a56ad61a89117f915ee43a2f0ffb4dbcc037c0e5f8d80908043bd3b6b758e7692039675791168c267b38cf1e33fdd6097955ffd83e8a89e3e9dbdc431ccf7c9512dd82a398b479ea4fcbf70b7b4b9d95e24aa862e1d4bb0d11d55159563fdaa7cb37ed4e5ec72fbb93ba7eacab89f6b7f176c269cd0d2e33ac35b7aa6549d18a3732726ff5b23dd09abc3008abc5484ecff14d2e03f788a243f7f292b731abf2fd69a73ff2ec8ecc961016f1ace867f839f6826054064ca616d47da8961a9897b97dca2fe390a3d99209f937e60dd704633ce43e9f91ede0a1d62d1861b0ac7ce08f6fe1a57354bdcfe61e72f457dd30221b0448ed22d02278aed3c13eece4e42d4c7995b98ae0eca261b17351ba1a55bc7fe7c4bfbeee640b48cbe884595f129feffcd3513322b6173912c7cc6fc6065b49a5c20b2fc068c8df5ace13aa936c1e0d70e851a0df642792f8ae8cbb394d83b7734b056574c5da0e0a5bf50e16a953f1f407991903a950dd99e884d4a46e80715b86d59a4e1b37de98389cf93afead072a3ff5261d4c09199afd811ea9cdeb23199286392d6d3f26a8afb6b35a5d001383493ecb5ba713844dadb09342ccc6f6f0672eb1dd3b89c2eea59cafd4a90d454b19b39256c94ff5bb6e0f902dc4c080dc8a63cd36c2bc6233e699f61a41a96138e6bd748c4bbab4c98d2909edcdd95b6fc41c173bb909bcbdeef5566dbefc80b8b0cfb2f8fa6cc71b7145c929c05647c18db537bd6792ace0b8418e7985692253bb8648ce013a681ef48353145a251bc1e103c0c0bb4dae3a738887e47ee7cf828d3ba1c2ad3ae38d4227edaae821a60fe9b260ea8445c2b2370439bec7b08a23a56e8bef95b9ff5c4710a81f8e12f2151015f74fcdd096e608d8edf77f157bf345d8fcde698d51a84a61fb31c9f830645547c0ea8c6c5d101f39bf0e7e8d61d5a4c2c81062aa7d20c2fa51d086a86d10d18a3d526aafcf9f521ef7ff024df472a5d2422e92be89f23e3d29353ddf56bd97df1a676a5294aadee3f397eaefe8789c7218e82095794d1643414a8018a41f76ba34f41b6dae5da98fca064d917a6d68840effb7a7951eb62387977cfa7e7afb19e85a75434f794efbf685d7e92c10a7ee98efa28675372bff4c9ab9aaffc3d8c68a872918dce86214411bdd88b79ece6dac17257559b84166d5490da52ffafd6f6c440a5dcc6ab3ef1adff4500fe7c6bfdc3b2393ea709c136dad63ffe2</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -1218,10 +1174,10 @@
       </tags>
   </entry>
   <entry>
-    <title>思考-1</title>
-    <url>/2022/09/04/%E6%96%87%E5%AD%A6%E5%AD%A6%E4%B9%A0/%E6%80%9D%E8%80%83-1/</url>
+    <title>思考-2</title>
+    <url>/2022/09/04/%E6%96%87%E5%AD%A6%E5%AD%A6%E4%B9%A0/%E6%80%9D%E8%80%83-2/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="e438e3092e996a1c41a28b03a034217034974cc43156c587cce51ba8164cfa1b">10d79030e8222445804370796b90fca1f15c3bf8192e45c3734106fc7a9b94dc069eec7c99e2b6e3b55dfd59ffa10680c8129975487e381a0f696838239156de8d5ccc592e88b92b777a760ef7bcee2eb667cc8458c6b908e6eef71cbb4ae15705e21e55a5d88ee214d7ed4843c2c1bbb4ff9c6517975a402183972447ad619ad5510386f90815f60a8ce751ef00a96b4cd950ee6c13e574ebb1bc4107244d0df4c4450944cde8c5205023c2de968dbda0fcbd740349edf9ff7b07eacb48f32fea1c86276baf56f2250651c7e6dc3d1cc92fc677f344723c86c3a86f3a1350e5346d3c790d4878f2e630b342401eb78f2624c59a6335c01ee58c4d7a5650a22238bf8c7aeee09fc8df88c03777598b1022dd8f930d1ceb5a847a3ff91c7885d24b05a4c3c8a1174d02bc8a8eaf892bb1fdee9159950988f376398876fc7bb39354a701b1a845cda7fac0b47ac5788785defa942b019aedd4d789fff27c43c30816285980236d2f531d62747c2f6e6f0b99622c9e5ef462778ab1e0d0c851a6b043682414963d6a79f8efe7690ab0ab53e0e62c3af9bf3a47bba6dd80a33722d1fc2bf7140cbd474a8b9dd98f761ace6e0509c9b46de03282ad9518bde3f60616b4363b8cefdaf5b9d4f29e388ffd60f51e014d1234980e697dd48624a16d7f50f0c9c7d5979bd5d83f58eb032e825c99f208681dc3dbd22bbfc060e6e561cd9e9735e340f7e379158f326374b4593e12391e164302a2abb25b2d23e6018086bb3326172eed76f79ec5b45f910bf76691a44820617f1827027a094135eab27c5ba7671d1b2ddce4168644491fef690bbbd6327198a3d2fcf1ba4c5ad5f98c261a208f988890c3b9251ea4e92819fd6de6dc45b1cb9db0bdd44dd7b1b3e572cdd79128a2c3ecfc57b501de0fcca4a528bd761bc19aba880ee574c04073678efb5fbcbed47520e83bbe4602a404edec4967bd26fe47187b184d570d3836d96ca27646dc316d8e6af08fbb509fa4452077f49f949074cdaf1f370a73e9960a251989722d8fb9a1849180fb89e1277934f61344375de0993b01ec5f2296561e001ce028660ace567859ed8d39b1f7b8a3a05c67b7f094f1b134c3b2548efd9786eaa508d0302e240208c3599ac33450c69e5d5576a0beaa60293a7ee2931c83edfbd816e5ebb9bcb85ac3398f0c39d84ebb4d2171ba1841d68fdbe305c2be24182cafafaa60fcde5b815b071d123f72f64047e6f29329fe20c9b9b781f50c063340de88a5dd0413c3cac2f6ceeaa2cc5501415bce29f7a1d88b618bef7228411031b9a6e1da718b92d85a27febc69b510268ea4c49a6be8d0275870d6c86fc6ff43c9c78dfd7a85327b4b8e7c3a0789afca2e16f87dce6a4ea1d165c4919438094bc28b8aeda7555d2bb8c8adbede75dd10e1bbb5267843363b43aadb2585b37eec66f4312289849e18bb10e45a8b1f42d94ba4d729eae00b908f141334f36ac40a2ce688309c782e010c423fc2c1c13c470cca749a308fc6073bbf755117d6a2052a488a6b6f31a8b7ed29833fe8291d6a984c2af140424f41a72df4b49dcb0a3fbebfd8eec3af5d0c1271ef4405fe63a4ddb7fd2de419ebfd4b9e7c1741cb8ff1b8e6ba4c2039005e3480a03e2249dc5becdc8f74db7417269d8b60e07a06ec9ef296d5408f0ed1a11cf06f8690751444a188a4dbbe859f9d09e912a077df79bc5710153f51cb2adb119dad37318780fcb16492a8cb58071ca72661244d6ea800953f4215b50b9389fa2a4e97ec15cac85211ef19153118a46731d8d0ce1132c1a0c62112926b419bd5874d57e2073fb1cbc4917493c92277916a8ad02dfa5907c4031cf95eca0fbe230adba729effc2896d1d17f05b716e2b2e171d8921b457a64f5d1065af11c5c6cdb755d1c1b7deeb91ffe6cc925282b5c7b78ccb8543453650627f1deb7b6c50f99b13e8217f8dfbee85c9441bfe9acf242b7f15825dc7997b8e9bb1bd48328925f84fa4f4b180e2bbad081f2e4f8752ce0ef13dc61b15baeab6d6ff9f042d2773caff7cce1824c22f430f05460265c3c8525608289a6b1e9b759ee6734693017608281042100f22b55419ceb20c8313225e55d256b20208ff977169f5c9c93d713355aa04e05e3f995b2b26541227a544a237df72c57078a21f8e297912d08fa95290ce0e5b762564ad0e30fe200091ee383b5493ed509ba18746c93b4bca57b07230d40f75687a691b1ee6dd8d7560658cb2e7f7a3898732c680c7bc58a25f5181eb973963a0b1aab772739ce768d87293333099433da06b9904b53eec5083cdebb542e34ab91499c4f961ffe8fe8652dcfbb397b4b8450016f9259919cb2874c902ae09854df96ef1cfbb34deb44451beca1e5a86d07937d26894246444d1ccfa00f3cd382eee7220d124ac21ee14689fe3e61618ee9b0a045626f373bf01d420b79c6824246785d161ebe05fcd99a8139a5b19a6949f35ff4d6aa6f952f2b93d8e0a533ebac69afcb88f36547ac6f1f2f8e3c9e8552dc7f10009289b71b6ac8c583d6fb3b4a443bbb27b55b50d72c1ef6849d06ab8d494bd36bfc32ee2b36d6676fb7f19f43dd65e64ba07c2c238914577f19b3470a1c1f9ec19aecad5267a9472a82e9ddd4869605e4d534037d52b48de761fd70322feeac55df7c582a9cb171556a2abb74652012780c85465f309982cab08b9d186f205e4d1eb449fa178f275c4d71dcabaff7a73dfc900d782f47703589a1806735a472dbc84c292a14a69c142622fc48112fd19c0b83f16102e263b12c404fff6ecefd446523f7f1df7a406b05131c0850395d25359dd84f592c00deab66f7a56ad61a89117f915ee43a2f0ffb4dbcc037c0e5f8d80908043bd3b6b758e7692039675791168c267b38cf1e33fdd6097955ffd83e8a89e3e9dbdc431ccf7c9512dd82a398b479ea4fcbf70b7b4b9d95e24aa862e1d4bb0d11d55159563fdaa7cb37ed4e5ec72fbb93ba7eacab89f6b7f176c269cd0d2e33ac35b7aa6549d18a3732726ff5b23dd09abc3008abc5484ecff14d2e03f788a243f7f292b731abf2fd69a73ff2ec8ecc961016f1ace867f839f6826054064ca616d47da8961a9897b97dca2fe390a3d99209f937e60dd704633ce43e9f91ede0a1d62d1861b0ac7ce08f6fe1a57354bdcfe61e72f457dd30221b0448ed22d02278aed3c13eece4e42d4c7995b98ae0eca261b17351ba1a55bc7fe7c4bfbeee640b48cbe884595f129feffcd3513322b6173912c7cc6fc6065b49a5c20b2fc068c8df5ace13aa936c1e0d70e851a0df642792f8ae8cbb394d83b7734b056574c5da0e0a5bf50e16a953f1f407991903a950dd99e884d4a46e80715b86d59a4e1b37de98389cf93afead072a3ff5261d4c09199afd811ea9cdeb23199286392d6d3f26a8afb6b35a5d001383493ecb5ba713844dadb09342ccc6f6f0672eb1dd3b89c2eea59cafd4a90d454b19b39256c94ff5bb6e0f902dc4c080dc8a63cd36c2bc6233e699f61a41a96138e6bd748c4bbab4c98d2909edcdd95b6fc41c173bb909bcbdeef5566dbefc80b8b0cfb2f8fa6cc71b7145c929c05647c18db537bd6792ace0b8418e7985692253bb8648ce013a681ef48353145a251bc1e103c0c0bb4dae3a738887e47ee7cf828d3ba1c2ad3ae38d4227edaae821a60fe9b260ea8445c2b2370439bec7b08a23a56e8bef95b9ff5c4710a81f8e12f2151015f74fcdd096e608d8edf77f157bf345d8fcde698d51a84a61fb31c9f830645547c0ea8c6c5d101f39bf0e7e8d61d5a4c2c81062aa7d20c2fa51d086a86d10d18a3d526aafcf9f521ef7ff024df472a5d2422e92be89f23e3d29353ddf56bd97df1a676a5294aadee3f397eaefe8789c7218e82095794d1643414a8018a41f76ba34f41b6dae5da98fca064d917a6d68840effb7a7951eb62387977cfa7e7afb19e85a75434f794efbf685d7e92c10a7ee98efa28675372bff4c9ab9aaffc3d8c68a872918dce86214411bdd88b79ece6dac17257559b84166d5490da52ffafd6f6c440a5dcc6ab3ef1adff4500fe7c6bfdc3b2393ea709c136dad63ffe2</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="49e16829ec17a0003398c7fcca5f119ca64a3be65b716289437f6919c6d8ac4c">10d79030e8222445804370796b90fca1f15c3bf8192e45c3734106fc7a9b94dc069eec7c99e2b6e3b55dfd59ffa10680c8129975487e381a0f696838239156de8d5ccc592e88b92b777a760ef7bcee2eb667cc8458c6b908e6eef71cbb4ae15705e21e55a5d88ee214d7ed4843c2c1bbb4ff9c6517975a402183972447ad619ad5510386f90815f60a8ce751ef00a96b4cd950ee6c13e574ebb1bc4107244d0dae0465326c1c952c177d912d7e868a2b6657d3bb50114da4c759f4c0617297f3251774338967a6382e2b06e6004fed51f7e4b08f3efeba258e46560eba3d208725b700eaccb71656927d0725f3504c1f2c19c2c87da33a7469977401c10a0d7e76f29ddb9bb315fac2b7f11abf4c9243e98df46e0f8c2da6c27d836f3d08cb8534f8d32bf77baba1b1f143cc5599870bb3ac4927e49be6ec958ccb19072017fb63c38f9f3c1de83741d0368669417e097359e90cbe0dda03a21f0ede33a24456f002268d48a96f3636e26dd3723e31795630080f57ff701581d8d9c2163264598949bba77ffaa8b5a5e9d134e99350a943d3837a139c428cf0cbd8f968d6dcec9e831acaf7faec60830074bc9a688ee0fe490e8b98b5574559765f4956eee7f8c8a702c79a61893860e79ebb3b26c09e5ec15e834c75a35ab57dd9f7aeee21d2da43f8a96be578b567303599af55a0a16d3e3dd82f796b576ce227c09efb49f57c797d86c8cec90fc6d1d10b96af095c837cdc3f0051385609e1dbf3c3da1e284e8af5e78605c3949a41c0775b1d0c757d59cb052978dbebae44a871d84d148b5975c509d71cf952386c3270809459eb1e478cfb73edd94403453a13b2410965cb7d990f6dac6b0ffedcb86bacf684483f3c4b21453f33db42a0908e576ee74fc5c0c25c65ad383144b13c62a21d0ddd7e9aac7502c7ed03cc7f989c027f82271158ca8046d839bbff7d6065bf90e8af4d923fbe3276da46cb165cc0de79def9ec970bc0083c5da532734249e0445da3664f5da554cb9f8f4dc03e9c4d2ea6bf8007b10db2c746fbe700e1d5fa26fc8c87e0187881d526e87d03ddbbdaec80cfa0809ed7b90e55228b24e5c59c8d5dfb29db2d3fab73e1c22d31711111ddcd7d13acab5bafadd601534bff1bdb37c33f3eb6b038063ff7c2d67ad0415de38b4d0437cc95d98f06d89dafc273ee34681ae7d31e0579a31a6f5912a6905cfbf8ba3eeabc825f5ef55c9a8d6542fb39109f67d4e53f815d0257a052b513d5575721a3c8f5c24ed58cdb1d0ab5ad40f175e43ad6ed85a0fce962ad7fc48f7b998f6a45ee40eeb093cf91dfd5d38f66af653a8f0eae18bf9390810088f94ea5d1e56a288f00fa6a296417788e886111e1ae284a62e16937182514f24a58adca11c91b1138ca5436c3551e147aea9f76e5cc957435ae1f3d2292c734274bfb2e710c3cd94155228256fe6eda678b16a9b3f385db9d3042ffe6c45a967093ce889fe12b497f638e4dbdd566b10f9939e7808fe805868659bb89a9dc08a92206963a084ccc87253a7c98e497680891b6267c7345576408a4cd600f978c7a7b8c81be1bf09f25171ad6075e849d01cf6658bf7960ef597341adda7e87beb5e79c1596c1c7c86ea34326e555c8bcdb225e0edb32e3217589c3b4bfe6e6f667aea3b28f443ec5b3c18a916598c37bb41cf608008183ff8be20889361bf394faf95373c981462bc3d3d0f77af26b1d205533e95500bc099f8a69dcb7879d3b765e8ac011f1f7df12a9e710c465b0b53470d93b2862d30058eee5eabe794f3bf6345ac703f377ae1d8f08b1f74d689cb139d7377c17a06d7392815a3f6b73c71065166a7490e359a46f311ffa00e5c763757e7c25769076ea96e5004ab6a46237d693038e9cb89010af737d7a5e3f7b638d8187d3d8152cea1b654372f44a47c5cc71b6d2929802f629b62f9c21d6c7d43bde3c9440c74184b999ea2ed2e49637bf2e2c0d0aad6e21f14c7a9af9d25c578c10562dcbc72f821e3c00c804b1e728746cbf18dffb052c9181374d83ff1936f72e10d5c18b8936c9d8f1f5cb71a93673a7f8d30b226218f16e739cbdfc21c6d4c48ef04c682bcf139e13e0b2c24c209fac0b5e589b6f0a5ad765e1453cdc75600ddbd392d30ab188cdefc8d94554193cf47dad97fc0fea1560ce420bdac238a3a784f6fec973e445ab625c186b2e6f9ec9a690acf40e59747597bf3aad5ddcd4dc05cac259aab01bca661fea6c482ef75c630cb4f53ef4b1fa8ad84ff42e30023a2ce1ce5d4573eefb2056c0063060e57db988d5e83f6f87458fa109f8009d918503f3c82e033ca77f1089f0ab0686db9856ff3ba92ef3b431c3c56a413858d0874ff84367eaa82159e2ec71aa09a172a1d76cfde3749c96647d050bd47fc0fe081a6ea627e27a80e94a23a8f6bc0c4a5f2c09cc8a692e65b47cfc8ba20c7ea098eca41836e5ee07d629f22a18201ca0515900a6f97db7392300f21b69dbba0b91991de4817ae9622edf8e0ef978c834b24eacf4e0a2883f305405268783ca058acd1feecb18b900d9092cef8fefb2781c15009ac173b3681a3ad63292b2c02232db485c790be5ea435998c1349f71bfc2e334f88c60e8370ab4372b98f338a5531e9c5154306f1ab52d0816171d9b0531df23579d66d122402802f60d6ee840a68ec8baf583db572fcdfc94c4dfea88efda5ed7b6650a3a262df382f350106019ea0243dda7a05e484e4ad2a22e21154656d91cfac1bd191e871c36ae8930695cc82daf20d2221c3672cd5f3a11cf5086cc788f179f8c450be6c07286bbfdbc6856f0415604d622999b8caad4242fab5ab690ae7d433d4d47aaaad692b3dcecaa7e1dca61351884022eec280a97feeed0ba864bc169fed161d618137b8ad789fbf609533c21c457f4351e11440dbd9302cfa409ebf3af34eefadc8e14b2236f5cacb1fef197cf367848ef6daac8714e8a25549cb706b0a925a02b394c0f9c81ee08ea681e3533e55fa1bc89ea9c178857da06bb4cd4893fa7af1ee5008a263a4f8ebd885f368c6d97f99b0590ddfbdd54f119d8f36ca17e6260e70ed3a0a16f7cad8a8d83bffc5217a71b498bac1401bcfa1219857489f310b5a30decdd4acbe61bbe33444476227daa51e17b6218c3e850eaa674ca3d36850261fd77185f54c00452e47c20b5d0b25a9f967f545b90326daef7e54f7a505c512ff6e2e013441d52e8a25a44faf7b2af99a0bf6d5c0a3e42777bb945662c6ac3ba8537352e55fa32c4dae1c5c320ad82815b1c74f0c3730ddb3753a214f430233bf0e94868914651ec81e826cb7d1f8fd63fad5a13373b207bad3f1505ce9d9ce4aea0b3b93fac08d1312a644967908f6d10deddc76fd353a22142975b51168cc61d32587cc6ac8b55d88899578e16afdd133ed0b0a9fa252ba7ba6d3e6cfaea4ddc77bb1069e2b6c73609a98e35349d757441ffe5f051b2afe39221a50b8a0c65162b5c0d783e24625f70770193e01bd3658fe100518457e97724b82a358462f7b7e4bcf5ec08a968e3d4222a08911bfcfa522318275e60ac8fa54bc1769e7384aad8f9c45866b2ef4131a02af21b0b73345ec0cbda0b75cb3b5f154c4328c2b376c5edf9ca993452d6af3dfb872fc518b4bcde5e36e3afbca229b5d9588252de3583f9768a1e1f95f48a4d3f98f89f551726b51e212edd794ffed685343840b168ae607d97bd0bd59cd47f505766207feebea5b932f1e5313746ceaa576a7d6d9367e21b1479b622159a1e908d6c2e6c62de5e25fd87996360b4faa772e2d191bc8c3b8205fa09e90fce</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -1281,6 +1237,50 @@
       </categories>
       <tags>
         <tag>思考</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My Memory</title>
+    <url>/2023/01/04/%E7%94%9F%E6%B4%BB/My%20Memory/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ff79aff215b2e39fe162e149fb910540177755b12784f66fed0b67172d633f2c">10d79030e8222445804370796b90fca1299caaed89011030d169a7911c64919244fd35308b08b94155ef1c72f44a77aa1282610cecdf2fbe2cb57b9e0bdc45c11b1b28973912cadef2cd388be857cfa34e1360522644c220e8290fa6ca71d72c6b41c03768c2363073556517658461ddd4c43513be56bb5f9cd9ada62caefafc30ceab216c6506c623dc7684abe60414c669cb90bb1a2309f1b31abff3deb5c3707ad3dfef8e95dd12b10b7711760ad370e985cce9ee69fe522c697e7d14004cc257045ac4245635b70e6d505d9d2067df01690223eb7f7a6363bbf79989c38b02a0d0ce21478f42e689ab62e270708f66b3fb4e75e1baec2448f388edda121c813b4bfeaf64c360b2d98a15e7901e7382ca0a46115ba68cb364abae9592aba94fee56f55dbddcb9f950f711c853f5554d1e825e024fc96ae69be8773d77d48369c4550a1abe35c493c832c1a3620d2f3f2a4a3c31de5761caed1e427054f959e979373995037c0ecf87403bb5738db0a8ddabfe903f1dc59bbf7fb60ed498622cf262fc24e4cae6717e31ed72b972d2efb9f00d3a705974eebe4079a048a72322215dc90ff6e6c60faa403455c2203acefd94aeae0aab56b86586be3f19e34244d22bac92b8d68b8f55d9293bc77def9dccd04f6b42785bb311f93582f1446ba37a80b707bcef488f77e59144aa93e9aa2317b26ad69e917445990a7d7d788a76f217bfeba7ffc9fadfd9292fd6dc63b8f14d4dac8eac7fd7655b4055ddd1cddda9e13d7ba20411f37f4c6fb9ed901a5a49991343335467149f70673cde6465688e5f7e6d130680ad68d3bc0e858f0a735a142e4e0cb572659b4670ac9ea2633931286c9b294fe64a12c38c3f8aaecc3d5e5784a51566bb4e4aeb46fdf693de6ce34bba9b53e378ed88db2fb3b81a724a06d2afe48b83e84b8e10597d5e8d47cf0e5dff704b8ea2e804d4aa8d14d3cea017fc60a80fe3ccdae3475d6b6021c65a94fdba016590bbb70306b3fd21396a0d9538ce519fadfa3dba4e7755f989e01827d98e046831e027b4fb6e18445e770cdb225b288a68a011cc572f2811b2d7982184642dfad48c696b91002ddda4cd14c55928341245a80278eafaab03bb3491a1b79101fa40c699639520c512890481e830f08f7672568a493d6036e658fc0ec146874961536f9cb79db195985bacb5f7fdcc8bd7bee964a4a410c99692b116435bc3cdf650076ddfca266c00339bab6854a3896d012fb4f342d825190efcd4867bdedb8b162a3051d3883933af486feb74feea12be693e1158a861cf15893072158bdbe42117c45f0aa03460c275b6029049ad3a2f945921132766022b52971cc8d76de2b7d07375706c8861e4f3c324028a44e9aa90f655187ca3d22753389c34a05c25e09b0f15c6064947b25399dab2d0bf35076da2c2bc60536b6c96fb8452179fa391304ff0a0e03aafe057b8640167f1ec5e509b0a282333bc39ecefd0dcc2f873e71efcb9a95051ffc2292779c63442a966ef1c2cd59ff4ff96adb4636e459bb3b325caaf933e0782d4af081cd6a6aa6a093952659abdbac2c2496f450e8f4e9edb1e1d89de339cfba1fdd22b51aa1ea896bcbefe9077cf13469a5f9cefe98eb0debd5900536885374cd1d902c428aeffd96be939c8ad439aec16b7758b9bfe485a3b6db6d9fb2ad1f6722148ba55101016e591ce3103f34c64597a0ac9fd49f71175096d86605efcf846bf5874705560ed2f6bdac0a31e1a6e5662daaaeabbb2e7bd9ab200d32fcb0161c995e9409c8cf4fa564be2d9182cf96aa00fea320c9a286cbe26fb8e8d050134913b0ec8065d0cb698fbf1c2061701d12264115f10eec98f79eaed4ce37a5eb692572b1fd89710bd09feb12d15020baad99d30a84309f88040114c88acc1f0785fce8e58d8c38109099320e7fa3e38287185e7230b0d61b46a57b1b9b7998cc85d1039fae56aac5f4de3db8cf8f973b5e5232076d65321c0a2383a0354b6836609ebbf3887645c5de1d73f0f81af1acdd5cd5d4994dab609d4ab290d053868a6f31f9b5ba083b32231e03183fcffac2449515e960fa851740c68ee1bea9055141a481dd06db600f1f0f8b8f7316bb8a1f65a7bda7d53bea2b5d563bb83fc828a9541ab4bf5f641e63bca6de681b47be70f45913679d4d58b8a3ea67bcd6576be9ecc1c01429ee4c506560ad52eef793ce7ca460916c45d8a9bf353d4cb1310c3a4642c993fdf60a11141eadc0441a42c6b87f06abd358f38481ff1b2441ab2e8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My honor</title>
+    <url>/2023/01/04/%E7%94%9F%E6%B4%BB/My-honor/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="b2d9e1781fb1bad2e9c9d9b275383d3dff59faec44ae4c5630e036f1568bd55c">10d79030e8222445804370796b90fca1299caaed89011030d169a7911c64919244fd35308b08b94155ef1c72f44a77aa1282610cecdf2fbe2cb57b9e0bdc45c117c6c88565fdab0ae1224f73e0eb6ceca24098aacfa1ce5059fe752399ec398fa7c8de491b88d0251292c03af4ca07167a109537b18fbccc9de6be3b2f1dd2d5115423c2bfcd6e43bbde6286e6fb4c12f44da459d227bb6a0f67d9bd5c8f15c4610c2db8a12860bf7c8a54ade57e739c3a8a1d96d2ff771db1285a50577c0b01d7f82bb1080cf8145bd42554d65683c48d66dbda4bafc67bee730a140286f3429b9032b10b341b16399374020ae418ba8cd56f8ea46c41a8e1028b66397702b0bf1c669f2bdfc3a8b0d92359c470fab5214f7dbcd520a367049bba1d2b7ee12185e85d60e744267a95922a77c735c3bea2563c43e79f7bcaa653ad38063bce1375854ac666443938d8fdba3f6bc93f24f3206bbcc230fe7563e34a95c5fdd4de755bc75526d02c381f406b4de03b93532e206d0b5f8ab99a10d604e8ffa893897dce88a776b9942e68208efa198ad93d90f1763e85e96fcea9a1c1f737cf3250fd397f1352a08914508adf743887c4270f4f58a6a0838dd59c17f36106c2e8c7206a9133b9bf97c2c8993791e805d76fc9810b28e3aec8111d5ed426c19b8f40a8ec0415b817f72cf989f0c943e723204550a08b3b5ae64e00ad6704f7408e499f975bf07dfc14ba12e120cb5715adb4a7ea4f55d9861bf907989f6b21e136d4694bf0c800694c2d75fe893d21d9bef2e457a6eb950d434bdecdb35403e3932e98386941aa477bbcc4d388141601687d436397b62e6e0e694d97cdaae9171fd1a877b7a829c9e4ead3d410cc9cd39b9efaf00157d86c0ec1cf816c0d0745db38146599543278653363fdb3be0a0e9d27341b42e9d810fd5fcf7fa5e7ecfa62d5235b4950325501d9a4adb2ec3791db4a79b388fab0099395887d69e0f874494b8bab1a45b033a2e59fba2ad5d85863e779170b53053112562752c7d7bd4bd59704185f490f61ee841e2e69bdc9747546a1247d77d591659823fac42c47dcb2d013aec49189d59782004e55938bd2c5128f9b8ece2509c4bfd59b574eda992e12179f924d08bce6fb4635db40fe93ccf9</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1562,24 +1562,6 @@
       </tags>
   </entry>
   <entry>
-    <title>英语试卷分析</title>
-    <url>/2023/01/07/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87/2023-01-07-%E8%8B%B1%E8%AF%AD%E8%AF%95%E5%8D%B7%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="阅读理解："><a href="#阅读理解：" class="headerlink" title="阅读理解："></a>阅读理解：</h2><p>找合适题目时，要概况全面且足够具体</p>
-<h2 id="完形填空："><a href="#完形填空：" class="headerlink" title="完形填空："></a>完形填空：</h2><h2 id="英译汉选择："><a href="#英译汉选择：" class="headerlink" title="英译汉选择："></a>英译汉选择：</h2><p>四个选项大部分一样，找那些不同的部分跟题目的关键单词是否对应就行</p>
-<h2 id="英译汉："><a href="#英译汉：" class="headerlink" title="英译汉："></a>英译汉：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6414ca32b734864572a5a369795888e.jpg"></p>
-<h2 id="改错："><a href="#改错：" class="headerlink" title="改错："></a>改错：</h2><p>无从下手时，看动词，考虑时态，语态，虚拟，非谓语</p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语词汇</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>动词过去式/过去分词表</title>
     <url>/2023/01/04/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87/%E5%8A%A8%E8%AF%8D%E8%BF%87%E5%8E%BB%E5%BC%8F%E8%BF%87%E5%8E%BB%E5%88%86%E8%AF%8D%E8%A1%A8/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -1589,6 +1571,24 @@
 <p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c6fb9744-e703-4e7c-90ef-54276423d5ac.jpg"></p>
 <p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5240a579-4a9f-4c3b-912e-46c8e74f055e.jpg"></p>
 <p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/35d1cccd-75b5-49e9-af1c-319f85d6781c.jpg"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语词汇</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语试卷分析</title>
+    <url>/2023/01/07/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87/2023-01-07-%E8%8B%B1%E8%AF%AD%E8%AF%95%E5%8D%B7%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="阅读理解："><a href="#阅读理解：" class="headerlink" title="阅读理解："></a>阅读理解：</h2><p>找合适题目时，要概况全面且足够具体</p>
+<h2 id="完形填空："><a href="#完形填空：" class="headerlink" title="完形填空："></a>完形填空：</h2><h2 id="英译汉选择："><a href="#英译汉选择：" class="headerlink" title="英译汉选择："></a>英译汉选择：</h2><p>四个选项大部分一样，找那些不同的部分跟题目的关键单词是否对应就行</p>
+<h2 id="英译汉："><a href="#英译汉：" class="headerlink" title="英译汉："></a>英译汉：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6414ca32b734864572a5a369795888e.jpg"></p>
+<h2 id="改错："><a href="#改错：" class="headerlink" title="改错："></a>改错：</h2><p>无从下手时，看动词，考虑时态，语态，虚拟，非谓语</p>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -2234,6 +2234,119 @@
       </tags>
   </entry>
   <entry>
+    <title>动词</title>
+    <url>/2022/09/03/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-03-%E5%8A%A8%E8%AF%8D/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="总体分类："><a href="#总体分类：" class="headerlink" title="总体分类："></a>总体分类：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/631c1e3fe73a915a1e2602c54e78787.jpg"></p>
+<p>系动词（be动词，感官动词）</p>
+<h2 id="情态动词："><a href="#情态动词：" class="headerlink" title="情态动词："></a>情态动词：</h2><p>特征：</p>
+<ul>
+<li>没有人称和数的变化（除了have to )</li>
+<li>后面都跟动词原形</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f58549bb-800d-427c-b2d8-fe8e078e43a8.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fbf2db23-88d3-4ad5-93ea-ab628c9ede26.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b2005e67-b550-4031-8c5d-03e12bbe98ed.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/37310313-5b42-448c-a75a-973e269ffc8c.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="助动词："><a href="#助动词：" class="headerlink" title="助动词："></a>助动词：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ca5b250-2a4c-4c03-b408-2dc00f62de5d.jpg"></p>
+<h2 id="实义动词："><a href="#实义动词：" class="headerlink" title="实义动词："></a>实义动词：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/84062f08-b683-4734-9803-8dc763b9e5cd.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5695beee-aba0-44d7-9d80-ad1acc058f60.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/07978314-7768-4c1e-9241-b4ee88143539.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>此表同时也是过去分词的形式，但仅限于规则动词</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数词</title>
+    <url>/2022/09/05/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-05-%E6%95%B0%E8%AF%8D/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="基数词："><a href="#基数词：" class="headerlink" title="基数词："></a>基数词：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/60102539025f81c242149a4cc9e4d45.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b5c9565af5e3de11dd7445099209cdd.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/89d4f082096185b5d419ce0cd23df5d.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="序数词："><a href="#序数词：" class="headerlink" title="序数词："></a>序数词：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/86fbc80b6a0372a7bceedd57243d004.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e46ef58da9ee4742ff88a35c12c6498.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cebdc494a84efc457918c971ab548d.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f607f1bf4781c138cec617ae7735e2a.jpg"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>英语表达日期为月，日，年</p>
+<p>月份前三个字母为缩写</p>
+</blockquote>
+<h2 id="分数与百分数："><a href="#分数与百分数：" class="headerlink" title="分数与百分数："></a>分数与百分数：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9e77c26b248a5d87f35d3421b6f637c.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9d140b14a66ff05cb16f24bce881daf.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e192b2d8741427a4a07b9be856126e.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="确数与约数："><a href="#确数与约数：" class="headerlink" title="确数与约数："></a>确数与约数：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6fd0c89cc3682a2b467098c35771a2f.jpg"></p>
+<blockquote>
+<p><strong>确数无S，约数加S，S与of共存亡</strong></p>
+</blockquote>
+<h2 id="星期与月份："><a href="#星期与月份：" class="headerlink" title="星期与月份："></a>星期与月份：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-10-02 185630.jpg" style="zoom: 150%;" /></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-10-02 185556.jpg" style="zoom:150%;" /></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>形容词和副词</title>
     <url>/2022/09/04/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-04-%E5%BD%A2%E5%AE%B9%E8%AF%8D%E5%92%8C%E5%89%AF%E8%AF%8D/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -2319,53 +2432,6 @@
       </tags>
   </entry>
   <entry>
-    <title>动词</title>
-    <url>/2022/09/03/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-03-%E5%8A%A8%E8%AF%8D/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="总体分类："><a href="#总体分类：" class="headerlink" title="总体分类："></a>总体分类：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/631c1e3fe73a915a1e2602c54e78787.jpg"></p>
-<p>系动词（be动词，感官动词）</p>
-<h2 id="情态动词："><a href="#情态动词：" class="headerlink" title="情态动词："></a>情态动词：</h2><p>特征：</p>
-<ul>
-<li>没有人称和数的变化（除了have to )</li>
-<li>后面都跟动词原形</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f58549bb-800d-427c-b2d8-fe8e078e43a8.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fbf2db23-88d3-4ad5-93ea-ab628c9ede26.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b2005e67-b550-4031-8c5d-03e12bbe98ed.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/37310313-5b42-448c-a75a-973e269ffc8c.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="助动词："><a href="#助动词：" class="headerlink" title="助动词："></a>助动词：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ca5b250-2a4c-4c03-b408-2dc00f62de5d.jpg"></p>
-<h2 id="实义动词："><a href="#实义动词：" class="headerlink" title="实义动词："></a>实义动词：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/84062f08-b683-4734-9803-8dc763b9e5cd.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5695beee-aba0-44d7-9d80-ad1acc058f60.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/07978314-7768-4c1e-9241-b4ee88143539.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>此表同时也是过去分词的形式，但仅限于规则动词</p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>代词</title>
     <url>/2022/09/06/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-06-%E4%BB%A3%E8%AF%8D/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -2424,72 +2490,6 @@
 <td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/93165d8c-cbd8-44fc-9667-0e894f4f370a.jpg"></td>
 </tr>
 </tbody></table>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数词</title>
-    <url>/2022/09/05/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-05-%E6%95%B0%E8%AF%8D/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="基数词："><a href="#基数词：" class="headerlink" title="基数词："></a>基数词：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/60102539025f81c242149a4cc9e4d45.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b5c9565af5e3de11dd7445099209cdd.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/89d4f082096185b5d419ce0cd23df5d.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="序数词："><a href="#序数词：" class="headerlink" title="序数词："></a>序数词：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/86fbc80b6a0372a7bceedd57243d004.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e46ef58da9ee4742ff88a35c12c6498.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3cebdc494a84efc457918c971ab548d.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f607f1bf4781c138cec617ae7735e2a.jpg"></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>英语表达日期为月，日，年</p>
-<p>月份前三个字母为缩写</p>
-</blockquote>
-<h2 id="分数与百分数："><a href="#分数与百分数：" class="headerlink" title="分数与百分数："></a>分数与百分数：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9e77c26b248a5d87f35d3421b6f637c.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9d140b14a66ff05cb16f24bce881daf.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e192b2d8741427a4a07b9be856126e.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="确数与约数："><a href="#确数与约数：" class="headerlink" title="确数与约数："></a>确数与约数：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6fd0c89cc3682a2b467098c35771a2f.jpg"></p>
-<blockquote>
-<p><strong>确数无S，约数加S，S与of共存亡</strong></p>
-</blockquote>
-<h2 id="星期与月份："><a href="#星期与月份：" class="headerlink" title="星期与月份："></a>星期与月份：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-10-02 185630.jpg" style="zoom: 150%;" /></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/屏幕截图 2022-10-02 185556.jpg" style="zoom:150%;" /></th>
-</tr>
-</thead>
-</table>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -3203,6 +3203,72 @@
       </tags>
   </entry>
   <entry>
+    <title>定语从句</title>
+    <url>/2022/09/15/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-15-%E5%AE%9A%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e26b1ad3-2d23-4ebd-b972-6fa4b6b41824.png" style="zoom:200%;" />
+
+<h2 id="关系词："><a href="#关系词：" class="headerlink" title="关系词："></a>关系词：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fe7ef94a-18ce-4805-99d7-0a268e788aad.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dfa1535d-cdb4-4d4b-b7a1-99be140e4017.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ce50676-2b67-4d12-bbe2-25ffa0346ea0.png" style="zoom:200%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/35fde886-9eb3-4afa-a8ce-d89c632a6323.jpg"></td>
+</tr>
+</tbody></table>
+<p>判断从句缺不缺宾语，就在从句后加sth&#x2F;sb看合不合适。及物动词表示缺，不及物动词表示不缺。</p>
+<h2 id="定语从句分类："><a href="#定语从句分类：" class="headerlink" title="定语从句分类："></a>定语从句分类：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b645a793-67cd-42a2-a425-7fd7ad604c47.jpg"></p>
+<h2 id="关系词的特殊用法："><a href="#关系词的特殊用法：" class="headerlink" title="关系词的特殊用法："></a>关系词的特殊用法：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/79b62b41-807a-498f-9f94-13982b16b35b.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c231ddab-fa90-4429-925f-a5bc24ce6892.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/97964ddd-dd24-4cb1-a101-bb79ecef5a37.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e25f1069-700e-4906-8dca-3e902bdb8721.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7979f2fa-1395-43c3-9a5d-35f2d446ec80.png" style="zoom:150%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b859e3f9-8f70-468a-a419-f61a6d19ac08.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30f2ff1d-70aa-4692-b70f-6b830298677e.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f342e274-07f6-44e3-8890-7effcf1b35c1.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af0719e1-d79d-474d-9751-6f7a8ec061ab.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f6ac8829-c66b-48da-ab1d-78251d1b9d6f.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71c03f50-b9cb-46c2-aa2b-85cb46e33d55.png" style="zoom:200%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ffd137f8-08a5-43b5-984e-ff135db35e0f.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="定从中的特殊用法："><a href="#定从中的特殊用法：" class="headerlink" title="定从中的特殊用法："></a>定从中的特殊用法：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/06740ade-8224-4c14-968c-9a86c2763e8d.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a7d64687-3ffd-40b7-9f5c-72033ab0ea23.jpg"></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>名词性从句</title>
     <url>/2022/09/16/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-16-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -3278,72 +3344,6 @@
 <blockquote>
 <p>补充：suggestion 建议</p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>定语从句</title>
-    <url>/2022/09/15/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-15-%E5%AE%9A%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e26b1ad3-2d23-4ebd-b972-6fa4b6b41824.png" style="zoom:200%;" />
-
-<h2 id="关系词："><a href="#关系词：" class="headerlink" title="关系词："></a>关系词：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fe7ef94a-18ce-4805-99d7-0a268e788aad.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dfa1535d-cdb4-4d4b-b7a1-99be140e4017.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ce50676-2b67-4d12-bbe2-25ffa0346ea0.png" style="zoom:200%;" /></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/35fde886-9eb3-4afa-a8ce-d89c632a6323.jpg"></td>
-</tr>
-</tbody></table>
-<p>判断从句缺不缺宾语，就在从句后加sth&#x2F;sb看合不合适。及物动词表示缺，不及物动词表示不缺。</p>
-<h2 id="定语从句分类："><a href="#定语从句分类：" class="headerlink" title="定语从句分类："></a>定语从句分类：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b645a793-67cd-42a2-a425-7fd7ad604c47.jpg"></p>
-<h2 id="关系词的特殊用法："><a href="#关系词的特殊用法：" class="headerlink" title="关系词的特殊用法："></a>关系词的特殊用法：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/79b62b41-807a-498f-9f94-13982b16b35b.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c231ddab-fa90-4429-925f-a5bc24ce6892.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/97964ddd-dd24-4cb1-a101-bb79ecef5a37.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e25f1069-700e-4906-8dca-3e902bdb8721.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7979f2fa-1395-43c3-9a5d-35f2d446ec80.png" style="zoom:150%;" /></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b859e3f9-8f70-468a-a419-f61a6d19ac08.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30f2ff1d-70aa-4692-b70f-6b830298677e.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f342e274-07f6-44e3-8890-7effcf1b35c1.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af0719e1-d79d-474d-9751-6f7a8ec061ab.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f6ac8829-c66b-48da-ab1d-78251d1b9d6f.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71c03f50-b9cb-46c2-aa2b-85cb46e33d55.png" style="zoom:200%;" /></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ffd137f8-08a5-43b5-984e-ff135db35e0f.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="定从中的特殊用法："><a href="#定从中的特殊用法：" class="headerlink" title="定从中的特殊用法："></a>定从中的特殊用法：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/06740ade-8224-4c14-968c-9a86c2763e8d.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a7d64687-3ffd-40b7-9f5c-72033ab0ea23.jpg"></th>
-</tr>
-</thead>
-</table>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -3520,76 +3520,6 @@
 </tbody></table>
 <h2 id="并列结构作主语："><a href="#并列结构作主语：" class="headerlink" title="并列结构作主语："></a>并列结构作主语：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/da3bfa42d784f5b41eaba8cedff7609.jpg"></p>
 <h2 id="其它情况："><a href="#其它情况：" class="headerlink" title="其它情况："></a>其它情况：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e3d5d9fb0c771cb3dd0333bb72d0d0.jpg"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>强调句型及it用法</title>
-    <url>/2022/09/20/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-20-%E5%BC%BA%E8%B0%83%E5%8F%A5%E5%9E%8B%E5%8F%8Ait%E7%94%A8%E6%B3%95/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<p>如何判断是不是强调句：</p>
-<blockquote>
-<p>强调句结构去掉不影响句意</p>
-</blockquote>
-<p>啥是一般疑问句</p>
-<blockquote>
-<p>就是be动词放到主语前</p>
-</blockquote>
-<h2 id="强调句型："><a href="#强调句型：" class="headerlink" title="强调句型："></a>强调句型：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4ca09ab88c7124ffac9be792a39557.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/01b4238c1983140114364e90d2b217a.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7c31574098816ada1873111d65c2d56.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/367099c75ffdfe0309dc901b3c58909.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/09a43d29ba61dd49ef7adbccc1065d2.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="强调句的一般疑问语形式："><a href="#强调句的一般疑问语形式：" class="headerlink" title="强调句的一般疑问语形式："></a>强调句的一般疑问语形式：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a3a082f8db8c3a9562b667fbd44d044.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/baf6bd1b1b5e2d2c15250ed8ac9adb8.jpg"></th>
-</tr>
-</thead>
-</table>
-<h2 id="it的基本用法："><a href="#it的基本用法：" class="headerlink" title="it的基本用法："></a>it的基本用法：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4a543fc6aa2031d1c819114d58174cb.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cb48b3834017eaca959b8c025d08a74.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b3a5ee4a73e6f8637814ef8500dd9e7.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/df4e8c4095b9057695991fb42990bed.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9c919ddd05de82a55949cc19afb3633.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/45d5580c0a3db2d2d08d97060826e26.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8d190fc344da627aea99ca995bd586d.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7281dda8d1d8241de1393d8aad2a445.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6edac375370b4f4bfba5cc7c2ecc271.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d208c60f86d8643e5b48d5d0b09563d.jpg"></td>
-</tr>
-</tbody></table>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -3805,6 +3735,76 @@
       </tags>
   </entry>
   <entry>
+    <title>强调句型及it用法</title>
+    <url>/2022/09/20/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-20-%E5%BC%BA%E8%B0%83%E5%8F%A5%E5%9E%8B%E5%8F%8Ait%E7%94%A8%E6%B3%95/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<p>如何判断是不是强调句：</p>
+<blockquote>
+<p>强调句结构去掉不影响句意</p>
+</blockquote>
+<p>啥是一般疑问句</p>
+<blockquote>
+<p>就是be动词放到主语前</p>
+</blockquote>
+<h2 id="强调句型："><a href="#强调句型：" class="headerlink" title="强调句型："></a>强调句型：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4ca09ab88c7124ffac9be792a39557.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/01b4238c1983140114364e90d2b217a.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7c31574098816ada1873111d65c2d56.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/367099c75ffdfe0309dc901b3c58909.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/09a43d29ba61dd49ef7adbccc1065d2.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="强调句的一般疑问语形式："><a href="#强调句的一般疑问语形式：" class="headerlink" title="强调句的一般疑问语形式："></a>强调句的一般疑问语形式：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a3a082f8db8c3a9562b667fbd44d044.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/baf6bd1b1b5e2d2c15250ed8ac9adb8.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="it的基本用法："><a href="#it的基本用法：" class="headerlink" title="it的基本用法："></a>it的基本用法：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4a543fc6aa2031d1c819114d58174cb.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cb48b3834017eaca959b8c025d08a74.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b3a5ee4a73e6f8637814ef8500dd9e7.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/df4e8c4095b9057695991fb42990bed.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9c919ddd05de82a55949cc19afb3633.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/45d5580c0a3db2d2d08d97060826e26.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8d190fc344da627aea99ca995bd586d.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7281dda8d1d8241de1393d8aad2a445.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6edac375370b4f4bfba5cc7c2ecc271.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d208c60f86d8643e5b48d5d0b09563d.jpg"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>连续及间断</title>
     <url>/2022/10/03/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-03-%E8%BF%9E%E7%BB%AD%E5%8F%8A%E9%97%B4%E6%96%AD/</url>
     <content><![CDATA[<p>我的数学专升本笔记</p>
@@ -3916,158 +3916,6 @@
 </tr>
 </thead>
 </table>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>高等数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不定积分</title>
-    <url>/2022/10/05/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-05-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<p>我的数学专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><blockquote>
-<p>求不定积分，本质就是求导的逆运算</p>
-</blockquote>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bc008a42056d0119a9fc7f00802b127.jpg"></p>
-<h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><ol>
-<li><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b792f9ce7d8a8a353e143b8cd993391.jpg"></li>
-</ol>
-<p>2.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/31ba77ad24474946a7c8fff319cbf06.jpg"></p>
-<p>3.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/025a359f64e6ea4a7cfaae60bd7eda1.jpg"></p>
-<p>4.判断俩个函数的原函数是否相同？</p>
-<p>法一：求导，求导结果一样即为相同；</p>
-<p>法二：作差，作差结果为常数即为相同。</p>
-<h2 id="不定积分性质和基本积分公式及常见凑微分"><a href="#不定积分性质和基本积分公式及常见凑微分" class="headerlink" title="不定积分性质和基本积分公式及常见凑微分"></a>不定积分性质和基本积分公式及常见凑微分</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/954a516c63f3f8e6160a5d5cde4906e.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8711e4bfc6742960b7cf3f30137863.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af1df8f60b29e1a236f5fe391aaffe0.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/50c3190a50711f3cf5034a5b05cd84f.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6ee0427fafbf0f14f2a4a07b2583eb5.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>注：1、数学中的sec即secant，正割的意思，其英式读法是[‘siːkənt]；美式读法是[‘siːkənt]。</p>
-<p>2、csc就是cosecant，余割的意思，其英式读法是[‘kəʊ’siːkənt]；美式读法是[‘koʊ’siːkənt]。 </p>
-<p>3、sin全拼是sine，正弦，其英式读法是[saɪn]；美式读法是[saɪn]。　</p>
-<p>4、cos全拼是cosine，余弦，其英式读法是[‘kəʊsaɪn]；美式读法是[‘koʊsaɪn]。</p>
-<p>5、cot全拼是cotangent，余切，其英式读法是[‘kəʊ’tændʒənt]；美式读法是[‘koʊ’tændʒənt]。</p>
-<p>6、tan全拼是tangent，正切，其英式读法是[‘tændʒənt]；美式读法是[‘tændʒənt]。</p>
-<hr>
-<h2 id="分部积分的U，v排列规则和公式"><a href="#分部积分的U，v排列规则和公式" class="headerlink" title="分部积分的U，v排列规则和公式"></a>分部积分的U，v排列规则和公式</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39d133def165327909710c609e26944.jpg"></p>
-<h2 id="三角代换公式"><a href="#三角代换公式" class="headerlink" title="三角代换公式"></a>三角代换公式</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/51a16e478fbe2c96a915c650f5e84d5.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/86f0e3ad962a6652e2d154a343cb026.jpg"></th>
-</tr>
-</thead>
-</table>
-<hr>
-<h2 id="example—第一类换元法"><a href="#example—第一类换元法" class="headerlink" title="example—第一类换元法"></a>example—第一类换元法</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32cff5b2d4861d29508c0b892e92210.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6034b162110c5ee20d5388d6a4063ca.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f3653bbf3c9bc0cfdf8354f7430560b.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a5e7d8e312df927517b2af996bb82f2.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/85bd2753e328484624601d4a7d4aaa3.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7480c55dd6291316e431eb01c9f8ea6.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7257275708c3585eb152681c0ad2fbe.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e60dbd90d494bb1563b8a2b4f6fe000.jpg"></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d284eb36e5906bc643b7cd7bf910620.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/190cdca8bd6fa40cadd600bbc2f36b6.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c11d177d9bc13e7f37ad4c2ec6a627.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f58012e7f36cf76c9426ca9ae0e92e.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/47e4b5cf91bbeaa26895ca5d86c8a18.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5b2cc1bc8ca5b8a4b67a73d2d7f454.jpg"></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="example—第二类换元法"><a href="#example—第二类换元法" class="headerlink" title="example—第二类换元法"></a>example—第二类换元法</h2><blockquote>
-<p>第二类换元去根号，不见平方直接套，见到平方用三角</p>
-</blockquote>
-<h3 id="凑法："><a href="#凑法：" class="headerlink" title="凑法："></a>凑法：</h3><ol>
-<li>无理函数化为有理函数</li>
-<li>倒代换(倒着的三角形更容易被打破)</li>
-<li>三角代换</li>
-</ol>
-<h3 id="适用情况"><a href="#适用情况" class="headerlink" title="适用情况"></a>适用情况</h3><ul>
-<li>根号下x的一次方，一般用1</li>
-<li>x的二次方，一般用3</li>
-</ul>
-<blockquote>
-<p>一般先令式子的一部分为t,再由t求出x的等价式</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/866594b5c4e312ad05f76abcece15f8.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d883bcfd69c360c57fa1406079c336d.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7dfefe8272194c7728e1180fe5df4fd.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0c25f374b8e87851eb8f75ecd1b9b71.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/48bcf68d6ffcd7f67252998070a8f44.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2021906e41b00fcf1953a721e6a61cc.jpg"></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/87bbf58271fbb3cecdc98b52acbd0e3.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/78605b6f1f1b3087b18fef0b849308d.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be40194fa6f0d3a9946ec0434764cfb.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f2e691984fc89947908ad4a503453b.jpg"></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="example—分部积分法"><a href="#example—分部积分法" class="headerlink" title="example—分部积分法"></a>example—分部积分法</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db1dcf5927e1e937f50543a455434c0.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/317c115ae82658250e90e249f2506f2.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f4985cfba19bf842011af2bfb9f8617.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9ba4793ae15a497c552d83bc396c30b.jpg"></td>
-</tr>
-</tbody></table>
 ]]></content>
       <categories>
         <category>数学</category>
@@ -4396,85 +4244,147 @@
       </tags>
   </entry>
   <entry>
-    <title>二重积分</title>
-    <url>/2022/10/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-08-%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86/</url>
+    <title>不定积分</title>
+    <url>/2022/10/05/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-05-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<p>我的数学专升本笔记</p>
 <span id="more"></span>
 
-<h2 id="二重积分性质："><a href="#二重积分性质：" class="headerlink" title="二重积分性质："></a>二重积分性质：</h2><table>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><blockquote>
+<p>求不定积分，本质就是求导的逆运算</p>
+</blockquote>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bc008a42056d0119a9fc7f00802b127.jpg"></p>
+<h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><ol>
+<li><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b792f9ce7d8a8a353e143b8cd993391.jpg"></li>
+</ol>
+<p>2.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/31ba77ad24474946a7c8fff319cbf06.jpg"></p>
+<p>3.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/025a359f64e6ea4a7cfaae60bd7eda1.jpg"></p>
+<p>4.判断俩个函数的原函数是否相同？</p>
+<p>法一：求导，求导结果一样即为相同；</p>
+<p>法二：作差，作差结果为常数即为相同。</p>
+<h2 id="不定积分性质和基本积分公式及常见凑微分"><a href="#不定积分性质和基本积分公式及常见凑微分" class="headerlink" title="不定积分性质和基本积分公式及常见凑微分"></a>不定积分性质和基本积分公式及常见凑微分</h2><table>
 <thead>
 <tr>
-<th>性质4</th>
-<th>偶倍奇零</th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/954a516c63f3f8e6160a5d5cde4906e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8711e4bfc6742960b7cf3f30137863.jpg"></th>
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db5f5055937af02b18356f0b27a8148.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/23821434bbd63522af52307084cf00e.jpg" style="zoom: 150%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af1df8f60b29e1a236f5fe391aaffe0.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/50c3190a50711f3cf5034a5b05cd84f.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6ee0427fafbf0f14f2a4a07b2583eb5.jpg"></td>
+<td></td>
 </tr>
 </tbody></table>
-<h2 id="二重积分的计算"><a href="#二重积分的计算" class="headerlink" title="二重积分的计算"></a>二重积分的计算</h2><blockquote>
-<p>后积先定限，限内划条线，先交写下限，后交写上限</p>
+<p>注：1、数学中的sec即secant，正割的意思，其英式读法是[‘siːkənt]；美式读法是[‘siːkənt]。</p>
+<p>2、csc就是cosecant，余割的意思，其英式读法是[‘kəʊ’siːkənt]；美式读法是[‘koʊ’siːkənt]。 </p>
+<p>3、sin全拼是sine，正弦，其英式读法是[saɪn]；美式读法是[saɪn]。　</p>
+<p>4、cos全拼是cosine，余弦，其英式读法是[‘kəʊsaɪn]；美式读法是[‘koʊsaɪn]。</p>
+<p>5、cot全拼是cotangent，余切，其英式读法是[‘kəʊ’tændʒənt]；美式读法是[‘koʊ’tændʒənt]。</p>
+<p>6、tan全拼是tangent，正切，其英式读法是[‘tændʒənt]；美式读法是[‘tændʒənt]。</p>
+<hr>
+<h2 id="分部积分的U，v排列规则和公式"><a href="#分部积分的U，v排列规则和公式" class="headerlink" title="分部积分的U，v排列规则和公式"></a>分部积分的U，v排列规则和公式</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39d133def165327909710c609e26944.jpg"></p>
+<h2 id="三角代换公式"><a href="#三角代换公式" class="headerlink" title="三角代换公式"></a>三角代换公式</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/51a16e478fbe2c96a915c650f5e84d5.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/86f0e3ad962a6652e2d154a343cb026.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="example—第一类换元法"><a href="#example—第一类换元法" class="headerlink" title="example—第一类换元法"></a>example—第一类换元法</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32cff5b2d4861d29508c0b892e92210.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6034b162110c5ee20d5388d6a4063ca.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f3653bbf3c9bc0cfdf8354f7430560b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a5e7d8e312df927517b2af996bb82f2.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/85bd2753e328484624601d4a7d4aaa3.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7480c55dd6291316e431eb01c9f8ea6.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7257275708c3585eb152681c0ad2fbe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e60dbd90d494bb1563b8a2b4f6fe000.jpg"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d284eb36e5906bc643b7cd7bf910620.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/190cdca8bd6fa40cadd600bbc2f36b6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c11d177d9bc13e7f37ad4c2ec6a627.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f58012e7f36cf76c9426ca9ae0e92e.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/47e4b5cf91bbeaa26895ca5d86c8a18.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5b2cc1bc8ca5b8a4b67a73d2d7f454.jpg"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="example—第二类换元法"><a href="#example—第二类换元法" class="headerlink" title="example—第二类换元法"></a>example—第二类换元法</h2><blockquote>
+<p>第二类换元去根号，不见平方直接套，见到平方用三角</p>
+</blockquote>
+<h3 id="凑法："><a href="#凑法：" class="headerlink" title="凑法："></a>凑法：</h3><ol>
+<li>无理函数化为有理函数</li>
+<li>倒代换(倒着的三角形更容易被打破)</li>
+<li>三角代换</li>
+</ol>
+<h3 id="适用情况"><a href="#适用情况" class="headerlink" title="适用情况"></a>适用情况</h3><ul>
+<li>根号下x的一次方，一般用1</li>
+<li>x的二次方，一般用3</li>
+</ul>
+<blockquote>
+<p>一般先令式子的一部分为t,再由t求出x的等价式</p>
 </blockquote>
 <table>
 <thead>
 <tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4772c3cb909cf93118b3e812069134.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf1e51de8c282ba94c968d2f0573637.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/866594b5c4e312ad05f76abcece15f8.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d883bcfd69c360c57fa1406079c336d.jpg"></th>
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6d8d3d1c2e70110f8dd8451933b018a.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0b5a609420ac45615c2f4dd5c670076.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7dfefe8272194c7728e1180fe5df4fd.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0c25f374b8e87851eb8f75ecd1b9b71.jpg"></td>
 </tr>
 <tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0dcece517a58515c8cac49bd940d215.jpg"></td>
-<td></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/48bcf68d6ffcd7f67252998070a8f44.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2021906e41b00fcf1953a721e6a61cc.jpg"></td>
 </tr>
 </tbody></table>
-<h2 id="直角坐标系下x-y交换积分次序技巧："><a href="#直角坐标系下x-y交换积分次序技巧：" class="headerlink" title="直角坐标系下x-y交换积分次序技巧："></a>直角坐标系下x-y交换积分次序技巧：</h2><table>
+<table>
 <thead>
 <tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e10edd9351dcbc2c4544c0d2982a5fb.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/702d664411a71ffe587b332c8f78188.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/87bbf58271fbb3cecdc98b52acbd0e3.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/78605b6f1f1b3087b18fef0b849308d.jpg"></th>
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/962af595863946e0195e09bac688ff9.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/98393a909d32c005eb9132bc590c29e.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c1fce8563d532bdf1c2c850c6bf216d.jpg"></td>
-<td></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be40194fa6f0d3a9946ec0434764cfb.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f2e691984fc89947908ad4a503453b.jpg"></td>
 </tr>
 </tbody></table>
-<h2 id="极坐标系下计算二重积分："><a href="#极坐标系下计算二重积分：" class="headerlink" title="极坐标系下计算二重积分："></a>极坐标系下计算二重积分：</h2><table>
+<hr>
+<h2 id="example—分部积分法"><a href="#example—分部积分法" class="headerlink" title="example—分部积分法"></a>example—分部积分法</h2><table>
 <thead>
 <tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/96573a908a74bc0a29371a0e8339ec0.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30a49c4134f900cfcb1d96f68f4832c.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db1dcf5927e1e937f50543a455434c0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/317c115ae82658250e90e249f2506f2.jpg"></th>
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c0ec7510e675ca7a5f7d025196d7547.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cb2747eb720ac70eb3260d9952cf14d.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a539fc000c2a4a9a119388b4f9c081e.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>角度由象限确定，半径由原式确定</p>
-<h2 id="利用二重积分计算空间几何体体积："><a href="#利用二重积分计算空间几何体体积：" class="headerlink" title="利用二重积分计算空间几何体体积："></a>利用二重积分计算空间几何体体积：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/34671b17730b230ebff0d656f18e885.jpg"></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e42414c99bf3b321d8dc2949f4b42af.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5b9b2c8dd3975bef6f2b942e8855aa5.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f4985cfba19bf842011af2bfb9f8617.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9ba4793ae15a497c552d83bc396c30b.jpg"></td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -4632,6 +4542,96 @@
       </tags>
   </entry>
   <entry>
+    <title>二重积分</title>
+    <url>/2022/10/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-08-%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="二重积分性质："><a href="#二重积分性质：" class="headerlink" title="二重积分性质："></a>二重积分性质：</h2><table>
+<thead>
+<tr>
+<th>性质4</th>
+<th>偶倍奇零</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db5f5055937af02b18356f0b27a8148.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/23821434bbd63522af52307084cf00e.jpg" style="zoom: 150%;" /></td>
+</tr>
+</tbody></table>
+<h2 id="二重积分的计算"><a href="#二重积分的计算" class="headerlink" title="二重积分的计算"></a>二重积分的计算</h2><blockquote>
+<p>后积先定限，限内划条线，先交写下限，后交写上限</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4772c3cb909cf93118b3e812069134.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf1e51de8c282ba94c968d2f0573637.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6d8d3d1c2e70110f8dd8451933b018a.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0b5a609420ac45615c2f4dd5c670076.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0dcece517a58515c8cac49bd940d215.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="直角坐标系下x-y交换积分次序技巧："><a href="#直角坐标系下x-y交换积分次序技巧：" class="headerlink" title="直角坐标系下x-y交换积分次序技巧："></a>直角坐标系下x-y交换积分次序技巧：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e10edd9351dcbc2c4544c0d2982a5fb.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/702d664411a71ffe587b332c8f78188.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/962af595863946e0195e09bac688ff9.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/98393a909d32c005eb9132bc590c29e.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c1fce8563d532bdf1c2c850c6bf216d.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="极坐标系下计算二重积分："><a href="#极坐标系下计算二重积分：" class="headerlink" title="极坐标系下计算二重积分："></a>极坐标系下计算二重积分：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/96573a908a74bc0a29371a0e8339ec0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30a49c4134f900cfcb1d96f68f4832c.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c0ec7510e675ca7a5f7d025196d7547.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cb2747eb720ac70eb3260d9952cf14d.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a539fc000c2a4a9a119388b4f9c081e.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>角度由象限确定，半径由原式确定</p>
+<h2 id="利用二重积分计算空间几何体体积："><a href="#利用二重积分计算空间几何体体积：" class="headerlink" title="利用二重积分计算空间几何体体积："></a>利用二重积分计算空间几何体体积：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/34671b17730b230ebff0d656f18e885.jpg"></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e42414c99bf3b321d8dc2949f4b42af.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5b9b2c8dd3975bef6f2b942e8855aa5.jpg"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>向量</title>
     <url>/2022/10/09/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-09-%E5%90%91%E9%87%8F/</url>
     <content><![CDATA[<p>我的数学专升本笔记</p>
@@ -4740,73 +4740,6 @@
 <h3 id="抛物面"><a href="#抛物面" class="headerlink" title="抛物面"></a>抛物面</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32f914d09d3aa6e6101ca50a1a767c0.jpg"></p>
 <h3 id="其余类型"><a href="#其余类型" class="headerlink" title="其余类型"></a>其余类型</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/34d0dab6bff5995f9bac1b971d2e2eb.jpg"></p>
 <p>锥面指的是单双叶双曲面的情况和</p>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>高等数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>曲线积分</title>
-    <url>/2022/10/10/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-10-%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<p>我的数学专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="第一类曲线积分："><a href="#第一类曲线积分：" class="headerlink" title="第一类曲线积分："></a>第一类曲线积分：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/210980fba0954c8efc3a399e2646c3b.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/caac178e2212d8b75d47e3f845eb8e1.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87%E7%BC%96%E8%BE%91_20221107194757.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2341e2dcf5f0ac8568a7aa1d4474052.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4e234bf4143e92cacb905e1bc8f23a4.jpg"></th>
-</tr>
-</thead>
-</table>
-<h2 id="第二类曲线积分："><a href="#第二类曲线积分：" class="headerlink" title="第二类曲线积分："></a>第二类曲线积分：</h2><h3 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3bfce4b1b9743cf28adaf4d22e8e0f7.jpg"></h3><h3 id="计算方法："><a href="#计算方法：" class="headerlink" title="计算方法："></a>计算方法：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ca1a051e639773796e6bf715a74c55.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cabde2f350b9a13a2c3c12be78a062d.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4d44a167635d141708d418dfb36868.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92aa8cfdefc4efee5e429d3049e4486.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d22580808d60bbbc146e6ccfcab5915.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dfd7da67d9af2efb6e099c907ca0d9.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8a3fc111525e1aac95315efd65d870a.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a75db1c405b0659e899b9cd532a5c00.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0b5c053274f37608e4f9160168e94cd.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/65224f998010d15ae0b061caf8d6b3e.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/539951ffe7c3daed477d418f1c73a16.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f7937f93e867895d77a16253bd3bcf3.jpg"></p>
 ]]></content>
       <categories>
         <category>数学</category>
@@ -4930,6 +4863,73 @@
 </tbody></table>
 <p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be1e1c440bdfb5d1859289a34f8c7de.jpg"></p>
 <p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6c0ecf9ec43f933dc603c84def2adcd.jpg"></p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>曲线积分</title>
+    <url>/2022/10/10/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-10-%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="第一类曲线积分："><a href="#第一类曲线积分：" class="headerlink" title="第一类曲线积分："></a>第一类曲线积分：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/210980fba0954c8efc3a399e2646c3b.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/caac178e2212d8b75d47e3f845eb8e1.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87%E7%BC%96%E8%BE%91_20221107194757.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2341e2dcf5f0ac8568a7aa1d4474052.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4e234bf4143e92cacb905e1bc8f23a4.jpg"></th>
+</tr>
+</thead>
+</table>
+<h2 id="第二类曲线积分："><a href="#第二类曲线积分：" class="headerlink" title="第二类曲线积分："></a>第二类曲线积分：</h2><h3 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3bfce4b1b9743cf28adaf4d22e8e0f7.jpg"></h3><h3 id="计算方法："><a href="#计算方法：" class="headerlink" title="计算方法："></a>计算方法：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ca1a051e639773796e6bf715a74c55.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cabde2f350b9a13a2c3c12be78a062d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a4d44a167635d141708d418dfb36868.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/92aa8cfdefc4efee5e429d3049e4486.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d22580808d60bbbc146e6ccfcab5915.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dfd7da67d9af2efb6e099c907ca0d9.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/8a3fc111525e1aac95315efd65d870a.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a75db1c405b0659e899b9cd532a5c00.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0b5c053274f37608e4f9160168e94cd.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/65224f998010d15ae0b061caf8d6b3e.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/539951ffe7c3daed477d418f1c73a16.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f7937f93e867895d77a16253bd3bcf3.jpg"></p>
 ]]></content>
       <categories>
         <category>数学</category>
