@@ -159,6 +159,34 @@
       </tags>
   </entry>
   <entry>
+    <title>对hexo的探索</title>
+    <url>/2022/09/04/Hexo+next/%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<p>有趣的技术</p>
+<span id="more"></span>
+
+<h2 id="一-hexo常用快捷键"><a href="#一-hexo常用快捷键" class="headerlink" title="一,hexo常用快捷键"></a>一,hexo常用快捷键</h2><p>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>  新建页面<br>post 文章   draft  草稿</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
+
+<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#x6c;&#x69;&#117;&#x30;&#48;&#51;&#x32;&#53;&#x31;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#x6c;&#x69;&#117;&#x30;&#48;&#51;&#x32;&#53;&#x31;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a>“</p>
+<p> 初始化一个Git仓库</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
+
+<h2 id="常见错误解决办法："><a href="#常见错误解决办法：" class="headerlink" title="常见错误解决办法："></a>常见错误解决办法：</h2><p><a href="https://blog.csdn.net/HTL2018/article/details/106876940">https://blog.csdn.net/HTL2018/article/details/106876940</a></p>
+]]></content>
+      <categories>
+        <category>网站探索</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>基于GitHub和hexo建站</title>
     <url>/2022/08/28/Hexo+next/%E5%9F%BA%E4%BA%8EGitHub%E5%92%8Chexo%E5%BB%BA%E7%AB%99/</url>
     <content><![CDATA[<p>有趣的技术</p>
@@ -252,34 +280,6 @@
 <p>如何用阿里云买的服务器搭建hexo网站<br><a href="https://developer.aliyun.com/article/775175">https://developer.aliyun.com/article/775175</a></p>
 <p>如何用腾讯云搭</p>
 <p><a href="https://www.flamiec.cn/2022/07/11/hexo-%E6%9C%8D%E5%8A%A1%E5%99%A8/">https://www.flamiec.cn/2022/07/11/hexo-%E6%9C%8D%E5%8A%A1%E5%99%A8/</a></p>
-]]></content>
-      <categories>
-        <category>网站探索</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对hexo的探索</title>
-    <url>/2022/09/04/Hexo+next/%E5%AF%B9hexo%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<p>有趣的技术</p>
-<span id="more"></span>
-
-<h2 id="一-hexo常用快捷键"><a href="#一-hexo常用快捷键" class="headerlink" title="一,hexo常用快捷键"></a>一,hexo常用快捷键</h2><p>hexo clean   清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>hexo g       生成静态文件<br>hexo s        启动服务器</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<p>hexo clean   清理缓存<br>hexo g<br>hexo d       部署网站</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
-<p>  新建页面<br>post 文章   draft  草稿</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;页面名&quot;</span><br></pre></td></tr></table></figure>
-
-<p>git config  –global  user.name “cunko”<br>git config  –global user.email “<a href="mailto:&#x6c;&#105;&#117;&#x30;&#48;&#51;&#50;&#x35;&#49;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#105;&#117;&#x30;&#48;&#51;&#50;&#x35;&#49;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a>“</p>
-<p> 初始化一个Git仓库</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init </span><br></pre></td></tr></table></figure>
-
-<h2 id="常见错误解决办法："><a href="#常见错误解决办法：" class="headerlink" title="常见错误解决办法："></a>常见错误解决办法：</h2><p><a href="https://blog.csdn.net/HTL2018/article/details/106876940">https://blog.csdn.net/HTL2018/article/details/106876940</a></p>
 ]]></content>
       <categories>
         <category>网站探索</category>
@@ -389,6 +389,24 @@
       </tags>
   </entry>
   <entry>
+    <title>函数的简单实现</title>
+    <url>/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-%E5%87%BD%E6%95%B0%E7%9A%84%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>有趣的技术</p>
+<span id="more"></span>
+
+<h2 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5cdde8ef-7099-4781-a4c3-cabc05b71636.jpg"></p>
+<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">isPrime</span>(<span class="params">n</span>):</span><br><span class="line">  <span class="keyword">if</span> n &gt; <span class="number">1</span>:</span><br><span class="line">     <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>,num):</span><br><span class="line">        <span class="keyword">if</span> (num % i) == <span class="number">0</span>:</span><br><span class="line">           <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">           <span class="keyword">break</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Ture&quot;</span>)</span><br><span class="line">  <span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">num=<span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入一个数：&quot;</span>))</span><br><span class="line">isPrime(num)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2f733888-d56f-4602-baa9-62dcfd450382.jpg"></p>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python实现</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python—求圆的面积和周长</title>
     <url>/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-python%E2%80%94%E6%B1%82%E5%9C%86%E7%9A%84%E9%9D%A2%E7%A7%AF%E5%92%8C%E5%91%A8%E9%95%BF/</url>
     <content><![CDATA[<p>有趣的技术</p>
@@ -453,15 +471,13 @@
       </tags>
   </entry>
   <entry>
-    <title>函数的简单实现</title>
-    <url>/2022/09/24/python%E5%AE%9E%E7%8E%B0/2022-09-24-%E5%87%BD%E6%95%B0%E7%9A%84%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0/</url>
+    <title>乐摄网图片爬虫</title>
+    <url>/2023/03/12/python%E5%AE%9E%E7%8E%B0/2023-03-12-%E4%B9%90%E6%91%84%E7%BD%91%E5%9B%BE%E7%89%87%E7%88%AC%E8%99%AB/</url>
     <content><![CDATA[<p>有趣的技术</p>
 <span id="more"></span>
 
-<h2 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5cdde8ef-7099-4781-a4c3-cabc05b71636.jpg"></p>
-<h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">isPrime</span>(<span class="params">n</span>):</span><br><span class="line">  <span class="keyword">if</span> n &gt; <span class="number">1</span>:</span><br><span class="line">     <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>,num):</span><br><span class="line">        <span class="keyword">if</span> (num % i) == <span class="number">0</span>:</span><br><span class="line">           <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">           <span class="keyword">break</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Ture&quot;</span>)</span><br><span class="line">  <span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;False&quot;</span>)</span><br><span class="line">num=<span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入一个数：&quot;</span>))</span><br><span class="line">isPrime(num)</span><br></pre></td></tr></table></figure>
+<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> parsel</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> page <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;===========正在抓取第<span class="subst">&#123;page&#125;</span>页数据==============&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    base_url = <span class="string">f&#x27;https://www.leshetu.top/xz/twyh/page/<span class="subst">&#123;page&#125;</span>&#x27;</span></span><br><span class="line"></span><br><span class="line">    headers = &#123;<span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line">    response = requests.get(url=base_url, headers=headers)</span><br><span class="line">    html = response.text</span><br><span class="line">    <span class="comment"># print(html)</span></span><br><span class="line"></span><br><span class="line">    selector = parsel.Selector(html)</span><br><span class="line"></span><br><span class="line">    divs = selector.xpath(<span class="string">&#x27;//div[@class=&quot;row posts-wrapper&quot;]/div&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> div <span class="keyword">in</span> divs:</span><br><span class="line">        pic_title = div.xpath(<span class="string">&#x27;.//h2/a/text()&#x27;</span>).get()</span><br><span class="line">        pic_url = div.xpath(<span class="string">&#x27;.//h2/a/@href&#x27;</span>).get()</span><br><span class="line">        <span class="comment"># print(pic_title, pic_url)</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;正在下载相册：&#x27;</span>, pic_title)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(<span class="string">&#x27;C:/Users/13089/Desktop/images/&#x27;</span> + pic_title):</span><br><span class="line">            os.mkdir(<span class="string">&#x27;C:/Users/13089/Desktop/images//&#x27;</span> + pic_title)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line"></span><br><span class="line">            html_2 = requests.get(url=pic_url, headers=headers).text</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line">        selector_2 = parsel.Selector(html_2)</span><br><span class="line">        img_url_list = selector_2.xpath(<span class="string">&#x27;//div[@class=&quot;entry-content u-text-format u-clearfix&quot;]//img/@data-srcset&#x27;</span>).getall()</span><br><span class="line">        <span class="comment"># print(img_url_list)</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> img_url <span class="keyword">in</span> img_url_list:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                img_data = requests.get(url=img_url, headers=headers).content</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">            file_name = img_url.split(<span class="string">&#x27;/&#x27;</span>)[-<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&#x27;C:/Users/13089/Desktop\images//<span class="subst">&#123;pic_title&#125;</span>//<span class="subst">&#123;file_name&#125;</span>&#x27;</span> + file_name, mode=<span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">                f.write(img_data)</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;下载完成：&#x27;</span>, file_name)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2f733888-d56f-4602-baa9-62dcfd450382.jpg"></p>
 ]]></content>
       <categories>
         <category>python</category>
@@ -501,22 +517,6 @@
 <span id="more"></span>
 
 <p><a href="https://cloud.tencent.com/developer/article/1741066">https://cloud.tencent.com/developer/article/1741066</a><br><a href="https://www.df100.ltd/164.asp">https://www.df100.ltd/164.asp</a></p>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python实现</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>乐摄网图片爬虫</title>
-    <url>/2023/03/12/python%E5%AE%9E%E7%8E%B0/2023-03-12-%E4%B9%90%E6%91%84%E7%BD%91%E5%9B%BE%E7%89%87%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p>有趣的技术</p>
-<span id="more"></span>
-
-<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> parsel</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> page <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;===========正在抓取第<span class="subst">&#123;page&#125;</span>页数据==============&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    base_url = <span class="string">f&#x27;https://www.leshetu.top/xz/twyh/page/<span class="subst">&#123;page&#125;</span>&#x27;</span></span><br><span class="line"></span><br><span class="line">    headers = &#123;<span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line">    response = requests.get(url=base_url, headers=headers)</span><br><span class="line">    html = response.text</span><br><span class="line">    <span class="comment"># print(html)</span></span><br><span class="line"></span><br><span class="line">    selector = parsel.Selector(html)</span><br><span class="line"></span><br><span class="line">    divs = selector.xpath(<span class="string">&#x27;//div[@class=&quot;row posts-wrapper&quot;]/div&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> div <span class="keyword">in</span> divs:</span><br><span class="line">        pic_title = div.xpath(<span class="string">&#x27;.//h2/a/text()&#x27;</span>).get()</span><br><span class="line">        pic_url = div.xpath(<span class="string">&#x27;.//h2/a/@href&#x27;</span>).get()</span><br><span class="line">        <span class="comment"># print(pic_title, pic_url)</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;正在下载相册：&#x27;</span>, pic_title)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(<span class="string">&#x27;C:/Users/13089/Desktop/images/&#x27;</span> + pic_title):</span><br><span class="line">            os.mkdir(<span class="string">&#x27;C:/Users/13089/Desktop/images//&#x27;</span> + pic_title)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line"></span><br><span class="line">            html_2 = requests.get(url=pic_url, headers=headers).text</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line">        selector_2 = parsel.Selector(html_2)</span><br><span class="line">        img_url_list = selector_2.xpath(<span class="string">&#x27;//div[@class=&quot;entry-content u-text-format u-clearfix&quot;]//img/@data-srcset&#x27;</span>).getall()</span><br><span class="line">        <span class="comment"># print(img_url_list)</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> img_url <span class="keyword">in</span> img_url_list:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                img_data = requests.get(url=img_url, headers=headers).content</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">            file_name = img_url.split(<span class="string">&#x27;/&#x27;</span>)[-<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&#x27;C:/Users/13089/Desktop\images//<span class="subst">&#123;pic_title&#125;</span>//<span class="subst">&#123;file_name&#125;</span>&#x27;</span> + file_name, mode=<span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">                f.write(img_data)</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;下载完成：&#x27;</span>, file_name)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
 ]]></content>
       <categories>
         <category>python</category>
@@ -756,23 +756,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Pycharm的安装与使用</title>
-    <url>/2022/09/04/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p>好软件</p>
-<span id="more"></span>
-
-<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用,Ctrl + S,保存。</p>
-<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
-<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>软件使用</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>climb over the walls one</title>
     <url>/2022/10/04/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/climb%20over%20the%20walls%20one/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -792,6 +775,23 @@
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pycharm的安装与使用</title>
+    <url>/2022/09/04/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/Pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p>好软件</p>
+<span id="more"></span>
+
+<h2 id="一，使用"><a href="#一，使用" class="headerlink" title="一，使用"></a>一，使用</h2><p>PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F。这两个个功能非常实用,Ctrl + S,保存。</p>
+<h2 id="二，下载"><a href="#二，下载" class="headerlink" title="二，下载"></a>二，下载</h2><p><a href="https://www.jetbrains.com/">官网下载地址</a></p>
+<h2 id="三，安装"><a href="#三，安装" class="headerlink" title="三，安装"></a>三，安装</h2><p><a href="https://blog.csdn.net/h123456789999999/article/details/112753496">教程</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>软件使用</tag>
       </tags>
   </entry>
   <entry>
@@ -862,28 +862,6 @@
       </tags>
   </entry>
   <entry>
-    <title>常用快捷键</title>
-    <url>/2022/12/08/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/windows%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>个人理解</p>
-<span id="more"></span>
-
-<h2 id="虚拟桌面："><a href="#虚拟桌面：" class="headerlink" title="虚拟桌面："></a>虚拟桌面：</h2><blockquote>
-<p>win10的虚拟桌面真是一个好东西，我们可以在不同的桌面做不同的事情，互不干扰。每个人都有自己的隐私，我们可以在桌面1里办公，在桌面2里看电影。在没其他人时，我们就切换到桌面2看看电影，放松放松；在有人的时候，我们再切换到桌面1办公。可将任务分别在不同的桌面运行，从而提高桌面整洁与速度，当一个桌面任务太多时使用第二桌面，第二桌面上的任务不会受到第一桌面的任务干扰，运行速度会提高，第一桌面的任务会被暂时冻结，就和苹果手机一样，后台任务都是 冻结状态直到你切换回后台任务。</p>
-</blockquote>
-<p>打开虚拟桌面的快捷键    win + Tab<br>新建虚拟桌面的快捷键  win + ctrl + D<br>切换虚拟桌面的快捷键    win + ctrl + 左&#x2F;右方向键<br>关闭当前虚拟桌面的快捷键  win + ctrl + F4<br>简单切换：Alt+Tab<br>小视图切换：Ctrl+Alt+Tab</p>
-<h2 id="打开设备管理器："><a href="#打开设备管理器：" class="headerlink" title="打开设备管理器："></a>打开设备管理器：</h2><p>Win+X组合键或右键点击Win10开始按钮即可打开系统快捷菜单，在里面找</p>
-<h2 id="常用快捷键："><a href="#常用快捷键：" class="headerlink" title="常用快捷键："></a>常用快捷键：</h2><p>调出运行对话框    win+r<br>启动剪贴板      win+v<br>返回桌面    esc+ctrl<br>一键返回桌面      win+d<br>撤销操作：Ctrl+z<br>恢复之前所撤销的操作：Ctrl+y<br>快速创建同级界面：Ctrl+n<br>召唤任务管理器：Shift+Ctrl+Esc<br>锁屏：Win+L<br>打开我的电脑：Win+e<br>放大镜：Win++&#x2F;-<br>快速关闭网页：Ctrl+W<br>恢复关闭的网页：Ctrl+Shift+T<br>强制关闭软件和关机：Alt+F4<br>软件透明化：Win+,<br>快速打开任务栏应用：Win+1~9<br>应用程序分屏：Win+&#x2F;一&gt;<br>文件多选：   点击其中一个文件，按Ctrl键依次点击选中</p>
-<h2 id="截图录屏："><a href="#截图录屏：" class="headerlink" title="截图录屏："></a>截图录屏：</h2><p>window系统截图：  Shift+Win+s<br>微信截屏   alt+Awg<br>录屏         Ctrl+alt+S<br>QQ截屏      ctrl+alt+A</p>
-<h2 id="其它："><a href="#其它：" class="headerlink" title="其它："></a>其它：</h2><p>Devi++中代码对齐   Ctrl+shift+a<br>微软Xbox录屏     Win+g</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>oppo手机安装google play</title>
     <url>/2023/03/05/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/oppo%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85google-play/</url>
     <content><![CDATA[<p>个人理解</p>
@@ -927,6 +905,28 @@
       </categories>
       <tags>
         <tag>软件使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用快捷键</title>
+    <url>/2022/12/08/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/windows%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>个人理解</p>
+<span id="more"></span>
+
+<h2 id="虚拟桌面："><a href="#虚拟桌面：" class="headerlink" title="虚拟桌面："></a>虚拟桌面：</h2><blockquote>
+<p>win10的虚拟桌面真是一个好东西，我们可以在不同的桌面做不同的事情，互不干扰。每个人都有自己的隐私，我们可以在桌面1里办公，在桌面2里看电影。在没其他人时，我们就切换到桌面2看看电影，放松放松；在有人的时候，我们再切换到桌面1办公。可将任务分别在不同的桌面运行，从而提高桌面整洁与速度，当一个桌面任务太多时使用第二桌面，第二桌面上的任务不会受到第一桌面的任务干扰，运行速度会提高，第一桌面的任务会被暂时冻结，就和苹果手机一样，后台任务都是 冻结状态直到你切换回后台任务。</p>
+</blockquote>
+<p>打开虚拟桌面的快捷键    win + Tab<br>新建虚拟桌面的快捷键  win + ctrl + D<br>切换虚拟桌面的快捷键    win + ctrl + 左&#x2F;右方向键<br>关闭当前虚拟桌面的快捷键  win + ctrl + F4<br>简单切换：Alt+Tab<br>小视图切换：Ctrl+Alt+Tab</p>
+<h2 id="打开设备管理器："><a href="#打开设备管理器：" class="headerlink" title="打开设备管理器："></a>打开设备管理器：</h2><p>Win+X组合键或右键点击Win10开始按钮即可打开系统快捷菜单，在里面找</p>
+<h2 id="常用快捷键："><a href="#常用快捷键：" class="headerlink" title="常用快捷键："></a>常用快捷键：</h2><p>调出运行对话框    win+r<br>启动剪贴板      win+v<br>返回桌面    esc+ctrl<br>一键返回桌面      win+d<br>撤销操作：Ctrl+z<br>恢复之前所撤销的操作：Ctrl+y<br>快速创建同级界面：Ctrl+n<br>召唤任务管理器：Shift+Ctrl+Esc<br>锁屏：Win+L<br>打开我的电脑：Win+e<br>放大镜：Win++&#x2F;-<br>快速关闭网页：Ctrl+W<br>恢复关闭的网页：Ctrl+Shift+T<br>强制关闭软件和关机：Alt+F4<br>软件透明化：Win+,<br>快速打开任务栏应用：Win+1~9<br>应用程序分屏：Win+&#x2F;一&gt;<br>文件多选：   点击其中一个文件，按Ctrl键依次点击选中</p>
+<h2 id="截图录屏："><a href="#截图录屏：" class="headerlink" title="截图录屏："></a>截图录屏：</h2><p>window系统截图：  Shift+Win+s<br>微信截屏   alt+Awg<br>录屏         Ctrl+alt+S<br>QQ截屏      ctrl+alt+A</p>
+<h2 id="其它："><a href="#其它：" class="headerlink" title="其它："></a>其它：</h2><p>Devi++中代码对齐   Ctrl+shift+a<br>微软Xbox录屏     Win+g</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1001,28 +1001,6 @@
       </tags>
   </entry>
   <entry>
-    <title>浏览器--插件</title>
-    <url>/2023/02/12/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E6%B5%8F%E8%A7%88%E5%99%A8--%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<p>优化体验</p>
-<span id="more"></span>
-
-<h2 id="微软浏览器："><a href="#微软浏览器：" class="headerlink" title="微软浏览器："></a>微软浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212203613.png"></p>
-<h2 id="谷歌浏览器："><a href="#谷歌浏览器：" class="headerlink" title="谷歌浏览器："></a>谷歌浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204719.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204711.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204658.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204920.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204737.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204828.png"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204728.png"></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>电脑初始配置</title>
     <url>/2023/03/13/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E7%94%B5%E8%84%91%E5%88%9D%E5%A7%8B%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<p>个人理解</p>
@@ -1078,6 +1056,28 @@
 ]]></content>
       <categories>
         <category>个人</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浏览器--插件</title>
+    <url>/2023/02/12/%E5%85%B6%E5%AE%83%E6%95%99%E7%A8%8B/%E6%B5%8F%E8%A7%88%E5%99%A8--%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p>优化体验</p>
+<span id="more"></span>
+
+<h2 id="微软浏览器："><a href="#微软浏览器：" class="headerlink" title="微软浏览器："></a>微软浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212203613.png"></p>
+<h2 id="谷歌浏览器："><a href="#谷歌浏览器：" class="headerlink" title="谷歌浏览器："></a>谷歌浏览器：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204719.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204711.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204658.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204920.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204737.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204828.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230212204728.png"></p>
+]]></content>
+      <categories>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>生活</tag>
@@ -1988,6 +1988,46 @@
       </tags>
   </entry>
   <entry>
+    <title>英语作文2</title>
+    <url>/2022/11/29/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%872/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="基本思路："><a href="#基本思路：" class="headerlink" title="基本思路："></a>基本思路：</h2><p>结构模式化，即三段式，每段约三四句话，每句话约十个词，重用过渡句，以保证较少的内容，保证字数等考试要求，从而快速写完作文。</p>
+<h2 id="提纲类模板："><a href="#提纲类模板：" class="headerlink" title="提纲类模板："></a>提纲类模板：</h2><h3 id="现象阐释型："><a href="#现象阐释型：" class="headerlink" title="现象阐释型："></a>现象阐释型：</h3><p>描述现象————说明原因———-表明观点</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b4c5207dd062fabd90a4f34dfe85ad5.jpg"></p>
+<h3 id="问题解决型："><a href="#问题解决型：" class="headerlink" title="问题解决型："></a>问题解决型：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30fd95e4bf8fd2627a4f1cf1492757a.jpg"></p>
+<h3 id="对比选择型："><a href="#对比选择型：" class="headerlink" title="对比选择型："></a>对比选择型：</h3><p>提出说明一种观点———提出说明另一种观点——–做出选择并总结观点</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fa5e0fa6a251489a10708ded6304e7a.jpg"></p>
+<blockquote>
+<p>I am for the former &#x2F; latter choice .</p>
+</blockquote>
+<h3 id="观点论证型："><a href="#观点论证型：" class="headerlink" title="观点论证型："></a>观点论证型：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/42bf360ab8214c4a7781873c6153be4.jpg"></p>
+<h3 id="利弊评述型："><a href="#利弊评述型：" class="headerlink" title="利弊评述型："></a>利弊评述型：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ceec5f50bbc54289c8a5f94b52397f3.jpg"></p>
+<h2 id="图画类模板："><a href="#图画类模板：" class="headerlink" title="图画类模板："></a>图画类模板：</h2><p>图画描述与浅说含义——–意义说明（寓意与原因）———-提建议和措施</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/032fe2e54e019e32791654b4a88a66e.jpg"></p>
+<h2 id="范文1（利弊评述型）："><a href="#范文1（利弊评述型）：" class="headerlink" title="范文1（利弊评述型）："></a>范文1（利弊评述型）：</h2><p>​                                                       Part-time Jobs</p>
+<p>​        With the development of science and technology,part-time jobs  has aroused great concern among people around us ,As a matter of fact ,Different people hold different opinions about it.</p>
+<p>​          Some people believe  part-time jobs has  a good effect on our life,On the one hand, It makes us richer, on the other hand, It can help us get a better understanding of life, What’s more , Part-time  jobs can not only broaden our horizons but also enrich our life experience. As saying goes, Just as every coin has two sides,Other people don’t agree with the above points, For one thing,  Sometimes it can be dangerous to be alone,for another, It may affect our study.</p>
+<p>​           Weighing up there two arguments , I consider that both of the arguments have something reasonable and right ,As far as I am concerned ,I firmly believe that its advantages far outweigh its disadvantages,  Therefore ,As stated above,We should choose it reasonably according to our own conditions ,Only in this way can we make our world a better place.</p>
+<h2 id="范文2（问题解决型）："><a href="#范文2（问题解决型）：" class="headerlink" title="范文2（问题解决型）："></a>范文2（问题解决型）：</h2><p>​                                                      Drunk Driving</p>
+<p>​        There exists a social phenomenon, Which has aroused great concern among people around us,That’s drunk driving. As we all know  , It is important for us to found a safe, polite, and orderly traffic environment. </p>
+<p>​         Therefore, We should take a series of effective measures  to cope with the situation. On the one hand,We should encourage drivers to develop good traffic safety awareness. On the other hand, We should improve public education. What’s more ,we should strengthen legal punishment against drunk driving.</p>
+<p>​          Of course, Following these suggestions may not surely solve the problem, But it is worth trying. As the saying goes, Rome was not built in a day.  As stated above, We should keep in mind that it is everyone’s responsibility to keep ourselves and others safe. Only in this way can we make our world a better place.</p>
+<h2 id="范文3（现象阐述型）："><a href="#范文3（现象阐述型）：" class="headerlink" title="范文3（现象阐述型）："></a>范文3（现象阐述型）：</h2><p>​     There exists a social phenomenon, Which has aroused great concern among people around us,That’s drunk driving. Up  to now  ,It has aroused social discussion form all walks of life.</p>
+<p>​      Why does this phenomenon  take place? There are three basic reasons are responsible for it . On the one hand,Some people are short of the awareness and knowledge about drunk driving ,On the other hand ,The supervision is not powerful enough.</p>
+<p>​       In my opinion, We should take a series of effective measures  to cope with the situation. On the one hand,We should encourage drivers to develop good traffic safety awareness. On the other hand, We should improve public education. What’s more ,we should strengthen legal punishment against drunk driving. Only in this way can we make our world a better place.</p>
+<h2 id="句子："><a href="#句子：" class="headerlink" title="句子："></a>句子：</h2><p>in spite of the fact that …..</p>
+<p>we should pay attention to……</p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语词汇</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>英语作文3</title>
     <url>/2022/11/29/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%873/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -2076,46 +2116,6 @@
 <p>问题解决</p>
 <h2 id="其它："><a href="#其它：" class="headerlink" title="其它："></a>其它：</h2><p>as is shown in the picture .</p>
 <p>紧凑，，圆润，，对齐，，肚子大尾巴小，，微微倾斜</p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语词汇</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语作文2</title>
-    <url>/2022/11/29/%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%872/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="基本思路："><a href="#基本思路：" class="headerlink" title="基本思路："></a>基本思路：</h2><p>结构模式化，即三段式，每段约三四句话，每句话约十个词，重用过渡句，以保证较少的内容，保证字数等考试要求，从而快速写完作文。</p>
-<h2 id="提纲类模板："><a href="#提纲类模板：" class="headerlink" title="提纲类模板："></a>提纲类模板：</h2><h3 id="现象阐释型："><a href="#现象阐释型：" class="headerlink" title="现象阐释型："></a>现象阐释型：</h3><p>描述现象————说明原因———-表明观点</p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b4c5207dd062fabd90a4f34dfe85ad5.jpg"></p>
-<h3 id="问题解决型："><a href="#问题解决型：" class="headerlink" title="问题解决型："></a>问题解决型：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30fd95e4bf8fd2627a4f1cf1492757a.jpg"></p>
-<h3 id="对比选择型："><a href="#对比选择型：" class="headerlink" title="对比选择型："></a>对比选择型：</h3><p>提出说明一种观点———提出说明另一种观点——–做出选择并总结观点</p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fa5e0fa6a251489a10708ded6304e7a.jpg"></p>
-<blockquote>
-<p>I am for the former &#x2F; latter choice .</p>
-</blockquote>
-<h3 id="观点论证型："><a href="#观点论证型：" class="headerlink" title="观点论证型："></a>观点论证型：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/42bf360ab8214c4a7781873c6153be4.jpg"></p>
-<h3 id="利弊评述型："><a href="#利弊评述型：" class="headerlink" title="利弊评述型："></a>利弊评述型：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ceec5f50bbc54289c8a5f94b52397f3.jpg"></p>
-<h2 id="图画类模板："><a href="#图画类模板：" class="headerlink" title="图画类模板："></a>图画类模板：</h2><p>图画描述与浅说含义——–意义说明（寓意与原因）———-提建议和措施</p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/032fe2e54e019e32791654b4a88a66e.jpg"></p>
-<h2 id="范文1（利弊评述型）："><a href="#范文1（利弊评述型）：" class="headerlink" title="范文1（利弊评述型）："></a>范文1（利弊评述型）：</h2><p>​                                                       Part-time Jobs</p>
-<p>​        With the development of science and technology,part-time jobs  has aroused great concern among people around us ,As a matter of fact ,Different people hold different opinions about it.</p>
-<p>​          Some people believe  part-time jobs has  a good effect on our life,On the one hand, It makes us richer, on the other hand, It can help us get a better understanding of life, What’s more , Part-time  jobs can not only broaden our horizons but also enrich our life experience. As saying goes, Just as every coin has two sides,Other people don’t agree with the above points, For one thing,  Sometimes it can be dangerous to be alone,for another, It may affect our study.</p>
-<p>​           Weighing up there two arguments , I consider that both of the arguments have something reasonable and right ,As far as I am concerned ,I firmly believe that its advantages far outweigh its disadvantages,  Therefore ,As stated above,We should choose it reasonably according to our own conditions ,Only in this way can we make our world a better place.</p>
-<h2 id="范文2（问题解决型）："><a href="#范文2（问题解决型）：" class="headerlink" title="范文2（问题解决型）："></a>范文2（问题解决型）：</h2><p>​                                                      Drunk Driving</p>
-<p>​        There exists a social phenomenon, Which has aroused great concern among people around us,That’s drunk driving. As we all know  , It is important for us to found a safe, polite, and orderly traffic environment. </p>
-<p>​         Therefore, We should take a series of effective measures  to cope with the situation. On the one hand,We should encourage drivers to develop good traffic safety awareness. On the other hand, We should improve public education. What’s more ,we should strengthen legal punishment against drunk driving.</p>
-<p>​          Of course, Following these suggestions may not surely solve the problem, But it is worth trying. As the saying goes, Rome was not built in a day.  As stated above, We should keep in mind that it is everyone’s responsibility to keep ourselves and others safe. Only in this way can we make our world a better place.</p>
-<h2 id="范文3（现象阐述型）："><a href="#范文3（现象阐述型）：" class="headerlink" title="范文3（现象阐述型）："></a>范文3（现象阐述型）：</h2><p>​     There exists a social phenomenon, Which has aroused great concern among people around us,That’s drunk driving. Up  to now  ,It has aroused social discussion form all walks of life.</p>
-<p>​      Why does this phenomenon  take place? There are three basic reasons are responsible for it . On the one hand,Some people are short of the awareness and knowledge about drunk driving ,On the other hand ,The supervision is not powerful enough.</p>
-<p>​       In my opinion, We should take a series of effective measures  to cope with the situation. On the one hand,We should encourage drivers to develop good traffic safety awareness. On the other hand, We should improve public education. What’s more ,we should strengthen legal punishment against drunk driving. Only in this way can we make our world a better place.</p>
-<h2 id="句子："><a href="#句子：" class="headerlink" title="句子："></a>句子：</h2><p>in spite of the fact that …..</p>
-<p>we should pay attention to……</p>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -2562,34 +2562,6 @@
       </tags>
   </entry>
   <entry>
-    <title>现在/过去/将来进行时</title>
-    <url>/2022/09/08/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-08-%E8%BF%9B%E8%A1%8C%E6%97%B6/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/72138ef4-d9e7-49e4-af88-4058dd0a0ca3.jpg"></p>
-<h2 id="构成"><a href="#构成" class="headerlink" title="构成:"></a>构成:</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d4d4b063-2bf5-419b-b0c7-21f8d10a1f5d.jpg"></p>
-<h2 id="考点"><a href="#考点" class="headerlink" title="考点:"></a>考点:</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f16e92d8-d8f4-4d10-b1c0-85a53a8a0d3d.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ed8b50ed-5db6-4ca0-92f0-92d6d5eed43e.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f1a454ac-823d-478b-b33d-80bc53dd9b54.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>现在/过去/将来完成时及其它</title>
     <url>/2022/09/09/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-09-%E5%AE%8C%E6%88%90%E6%97%B6/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -2792,6 +2764,91 @@
       </tags>
   </entry>
   <entry>
+    <title>现在/过去/将来进行时</title>
+    <url>/2022/09/08/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-08-%E8%BF%9B%E8%A1%8C%E6%97%B6/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/72138ef4-d9e7-49e4-af88-4058dd0a0ca3.jpg"></p>
+<h2 id="构成"><a href="#构成" class="headerlink" title="构成:"></a>构成:</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d4d4b063-2bf5-419b-b0c7-21f8d10a1f5d.jpg"></p>
+<h2 id="考点"><a href="#考点" class="headerlink" title="考点:"></a>考点:</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f16e92d8-d8f4-4d10-b1c0-85a53a8a0d3d.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ed8b50ed-5db6-4ca0-92f0-92d6d5eed43e.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f1a454ac-823d-478b-b33d-80bc53dd9b54.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>被动语态</title>
+    <url>/2022/09/11/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-11-%E8%A2%AB%E5%8A%A8%E8%AF%AD%E6%80%81/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39373041-8cb5-444b-bb9f-909088932b7a.jpg"></p>
+<h2 id="不同时态的主被动："><a href="#不同时态的主被动：" class="headerlink" title="不同时态的主被动："></a>不同时态的主被动：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1ad0a078-1b18-4184-be47-3210cec7facd.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0364ace2-43fa-4d07-bc43-b933ac9f6afb.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/94f7f559-ae65-4860-8d01-fcec2443dea5.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="情态动词的被动语态："><a href="#情态动词的被动语态：" class="headerlink" title="情态动词的被动语态："></a>情态动词的被动语态：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/03132424-5baf-4bc9-8d7a-61992abcd449.png" style="zoom:150%;" />
+
+<h2 id="无被动的情况："><a href="#无被动的情况：" class="headerlink" title="无被动的情况："></a>无被动的情况：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7264d256-dd6b-4a8d-a2ed-62d3306ebe98.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0da5a158-e9fa-4403-a086-c7dad009b82d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e438a612-578c-44bf-b413-70c9ee43b6d0.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4ae308e8-691a-4853-a953-b175be93f91c.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/61f45f08-fa59-402f-89bf-1c551471202a.png" style="zoom:150%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c34b8c97-82ab-45a7-b0d1-ec62244d87b2.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="主动表被动："><a href="#主动表被动：" class="headerlink" title="主动表被动："></a>主动表被动：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f7a771d6-6e1f-41b6-91bf-9721f20e801a.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7dd6a923-e63a-4d70-9a55-4d633b6c12f6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b4f29303-62ee-491e-bd1c-3c93b4993036.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>倒装</title>
     <url>/2022/09/12/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-12-%E5%80%92%E8%A3%85/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -2870,63 +2927,6 @@
 <blockquote>
 <p>第一个结构中，除了助动词外，be动词，情态动词也行</p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>被动语态</title>
-    <url>/2022/09/11/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-11-%E8%A2%AB%E5%8A%A8%E8%AF%AD%E6%80%81/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39373041-8cb5-444b-bb9f-909088932b7a.jpg"></p>
-<h2 id="不同时态的主被动："><a href="#不同时态的主被动：" class="headerlink" title="不同时态的主被动："></a>不同时态的主被动：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1ad0a078-1b18-4184-be47-3210cec7facd.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0364ace2-43fa-4d07-bc43-b933ac9f6afb.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/94f7f559-ae65-4860-8d01-fcec2443dea5.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="情态动词的被动语态："><a href="#情态动词的被动语态：" class="headerlink" title="情态动词的被动语态："></a>情态动词的被动语态：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/03132424-5baf-4bc9-8d7a-61992abcd449.png" style="zoom:150%;" />
-
-<h2 id="无被动的情况："><a href="#无被动的情况：" class="headerlink" title="无被动的情况："></a>无被动的情况：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7264d256-dd6b-4a8d-a2ed-62d3306ebe98.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0da5a158-e9fa-4403-a086-c7dad009b82d.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e438a612-578c-44bf-b413-70c9ee43b6d0.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4ae308e8-691a-4853-a953-b175be93f91c.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/61f45f08-fa59-402f-89bf-1c551471202a.png" style="zoom:150%;" /></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c34b8c97-82ab-45a7-b0d1-ec62244d87b2.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="主动表被动："><a href="#主动表被动：" class="headerlink" title="主动表被动："></a>主动表被动：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f7a771d6-6e1f-41b6-91bf-9721f20e801a.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7dd6a923-e63a-4d70-9a55-4d633b6c12f6.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b4f29303-62ee-491e-bd1c-3c93b4993036.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -3203,6 +3203,72 @@
       </tags>
   </entry>
   <entry>
+    <title>定语从句</title>
+    <url>/2022/09/15/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-15-%E5%AE%9A%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e26b1ad3-2d23-4ebd-b972-6fa4b6b41824.png" style="zoom:200%;" />
+
+<h2 id="关系词："><a href="#关系词：" class="headerlink" title="关系词："></a>关系词：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fe7ef94a-18ce-4805-99d7-0a268e788aad.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dfa1535d-cdb4-4d4b-b7a1-99be140e4017.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ce50676-2b67-4d12-bbe2-25ffa0346ea0.png" style="zoom:200%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/35fde886-9eb3-4afa-a8ce-d89c632a6323.jpg"></td>
+</tr>
+</tbody></table>
+<p>判断从句缺不缺宾语，就在从句后加sth&#x2F;sb看合不合适。及物动词表示缺，不及物动词表示不缺。</p>
+<h2 id="定语从句分类："><a href="#定语从句分类：" class="headerlink" title="定语从句分类："></a>定语从句分类：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b645a793-67cd-42a2-a425-7fd7ad604c47.jpg"></p>
+<h2 id="关系词的特殊用法："><a href="#关系词的特殊用法：" class="headerlink" title="关系词的特殊用法："></a>关系词的特殊用法：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/79b62b41-807a-498f-9f94-13982b16b35b.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c231ddab-fa90-4429-925f-a5bc24ce6892.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/97964ddd-dd24-4cb1-a101-bb79ecef5a37.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e25f1069-700e-4906-8dca-3e902bdb8721.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7979f2fa-1395-43c3-9a5d-35f2d446ec80.png" style="zoom:150%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b859e3f9-8f70-468a-a419-f61a6d19ac08.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30f2ff1d-70aa-4692-b70f-6b830298677e.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f342e274-07f6-44e3-8890-7effcf1b35c1.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af0719e1-d79d-474d-9751-6f7a8ec061ab.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f6ac8829-c66b-48da-ab1d-78251d1b9d6f.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71c03f50-b9cb-46c2-aa2b-85cb46e33d55.png" style="zoom:200%;" /></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ffd137f8-08a5-43b5-984e-ff135db35e0f.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="定从中的特殊用法："><a href="#定从中的特殊用法：" class="headerlink" title="定从中的特殊用法："></a>定从中的特殊用法：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/06740ade-8224-4c14-968c-9a86c2763e8d.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a7d64687-3ffd-40b7-9f5c-72033ab0ea23.jpg"></th>
+</tr>
+</thead>
+</table>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>名词性从句</title>
     <url>/2022/09/16/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-16-%E5%90%8D%E8%AF%8D%E6%80%A7%E4%BB%8E%E5%8F%A5/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -3278,72 +3344,6 @@
 <blockquote>
 <p>补充：suggestion 建议</p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>定语从句</title>
-    <url>/2022/09/15/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-15-%E5%AE%9A%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e26b1ad3-2d23-4ebd-b972-6fa4b6b41824.png" style="zoom:200%;" />
-
-<h2 id="关系词："><a href="#关系词：" class="headerlink" title="关系词："></a>关系词：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fe7ef94a-18ce-4805-99d7-0a268e788aad.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/dfa1535d-cdb4-4d4b-b7a1-99be140e4017.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3ce50676-2b67-4d12-bbe2-25ffa0346ea0.png" style="zoom:200%;" /></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/35fde886-9eb3-4afa-a8ce-d89c632a6323.jpg"></td>
-</tr>
-</tbody></table>
-<p>判断从句缺不缺宾语，就在从句后加sth&#x2F;sb看合不合适。及物动词表示缺，不及物动词表示不缺。</p>
-<h2 id="定语从句分类："><a href="#定语从句分类：" class="headerlink" title="定语从句分类："></a>定语从句分类：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b645a793-67cd-42a2-a425-7fd7ad604c47.jpg"></p>
-<h2 id="关系词的特殊用法："><a href="#关系词的特殊用法：" class="headerlink" title="关系词的特殊用法："></a>关系词的特殊用法：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/79b62b41-807a-498f-9f94-13982b16b35b.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c231ddab-fa90-4429-925f-a5bc24ce6892.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/97964ddd-dd24-4cb1-a101-bb79ecef5a37.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e25f1069-700e-4906-8dca-3e902bdb8721.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7979f2fa-1395-43c3-9a5d-35f2d446ec80.png" style="zoom:150%;" /></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b859e3f9-8f70-468a-a419-f61a6d19ac08.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/30f2ff1d-70aa-4692-b70f-6b830298677e.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f342e274-07f6-44e3-8890-7effcf1b35c1.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af0719e1-d79d-474d-9751-6f7a8ec061ab.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f6ac8829-c66b-48da-ab1d-78251d1b9d6f.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/71c03f50-b9cb-46c2-aa2b-85cb46e33d55.png" style="zoom:200%;" /></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ffd137f8-08a5-43b5-984e-ff135db35e0f.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="定从中的特殊用法："><a href="#定从中的特殊用法：" class="headerlink" title="定从中的特殊用法："></a>定从中的特殊用法：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/06740ade-8224-4c14-968c-9a86c2763e8d.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a7d64687-3ffd-40b7-9f5c-72033ab0ea23.jpg"></th>
-</tr>
-</thead>
-</table>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -3429,6 +3429,39 @@
       </tags>
   </entry>
   <entry>
+    <title>主谓一致</title>
+    <url>/2022/09/19/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-19-%E4%B8%BB%E8%B0%93%E4%B8%80%E8%87%B4/</url>
+    <content><![CDATA[<p>我的英语专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="三个原则："><a href="#三个原则：" class="headerlink" title="三个原则："></a>三个原则：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5cbca65237d8cf44259fc6f12b4453b.jpg"></p>
+<h2 id="单一主语："><a href="#单一主语：" class="headerlink" title="单一主语："></a>单一主语：</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c5097304ab57511ebb1ead5b4d1ccd1.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ed3d5d32c540279ff840f1b436519f1.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2bf70b96232250303415ef76850e5f5.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cc164d5e054316abc03adb0fefc17e1.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3b277c0e239dec422f343a3a153744b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/77874f8e9c963f53528e80c1d52dfc6.jpg"></td>
+</tr>
+</tbody></table>
+<h2 id="并列结构作主语："><a href="#并列结构作主语：" class="headerlink" title="并列结构作主语："></a>并列结构作主语：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/da3bfa42d784f5b41eaba8cedff7609.jpg"></p>
+<h2 id="其它情况："><a href="#其它情况：" class="headerlink" title="其它情况："></a>其它情况：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e3d5d9fb0c771cb3dd0333bb72d0d0.jpg"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>反意疑问句</title>
     <url>/2022/09/18/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-18-%E5%8F%8D%E6%84%8F%E7%96%91%E9%97%AE%E5%8F%A5/</url>
     <content><![CDATA[<p>我的英语专升本笔记</p>
@@ -3487,39 +3520,6 @@
 </tr>
 </thead>
 </table>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>主谓一致</title>
-    <url>/2022/09/19/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/2022-09-19-%E4%B8%BB%E8%B0%93%E4%B8%80%E8%87%B4/</url>
-    <content><![CDATA[<p>我的英语专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="三个原则："><a href="#三个原则：" class="headerlink" title="三个原则："></a>三个原则：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5cbca65237d8cf44259fc6f12b4453b.jpg"></p>
-<h2 id="单一主语："><a href="#单一主语：" class="headerlink" title="单一主语："></a>单一主语：</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c5097304ab57511ebb1ead5b4d1ccd1.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/ed3d5d32c540279ff840f1b436519f1.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2bf70b96232250303415ef76850e5f5.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cc164d5e054316abc03adb0fefc17e1.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/3b277c0e239dec422f343a3a153744b.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/77874f8e9c963f53528e80c1d52dfc6.jpg"></td>
-</tr>
-</tbody></table>
-<h2 id="并列结构作主语："><a href="#并列结构作主语：" class="headerlink" title="并列结构作主语："></a>并列结构作主语：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/da3bfa42d784f5b41eaba8cedff7609.jpg"></p>
-<h2 id="其它情况："><a href="#其它情况：" class="headerlink" title="其它情况："></a>其它情况：</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/5e3d5d9fb0c771cb3dd0333bb72d0d0.jpg"></p>
 ]]></content>
       <categories>
         <category>英语</category>
@@ -3925,6 +3925,158 @@
       </tags>
   </entry>
   <entry>
+    <title>不定积分</title>
+    <url>/2022/10/05/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-05-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><blockquote>
+<p>求不定积分，本质就是求导的逆运算</p>
+</blockquote>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bc008a42056d0119a9fc7f00802b127.jpg"></p>
+<h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><ol>
+<li><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b792f9ce7d8a8a353e143b8cd993391.jpg"></li>
+</ol>
+<p>2.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/31ba77ad24474946a7c8fff319cbf06.jpg"></p>
+<p>3.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/025a359f64e6ea4a7cfaae60bd7eda1.jpg"></p>
+<p>4.判断俩个函数的原函数是否相同？</p>
+<p>法一：求导，求导结果一样即为相同；</p>
+<p>法二：作差，作差结果为常数即为相同。</p>
+<h2 id="不定积分性质和基本积分公式及常见凑微分"><a href="#不定积分性质和基本积分公式及常见凑微分" class="headerlink" title="不定积分性质和基本积分公式及常见凑微分"></a>不定积分性质和基本积分公式及常见凑微分</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/954a516c63f3f8e6160a5d5cde4906e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8711e4bfc6742960b7cf3f30137863.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af1df8f60b29e1a236f5fe391aaffe0.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/50c3190a50711f3cf5034a5b05cd84f.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6ee0427fafbf0f14f2a4a07b2583eb5.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>注：1、数学中的sec即secant，正割的意思，其英式读法是[‘siːkənt]；美式读法是[‘siːkənt]。</p>
+<p>2、csc就是cosecant，余割的意思，其英式读法是[‘kəʊ’siːkənt]；美式读法是[‘koʊ’siːkənt]。 </p>
+<p>3、sin全拼是sine，正弦，其英式读法是[saɪn]；美式读法是[saɪn]。　</p>
+<p>4、cos全拼是cosine，余弦，其英式读法是[‘kəʊsaɪn]；美式读法是[‘koʊsaɪn]。</p>
+<p>5、cot全拼是cotangent，余切，其英式读法是[‘kəʊ’tændʒənt]；美式读法是[‘koʊ’tændʒənt]。</p>
+<p>6、tan全拼是tangent，正切，其英式读法是[‘tændʒənt]；美式读法是[‘tændʒənt]。</p>
+<hr>
+<h2 id="分部积分的U，v排列规则和公式"><a href="#分部积分的U，v排列规则和公式" class="headerlink" title="分部积分的U，v排列规则和公式"></a>分部积分的U，v排列规则和公式</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39d133def165327909710c609e26944.jpg"></p>
+<h2 id="三角代换公式"><a href="#三角代换公式" class="headerlink" title="三角代换公式"></a>三角代换公式</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/51a16e478fbe2c96a915c650f5e84d5.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/86f0e3ad962a6652e2d154a343cb026.jpg"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="example—第一类换元法"><a href="#example—第一类换元法" class="headerlink" title="example—第一类换元法"></a>example—第一类换元法</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32cff5b2d4861d29508c0b892e92210.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6034b162110c5ee20d5388d6a4063ca.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f3653bbf3c9bc0cfdf8354f7430560b.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a5e7d8e312df927517b2af996bb82f2.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/85bd2753e328484624601d4a7d4aaa3.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7480c55dd6291316e431eb01c9f8ea6.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7257275708c3585eb152681c0ad2fbe.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e60dbd90d494bb1563b8a2b4f6fe000.jpg"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d284eb36e5906bc643b7cd7bf910620.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/190cdca8bd6fa40cadd600bbc2f36b6.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c11d177d9bc13e7f37ad4c2ec6a627.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f58012e7f36cf76c9426ca9ae0e92e.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/47e4b5cf91bbeaa26895ca5d86c8a18.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5b2cc1bc8ca5b8a4b67a73d2d7f454.jpg"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="example—第二类换元法"><a href="#example—第二类换元法" class="headerlink" title="example—第二类换元法"></a>example—第二类换元法</h2><blockquote>
+<p>第二类换元去根号，不见平方直接套，见到平方用三角</p>
+</blockquote>
+<h3 id="凑法："><a href="#凑法：" class="headerlink" title="凑法："></a>凑法：</h3><ol>
+<li>无理函数化为有理函数</li>
+<li>倒代换(倒着的三角形更容易被打破)</li>
+<li>三角代换</li>
+</ol>
+<h3 id="适用情况"><a href="#适用情况" class="headerlink" title="适用情况"></a>适用情况</h3><ul>
+<li>根号下x的一次方，一般用1</li>
+<li>x的二次方，一般用3</li>
+</ul>
+<blockquote>
+<p>一般先令式子的一部分为t,再由t求出x的等价式</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/866594b5c4e312ad05f76abcece15f8.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d883bcfd69c360c57fa1406079c336d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7dfefe8272194c7728e1180fe5df4fd.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0c25f374b8e87851eb8f75ecd1b9b71.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/48bcf68d6ffcd7f67252998070a8f44.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2021906e41b00fcf1953a721e6a61cc.jpg"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/87bbf58271fbb3cecdc98b52acbd0e3.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/78605b6f1f1b3087b18fef0b849308d.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be40194fa6f0d3a9946ec0434764cfb.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f2e691984fc89947908ad4a503453b.jpg"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="example—分部积分法"><a href="#example—分部积分法" class="headerlink" title="example—分部积分法"></a>example—分部积分法</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db1dcf5927e1e937f50543a455434c0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/317c115ae82658250e90e249f2506f2.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f4985cfba19bf842011af2bfb9f8617.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9ba4793ae15a497c552d83bc396c30b.jpg"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>导数</title>
     <url>/2022/10/04/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-04-%E5%AF%BC%E6%95%B0/</url>
     <content><![CDATA[<p>我的数学专升本笔记</p>
@@ -4112,158 +4264,6 @@
 </tr>
 </thead>
 </table>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>高等数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不定积分</title>
-    <url>/2022/10/05/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-05-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<p>我的数学专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><blockquote>
-<p>求不定积分，本质就是求导的逆运算</p>
-</blockquote>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bc008a42056d0119a9fc7f00802b127.jpg"></p>
-<h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><ol>
-<li><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b792f9ce7d8a8a353e143b8cd993391.jpg"></li>
-</ol>
-<p>2.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/31ba77ad24474946a7c8fff319cbf06.jpg"></p>
-<p>3.<img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/025a359f64e6ea4a7cfaae60bd7eda1.jpg"></p>
-<p>4.判断俩个函数的原函数是否相同？</p>
-<p>法一：求导，求导结果一样即为相同；</p>
-<p>法二：作差，作差结果为常数即为相同。</p>
-<h2 id="不定积分性质和基本积分公式及常见凑微分"><a href="#不定积分性质和基本积分公式及常见凑微分" class="headerlink" title="不定积分性质和基本积分公式及常见凑微分"></a>不定积分性质和基本积分公式及常见凑微分</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/954a516c63f3f8e6160a5d5cde4906e.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a8711e4bfc6742960b7cf3f30137863.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/af1df8f60b29e1a236f5fe391aaffe0.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/50c3190a50711f3cf5034a5b05cd84f.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6ee0427fafbf0f14f2a4a07b2583eb5.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>注：1、数学中的sec即secant，正割的意思，其英式读法是[‘siːkənt]；美式读法是[‘siːkənt]。</p>
-<p>2、csc就是cosecant，余割的意思，其英式读法是[‘kəʊ’siːkənt]；美式读法是[‘koʊ’siːkənt]。 </p>
-<p>3、sin全拼是sine，正弦，其英式读法是[saɪn]；美式读法是[saɪn]。　</p>
-<p>4、cos全拼是cosine，余弦，其英式读法是[‘kəʊsaɪn]；美式读法是[‘koʊsaɪn]。</p>
-<p>5、cot全拼是cotangent，余切，其英式读法是[‘kəʊ’tændʒənt]；美式读法是[‘koʊ’tændʒənt]。</p>
-<p>6、tan全拼是tangent，正切，其英式读法是[‘tændʒənt]；美式读法是[‘tændʒənt]。</p>
-<hr>
-<h2 id="分部积分的U，v排列规则和公式"><a href="#分部积分的U，v排列规则和公式" class="headerlink" title="分部积分的U，v排列规则和公式"></a>分部积分的U，v排列规则和公式</h2><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/39d133def165327909710c609e26944.jpg"></p>
-<h2 id="三角代换公式"><a href="#三角代换公式" class="headerlink" title="三角代换公式"></a>三角代换公式</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/51a16e478fbe2c96a915c650f5e84d5.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/86f0e3ad962a6652e2d154a343cb026.jpg"></th>
-</tr>
-</thead>
-</table>
-<hr>
-<h2 id="example—第一类换元法"><a href="#example—第一类换元法" class="headerlink" title="example—第一类换元法"></a>example—第一类换元法</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/32cff5b2d4861d29508c0b892e92210.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6034b162110c5ee20d5388d6a4063ca.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f3653bbf3c9bc0cfdf8354f7430560b.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/a5e7d8e312df927517b2af996bb82f2.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/85bd2753e328484624601d4a7d4aaa3.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7480c55dd6291316e431eb01c9f8ea6.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7257275708c3585eb152681c0ad2fbe.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e60dbd90d494bb1563b8a2b4f6fe000.jpg"></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d284eb36e5906bc643b7cd7bf910620.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/190cdca8bd6fa40cadd600bbc2f36b6.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c11d177d9bc13e7f37ad4c2ec6a627.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9f58012e7f36cf76c9426ca9ae0e92e.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/47e4b5cf91bbeaa26895ca5d86c8a18.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d5b2cc1bc8ca5b8a4b67a73d2d7f454.jpg"></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="example—第二类换元法"><a href="#example—第二类换元法" class="headerlink" title="example—第二类换元法"></a>example—第二类换元法</h2><blockquote>
-<p>第二类换元去根号，不见平方直接套，见到平方用三角</p>
-</blockquote>
-<h3 id="凑法："><a href="#凑法：" class="headerlink" title="凑法："></a>凑法：</h3><ol>
-<li>无理函数化为有理函数</li>
-<li>倒代换(倒着的三角形更容易被打破)</li>
-<li>三角代换</li>
-</ol>
-<h3 id="适用情况"><a href="#适用情况" class="headerlink" title="适用情况"></a>适用情况</h3><ul>
-<li>根号下x的一次方，一般用1</li>
-<li>x的二次方，一般用3</li>
-</ul>
-<blockquote>
-<p>一般先令式子的一部分为t,再由t求出x的等价式</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/866594b5c4e312ad05f76abcece15f8.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d883bcfd69c360c57fa1406079c336d.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/7dfefe8272194c7728e1180fe5df4fd.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0c25f374b8e87851eb8f75ecd1b9b71.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/48bcf68d6ffcd7f67252998070a8f44.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2021906e41b00fcf1953a721e6a61cc.jpg"></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/87bbf58271fbb3cecdc98b52acbd0e3.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/78605b6f1f1b3087b18fef0b849308d.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be40194fa6f0d3a9946ec0434764cfb.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1f2e691984fc89947908ad4a503453b.jpg"></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="example—分部积分法"><a href="#example—分部积分法" class="headerlink" title="example—分部积分法"></a>example—分部积分法</h2><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/db1dcf5927e1e937f50543a455434c0.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/317c115ae82658250e90e249f2506f2.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f4985cfba19bf842011af2bfb9f8617.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9ba4793ae15a497c552d83bc396c30b.jpg"></td>
-</tr>
-</tbody></table>
 ]]></content>
       <categories>
         <category>数学</category>
@@ -4816,6 +4816,129 @@
       </tags>
   </entry>
   <entry>
+    <title>微分方程</title>
+    <url>/2022/10/11/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-11-%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<p>我的数学专升本笔记</p>
+<span id="more"></span>
+
+<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><blockquote>
+<p>微分方程就是含导数和微分的方程</p>
+</blockquote>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c4aacec7daff3f389896e9f4fbbcc1.jpg"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/73ecf306ef594f89b13440069408d4f.jpg"></p>
+<blockquote>
+<p>公式仅针对线性（线性符合在一个地方一次只能出现一个y及其导数）</p>
+</blockquote>
+<h2 id="求一阶微分方程的通解："><a href="#求一阶微分方程的通解：" class="headerlink" title="求一阶微分方程的通解："></a>求一阶微分方程的通解：</h2><h3 id="一阶线性齐次-x2F-可分离变量："><a href="#一阶线性齐次-x2F-可分离变量：" class="headerlink" title="一阶线性齐次&#x2F;可分离变量："></a>一阶线性齐次&#x2F;可分离变量：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b43893312dc880ac9a936a5c497e0f8.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/51e6c590be0a8fa900cf8f569ed0b9b.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/09dbd1a52359aa99eac2173b24c7a33.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e3c7d5f244b00bd81f100471dbdb45c.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f4260e2b571c742fce3ba9aff72315d.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b869202a711f3d8fa694bfd4d257190.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bdd36f848adfc2ece9d4543cd3235bd.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="一阶线性非齐次："><a href="#一阶线性非齐次：" class="headerlink" title="一阶线性非齐次："></a>一阶线性非齐次：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/977cb2d6b0ca4ec9380ca35dbff0be0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0131ed51a045af9ba3ce4ed80a49de7.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c45ff21aa65e7bf3bc83aaca07f430d.jpg"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="一阶齐次："><a href="#一阶齐次：" class="headerlink" title="一阶齐次："></a>一阶齐次：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/77c56c78300d82a9e3f9e6d397381cd.jpg"></p>
+<h2 id="二阶微分方程求通解："><a href="#二阶微分方程求通解：" class="headerlink" title="二阶微分方程求通解："></a>二阶微分方程求通解：</h2><h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/07b0824fe80cecc8d3f0fca345d878e.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/52edf1d983c6b0fff4989883d1b5a16.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="二阶常系数齐次线性微分方程求通解："><a href="#二阶常系数齐次线性微分方程求通解：" class="headerlink" title="二阶常系数齐次线性微分方程求通解："></a>二阶常系数齐次线性微分方程求通解：</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb2f60725335337e124d80180676dc7.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d128fc61e048b1595b980960621d667.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf4a600938093d4dd1313c75398a179.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/21a5f55b5be5290c8fd0cb37c7a711d.jpg"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="二阶常系数非齐次线性微分方程求通解："><a href="#二阶常系数非齐次线性微分方程求通解：" class="headerlink" title="二阶常系数非齐次线性微分方程求通解："></a>二阶常系数非齐次线性微分方程求通解：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2b3e7898aa10fec2329a95221bcecac.jpg"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fa732d1f050c9039fa132d3d84d791d.jpg"></p>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bbe79fe45a8d73fdb3b88546381add0.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/23d1851e9351c3a8d98e1a333258ff6.jpg"></th>
+</tr>
+</thead>
+</table>
+<table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/477e7e1828f81b6a00dc519ba6bad9d.jpg"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bdd36f848adfc2ece9d4543cd3235bd.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9e41272cb753558d588491c5bdf2918.jpg"></td>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1cb3d04ebf0c859a0ddaaf4bfef0788.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d8a4a407232b43a8b640dfcdaa82b27.jpg"></td>
+<td></td>
+</tr>
+</tbody></table>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be1e1c440bdfb5d1859289a34f8c7de.jpg"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6c0ecf9ec43f933dc603c84def2adcd.jpg"></p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无穷级数</title>
     <url>/2022/10/12/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-12-%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
     <content><![CDATA[<p>我的数学专升本笔记</p>
@@ -5116,129 +5239,6 @@
 <td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/4dd9a8af4b3205880ef98fe968664bd.jpg"></td>
 </tr>
 </tbody></table>
-]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>高等数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微分方程</title>
-    <url>/2022/10/11/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/2022-10-11-%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<p>我的数学专升本笔记</p>
-<span id="more"></span>
-
-<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><blockquote>
-<p>微分方程就是含导数和微分的方程</p>
-</blockquote>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1c4aacec7daff3f389896e9f4fbbcc1.jpg"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/73ecf306ef594f89b13440069408d4f.jpg"></p>
-<blockquote>
-<p>公式仅针对线性（线性符合在一个地方一次只能出现一个y及其导数）</p>
-</blockquote>
-<h2 id="求一阶微分方程的通解："><a href="#求一阶微分方程的通解：" class="headerlink" title="求一阶微分方程的通解："></a>求一阶微分方程的通解：</h2><h3 id="一阶线性齐次-x2F-可分离变量："><a href="#一阶线性齐次-x2F-可分离变量：" class="headerlink" title="一阶线性齐次&#x2F;可分离变量："></a>一阶线性齐次&#x2F;可分离变量：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b43893312dc880ac9a936a5c497e0f8.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/51e6c590be0a8fa900cf8f569ed0b9b.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/09dbd1a52359aa99eac2173b24c7a33.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/e3c7d5f244b00bd81f100471dbdb45c.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/f4260e2b571c742fce3ba9aff72315d.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/b869202a711f3d8fa694bfd4d257190.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bdd36f848adfc2ece9d4543cd3235bd.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="一阶线性非齐次："><a href="#一阶线性非齐次：" class="headerlink" title="一阶线性非齐次："></a>一阶线性非齐次：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/977cb2d6b0ca4ec9380ca35dbff0be0.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/0131ed51a045af9ba3ce4ed80a49de7.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/c45ff21aa65e7bf3bc83aaca07f430d.jpg"></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="一阶齐次："><a href="#一阶齐次：" class="headerlink" title="一阶齐次："></a>一阶齐次：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/77c56c78300d82a9e3f9e6d397381cd.jpg"></p>
-<h2 id="二阶微分方程求通解："><a href="#二阶微分方程求通解：" class="headerlink" title="二阶微分方程求通解："></a>二阶微分方程求通解：</h2><h3 id="性质："><a href="#性质：" class="headerlink" title="性质："></a>性质：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/07b0824fe80cecc8d3f0fca345d878e.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/52edf1d983c6b0fff4989883d1b5a16.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="二阶常系数齐次线性微分方程求通解："><a href="#二阶常系数齐次线性微分方程求通解：" class="headerlink" title="二阶常系数齐次线性微分方程求通解："></a>二阶常系数齐次线性微分方程求通解：</h3><table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bb2f60725335337e124d80180676dc7.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d128fc61e048b1595b980960621d667.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/cf4a600938093d4dd1313c75398a179.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/21a5f55b5be5290c8fd0cb37c7a711d.jpg"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="二阶常系数非齐次线性微分方程求通解："><a href="#二阶常系数非齐次线性微分方程求通解：" class="headerlink" title="二阶常系数非齐次线性微分方程求通解："></a>二阶常系数非齐次线性微分方程求通解：</h3><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/2b3e7898aa10fec2329a95221bcecac.jpg"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/fa732d1f050c9039fa132d3d84d791d.jpg"></p>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bbe79fe45a8d73fdb3b88546381add0.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/23d1851e9351c3a8d98e1a333258ff6.jpg"></th>
-</tr>
-</thead>
-</table>
-<table>
-<thead>
-<tr>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/477e7e1828f81b6a00dc519ba6bad9d.jpg"></th>
-<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/bdd36f848adfc2ece9d4543cd3235bd.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/9e41272cb753558d588491c5bdf2918.jpg"></td>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/1cb3d04ebf0c859a0ddaaf4bfef0788.jpg"></td>
-</tr>
-<tr>
-<td><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d8a4a407232b43a8b640dfcdaa82b27.jpg"></td>
-<td></td>
-</tr>
-</tbody></table>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/be1e1c440bdfb5d1859289a34f8c7de.jpg"></p>
-<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/6c0ecf9ec43f933dc603c84def2adcd.jpg"></p>
 ]]></content>
       <categories>
         <category>数学</category>
