@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="python的课程笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="文件及模块操作">
+<meta property="og:url" content="https://cunko.github.io/2023/05/06/python%E7%90%86%E8%AE%BA/2023-05-06-%E6%96%87%E4%BB%B6%E5%8F%8A%E6%A8%A1%E5%9D%97%E6%93%8D%E4%BD%9C/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="python的课程笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506130246.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506130326.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152544.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152600.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152319.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152304.png">
+<meta property="article:published_time" content="2023-05-06T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-05-06T07:30:27.767Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="python理论">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506130246.png">
+
+<link rel="canonical" href="https://cunko.github.io/2023/05/06/python%E7%90%86%E8%AE%BA/2023-05-06-%E6%96%87%E4%BB%B6%E5%8F%8A%E6%A8%A1%E5%9D%97%E6%93%8D%E4%BD%9C/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>文件及模块操作 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2023/05/06/python%E7%90%86%E8%AE%BA/2023-05-06-%E6%96%87%E4%BB%B6%E5%8F%8A%E6%A8%A1%E5%9D%97%E6%93%8D%E4%BD%9C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          文件及模块操作
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-05-06 15:31:06 / 修改时间：15:30:27" itemprop="dateCreated datePublished" datetime="2023-05-06T15:31:06+08:00">2023-05-06</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>python的课程笔记</p>
+<span id="more"></span>
+
+<p>我们之前编写代码都是用变量接收存储数据，但是变量是存在于运行内存中的，程序结束变量就被释放掉了。现在要想把程序运行的结果永久保存下来该怎么办呢？于是我们要把数据保存到<strong>文件</strong>之中。</p>
+<h2 id="文件操作有哪些？"><a href="#文件操作有哪些？" class="headerlink" title="文件操作有哪些？"></a>文件操作有哪些？</h2><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506130246.png"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506130326.png"></th>
+</tr>
+</thead>
+</table>
+<h2 id="具体如何操作文件"><a href="#具体如何操作文件" class="headerlink" title="具体如何操作文件"></a>具体如何操作文件</h2><h3 id="文件的打开："><a href="#文件的打开：" class="headerlink" title="文件的打开："></a>文件的打开：</h3><p>open()函数语法</p>
+<p>f &#x3D; open(文件路径, 操作模式, 编码方式)<br>文件路径：<br>        相对路径：test15<br>        绝对路径：D:\LiuMupy\cls15\09文件与模块\test15.txt<br>        复制绝对路径：右击文件名—&gt;copy–&gt; Absolute Path</p>
+<p> 编码方式： encoding&#x3D;”utf-8”  指定编码方式</p>
+<p>操作模式：</p>
+<p>r   只读模式<br>    不存在则报错<br>    存在则打开</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># f = open(&quot;test15.txt&quot;, mode=&quot;r&quot;, encoding=&quot;utf-8&quot;)</span><br><span class="line"># # data = f.read()  # 读取并返回所有文件内容</span><br><span class="line"># # data = f.readline()  # 读取并返回单行内容</span><br><span class="line"># data = f.readlines()  # 去读多行并使用列表形式进行返回，换行使用\n表示</span><br><span class="line"># print(data)</span><br></pre></td></tr></table></figure>
+
+<p>w 只写模式  覆盖写入<br>    不存在则新建<br>    存在则打开</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># f = open(&quot;test15_2.txt&quot;, &quot;r&quot;)</span><br><span class="line"># f = open(&quot;test15_2.txt&quot;, &quot;w&quot;, encoding=&quot;utf-8&quot;)</span><br><span class="line"># f.write(&quot;小鲸鱼&quot;)</span><br><span class="line"># f.writelines([&quot;子良\n&quot;, &quot;常在&quot;, &quot;老蒋&quot;])  # 写入多条， 换行需要手动添加换行符\n</span><br><span class="line"># print(f.writable())  # 判断文件是否可写</span><br><span class="line"># print(f.readable())  # 判断文件是否可读</span><br></pre></td></tr></table></figure>
+
+<p>a 追加写入<br>    写入方式与w一致<br>    不会覆盖原来的数据</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># f = open(&quot;test15_2.txt&quot;, &quot;a&quot;, encoding=&quot;utf-8&quot;)</span><br><span class="line"># f.writelines([&quot;子良\n&quot;, &quot;常在&quot;, &quot;老蒋&quot;])</span><br><span class="line"># f.write(&quot;\n搞钱小秘书&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>+模式<br>  在原来的模式上面添加新的 r 或者 w 功能<br>  r+  在读取的基础上增加写入<br>  w+  在写入的基础上增加读取   (覆盖写入)<br>  a+  在写入的基础上增加读取   (追加写入)<br>谁在前面就以谁为主</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># f = open(&quot;test15_3.txt&quot;, &quot;r+&quot;)  # 先判断 r ，不存在，报错</span><br><span class="line"># f = open(&quot;test15_3.txt&quot;, &quot;w+&quot;)  # 先判断 w ，不存在，新建</span><br><span class="line"># print(f.readable())</span><br><span class="line"># print(f.writable())</span><br></pre></td></tr></table></figure>
+
+<p>读取图片<br>rb<br>图片、音频、视频等在计算机中存储为二进制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># f = open(&quot;JIaYou.gif&quot;, &quot;rb&quot;)</span><br><span class="line"># print(f.read())</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="文件的读取："><a href="#文件的读取：" class="headerlink" title="文件的读取："></a>文件的读取：</h3><p>data &#x3D; f.read()  # 读取并返回所有文件内容</p>
+<p>data &#x3D; f.readline()  # 读取并返回单行内容</p>
+<p>data &#x3D; f.readlines()  # 去读多行并使用列表形式进行返回，换行使用\n表示</p>
+<h3 id="文件的写入："><a href="#文件的写入：" class="headerlink" title="文件的写入："></a>文件的写入：</h3><p>f.write(“小鲸鱼”)</p>
+<p>f.writelines([“子良\n”, “常在”, “老蒋”])  # 写入多条， 换行需要手动添加换行符\n</p>
+<h3 id="文件的关闭："><a href="#文件的关闭：" class="headerlink" title="文件的关闭："></a>文件的关闭：</h3><p>​    f.close()  关闭文件<br>​    f.flush()  刷新文件</p>
+<p>上下文管理器  操作完毕之后会自动关闭文件<br>with open(文件名，模式，编码方式) as 变量名:<br>    变量名.方法() </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># with open(&quot;test15_3.txt&quot;, &quot;r&quot;, encoding=&#x27;utf-8&#x27;) as f:</span><br><span class="line">#     print(f.readlines())</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&quot;&quot;&quot;</span><br><span class="line">光标(指针)</span><br><span class="line">f.tell()  查看当前指针位置</span><br><span class="line">f.read(10)  读取，读取的是字符个数</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line"># f = open(&quot;test15_3.txt&quot;, &quot;a+&quot;, encoding=&#x27;utf-8&#x27;)</span><br><span class="line"># # f.write(&quot;\n乖乖&quot;)</span><br><span class="line"># f.seek(0)  # 调整光标到最前面</span><br><span class="line"># print(f.tell())</span><br><span class="line"># print(f.read(15))  # 指定从光标开始的位置开始读取指定个数</span><br></pre></td></tr></table></figure>
+
+<h3 id="文件流-io"><a href="#文件流-io" class="headerlink" title="文件流 io"></a>文件流 io</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152544.png"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152600.png"></th>
+</tr>
+</thead>
+</table>
+<p>作用：反复的写入和读取数据或损耗磁盘读写次数，也非常麻烦<br>    文件流生成的是一个临时假文件,并不会占用磁盘空间</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># import io</span><br><span class="line"># str_io = io.StringIO()  # 生成临时假文件（字符串）</span><br><span class="line"># str_io.write(&quot;宋志上&quot;)</span><br><span class="line"># str_io.seek(0)  # 方式一：调整指针位到开始</span><br><span class="line"># print(str_io.read())  # 没有读取到数据--&gt;写入之后，指针在最后，后面已经没有数据</span><br><span class="line"># print(str_io.getvalue())  # 不需要考虑指针，直接读取全部</span><br><span class="line"></span><br><span class="line"># bt_io = io.BytesIO()  # 生成临时假文件（二进制）</span><br><span class="line"># bt_io.write(b&quot;hello cls15&quot;)  # b 模拟字符串里面的一个二进制的数据</span><br><span class="line"># print(bt_io.getvalue())</span><br></pre></td></tr></table></figure>
+
+<h3 id="os-模块"><a href="#os-模块" class="headerlink" title="os 模块"></a>os 模块</h3><table>
+<thead>
+<tr>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152319.png"></th>
+<th><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230506152304.png"></th>
+</tr>
+</thead>
+</table>
+<p> 操作文件和文件目录(文件夹)<br>    工作目录：这个文件在那个文件夹下面，这个文件夹的绝对路径就叫工作目录<br>注意：每个人的电脑文件是不一样的，工作目录也不一样</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># import os</span><br><span class="line">#</span><br><span class="line"># print(os.getcwd())  # 打印当前的工作目录</span><br><span class="line"># 更换工作目录为 08函数文件夹下面</span><br><span class="line"># os.chdir(r&quot;D:\LiuMupy\cls15\08函数&quot;)</span><br><span class="line"># print(os.getcwd())</span><br><span class="line"># print(os.listdir()) # 由于前面更换了工作目录所以现在查看到的是08函数里面的文件</span><br><span class="line"># os.rename(&quot;旧&quot;, &quot;新&quot;)</span><br><span class="line"># os.rename(r&quot;test_new.py&quot;, r&quot;D:\LiuMupy\test_new.py&quot;)</span><br></pre></td></tr></table></figure>
+
+<h2 id="模块操作："><a href="#模块操作：" class="headerlink" title="模块操作："></a>模块操作：</h2><h3 id="内置模块的导入："><a href="#内置模块的导入：" class="headerlink" title="内置模块的导入："></a>内置模块的导入：</h3><p>方式一：import 模块名<br>    导入全部<br>    调用： 模块名.方法名<br>方式二：from 模块名 import 方法名<br>    指定导入<br>        from 模块名 import *<br>    导入所有<br>    调用： 调用： 方法()<br>方式三： from 模块名 import 方法名 as 别名<br>    调用： 别名()</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"># import Mode</span><br><span class="line">#</span><br><span class="line"># Mode.fun1()</span><br><span class="line"># Mode.fun2()</span><br><span class="line"></span><br><span class="line"># from Mode import fun1</span><br><span class="line"># fun1()</span><br><span class="line"># # fun2()  # 没有导入fun2,报错</span><br><span class="line"></span><br><span class="line"># from Mode import fun1 as f1</span><br><span class="line"># # fun1()  # 已经取了别名，不能用原名调用</span><br><span class="line"># f1()</span><br></pre></td></tr></table></figure>
+
+<h3 id="导入第三方库："><a href="#导入第三方库：" class="headerlink" title="导入第三方库："></a>导入第三方库：</h3><p>​    1、先下载(在cmd里面下载)<br>​    pip install 模块名 -i 国内源<br>​    2、导入<br>​    import 模块名</p>
+<p>其他命令<br>    pip list  查看已有的模块（库）<br>    pip uninstall 模块名   卸载已有模块</p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2023/05/06/python%E7%90%86%E8%AE%BA/2023-05-06-%E6%96%87%E4%BB%B6%E5%8F%8A%E6%A8%A1%E5%9D%97%E6%93%8D%E4%BD%9C/" title="文件及模块操作">https://cunko.github.io/2023/05/06/python理论/2023-05-06-文件及模块操作/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python%E7%90%86%E8%AE%BA/" rel="tag"># python理论</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/05/06/python%E5%AE%9E%E7%8E%B0/2023-05-06-python-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/" rel="prev" title="python-文件操作">
+      <i class="fa fa-chevron-left"></i> python-文件操作
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/05/15/python%E7%90%86%E8%AE%BA/2023-05-15-%E5%AF%B9%E7%BC%96%E7%A8%8B%E7%9A%84%E7%90%86%E8%A7%A3/" rel="next" title="对编程的理解">
+      对编程的理解 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">文件操作有哪些？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B7%E4%BD%93%E5%A6%82%E4%BD%95%E6%93%8D%E4%BD%9C%E6%96%87%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">具体如何操作文件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%9A%84%E6%89%93%E5%BC%80%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">文件的打开：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%9A%84%E8%AF%BB%E5%8F%96%EF%BC%9A"><span class="nav-number">2.2.</span> <span class="nav-text">文件的读取：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%9A%84%E5%86%99%E5%85%A5%EF%BC%9A"><span class="nav-number">2.3.</span> <span class="nav-text">文件的写入：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%9A%84%E5%85%B3%E9%97%AD%EF%BC%9A"><span class="nav-number">2.4.</span> <span class="nav-text">文件的关闭：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E6%B5%81-io"><span class="nav-number">2.5.</span> <span class="nav-text">文件流 io</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#os-%E6%A8%A1%E5%9D%97"><span class="nav-number">2.6.</span> <span class="nav-text">os 模块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9D%97%E6%93%8D%E4%BD%9C%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">模块操作：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%85%E7%BD%AE%E6%A8%A1%E5%9D%97%E7%9A%84%E5%AF%BC%E5%85%A5%EF%BC%9A"><span class="nav-number">3.1.</span> <span class="nav-text">内置模块的导入：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%BC%E5%85%A5%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%EF%BC%9A"><span class="nav-number">3.2.</span> <span class="nav-text">导入第三方库：</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">103</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>
