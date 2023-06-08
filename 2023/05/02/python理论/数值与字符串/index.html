@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="python的第二节课笔记（基础入门）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数值与字符串">
+<meta property="og:url" content="https://cunko.github.io/2023/05/02/python%E7%90%86%E8%AE%BA/%E6%95%B0%E5%80%BC%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="python的第二节课笔记（基础入门）">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230530180716.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230530183804.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601143820.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601103924.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601110345.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601171020.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601111939.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601114325.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601125956.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601133746.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601135640.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601141645.png">
+<meta property="article:published_time" content="2023-05-02T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-06-02T11:16:54.489Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="python理论">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230530180716.png">
+
+<link rel="canonical" href="https://cunko.github.io/2023/05/02/python%E7%90%86%E8%AE%BA/%E6%95%B0%E5%80%BC%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>数值与字符串 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2023/05/02/python%E7%90%86%E8%AE%BA/%E6%95%B0%E5%80%BC%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          数值与字符串
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-05-02 15:31:06" itemprop="dateCreated datePublished" datetime="2023-05-02T15:31:06+08:00">2023-05-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-06-02 19:16:54" itemprop="dateModified" datetime="2023-06-02T19:16:54+08:00">2023-06-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>python的第二节课笔记（基础入门）</p>
+<span id="more"></span>
+
+<table><tr><td bgcolor="#ADD8E6">python共有六大基础数据类型：分别是数值，字符串，列表，元组，字典，集合。</td></tr></table>
+
+<h3 id="数值："><a href="#数值：" class="headerlink" title="数值："></a>数值：</h3><h4 id="常见数值类型："><a href="#常见数值类型：" class="headerlink" title="常见数值类型："></a>常见数值类型：</h4><table>
+<thead>
+<tr>
+<th>int</th>
+<th>整型 ( 没有小数点)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>float</td>
+<td>浮点型 (小数，有小数点)</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>布尔类型 ( True       False)  [首字母必须大写]</td>
+</tr>
+</tbody></table>
+<h4 id="常用函数："><a href="#常用函数：" class="headerlink" title="常用函数："></a>常用函数：</h4><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>type(数据)</td>
+<td>查询数据的类型</td>
+</tr>
+<tr>
+<td>id(变量)</td>
+<td>查询变量的内存地址</td>
+</tr>
+</tbody></table>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="number">1</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="number">0</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(-<span class="number">1</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="number">1.0</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(-<span class="number">1.1</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="literal">True</span>))</span><br><span class="line"><span class="comment">#print(type(true))  # 开头必须大写，否则报错</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="literal">False</span>))</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">100</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">id</span>(a))</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230530180716.png"></p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230530183804.png"></p>
+<h4 id="常见运算符"><a href="#常见运算符" class="headerlink" title="常见运算符"></a>常见运算符</h4><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>意义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>+</td>
+<td>加</td>
+</tr>
+<tr>
+<td>-</td>
+<td>减</td>
+</tr>
+<tr>
+<td>*</td>
+<td>乘</td>
+</tr>
+<tr>
+<td>&#x2F;</td>
+<td>除</td>
+</tr>
+<tr>
+<td>&#x2F;&#x2F;</td>
+<td>取整</td>
+</tr>
+<tr>
+<td>%</td>
+<td>取余</td>
+</tr>
+<tr>
+<td>**</td>
+<td>次方&#x2F;幂</td>
+</tr>
+</tbody></table>
+<p>注意：</p>
+<ul>
+<li>在python中bool型的True和False分别等同于1和0，也可直接进行运算</li>
+<li>数值类型是<strong>不可变</strong>（更改之后，内存地址也会发生改变，没有增删改查等操作）的<strong>非序列结构</strong>（存储的只能为单个元素，不可进行拆分，没有下标索引的概念），即用变量接收一个数值，只能为一个地址，一种数据类型</li>
+<li>上面是常见数值类型 ，<strong>数值是不可变的数据类型</strong></li>
+</ul>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1、创建了两个变量</span></span><br><span class="line">num1 = <span class="number">15</span></span><br><span class="line">num2 = <span class="number">12</span></span><br><span class="line"><span class="comment">#利用变量引用里面的值进行数学计算</span></span><br><span class="line"><span class="built_in">print</span>(num1 + num2)    <span class="comment">#27</span></span><br><span class="line"><span class="built_in">print</span>(num1 - num2)    <span class="comment">#3</span></span><br><span class="line"><span class="built_in">print</span>(num1 * num2)   <span class="comment">#180</span></span><br><span class="line"><span class="built_in">print</span>(num1 / num2)  <span class="comment">#1.25</span></span><br><span class="line"><span class="built_in">print</span>(num1 // num2)  <span class="comment"># 1</span></span><br><span class="line"><span class="built_in">print</span>(num1 % num2)  <span class="comment"># 3</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="number">2</span>**<span class="number">3</span>)  <span class="comment"># 2的3次方  2 * 2 * 2</span></span><br><span class="line"><span class="built_in">print</span>(<span class="number">2</span>**<span class="number">4</span>)  <span class="comment"># 2的4次方  2 * 2 * 2 * 2</span></span><br><span class="line"><span class="built_in">print</span>(<span class="number">2</span>**<span class="number">5</span>)  <span class="comment"># 2的5次方  2 * 2 * 2 * 2 * 2</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="literal">True</span> * <span class="literal">False</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="literal">True</span> + <span class="literal">False</span>)</span><br><span class="line"><span class="comment">#print(True / False)  # 注意：0不能为分母,不可以做除数</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="数据类型强转："><a href="#数据类型强转：" class="headerlink" title="数据类型强转："></a>数据类型强转：</h4><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>int(想要转变的数据)</td>
+<td>强转为整型</td>
+</tr>
+<tr>
+<td>float(想要转变的数据)</td>
+<td>强转为浮点型</td>
+</tr>
+<tr>
+<td>str(想要转变的数据)</td>
+<td>强转为字符串</td>
+</tr>
+</tbody></table>
+<h4 id="数值模块（了解）："><a href="#数值模块（了解）：" class="headerlink" title="数值模块（了解）："></a>数值模块（了解）：</h4><p>注意：</p>
+<ul>
+<li>只要运算双方有一个浮点型的存在，结果必然是浮点型</li>
+<li>浮点数无法作高精度计算，原因：计算机的底层都是二进制，浮点数存在精度问题们无法完全转变为二进制</li>
+<li>解决：导入decimal模块</li>
+<li>作用：1、提高计算的精密度  2、可以用作字符串包裹的数值的计算</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> decimal</span><br><span class="line"><span class="built_in">print</span>(<span class="number">4.0</span> / <span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="number">1.1</span> - <span class="number">0.2</span>) </span><br><span class="line"><span class="built_in">print</span>(decimal.Decimal(<span class="number">1.1</span>)-decimal.Decimal(<span class="number">0.2</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="number">10</span> / <span class="number">3</span>)</span><br><span class="line"><span class="built_in">print</span>(decimal.Decimal(<span class="number">10</span>)/decimal.Decimal(<span class="number">3</span>))</span><br><span class="line"><span class="built_in">print</span>(decimal.Decimal(<span class="string">&#x27;2&#x27;</span>)-decimal.Decimal(<span class="string">&quot;1&quot;</span>))</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601143820.png"></p>
+<h3 id="字符串："><a href="#字符串：" class="headerlink" title="字符串："></a>字符串：</h3><h4 id="字符串的定义："><a href="#字符串的定义：" class="headerlink" title="字符串的定义："></a>字符串的定义：</h4><table><tr><td bgcolor="#ADD8E6">生活当中遇到的文本信息就是字符串，只要在键盘上能够打出来的字符都是字符串，使用str表示。</td></tr></table>
+
+<p>总的来说，字符串可以有三种定义方式，分别是：单引号、和双引号三引号(三个单引号和三个双引号)，只有三引号才支持换行，其他两种不支持换行</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">st1 = <span class="string">&#x27;这是第二个字符串&#x27;</span></span><br><span class="line">st2 = <span class="string">&quot;这是第二个字符串&quot;</span></span><br><span class="line">st3 = <span class="string">&quot;&quot;&quot;这是第二个</span></span><br><span class="line"><span class="string"> 字符串&quot;&quot;&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(st2))    <span class="comment">#类型为str</span></span><br><span class="line"><span class="built_in">print</span>(st1)</span><br><span class="line"><span class="built_in">print</span>(st3)</span><br></pre></td></tr></table></figure>
+
+<h4 id="字符串的特点"><a href="#字符串的特点" class="headerlink" title="字符串的特点:"></a>字符串的特点:</h4><table><tr><td bgcolor="#ADD8E6">不可变的有序序列结构。</td></tr></table>
+
+<p>注意：</p>
+<ul>
+<li>不可变：有增删改查的操作，生成的数据需要使用新变量接收</li>
+<li>序列：可以存储多个元素，可以进行拆分有下标索引的概念</li>
+<li>序列结构的数据类型有：字符串，列表，元组</li>
+</ul>
+<h4 id="字符串的查找"><a href="#字符串的查找" class="headerlink" title="字符串的查找:"></a>字符串的查找:</h4><table>
+<thead>
+<tr>
+<th>查找单个值</th>
+<th>形式为 索引（下标）,即    str[下标]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>查找多个值</td>
+<td>即切片，形式为  str[起始下标:结束下标]</td>
+</tr>
+<tr>
+<td>隔位取值</td>
+<td>形式为  str[起始:结束:步长]</td>
+</tr>
+</tbody></table>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601103924.png"></p>
+<p>注意：</p>
+<ul>
+<li>顺序：索引从0开始<br>逆序：索引从-1开始</li>
+<li>查找多个值时，区间为左闭右开区间，因此实际操作，结束下标需要+1位</li>
+<li>起始下标默认为第一个， 结束下标默认为最后一个</li>
+<li>步长默认为1, 想要隔n位取，就步长设置为 n+1<br>顺序，步长没有要求，负数表示取反<br>逆序，步长为负</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">str1 = <span class="string">&quot;你们好呀,15期的小伙伴！&quot;</span></span><br><span class="line"><span class="built_in">print</span>(str1[<span class="number">2</span>])  <span class="comment"># 好</span></span><br><span class="line"><span class="built_in">print</span>(str1[-<span class="number">2</span>])  <span class="comment"># 伴</span></span><br><span class="line"><span class="built_in">print</span>(str1[<span class="number">5</span>:<span class="number">7</span>])  <span class="comment">#15</span></span><br><span class="line"><span class="built_in">print</span>(str1[<span class="number">5</span>:<span class="number">8</span>])   <span class="comment">#15期</span></span><br><span class="line"><span class="built_in">print</span>(str1[<span class="number">5</span>:<span class="number">8</span>:<span class="number">2</span>])  <span class="comment"># 步长为2，隔1个取一个，为”1期“</span></span><br><span class="line"><span class="built_in">print</span>(str1[<span class="number">0</span>:-<span class="number">1</span>:<span class="number">3</span>])  <span class="comment"># 步长为3，隔2个取一个,结束位为-1，左闭右开，拿不到，为”你呀5小“</span></span><br><span class="line"><span class="built_in">print</span>(str1[<span class="number">0</span>:<span class="number">13</span>:<span class="number">3</span>])  <span class="comment"># 结束位12 + 1 ,13可以取到，为”你呀5小！“</span></span><br><span class="line"><span class="built_in">print</span>(str1[::-<span class="number">1</span>])  <span class="comment"># 不写默认所有，步长为负数表示取反，为”！伴伙小的期51,呀好们你“</span></span><br><span class="line"><span class="comment">#print(str1[])  # 冒号是语法结构，不可以省略</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="字符串的拼接"><a href="#字符串的拼接" class="headerlink" title="字符串的拼接:"></a>字符串的拼接:</h4><table>
+<thead>
+<tr>
+<th>方法数</th>
+<th>解释</th>
+<th>语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>法一</td>
+<td>+表示直接拼接</td>
+<td>str + str</td>
+</tr>
+<tr>
+<td>法二</td>
+<td>* 表示成倍复制</td>
+<td>str * int</td>
+</tr>
+<tr>
+<td>法三</td>
+<td>利用字符串的格式化来拼接字符串</td>
+<td>语法1：”%s %f”%(str, float)</td>
+</tr>
+<tr>
+<td>法四</td>
+<td>利用format方法来拼接</td>
+<td>语法1: “{}{}”.format(变量1,变量2)<br/>语法2：f”{变量1}{变量2}”</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 法一法二</span></span><br><span class="line"></span><br><span class="line">a = <span class="string">&quot;1314&quot;</span></span><br><span class="line">b = <span class="string">&quot;520&quot;</span></span><br><span class="line"><span class="built_in">print</span>(a + b)   <span class="comment">#1314520</span></span><br><span class="line"><span class="built_in">print</span>(b * <span class="number">2</span>)    <span class="comment">#520520</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 法三法四</span><br><span class="line"></span><br><span class="line">a = 10</span><br><span class="line">b = 20</span><br><span class="line">print(&quot;和为&#123;a+b&#125;&quot;)  # 只要被引号包裹就是字符串，不再具备变量的特性</span><br><span class="line">print(&quot;和为,&quot;, a+b)  #</span><br><span class="line">print(&quot;和为%s&quot;%(a+b))  # 格式成字符串</span><br><span class="line">print(&quot;和为%.4f&quot;%(a+b))  # 格式为浮点型，并保留4位小数</span><br><span class="line">print(&quot;和为&#123;&#125;&quot;.format(a+b))</span><br><span class="line">print(f&quot;和为&#123;a+b&#125;&quot;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601110345.png"></p>
+<h4 id="字符串格式化："><a href="#字符串格式化：" class="headerlink" title="字符串格式化："></a>字符串格式化：</h4><table>
+<thead>
+<tr>
+<th></th>
+<th>解释</th>
+<th>语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>法一</td>
+<td>字符串的 %r 和 %s，%f 格式化输出</td>
+<td>“%.2f”%变量名</td>
+</tr>
+<tr>
+<td>法二</td>
+<td>字符串的 format 方法</td>
+<td>“{}”.format(变量名)<br/>f”{变量名}”</td>
+</tr>
+<tr>
+<td>法三</td>
+<td>join方法</td>
+<td>“链接符号”.join(序列)</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>%s</th>
+<th>转化为字符串</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>%f</td>
+<td>转化为浮点型，其中%.nf，保留n位小数</td>
+</tr>
+<tr>
+<td>%d</td>
+<td>格式化为整数</td>
+</tr>
+<tr>
+<td>%r</td>
+<td>原样输出</td>
+</tr>
+</tbody></table>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601171020.png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">lm = <span class="number">3.3333333333333333</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;%.2f&quot;</span>%lm)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(lm))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;%.4f&quot;</span>%lm)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;%.20f&quot;</span>%lm)</span><br><span class="line"></span><br><span class="line">year = <span class="number">2023</span></span><br><span class="line">month = <span class="number">4</span></span><br><span class="line">day = <span class="number">14</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;你们好呀，今天是：%s年%s月%s号！&quot;</span>%(year, month, day))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;你们好呀，今天是：&#123;&#125;年&#123;&#125;月&#123;&#125;号！&quot;</span>.<span class="built_in">format</span>(year, month, day))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;你们好呀，今天是：<span class="subst">&#123;day&#125;</span>年<span class="subst">&#123;month&#125;</span>月<span class="subst">&#123;year&#125;</span>号！&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;先不<span class="subst">&#123;day&#125;</span>用其他厨<span class="subst">&#123;day&#125;</span>房电器<span class="subst">&#123;day&#125;</span>作为手<span class="subst">&#123;day&#125;</span>续费唱日出&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601111939.png"></p>
+<p>错误示范：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">year = <span class="number">2023</span></span><br><span class="line">month = <span class="number">4</span></span><br><span class="line">day = <span class="number">14</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;你们好呀，今天是：2023年4月14号！&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;你们好呀，今天是：year年month月day号！&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">上述代码的问题：变量没有对里面的值进行引用，而是直接原模样的打印了出来</span></span><br><span class="line"><span class="string">原因：变量放在了引号里面，就是单纯的字符，</span></span><br><span class="line"><span class="string">    不再具备变量的功能（不能引用里面的值）</span></span><br><span class="line"><span class="string">解决：保留变量的属性（能够引用里面的值）</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="comment">#year在引号外面，是变量，其他依旧是字符</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;你们好呀，今天是：&quot;</span>,year,<span class="string">&quot;年month月day号！&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601114325.png"></p>
+<p>法三：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">&quot;链接符号&quot;.join(序列)</span></span><br><span class="line"><span class="string">    字符串，列表，元组</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">2023-4-14</span></span><br><span class="line"><span class="string">2023/4/14</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"> year = <span class="built_in">str</span>(<span class="number">2023</span>)</span><br><span class="line"> month = <span class="number">4</span></span><br><span class="line"> day = <span class="number">14</span></span><br><span class="line"> data = [year, <span class="string">&quot;%s&quot;</span>%month, <span class="string">f&quot;<span class="subst">&#123;day&#125;</span>&quot;</span>]  <span class="comment"># 将数值格式化为字符</span></span><br><span class="line"> <span class="built_in">print</span>(<span class="string">&quot;/&quot;</span>.join(data))</span><br></pre></td></tr></table></figure>
+
+<p>常见疑问：</p>
+<p><code>print(f&quot;第&#123;week&#125;周,第&#123;day&#125;天&quot;)</code>这句话的f和{week}分别代表什么？</p>
+<p>这句话中的 <code>f</code> 是 Python 3.6 中引入的 f-string（格式化字符串）语法，可以方便地将变量的值插入到字符串中，而不需要使用传统的字符串格式化方法。</p>
+<p>在 f-string 中，用 <code>&#123;&#125;</code> 包围的变量会被替换成对应的值。例如，<code>&#123;week&#125;</code> 会被替换成 <code>week</code> 变量的值。通过在 <code>&#123;&#125;</code> 中使用表达式，可以进行更复杂的字符串格式化操作。</p>
+<p>例如，在下面的例子中，我们可以使用 f-string 将数字变量插入到字符串中：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">x = <span class="number">10</span></span><br><span class="line">y = <span class="number">20</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 f-string 进行字符串格式化</span></span><br><span class="line">result = <span class="string">f&quot;The value of x is <span class="subst">&#123;x&#125;</span>, and the value of y is <span class="subst">&#123;y&#125;</span>.&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出结果</span></span><br><span class="line"><span class="built_in">print</span>(result)  <span class="comment"># The value of x is 10, and the value of y is 20.</span></span><br></pre></td></tr></table></figure>
+
+<p>在上面的例子中，我们使用 f-string 将变量 <code>x</code> 和 <code>y</code> 插入到字符串中，并且在字符串中直接使用了这些变量的值。</p>
+<p>总之，<code>f</code> 是 f-string 的开头，而 <code>&#123;week&#125;</code> 是表示要插入 week 变量的值。</p>
+<h4 id="字符串的更改："><a href="#字符串的更改：" class="headerlink" title="字符串的更改："></a>字符串的更改：</h4><table><tr><td bgcolor="#ADD8E6">字符串不可变，需要使用新变量接收。</td></tr></table>
+
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>str.replace(旧,新)</td>
+<td>默认更改所有</td>
+</tr>
+<tr>
+<td>str.replace(旧,新,次数)</td>
+<td>顺序更改指定次数</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">str1 = <span class="string">&quot;hello ah tongxue!&quot;</span></span><br><span class="line">str1_new1 = str1.replace(<span class="string">&quot;t&quot;</span>, <span class="string">&quot;T&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(str1)   <span class="comment">#hello ah tongxue!</span></span><br><span class="line"><span class="built_in">print</span>(str1_new1)   <span class="comment">#hello ah Tongxue!</span></span><br><span class="line">str1_new2 = str1.replace(<span class="string">&quot;h&quot;</span>, <span class="string">&quot;H&quot;</span>, <span class="number">1</span>)</span><br><span class="line"><span class="built_in">print</span>(str1_new2)   <span class="comment">#Hello ah tongxue! </span></span><br></pre></td></tr></table></figure>
+
+<h4 id="字符串切割："><a href="#字符串切割：" class="headerlink" title="字符串切割："></a>字符串切割：</h4><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>str.split(“指定分割字符”)</td>
+<td>从指定字符处分割，默认指定分割字符有几个，就分割几次</td>
+</tr>
+<tr>
+<td>str.split(“指定分割字符”,次数)</td>
+<td>从指定字符处分割，可指定分割次数</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">str2 = <span class="string">&quot;20230414&quot;</span></span><br><span class="line">str2_new1 = str2.split(<span class="string">&quot;4&quot;</span>)</span><br><span class="line">str2_new2 = str2.split(<span class="string">&quot;0&quot;</span>, <span class="number">1</span>)</span><br><span class="line"><span class="built_in">print</span>(str2_new1)</span><br><span class="line"><span class="built_in">print</span>(str2_new2)</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601125956.png"></p>
+<h4 id="字符串查找："><a href="#字符串查找：" class="headerlink" title="字符串查找："></a>字符串查找：</h4><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>str.find(“指定查找字符”)</td>
+<td>从整个字符串查找</td>
+</tr>
+<tr>
+<td>str.find(“指定查找字符”,起始,结束)</td>
+<td>从指定位置查找</td>
+</tr>
+</tbody></table>
+<p>注意：</p>
+<ul>
+<li>找到：返回字符的下标</li>
+<li>没有找到：返回-1</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">str1 = <span class="string">&quot;hello ah tongxue!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(str1.find(<span class="string">&quot;st&quot;</span>))  <span class="comment"># -1</span></span><br><span class="line"><span class="built_in">print</span>(str1.find(<span class="string">&quot;ah&quot;</span>))  <span class="comment"># 6</span></span><br><span class="line"><span class="built_in">print</span>(str1.find(<span class="string">&quot;ah&quot;</span>, <span class="number">8</span>,<span class="number">10</span>))  <span class="comment"># 指定位置查找,-1</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="首字母转变大写："><a href="#首字母转变大写：" class="headerlink" title="首字母转变大写："></a>首字母转变大写：</h4><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>str1.title()</td>
+<td>字符串首字母转变大写</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">str1 = <span class="string">&quot;beautiful&quot;</span></span><br><span class="line">str1_new3 = str1.title()</span><br><span class="line"><span class="built_in">print</span>(str1_new3)  <span class="comment">#Beautiful</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="字符串的其他方法："><a href="#字符串的其他方法：" class="headerlink" title="字符串的其他方法："></a>字符串的其他方法：</h4><p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601133746.png"></p>
+<h4 id="字符串转义："><a href="#字符串转义：" class="headerlink" title="字符串转义："></a>字符串转义：</h4><table><tr><td bgcolor="#ADD8E6">在特定字符前面加 \ 会解释成带有特殊含义的转义字符（在print内起作用）。</td></tr></table>
+
+<p>注意：</p>
+<ul>
+<li>\n：换行</li>
+<li>\t ：水平制表符—默认以8个字符长度对齐，超过则按8的倍数对齐</li>
+<li>在转义字符前面再加一个\可以取消转义，同时在字符串前面加r可以取消字符串内所有转义字符</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hellocls15sky&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello\tcls15sky&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello\tcls15\tsky&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello\t\tcls15\t\tsky&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello\\tcls15\\tsky&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">r&quot;hello\tcls15\tsky&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601135640.png"></p>
+<h4 id="字符串的编码："><a href="#字符串的编码：" class="headerlink" title="字符串的编码："></a>字符串的编码：</h4><table><tr><td bgcolor="#ADD8E6">字符串编码是为了在计算机中表示和处理文本数据。计算机内部以二进制形式存储和处理数据，而文本是由字符组成的，每个字符都有一个对应的编码值。因此，为了在计算机中表示和处理文本，需要将字符映射到对应的编码值。</td></tr></table>
+
+<table>
+<thead>
+<tr>
+<th>str.encode(“编码方式”)</th>
+<th>默认以utf-8格式编码，当然可以指定encoding编码格式。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>str.decode(“解码方式”)</td>
+<td>解码，和encode用法一致</td>
+</tr>
+</tbody></table>
+<p>注意：</p>
+<ul>
+<li>用什么编码就用什么解码，否则会乱码</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">jk = <span class="string">&quot;酒空&quot;</span></span><br><span class="line"><span class="built_in">print</span>(jk)</span><br><span class="line">bianma = jk.encode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(bianma)  <span class="comment"># 指定编码方式为utf-8</span></span><br><span class="line">res0 = bianma.decode(<span class="string">&quot;gbk&quot;</span>)  <span class="comment"># 出现了乱码的现象</span></span><br><span class="line">res1 = bianma.decode(<span class="string">&quot;utf-8&quot;</span>)  <span class="comment"># 正常</span></span><br><span class="line"><span class="built_in">print</span>(res0)</span><br><span class="line"><span class="built_in">print</span>(res1)</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230601141645.png"></p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2023/05/02/python%E7%90%86%E8%AE%BA/%E6%95%B0%E5%80%BC%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/" title="数值与字符串">https://cunko.github.io/2023/05/02/python理论/数值与字符串/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python%E7%90%86%E8%AE%BA/" rel="tag"># python理论</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/05/01/python%E7%90%86%E8%AE%BA/%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" rel="prev" title="基本概念">
+      <i class="fa fa-chevron-left"></i> 基本概念
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/05/03/python%E7%90%86%E8%AE%BA/if%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%E5%92%8Cwhile%E5%BE%AA%E7%8E%AF/" rel="next" title="if条件语句和while循环">
+      if条件语句和while循环 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E5%80%BC%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">数值：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%EF%BC%9A"><span class="nav-number">1.1.</span> <span class="nav-text">常见数值类型：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%EF%BC%9A"><span class="nav-number">1.2.</span> <span class="nav-text">常用函数：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.3.</span> <span class="nav-text">常见运算符</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%BC%BA%E8%BD%AC%EF%BC%9A"><span class="nav-number">1.4.</span> <span class="nav-text">数据类型强转：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E5%80%BC%E6%A8%A1%E5%9D%97%EF%BC%88%E4%BA%86%E8%A7%A3%EF%BC%89%EF%BC%9A"><span class="nav-number">1.5.</span> <span class="nav-text">数值模块（了解）：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">字符串：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">字符串的定义：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E7%89%B9%E7%82%B9"><span class="nav-number">2.2.</span> <span class="nav-text">字符串的特点:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9F%A5%E6%89%BE"><span class="nav-number">2.3.</span> <span class="nav-text">字符串的查找:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8B%BC%E6%8E%A5"><span class="nav-number">2.4.</span> <span class="nav-text">字符串的拼接:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A0%BC%E5%BC%8F%E5%8C%96%EF%BC%9A"><span class="nav-number">2.5.</span> <span class="nav-text">字符串格式化：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9B%B4%E6%94%B9%EF%BC%9A"><span class="nav-number">2.6.</span> <span class="nav-text">字符串的更改：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%88%87%E5%89%B2%EF%BC%9A"><span class="nav-number">2.7.</span> <span class="nav-text">字符串切割：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9F%A5%E6%89%BE%EF%BC%9A"><span class="nav-number">2.8.</span> <span class="nav-text">字符串查找：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A6%96%E5%AD%97%E6%AF%8D%E8%BD%AC%E5%8F%98%E5%A4%A7%E5%86%99%EF%BC%9A"><span class="nav-number">2.9.</span> <span class="nav-text">首字母转变大写：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="nav-number">2.10.</span> <span class="nav-text">字符串的其他方法：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E4%B9%89%EF%BC%9A"><span class="nav-number">2.11.</span> <span class="nav-text">字符串转义：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E7%BC%96%E7%A0%81%EF%BC%9A"><span class="nav-number">2.12.</span> <span class="nav-text">字符串的编码：</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">109</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>

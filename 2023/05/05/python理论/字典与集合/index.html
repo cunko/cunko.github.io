@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/207x200.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/150x150.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cunko.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="python的第五节课笔记（基础入门）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="字典与集合">
+<meta property="og:url" content="https://cunko.github.io/2023/05/05/python%E7%90%86%E8%AE%BA/%E5%AD%97%E5%85%B8%E4%B8%8E%E9%9B%86%E5%90%88/index.html">
+<meta property="og:site_name" content="liuliuya&#39;s blog">
+<meta property="og:description" content="python的第五节课笔记（基础入门）">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230602075247.png">
+<meta property="og:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230602084357.png">
+<meta property="article:published_time" content="2023-05-05T07:31:06.000Z">
+<meta property="article:modified_time" content="2023-06-02T11:21:18.939Z">
+<meta property="article:author" content="liuliuya">
+<meta property="article:tag" content="python理论">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230602075247.png">
+
+<link rel="canonical" href="https://cunko.github.io/2023/05/05/python%E7%90%86%E8%AE%BA/%E5%AD%97%E5%85%B8%E4%B8%8E%E9%9B%86%E5%90%88/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>字典与集合 | liuliuya's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">liuliuya's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-friends">
+
+    <a href="/friends/" rel="section"><i class="fa fa-calendar fa-fw"></i>友链</a>
+
+  </li>
+        <li class="menu-item menu-item-connect">
+
+    <a href="/connect/" rel="section"><i class="fa fa-sitemap fa-fw"></i>快速链接</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cunko.github.io/2023/05/05/python%E7%90%86%E8%AE%BA/%E5%AD%97%E5%85%B8%E4%B8%8E%E9%9B%86%E5%90%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+      <meta itemprop="name" content="liuliuya">
+      <meta itemprop="description" content="长长的路，慢慢的走。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liuliuya's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          字典与集合
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-05-05 15:31:06" itemprop="dateCreated datePublished" datetime="2023-05-05T15:31:06+08:00">2023-05-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-06-02 19:21:18" itemprop="dateModified" datetime="2023-06-02T19:21:18+08:00">2023-06-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>python的第五节课笔记（基础入门）</p>
+<span id="more"></span>
+
+<h2 id="散列类型："><a href="#散列类型：" class="headerlink" title="散列类型："></a>散列类型：</h2><p>在Python中，散列类型（Hashable Type）指的是一种可以作为字典（Dictionary）键值的数据类型。散列类型的特点是不可变（Immutable），即创建后不能被修改。散列类型在Python中用于支持字典的快速查找和唯一性的要求。</p>
+<p>以下是Python中常见的散列类型：</p>
+<ol>
+<li><p>不可变的原始数据类型（Immutable Primitive Types）：包括整数（int）、浮点数（float）、布尔值（bool）和元组（tuple）等。</p>
+</li>
+<li><p>字符串（str）：字符串是不可变的，因此可以用作字典的键。</p>
+</li>
+<li><p>冻结集合（frozenset）：冻结集合是不可变的，因此可以作为字典的键。与可变集合（set）不同，冻结集合的元素不能被修改。</p>
+</li>
+</ol>
+<p>请注意，可变的数据类型（如列表、集合和字典等）不能作为散列类型，因为它们可以在创建后进行修改，从而导致散列值发生变化，无法保证字典的一致性和查找的准确性。</p>
+<p>当你尝试将一个不可散列的对象用作字典的键时，Python会引发<code>TypeError</code>异常。因此，在选择字典的键时，确保选择散列类型以保证字典的正常使用。</p>
+<h2 id="字典："><a href="#字典：" class="headerlink" title="字典："></a>字典：</h2><h3 id="语法结构："><a href="#语法结构：" class="headerlink" title="语法结构："></a>语法结构：</h3><table><tr><td bgcolor="#ADD8E6">变量名 = {key0:value0 , key1:value1, key2:value2}</td></tr></table>
+
+<p>di_cg &#x3D; {“name”: “春光”, “age”: 28, “id”: 2}</p>
+<table>
+<thead>
+<tr>
+<th>定义方式一</th>
+<th>{key1:value1, key2:value2}</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>定义方式二</td>
+<td>dict(变量名&#x3D;值, 变量名1&#x3D;值2)</td>
+</tr>
+<tr>
+<td>空字典</td>
+<td>{}</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#定义方式一</span></span><br><span class="line">di_cg = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;春光&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">28</span>, <span class="string">&quot;id&quot;</span>: <span class="number">2</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(di_cg))    <span class="comment">#&lt;class &#x27;dict&#x27;&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">li = [<span class="string">&quot;name&quot;</span>, <span class="string">&quot;age&quot;</span>, <span class="string">&quot;id&quot;</span>]</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">dict</span>(li))  </span><br><span class="line"><span class="comment">#报错，li是一个列表，它只包含字符串元素，而没有键值对的结构</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#定义方式二</span></span><br><span class="line">di_cg2 = <span class="built_in">dict</span>(name=<span class="string">&quot;春光&quot;</span>, age=<span class="number">28</span>, <span class="built_in">id</span>=<span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(di_cg2)  </span><br><span class="line"><span class="comment">#&#123;&#x27;name&#x27;: &#x27;春光&#x27;, &#x27;age&#x27;: 28, &#x27;id&#x27;: 2&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#键必须是不可变的数据类型(int、float、str、tuple)</span></span><br><span class="line">di_cg1 = &#123;<span class="number">1</span>: <span class="string">&#x27;春光&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">28</span>, <span class="string">&#x27;id&#x27;</span>: <span class="number">2</span>&#125;</span><br><span class="line">di_cg2 = &#123;(<span class="number">1</span>,): <span class="string">&#x27;春光&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">28</span>, <span class="string">&#x27;id&#x27;</span>: <span class="number">2</span>&#125;</span><br><span class="line"><span class="comment">#di_cg2 = &#123;[1]: &#x27;春光&#x27;, &#x27;age&#x27;: 28, &#x27;id&#x27;: 2&#125;  # 报错---&gt;列表可变，不可以做键（key）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(di_cg1))   <span class="comment">#&lt;class &#x27;dict&#x27;&gt;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(di_cg2))    <span class="comment">#&lt;class &#x27;dict&#x27;&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>注意：</p>
+<ul>
+<li>字典里面的元素，以键值对的形式存在</li>
+<li>key:value   键值对  （将键和值使用冒号链接就叫做键值对）</li>
+<li>key         键，冒号前面的</li>
+<li>value       值，冒号后面的</li>
+<li>键必须是不可变的数据类型(int、float、str、tuple)</li>
+<li>值key是任意的数据类型</li>
+<li>字典 也叫dict</li>
+</ul>
+<h3 id="字典的查询："><a href="#字典的查询：" class="headerlink" title="字典的查询："></a>字典的查询：</h3><table><tr><td bgcolor="#ADD8E6">字典的键必须是唯一的，如果键名重复，后面的值会覆盖掉原来的值</td></tr></table>
+
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>dict[key]</td>
+<td>存在则返回键对应的值<br/>不存在则报错</td>
+</tr>
+<tr>
+<td>dict.get(key)</td>
+<td>存在则返回键对应的值<br/>不存在则返回None(空值)</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">di_96 = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;96&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">27</span>, <span class="string">&quot;id&quot;</span>: <span class="number">6</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(di_96[<span class="string">&quot;age&quot;</span>])   <span class="comment">#27</span></span><br><span class="line"><span class="comment"># print(di_96[&quot;sex&quot;])  # 没有则报错</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">di_96 = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;96&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">27</span>, <span class="string">&quot;id&quot;</span>: <span class="number">6</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(di_96.get(<span class="string">&quot;name&quot;</span>))    <span class="comment">#96</span></span><br><span class="line"><span class="built_in">print</span>(di_96.get(<span class="string">&quot;sex&quot;</span>))  <span class="comment"># 返回None，表示没有这个值</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="字典的修改："><a href="#字典的修改：" class="headerlink" title="字典的修改："></a>字典的修改：</h3><table><tr><td bgcolor="#ADD8E6">思路：先找到，再赋予新的值覆盖掉旧值</td></tr></table>   
+
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>dict[key]</td>
+<td>key存在，新值覆盖旧值<br/>key不存在，新建键值对</td>
+</tr>
+<tr>
+<td>dict.setdefault(key, 值)</td>
+<td>key 存在，返回所对应的value<br/>key 不存在  新建键值对（键值对的值为指定在括号里面的第二个参数）</td>
+</tr>
+<tr>
+<td>dict.update({k1:v1,k2:v2})</td>
+<td>当键名重复的时候，可以进行一个批量替换</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">di_96 = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;96&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">27</span>, <span class="string">&quot;id&quot;</span>: <span class="number">6</span>, <span class="string">&quot;name&quot;</span>: <span class="string">&quot;1996&quot;</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(di_96)   <span class="comment">#&#123;&#x27;name&#x27;: &#x27;1996&#x27;, &#x27;age&#x27;: 27, &#x27;id&#x27;: 6&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">di_dl = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;达龙&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">28</span>, <span class="string">&quot;id&quot;</span>: <span class="number">4</span>&#125;</span><br><span class="line">di_dl[<span class="string">&quot;age&quot;</span>] = <span class="number">26</span></span><br><span class="line">di_dl[<span class="string">&quot;sex&quot;</span>] = <span class="string">&quot;男&quot;</span></span><br><span class="line"><span class="built_in">print</span>(di_dl)     <span class="comment">#&#123;&#x27;name&#x27;: &#x27;达龙&#x27;, &#x27;age&#x27;: 26, &#x27;id&#x27;: 4, &#x27;sex&#x27;: &#x27;男&#x27;&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">di_dl = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;达龙&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">28</span>, <span class="string">&quot;id&quot;</span>: <span class="number">4</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(di_dl.setdefault(<span class="string">&quot;id&quot;</span>, <span class="number">14</span>))  <span class="comment"># 4, 原因,id存在，所以返回id对应的值--&gt;4</span></span><br><span class="line"><span class="built_in">print</span>(di_dl.setdefault(<span class="string">&quot;num&quot;</span>, <span class="number">14</span>))  <span class="comment"># 14 原因,num不存在，所以返回我们自己设定的14</span></span><br><span class="line"><span class="built_in">print</span>(di_dl)     <span class="comment">#&#123;&#x27;name&#x27;: &#x27;达龙&#x27;, &#x27;age&#x27;: 28, &#x27;id&#x27;: 4, &#x27;num&#x27;: 14&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">di_dl = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;达龙&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">28</span>, <span class="string">&quot;id&quot;</span>: <span class="number">4</span>,<span class="string">&#x27;num&#x27;</span>: <span class="number">14</span>&#125;</span><br><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>&#125;</span><br><span class="line">di_dl.update(di_hn)</span><br><span class="line"><span class="built_in">print</span>(di_dl)    <span class="comment">#&#123;&#x27;name&#x27;: &#x27;昊楠&#x27;, &#x27;age&#x27;: 32, &#x27;id&#x27;: 4, &#x27;num&#x27;: 14&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="字典的视图方法："><a href="#字典的视图方法：" class="headerlink" title="字典的视图方法："></a>字典的视图方法：</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(di_hn.keys())</span><br><span class="line"><span class="built_in">print</span>(di_hn.values())</span><br><span class="line"><span class="built_in">print</span>(di_hn.items())</span><br></pre></td></tr></table></figure>
+
+<p>运行结果为：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230602075247.png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#遍历出所有的键</span></span><br><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> di_hn:</span><br><span class="line">    <span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#遍历出所有的值</span></span><br><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line"><span class="keyword">for</span> v <span class="keyword">in</span> di_hn.values():</span><br><span class="line">    <span class="built_in">print</span>(v)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line"><span class="comment">#遍历出所有的键和值，items()将字典变成元组，元组可以拆包，俩个变量接收俩个元素就可以了</span></span><br><span class="line"><span class="keyword">for</span> k, v <span class="keyword">in</span> di_hn.items():</span><br><span class="line">    <span class="built_in">print</span>(k, v)</span><br></pre></td></tr></table></figure>
+
+<h3 id="字典的删除："><a href="#字典的删除：" class="headerlink" title="字典的删除："></a>字典的删除：</h3><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>dict.pop(key)</td>
+<td>通过key删除键值，对 key不存在将报错</td>
+</tr>
+<tr>
+<td>dict.popitem()</td>
+<td>随机删除,本质是随机删除，&lt;br&#x2F;但是python3.6版本之后，就自动做了一个排序，表现为删除最后一个</td>
+</tr>
+<tr>
+<td>del dict[key]</td>
+<td>指定删除，对 key不存在将报错</td>
+</tr>
+<tr>
+<td>del dict</td>
+<td>删除整个字典</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line">di_hn.pop(<span class="string">&quot;num&quot;</span>)</span><br><span class="line"><span class="comment"># di_hn.popitem()</span></span><br><span class="line"><span class="built_in">print</span>(di_hn)    <span class="comment">#&#123;&#x27;name&#x27;: &#x27;昊楠&#x27;, &#x27;age&#x27;: 32, &#x27;id&#x27;: 1&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line">di_hn.popitem()</span><br><span class="line"><span class="built_in">print</span>(di_hn)    <span class="comment">#&#123;&#x27;name&#x27;: &#x27;昊楠&#x27;, &#x27;age&#x27;: 32, &#x27;id&#x27;: 1&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line"><span class="keyword">del</span> di_hn[<span class="string">&quot;id&quot;</span>]</span><br><span class="line"><span class="comment"># del di_hn[&quot;sex&quot;]    #报错</span></span><br><span class="line"><span class="built_in">print</span>(di_hn)   <span class="comment">#&#123;&#x27;name&#x27;: &#x27;昊楠&#x27;, &#x27;age&#x27;: 32, &#x27;num&#x27;: 13&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">di_hn = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;昊楠&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">32</span>, <span class="string">&quot;id&quot;</span>:<span class="number">1</span>, <span class="string">&quot;num&quot;</span>:<span class="number">13</span>&#125;</span><br><span class="line"><span class="keyword">del</span> di_hn</span><br><span class="line"><span class="built_in">print</span>(di_hn)   <span class="comment">#删除整个字典，没有了，所以报错</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="集合"><a href="#集合" class="headerlink" title="集合:"></a>集合:</h2><h3 id="语法结构：-1"><a href="#语法结构：-1" class="headerlink" title="语法结构："></a>语法结构：</h3><table><tr><td bgcolor="#ADD8E6">变量名 = {值1 , 值2, 值3}</td></tr></table>
+
+<p>s1 &#x3D; {1, 2, 3, 4}</p>
+<p>注意：</p>
+<ul>
+<li>set也叫集合</li>
+<li>集合里面的元素是唯一的，并且也是无序的</li>
+</ul>
+<h3 id="集合的运算"><a href="#集合的运算" class="headerlink" title="集合的运算:"></a>集合的运算:</h3><table>
+<thead>
+<tr>
+<th>交集  &amp;</th>
+<th>两个集合相同的元素</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>并集   |</td>
+<td>两个集合全部加在一起</td>
+</tr>
+<tr>
+<td>差集  -</td>
+<td>我有你没有</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">s1 = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br><span class="line">s2 = &#123;<span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(s1 &amp; s2)    <span class="comment">#&#123;3, 4&#125;</span></span><br><span class="line"><span class="built_in">print</span>(s1 | s2)     <span class="comment">#&#123;1, 2, 3, 4, 5, 6&#125;</span></span><br><span class="line"><span class="built_in">print</span>(s1 - s2)  <span class="comment"># s1 有的 s2 没有的，&#123;1, 2&#125;</span></span><br><span class="line"><span class="built_in">print</span>(s2 - s1)  <span class="comment"># s2 有的 s1 没有的，&#123;5, 6&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="集合的增删改查"><a href="#集合的增删改查" class="headerlink" title="集合的增删改查:"></a>集合的增删改查:</h3><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>set.add(元素)</td>
+<td>添加单个</td>
+</tr>
+<tr>
+<td>set.update(可迭代对象)</td>
+<td>添加多个</td>
+</tr>
+<tr>
+<td>set.pop()</td>
+<td>随机删除</td>
+</tr>
+<tr>
+<td>set.remove()</td>
+<td>指定删除</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s1 = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br><span class="line">s1.add(<span class="string">&quot;韩同学&quot;</span>)   </span><br><span class="line"><span class="built_in">print</span>(s1)   <span class="comment">##&#123;1, 2, 3, 4, &#x27;韩同学&#x27;&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s1 = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br><span class="line">s1.add(<span class="number">1</span>)  <span class="comment"># 集合里面已经有1，去重，只能有一个</span></span><br><span class="line"><span class="built_in">print</span>(s1)   <span class="comment">#&#123;1, 2, 3, 4&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">s1 = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br><span class="line">s2 = &#123;<span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>&#125;</span><br><span class="line">s1.update(s2)</span><br><span class="line"><span class="built_in">print</span>(s1)    <span class="comment">#&#123;1, 2, 3, 4, 5, 6&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s2 = &#123;<span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>&#125;</span><br><span class="line">s2.pop()  <span class="comment"># 底层无序，但是对于较小的数值，会自动排序，随机一直删除的都是1</span></span><br><span class="line"><span class="built_in">print</span>(s2)    <span class="comment">#&#123;4, 5, 6&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">set1 = &#123;<span class="string">&quot;简诚&quot;</span>, <span class="string">&quot;子良&quot;</span>, <span class="string">&quot;锋&quot;</span>, <span class="string">&quot;圣文&quot;</span>&#125;</span><br><span class="line"><span class="comment">#set1.pop()   #&#123;&#x27;圣文&#x27;, &#x27;子良&#x27;, &#x27;锋&#x27;&#125;，随机删除</span></span><br><span class="line">set1.remove(<span class="string">&quot;圣文&quot;</span>)   <span class="comment">#&#123;&#x27;简诚&#x27;, &#x27;子良&#x27;, &#x27;锋&#x27;&#125;，指定删除</span></span><br><span class="line"><span class="built_in">print</span>(set1)</span><br></pre></td></tr></table></figure>
+
+<h2 id="阶段总结"><a href="#阶段总结" class="headerlink" title="阶段总结:"></a>阶段总结:</h2><h3 id="判断"><a href="#判断" class="headerlink" title="判断:"></a>判断:</h3><table><tr><td bgcolor="#ADD8E6">判断的时候,判断的都是布尔值(True False),判断某一个数据的布尔值</td></tr></table>  
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="literal">True</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;条件成立执行&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;条件不成立执行&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>数值:</th>
+<th>0 为 False<br/>其他为 True</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>其他数据类型:</td>
+<td>空 False<br/>但凡里面有值都是 True</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="number">1</span>))   <span class="comment">#True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(-<span class="number">1</span>))  <span class="comment"># True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(-<span class="number">1.1</span>))   <span class="comment">#True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="number">0</span>))   <span class="comment">#False</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="string">&quot;0&quot;</span>))  <span class="comment"># T 字符串里面有一个字符0，True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="string">&quot; &quot;</span>))  <span class="comment"># T 字符串里面有一个字符空格，True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>(<span class="string">&quot;&quot;</span>))  <span class="comment"># F 字符串里面没有字符，False</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>([]))    <span class="comment">#False</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">bool</span>([<span class="number">1</span>]))  <span class="comment">#True</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#抱歉,无可查询对象，返回的是空</span></span><br><span class="line">li = []</span><br><span class="line"><span class="keyword">if</span> li:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;开始群发消息&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;抱歉,无可查询对象&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="六大基础数据类型总结"><a href="#六大基础数据类型总结" class="headerlink" title="六大基础数据类型总结:"></a>六大基础数据类型总结:</h3><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>符号</th>
+<th>特点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>数值</td>
+<td>int float bool</td>
+<td>不可变的非序列<br/>可以进行数学运算</td>
+</tr>
+<tr>
+<td>字符串</td>
+<td>str</td>
+<td>不可变的序列<br/>可以更具索引(下标)查找值<br/>可以增删改查,但是要使用新的变量接受</td>
+</tr>
+<tr>
+<td>元组</td>
+<td>tuple</td>
+<td>不可变的序列<br/>没有增删改查<br/>可以进行拆包</td>
+</tr>
+<tr>
+<td>列表</td>
+<td>list</td>
+<td>可变序列<br/>增删改查</td>
+</tr>
+<tr>
+<td>字典</td>
+<td>dict</td>
+<td>可变的键值对映射结构—可以快速查找<br/>增删改查</td>
+</tr>
+<tr>
+<td>集合</td>
+<td>set</td>
+<td>可变的,无序求去重<br/>增删改查<br/>集合运算</td>
+</tr>
+</tbody></table>
+<p>进一步总结：</p>
+<p><img src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230602084357.png"></p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>liuliuya
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cunko.github.io/2023/05/05/python%E7%90%86%E8%AE%BA/%E5%AD%97%E5%85%B8%E4%B8%8E%E9%9B%86%E5%90%88/" title="字典与集合">https://cunko.github.io/2023/05/05/python理论/字典与集合/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python%E7%90%86%E8%AE%BA/" rel="tag"># python理论</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/05/04/python%E7%90%86%E8%AE%BA/for%E5%BE%AA%E7%8E%AF%EF%BC%8C%E5%88%97%E8%A1%A8%E4%B8%8E%E5%85%83%E7%BB%84/" rel="prev" title="for循环与序列结构">
+      <i class="fa fa-chevron-left"></i> for循环与序列结构
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/05/06/python%E5%AE%9E%E7%8E%B0/2023-05-06-python-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/" rel="next" title="python-文件操作">
+      python-文件操作 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%A3%E5%88%97%E7%B1%BB%E5%9E%8B%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">散列类型：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">字典：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95%E7%BB%93%E6%9E%84%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">语法结构：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E7%9A%84%E6%9F%A5%E8%AF%A2%EF%BC%9A"><span class="nav-number">2.2.</span> <span class="nav-text">字典的查询：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E7%9A%84%E4%BF%AE%E6%94%B9%EF%BC%9A"><span class="nav-number">2.3.</span> <span class="nav-text">字典的修改：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E7%9A%84%E8%A7%86%E5%9B%BE%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="nav-number">2.4.</span> <span class="nav-text">字典的视图方法：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E7%9A%84%E5%88%A0%E9%99%A4%EF%BC%9A"><span class="nav-number">2.5.</span> <span class="nav-text">字典的删除：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9B%86%E5%90%88"><span class="nav-number">3.</span> <span class="nav-text">集合:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95%E7%BB%93%E6%9E%84%EF%BC%9A-1"><span class="nav-number">3.1.</span> <span class="nav-text">语法结构：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%86%E5%90%88%E7%9A%84%E8%BF%90%E7%AE%97"><span class="nav-number">3.2.</span> <span class="nav-text">集合的运算:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%86%E5%90%88%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5"><span class="nav-number">3.3.</span> <span class="nav-text">集合的增删改查:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%98%B6%E6%AE%B5%E6%80%BB%E7%BB%93"><span class="nav-number">4.</span> <span class="nav-text">阶段总结:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A4%E6%96%AD"><span class="nav-number">4.1.</span> <span class="nav-text">判断:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%AD%E5%A4%A7%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E6%80%BB%E7%BB%93"><span class="nav-number">4.2.</span> <span class="nav-text">六大基础数据类型总结:</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="liuliuya"
+      src="https://liuliutuku.oss-cn-hangzhou.aliyuncs.com/tupian0/d76af314a1771658462da053871af61.jpg">
+  <p class="site-author-name" itemprop="name">liuliuya</p>
+  <div class="site-description" itemprop="description">长长的路，慢慢的走。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">109</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liuliuya</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+
+<!-- 文件位置：~/theme/next/layout/_layout.swig -->
+
+<script type="text/javascript" src="/js/clicklove.js"></script>
