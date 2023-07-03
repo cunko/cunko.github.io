@@ -30,7 +30,7 @@
 <meta property="og:description" content="python的第八节课笔记（基础高级）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-05-08T07:31:06.000Z">
-<meta property="article:modified_time" content="2023-06-08T04:14:54.875Z">
+<meta property="article:modified_time" content="2023-07-03T13:01:01.600Z">
 <meta property="article:author" content="liuliuya">
 <meta property="article:tag" content="python理论">
 <meta name="twitter:card" content="summary">
@@ -236,7 +236,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-06-08 12:14:54" itemprop="dateModified" datetime="2023-06-08T12:14:54+08:00">2023-06-08</time>
+                <time title="修改时间：2023-07-03 21:01:01" itemprop="dateModified" datetime="2023-07-03T21:01:01+08:00">2023-07-03</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -261,6 +261,53 @@
       
         <p>python的第八节课笔记（基础高级）</p>
 <span id="more"></span>
+
+<p>借鉴函数的封装思维，再次对函数和变量进行封装，来提高代码的复用性，通过这样的封装，把和人相关的变量、函数等放在了一起，只要找到这个部分代码，就能知道关于人已经定义了哪些变量和函数，为了便于区分，把用关键字 class 定义的代码块称为 类</p>
+<p>注意：</p>
+<ul>
+<li>在类里面的变量称为 类的属性</li>
+<li>在类里面的函数称为 类的方法</li>
+<li>本质就是使用面向对象进行封装—封装成一个类</li>
+<li>类定义的关键字： class</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">类的组成：  </span><br><span class="line">    类名 </span><br><span class="line">    属性  一般我们会使用初始化函数来进行定义</span><br><span class="line">    方法  就是放到类里面的函数而已</span><br></pre></td></tr></table></figure>
+
+<p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">class 类名:</span><br><span class="line">       pass</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">需求：</span><br><span class="line">定义一个15期班级的晓军同学</span><br><span class="line">定义一个15期班级的龙飞同学</span><br></pre></td></tr></table></figure>
+
+<p>没学面向对象之前，我们只能使用变量和函数来表示，很不方便</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#晓军同学的特性</span></span><br><span class="line">name = <span class="string">&quot;晓军&quot;</span></span><br><span class="line">age = <span class="number">28</span></span><br><span class="line">sex = <span class="string">&quot;男&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">study</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;热爱学习&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">play</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;喜欢打游戏&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">name = <span class="string">&quot;龙飞&quot;</span></span><br><span class="line">age = <span class="number">29</span></span><br><span class="line">sex = <span class="string">&quot;男&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">study</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;热爱学习&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">play</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;喜欢打游戏&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(name))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(age))</span><br></pre></td></tr></table></figure>
+
+<p>学完后，可以将这些信息封装成一个类</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">cls15</span>:</span><br><span class="line">    name = <span class="string">&quot;龙飞&quot;</span></span><br><span class="line">    age = <span class="number">29</span></span><br><span class="line">    sex = <span class="string">&quot;男&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">study</span>(<span class="params">name</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;name&#125;</span>热爱学习&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">play</span>(<span class="params">name</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;name&#125;</span>喜欢打游戏&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用类的属性  类名/类的对象.属性名</span></span><br><span class="line"><span class="built_in">print</span>(cls15.name)</span><br><span class="line"><span class="built_in">print</span>(cls15.age)</span><br><span class="line"><span class="built_in">print</span>(cls15.sex)</span><br><span class="line"><span class="comment"># 调用类的方法  类名/类的对象.方法</span></span><br><span class="line">cls15.play(cls15.name)</span><br><span class="line">cls15.study(cls15.name)</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">面向对象的组成：</span><br><span class="line">    类：  只是一个概念，一个模板</span><br><span class="line">    对象：由类生成（实例化）出来的具体的事物</span><br><span class="line">    类和对象是相对而言的</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">创造一个类</span><br><span class="line">class 类名():</span><br><span class="line">    def __init__(self, 属性1, 属性2 )</span><br><span class="line">        self.变量名1 = 属性1</span><br><span class="line">        self.变量名2 = 属性2</span><br><span class="line"></span><br><span class="line">    def 方法名(self):</span><br><span class="line">        pass</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">cls15</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, age, sex</span>):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.age = age</span><br><span class="line">        self.sex = sex</span><br><span class="line">        <span class="built_in">print</span>(self.age)</span><br><span class="line">        <span class="comment"># print(self)</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">study</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;self.name&#125;</span>热爱学习&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">play</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;self.name&#125;</span>喜欢打游戏&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">实例化对象： 类名()</span><br><span class="line">变量名 = 类名(属性值1, 属性值2)</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">初始化（构造）方法  __init__()</span><br><span class="line">    不需要调用,在对象被实例化的时候自定执行</span><br><span class="line">    初始化方法里面的属性，可以被一整个类所使用的</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">self</span><br><span class="line">    1、就是对象本身（）</span><br><span class="line">    2、谁调用的，self就是谁</span><br></pre></td></tr></table></figure>
+
+
+
+
     </div>
 
     
@@ -299,7 +346,7 @@
       <i class="fa fa-chevron-left"></i> mysql基础
     </a></div>
       <div class="post-nav-item">
-    <a href="/2023/05/09/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/03-mysql%E7%9A%84%E8%BF%9E%E6%8E%A5%E6%9F%A5%E8%AF%A2/" rel="next" title="MySQL查询">
+    <a href="/2023/05/09/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/03mysql%E6%9F%A5%E8%AF%A2/" rel="next" title="MySQL查询">
       MySQL查询 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
